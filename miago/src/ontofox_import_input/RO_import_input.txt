@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/RO_import.owl
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002410 #causally related to
+includeAllchildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+
+
+[This code can not pull out all the children from the properties. ]

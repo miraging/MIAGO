@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/IAO_0000312 #scientific publication
+http://purl.obolibrary.org/obo/OBI_0000067 #evaluant role
+http://purl.obolibrary.org/obo/OBI_0000275 #analyte role
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
