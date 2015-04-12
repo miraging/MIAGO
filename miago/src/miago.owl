@@ -12,11 +12,11 @@
 
 <rdf:RDF xmlns="&obo;miago.owl#"
      xml:base="&obo;miago.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;miago.owl">
         <rdfs:comment xml:lang="en">Ontology for miraging project. It describes the experimernt that observes the functional miRNA and target protein, miRNA&apos;s expression in the aging domain</rdfs:comment>
         <owl:imports rdf:resource="&obo;bfo/2014-05-03/bfo.owl"/>
@@ -108,8 +108,8 @@
     <owl:Class rdf:about="&obo;MIAGGO_000002">
         <rdfs:label xml:lang="en">microRNA target protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
         <obo:IAO_0000115>The direct target protein of a microRNA, which means the miRNA binds to the mRNA of the target protein. Consequently, expressions of miRNA and its target protein are reciprocal.</obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -304,19 +304,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000002 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000002">
-        <rdfs:label xml:lang="en">algorithm predicted evidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000003 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000003">
-        <rdfs:label xml:lang="en">computational algorithms prediction evidence</rdfs:label>
+        <rdfs:label xml:lang="en">automatic asserted miRNA target evidence</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
     </owl:Class>
     
@@ -325,7 +316,7 @@
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000004 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000004">
-        <rdfs:label xml:lang="en">experimental evidence</rdfs:label>
+        <rdfs:label xml:lang="en">experimental evidence for miRNA and target protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
     </owl:Class>
     
@@ -363,6 +354,24 @@
     <owl:Class rdf:about="&obo;MIAGO_0000008">
         <rdfs:label xml:lang="en">evidence of miRNA regulates pathway that target gene involves</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000009 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000009">
+        <rdfs:label xml:lang="en">miRNA mimic decrease target protein expression evidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000010 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000010">
+        <rdfs:label xml:lang="en">miRNA inhibitor increase the target gene expression evidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
     </owl:Class>
     
 
