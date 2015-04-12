@@ -330,8 +330,8 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -341,8 +341,8 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
+                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -364,7 +364,7 @@
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000004 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000004">
-        <rdfs:label xml:lang="en">miRNA target emperical evidence</rdfs:label>
+        <rdfs:label xml:lang="en">miRNA target experimental evidence</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
     </owl:Class>
     
@@ -391,7 +391,7 @@
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000007 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000007">
-        <rdfs:label xml:lang="en">miRNA down regulating target gene expression evidence</rdfs:label>
+        <rdfs:label xml:lang="en">miRNA down regulating target protein expression evidence</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
     </owl:Class>
     
@@ -684,7 +684,7 @@
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000040 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000040">
-        <rdfs:label xml:lang="en">emperically validated miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">experimentaly validated miRNA target</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -716,7 +716,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000040"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000039"/>
     </owl:Class>
     
 
@@ -725,7 +725,31 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0000042">
         <rdfs:label xml:lang="en">level 2 validated miRNA target</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000040"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000005"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000039"/>
     </owl:Class>
     
 
@@ -734,7 +758,40 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0000043">
         <rdfs:label xml:lang="en">level 3 validated miRNA target</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000040"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000005"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000007"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000039"/>
     </owl:Class>
     
 
@@ -743,7 +800,49 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0000044">
         <rdfs:label xml:lang="en">level 4 validated miRNA target</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000040"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000005"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000007"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;MIAGO_0000039"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000008"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000039"/>
     </owl:Class>
     
 
@@ -758,5 +857,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
