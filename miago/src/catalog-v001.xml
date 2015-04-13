@@ -6,12 +6,12 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="SO_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi/2014-08-18/obi.owl" uri="obi_import.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="http://purl.obolibrary.org/obo/iao.owl" uri="IAO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="http://purl.obolibrary.org/obo/miago.owl" uri="miago.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="http://purl.obolibrary.org/obo/obi.owl" uri="obi_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="duplicate:http://purl.obolirary.org/obo/miago/RO_import.owl" uri="RO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="duplicate:http://purl.obolirary.org/obo/miago/RO_import.owl" uri="SO_import_1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="SO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428816974367" name="http://purl.obolirary.org/obo/miago/UBERON_import.owl" uri="UBERON_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="http://purl.obolibrary.org/obo/iao.owl" uri="IAO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="http://purl.obolibrary.org/obo/miago.owl" uri="miago.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="http://purl.obolibrary.org/obo/obi.owl" uri="obi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="duplicate:http://purl.obolirary.org/obo/miago/RO_import.owl" uri="RO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="duplicate:http://purl.obolirary.org/obo/miago/RO_import.owl" uri="SO_import_1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="SO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428948111080" name="http://purl.obolirary.org/obo/miago/UBERON_import.owl" uri="UBERON_import.owl"/>
     </group>
 </catalog>
