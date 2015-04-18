@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/BTO_import.owl
+
+[Source ontology]
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0000007 #HEK-239 cell
+http://purl.obolibrary.org/obo/BTO_0000165 #c2C12 cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BTO_0000007 #HEK-239 cell
+subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+
+http://purl.obolibrary.org/obo/BTO_0000165 #c2C12 cell
+subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+
+http://purl.obolibrary.org/obo/BTO_0000567 # Hela cell
+subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively 
+
+[Source annotation URIs to be excluded]

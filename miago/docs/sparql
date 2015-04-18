@@ -1,0 +1,12 @@
+# find out the entity that contains "Hela" in Ontobee
+#http://www.ontobee.org/sparql/index.php
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT distinct ?s ?label
+WHERE {
+GRAPH ?graph_uri
+{ ?s rdf:type owl:Class .
+  ?s rdfs:label ?label .
+  FILTER REGEX(str(?label), "Hela") . }
+}

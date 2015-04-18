@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/CLO_import.owl
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+subClassOf subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively 
+
+[Source annotation URIs to be excluded]
