@@ -23,6 +23,7 @@
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/BTO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/CLO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/GO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/OGMS_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/PR_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/RO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/SO_import.owl"/>
@@ -86,7 +87,13 @@
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000033">
         <rdfs:label xml:lang="en">assay output is about</rdfs:label>
+        <rdfs:comment>This is shortcut relation to link an assay(?x) and a biological process(?y)
+?x &apos;assy out put is about&apos; ?y 
+equivelant to:
+?x has_specified_output some (&apos;measurement data item&apos; and (&apos;is about&apos; some ?y))</rdfs:comment>
         <rdfs:comment>the chain property of &apos;has sepcidic output&apos; o &apos;is about&apos;</rdfs:comment>
+        <rdfs:range rdf:resource="&obo;GO_0008150"/>
+        <rdfs:domain rdf:resource="&obo;OBI_0000070"/>
     </owl:ObjectProperty>
     
 
@@ -116,6 +123,33 @@
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000047">
         <rdfs:label xml:lang="en">miRNA target evidence role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000054">
+        <rdfs:label xml:lang="en">has miRNA family member</rdfs:label>
+        <rdfs:domain rdf:resource="&obo;MIAGO_0000053"/>
+        <rdfs:range rdf:resource="&obo;SO_0000276"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000055">
+        <rdfs:label xml:lang="en">has disposition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000062 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000062">
+        <rdfs:label xml:lang="en">biological process indicated by assay</rdfs:label>
+        <owl:inverseOf rdf:resource="&obo;MIAGO_0000033"/>
     </owl:ObjectProperty>
     
 
@@ -389,6 +423,12 @@
     <owl:Class rdf:about="&obo;MIAGO_0000003">
         <rdfs:label xml:lang="en">computationally asserted miRNA target evidence</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -858,6 +898,124 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000048 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000048">
+        <rdfs:label xml:lang="en">miR-29 family</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000053"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000049 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000049">
+        <rdfs:label xml:lang="en">Zmpste24 -/- mouse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000050 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000050">
+        <rdfs:label xml:lang="en">miR-29a expression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000062"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000051 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000051">
+        <rdfs:label xml:lang="en">bead-based flow cytometry platform</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000916"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000052 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000052">
+        <rdfs:label xml:lang="en">Hutchinson–Gilford progeria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000053 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000053">
+        <rdfs:label xml:lang="en">miRNA family</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000054"/>
+                <owl:onClass rdf:resource="&obo;SO_0000276"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000056 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000056">
+        <rdfs:label xml:lang="en">upregulated miR-29a expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000061 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000061">
+        <rdfs:label xml:lang="en">Zmpste24 -/- mouse liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002107"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000064 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000064">
+        <rdfs:label xml:lang="en">evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000065 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000065">
+        <rdfs:label xml:lang="en">experimental evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000066 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000066">
+        <rdfs:label xml:lang="en">automatically asserted evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_2759">
@@ -893,6 +1051,45 @@
     <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
 
     <owl:Class rdf:about="&obo;PR_000000001"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000059 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000059">
+        <rdf:type rdf:resource="&obo;MIAGO_0000030"/>
+        <rdfs:label xml:lang="en">publication 21522133</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000060 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000060">
+        <rdf:type rdf:resource="&obo;MIAGO_0000056"/>
+        <rdfs:label xml:lang="en">miR-29a is upregulated in Zmpste24 -/- progeroid mice</rdfs:label>
+        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0000059"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000063 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000063">
+        <rdf:type rdf:resource="&obo;OBI_0000893"/>
+        <rdfs:label xml:lang="en">stem loop qPCR_1</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
