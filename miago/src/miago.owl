@@ -22,6 +22,7 @@
         <owl:imports rdf:resource="&obo;obi/2015-03-17/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/BTO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/CLO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/ECO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/GO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/OGMS_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/PR_import.owl"/>
@@ -205,6 +206,14 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGGO_000002">
         <rdfs:label xml:lang="en">microRNA target protein</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000002"/>
+                    <rdf:Description rdf:about="&obo;PR_000000001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -382,7 +391,15 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000001">
         <rdfs:label xml:lang="en">miRNA target evidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000058"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ECO_0000000"/>
+        <rdfs:comment xml:lang="en">Identification of miRNA target genes has been a great challenge. Different computer algorithms were developed to predict miRNA targets. Yet those predicted miRNA targets need to be experimentally verified as many other pure bioinformatics approaches. Kuhn DE et al proposed the criteria for validating a miRNA target as follows. After identified by computational algorithm, a putative/predicted miRNA target shall be verified by four experimental criteria: 1) miRNA and miRNA target’s binding interaction must be verified. 2) Predicted miRNA and target gene mRNA must be co-expressed. 3) Predicted miRNA shall down-regulate the target protein expression. That is, if a gene is a true target of a given miRNA, its miRNA mimic will decrease the target gene expression level while a miRNA inhibitor will increase the target gene expression level. 4) miRNA-mediated regulation of target gene expression should equate to altered biological function. [PMID: 1815813]</rdfs:comment>
+        <obo:IAO_0000115>evidence that used in identifying a miRNA target.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -396,8 +413,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
+                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -407,8 +424,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -422,13 +439,18 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000003">
         <rdfs:label xml:lang="en">computationally asserted miRNA target evidence</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000066"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -437,6 +459,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000004">
         <rdfs:label xml:lang="en">miRNA target experimental evidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ECO_0000006"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
     </owl:Class>
     
@@ -481,8 +504,8 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000009 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000009">
-        <rdfs:label xml:lang="en">miRNA mimic decreasing target protein expression evidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
+        <rdfs:label xml:lang="en">miRNA mimic decreasing target protein expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000019"/>
     </owl:Class>
     
 
@@ -490,8 +513,8 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000010 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000010">
-        <rdfs:label xml:lang="en">miRNA inhibitor increasing target protein expression evidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
+        <rdfs:label xml:lang="en">miRNA inhibitor increasing target protein expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000018"/>
     </owl:Class>
     
 
@@ -639,21 +662,17 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000026 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000026">
-        <rdfs:label xml:lang="en">validated miRNA target protein</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000002"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000027 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000027">
-        <rdfs:label xml:lang="en">putative miRNA target protein</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000002"/>
-        <obo:IAO_0000115 xml:lang="en">a traget protein of miRNA that is identified by the omputational algorithms applied in a bioinformatics software.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">test1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -661,8 +680,8 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000028 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000028">
-        <rdfs:label xml:lang="en">predicted miRNA target protein with reciprocal expression evidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000002"/>
+        <rdfs:label xml:lang="en">curator inferred miRNA target evidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
     </owl:Class>
     
 
@@ -719,7 +738,13 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000037">
         <rdfs:label xml:lang="en">miRNA target experimental conclusion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -893,7 +918,13 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000046">
         <rdfs:label xml:lang="en">software predicted miRNA target conclusion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -980,6 +1011,31 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000057 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000057">
+        <rdfs:label xml:lang="en">miRNA target conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a conclusion that is drawn based on the data from miRNA target identification experiments or softwares.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000058 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000058">
+        <rdfs:label xml:lang="en">miRNA target evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000061 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000061">
@@ -1062,6 +1118,15 @@ equivelant to:
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000026 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000026">
+        <rdf:type rdf:resource="&obo;MIAGO_0000046"/>
+        <rdfs:label xml:lang="en">predicted conclusion_1</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
