@@ -1,0 +1,41 @@
+Table columns:
+ID -- miago ID?
+PMID -- publication instances
+Review paper?
+miR	 --- miRNA
+target of miRNA (validated and not validated) --- miRNA target protein
+directed target validated by experiment?
+Predicted miRNA target method
+miRNA target NCBI gene ID  ---  miRNA target gene (later)
+study model --- organism
+miRNA expression location (cell, cell line, tissue)	--- anatomical part instance
+upstream process, status regulates miRNA expression -- conclusion instances
+Downstream process regulated by miRNA -- conclusion instances
+experimental assay -- assay instance
+What dose the experimental assay support? (example: x protein / RNA expression, protein binding)  -- biological process
+disease of study model -- disease
+miRNA and their target co-expressed in the same tissue or cell(Y/N) -- miRNA target protein co-expression conclusion
+
+
+
+Class level:
+miRNA target protein --is target protein of--> miRNA
+miRNA target gene --is target gene of--> miRNA
+miRNA --involved in negative regulation of(http://purl.obolibrary.org/obo/RO_0002430)--> miRNA target gene/protein expression
+miRNA target protein --output of--> miRNA target gene expression
+organism --has disposition--> disease (if disease)
+organism --participates in--> aging process (if aging model)
+anatomical part --part of-->organism
+
+Instance level:
+anatomical part instance ----> anatomical part
+assay instance --has evaluant-->anatomical part instance
+conlusion instance --conclusion based on data measured by assay--> assay instance
+conclusion instance --part of--> publication instance
+conclusion instance --has role--> "diferent roles"
+
+Class--Instance expression
+Biological process --biological process indicated by assy--> assay instance
+miRNA target --miRNA target based on--> conclusion instance
+
+

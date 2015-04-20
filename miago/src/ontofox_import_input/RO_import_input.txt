@@ -5,11 +5,22 @@ http://purl.obolirary.org/obo/miago/RO_import.owl
 RO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/RO_0002410 #causally related to
-includeAllchildren
+http://purl.obolibrary.org/obo/RO_0002328 #functionally related to
+http://purl.obolibrary.org/obo/RO_0002431 #involved in or regulates
+http://purl.obolibrary.org/obo/RO_0002331 #involved in
+http://purl.obolibrary.org/obo/RO_0002334 
+http://purl.obolibrary.org/obo/RO_0002410
+http://purl.obolibrary.org/obo/RO_0002428
+http://purl.obolibrary.org/obo/RO_0002430
+http://purl.obolibrary.org/obo/RO_0002429
+http://purl.obolibrary.org/obo/RO_0002353 #output of
 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/RO_0002431 #involved in or regulates
+subPropertyOf http://purl.obolibrary.org/obo/RO_0002328 #functionally related to
 
+http://purl.obolibrary.org/obo/RO_0002353 #output of
+subPropertyOf http://purl.obolibrary.org/obo/RO_0000056 #participates in
 
 [Source term retrieval setting]
 includeAllIntermediates

@@ -44,20 +44,27 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000020 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
 
-    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000020">
-        <rdfs:label xml:lang="en">negatively_regulates</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;MIAGO_0000036"/>
-    </owl:ObjectProperty>
+    <rdf:Description rdf:about="&obo;BFO_0000054">
+        <rdfs:range rdf:resource="&obo;BFO_0000007"/>
+    </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000021 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000028 -->
 
-    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000021">
-        <rdfs:label xml:lang="en">postively_regulates</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;MIAGO_0000036"/>
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000028">
+        <rdfs:label xml:lang="en">is target of miRNA</rdfs:label>
+        <rdfs:domain rdf:resource="&obo;BFO_0000040"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000053"/>
+                    <rdf:Description rdf:about="&obo;SO_0000276"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -99,21 +106,12 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000036 -->
-
-    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000036">
-        <rdfs:label xml:lang="en">regulates</rdfs:label>
-        <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
-        <rdfs:range rdf:resource="&obo;BFO_0000007"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000045 -->
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000045">
         <rdfs:label xml:lang="en">miRNA target based on</rdfs:label>
         <obo:IAO_0000115>a relation between a molecular entity and an evidence, when this molecular entity is considered as a miRNA target based on the evidence given by any assertion method, for example, a computational method such as a miRNA target software or algorithm.</obo:IAO_0000115>
+        <rdfs:comment>In the implementation, the assertion of target is based on the conclusion from experiments or softwares. Since all the conclusion here beares the evidence role, we do put the target based on link to the conclusion instance, instead of the evidence itself.</rdfs:comment>
         <rdfs:range rdf:resource="&obo;MIAGO_0000001"/>
         <rdfs:domain rdf:resource="&obo;MIAGO_0000002"/>
     </owl:ObjectProperty>
@@ -152,6 +150,58 @@ equivelant to:
         <rdfs:label xml:lang="en">biological process indicated by assay</rdfs:label>
         <owl:inverseOf rdf:resource="&obo;MIAGO_0000033"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000072 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000072">
+        <rdfs:label xml:lang="en">is target protein of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;MIAGO_0000028"/>
+        <rdfs:domain rdf:resource="&obo;PR_000000001"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000053"/>
+                    <rdf:Description rdf:about="&obo;SO_0000276"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000073 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000073">
+        <rdfs:label xml:lang="en">is target gene of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;MIAGO_0000028"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000053"/>
+                    <rdf:Description rdf:about="&obo;SO_0000276"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
+
+    <rdf:Description rdf:about="&obo;RO_0002211">
+        <rdfs:range rdf:resource="&obo;BFO_0000007"/>
+        <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002215 -->
+
+    <rdf:Description rdf:about="&obo;RO_0002215">
+        <rdfs:range rdf:resource="&obo;BFO_0000007"/>
+    </rdf:Description>
     
 
 
@@ -232,12 +282,6 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGGO_000004">
         <rdfs:label xml:lang="en">miRNA expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000020"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -413,8 +457,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -424,8 +468,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
+                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -698,17 +742,6 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000023">
         <rdfs:label xml:lang="en">upstream biological process regulating miRNA expression</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;GO_0008150"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000036"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
     </owl:Class>
     
@@ -718,21 +751,6 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000024">
         <rdfs:label xml:lang="en">downstream biological process regulated by miRNA expression</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;GO_0008150"/>
-                    <owl:Restriction>
-                        <owl:onProperty>
-                            <rdf:Description>
-                                <owl:inverseOf rdf:resource="&obo;MIAGO_0000036"/>
-                            </rdf:Description>
-                        </owl:onProperty>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
     </owl:Class>
     
