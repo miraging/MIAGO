@@ -459,6 +459,17 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000004">
         <rdfs:label xml:lang="en">miRNA target experimental evidence</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000065"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;ECO_0000006"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
     </owl:Class>
@@ -469,6 +480,17 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000005">
         <rdfs:label xml:lang="en">miRNA target gene mRNA binding evidence</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000069"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
     </owl:Class>
     
@@ -478,7 +500,24 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000006">
         <rdfs:label xml:lang="en">miRNA target protein co-expression evidence</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000070"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -487,6 +526,17 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000007">
         <rdfs:label xml:lang="en">miRNA down regulating target protein expression evidence</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000068"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
     </owl:Class>
     
@@ -496,6 +546,17 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000008">
         <rdfs:label xml:lang="en">evidence of miRNA regulating down stream biological function</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;MIAGO_0000004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000067"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
     </owl:Class>
     
@@ -506,6 +567,12 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000009">
         <rdfs:label xml:lang="en">miRNA mimic decreasing target protein expression conclusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -515,6 +582,12 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000010">
         <rdfs:label xml:lang="en">miRNA inhibitor increasing target protein expression conclusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -542,6 +615,12 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000013">
         <rdfs:label xml:lang="en">miRNA target protein co-expression conclusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -604,7 +683,13 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000022">
         <rdfs:label xml:lang="en">miRNA downregulating target protein expression conclusion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000037"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -677,15 +762,6 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000028 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000028">
-        <rdfs:label xml:lang="en">curator inferred miRNA target evidence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000029 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000029">
@@ -754,6 +830,12 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000038">
         <rdfs:label xml:lang="en">miRNA target gene mRNA binding conclusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1067,6 +1149,51 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000066">
         <rdfs:label xml:lang="en">automatically asserted evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000067 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000067">
+        <rdfs:label xml:lang="en">miRNA regulating down stream biological function evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000068 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000068">
+        <rdfs:label xml:lang="en">miRNA down regulating target protein expression evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000069 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000069">
+        <rdfs:label xml:lang="en">miRNA target gene mRNA binding evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000070 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000070">
+        <rdfs:label xml:lang="en">miRNA target protein co-expression evidence role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000071 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000071">
+        <rdfs:label xml:lang="en">curator inferred evidence role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000064"/>
     </owl:Class>
     
