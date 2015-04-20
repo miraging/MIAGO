@@ -618,7 +618,7 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000006"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
