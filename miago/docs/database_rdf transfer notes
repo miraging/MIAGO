@@ -16,7 +16,9 @@ What dose the experimental assay support? (example: x protein / RNA expression, 
 disease of study model -- disease
 miRNA and their target co-expressed in the same tissue or cell(Y/N) -- miRNA target protein co-expression conclusion
 
-
+==============
+Mapping issue
+==============
 
 Class level:
 miRNA target protein --is target protein of--> miRNA

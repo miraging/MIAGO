@@ -7,6 +7,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
 ]>
 
 
@@ -14,6 +15,7 @@
      xml:base="&obo;miago.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
@@ -765,21 +767,6 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000027 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000027">
-        <rdfs:label xml:lang="en">test1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                <owl:hasValue rdf:resource="&obo;MIAGO_0000026"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000029 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000029">
@@ -1217,6 +1204,125 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000074 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000074">
+        <rdfs:label xml:lang="en">Igf1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>RGD:2868</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000075 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000075">
+        <rdfs:label xml:lang="en">Bace1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>RGD:2191</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000076 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000076">
+        <rdfs:label xml:lang="en">Gja1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>RGD:2690</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24392</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000077 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000077">
+        <rdfs:label xml:lang="en">Sirt1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>RGD:1308542</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/309757</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000078 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000078">
+        <rdfs:label xml:lang="en">Mgst1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>RGD:70927</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/171341</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000079 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000079">
+        <rdfs:label xml:lang="en">Nfe2l2 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/83619</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RGD:620360</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000080 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000080">
+        <rdfs:label xml:lang="en">Sp1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24790</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RGD:3738</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000083 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000083">
+        <rdfs:label xml:lang="en">Pten (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/50557</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RGD:61995</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000084 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000084">
+        <rdfs:label xml:lang="en">Foxo1 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>RGD:620283</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/84482</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000085 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000085">
+        <rdfs:label xml:lang="en">Nox4 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/85431</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RGD:620600</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000086 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000086">
+        <rdfs:label xml:lang="en">Spry2 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <oboInOwl:hasDbXref>MGI:1345138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24064</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_2759">
@@ -1252,6 +1358,54 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
 
     <owl:Class rdf:about="&obo;PR_000000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_1305447 -->
+
+    <rdf:Description rdf:about="&obo;RGD_1305447">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_1307140 -->
+
+    <rdf:Description rdf:about="&obo;RGD_1307140">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_1309293 -->
+
+    <rdf:Description rdf:about="&obo;RGD_1309293">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_2532 -->
+
+    <rdf:Description rdf:about="&obo;RGD_2532">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_61995 -->
+
+    <rdf:Description rdf:about="&obo;RGD_61995">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZFIN_ZDB-GENE-040426-2338 -->
+
+    <rdf:Description rdf:about="&obo;ZFIN_ZDB-GENE-040426-2338">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
     
 
 
