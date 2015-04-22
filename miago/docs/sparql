@@ -20,7 +20,7 @@ From <http://purl.obolibrary.org/obo/merged/PR>
 WHERE 
 
 { ?s rdfs:label ?label .
-  FILTER REGEX(str(?s), "MGI_88256") .
+  FILTER REGEX(str(?s), "MGI_97837") .
    }
    
    

@@ -76,7 +76,7 @@
 		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAmPRTase (mouse)</oboInOwl:hasExactSynonym>
 		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nampt (mouse)</oboInOwl:hasExactSynonym>
 		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBEF (mouse)</oboInOwl:hasExactSynonym>
-		<oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pbef1</oboInOwl:hasBroadSynonym>
+		<oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pbef1</oboInOwl:hasRelatedSynonym>
 		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visfatin (mouse)</oboInOwl:hasExactSynonym>
 		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mNAMPT</oboInOwl:hasExactSynonym>
 		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-B-cell colony-enhancing factor 1 homolog (mouse)</oboInOwl:hasExactSynonym>
@@ -378,6 +378,71 @@
     </owl:Class>
 
 
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y297 -->
+	
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9Y297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-box/WD repeat-containing protein 1A (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000004853"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An F-box/WD repeat-containing protein 1A that is encoded in the genome of human. [PRO:DNx]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene.</rdfs:comment>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hBTRC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9Y297</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+	
+	
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9NPH5 -->
+	
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9NPH5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NADPH oxidase 4 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An NADPH oxidase 4 that is encoded in the genome of human. [PRO:WCB, UniProtKB:Q9NPH5]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene.</rdfs:comment>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hNOX4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9NPH5</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+	
+
+    <!--  http://purl.obolibrary.org/obo/PR_Q9QYS9 -->
+	
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9QYS9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein quaking (mouse) </rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000013564"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein quaking that is encoded in the genome of mouse. [OMA:MOUSE09126, PRO:DNx]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene.</rdfs:comment>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MqkI (mouse)</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mQKI</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qk</oboInOwl:hasRelatedSynonym>
+		<oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qk1</oboInOwl:hasRelatedSynonym>
+		<oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qka1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9QYS9</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+	
 	
 </rdf:RDF>
 

@@ -338,10 +338,16 @@ http://purl.obolibrary.org/obo/PR_P49639
 http://purl.obolibrary.org/obo/PR_P43121
 http://purl.obolibrary.org/obo/PR_P22387
 http://purl.obolibrary.org/obo/PR_O43597
+http://purl.obolibrary.org/obo/PR_000004853
+http://purl.obolibrary.org/obo/PR_O95477
+http://purl.obolibrary.org/obo/PR_000001826
+http://purl.obolibrary.org/obo/PR_000013495
+http://purl.obolibrary.org/obo/PR_000007362
+http://purl.obolibrary.org/obo/MGI_97837
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
-subClassOf http://purl.obolibrary.org/obo/CHEBI_16670
+
 
 
 [Source term retrieval setting]
