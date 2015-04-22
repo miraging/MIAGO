@@ -115,7 +115,7 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000045 -->
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000045">
-        <rdfs:label xml:lang="en">miRNA target based on</rdfs:label>
+        <rdfs:label xml:lang="en">miRNA target assumption based on</rdfs:label>
         <obo:IAO_0000115>a relation between a molecular entity and an evidence, when this molecular entity is considered as a miRNA target based on the evidence given by any assertion method, for example, a computational method such as a miRNA target software or algorithm.</obo:IAO_0000115>
         <rdfs:comment>In the implementation, the assertion of target is based on the conclusion from experiments or softwares. Since all the conclusion here beares the evidence role, we do put the target based on link to the conclusion instance, instead of the evidence itself.</rdfs:comment>
         <rdfs:range rdf:resource="&obo;MIAGO_0000001"/>
@@ -190,6 +190,26 @@ equivelant to:
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000076 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000076">
+        <rdfs:label xml:lang="en">is about miRNA target</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+        <rdfs:range rdf:resource="&obo;MIAGO_0000002"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000078 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000078">
+        <rdfs:label xml:lang="en">is about miRNA</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+        <rdfs:range rdf:resource="&obo;SO_0000276"/>
     </owl:ObjectProperty>
     
 
@@ -403,17 +423,6 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000002">
         <rdfs:label xml:lang="en">miRNA target</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -819,14 +828,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_2135607"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_2135607"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014888</rdfs:comment>
@@ -867,11 +876,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000039 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000039">
-        <rdfs:label xml:lang="en">predicted miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">predicted miRNA target assumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                         <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000003"/>
@@ -879,7 +888,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
     </owl:Class>
     
 
@@ -887,11 +896,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000040 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000040">
-        <rdfs:label xml:lang="en">experimentaly validated miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">experimentaly validated miRNA target assumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                         <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000004"/>
@@ -899,9 +908,9 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
-        <obo:IAO_0000115>a molecular entity that is considered as a miRNA target, and is validated by experimental evidence</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <dc:creator>YL</dc:creator>
+        <obo:IAO_0000115>an information content entity that asuming the pair of miRNA and its target, which is validated by experimental evidence</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -909,11 +918,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000041 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000041">
-        <rdfs:label xml:lang="en">level 1 validated miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">level 1 validated miRNA target assumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                         <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000003"/>
@@ -934,11 +943,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000042 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000042">
-        <rdfs:label xml:lang="en">level 2 validated miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">level 2 validated miRNA target assumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                         <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000003"/>
@@ -963,11 +972,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000043 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000043">
-        <rdfs:label xml:lang="en">level 3 validated miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">level 3 validated miRNA target assumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                         <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000003"/>
@@ -996,11 +1005,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000044 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000044">
-        <rdfs:label xml:lang="en">level 4 validated miRNA target</rdfs:label>
+        <rdfs:label xml:lang="en">level 4 validated miRNA target assumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;CHEBI_23367"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                         <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000003"/>
@@ -1289,6 +1298,26 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000079 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000079">
+        <rdfs:label xml:lang="en">miRNA target assumption</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000081 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000081">
@@ -1339,14 +1368,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000010987"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914858"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1914858"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1377,14 +1406,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000015583"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1345138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1345138"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>MGI:1345138</oboInOwl:hasDbXref>
@@ -1477,14 +1506,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000011617"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1519,14 +1548,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000012455"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_107490"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107490"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1555,14 +1584,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000007641"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1890081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1890081"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>

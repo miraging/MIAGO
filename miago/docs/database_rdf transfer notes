@@ -25,6 +25,7 @@ miRNA target protein --is target protein of--> miRNA
 miRNA target gene --is target gene of--> miRNA
 miRNA --involved in negative regulation of(http://purl.obolibrary.org/obo/RO_0002430)--> miRNA target gene/protein expression
 miRNA target protein --output of--> miRNA target gene expression
+miRNA target gene --input of--> miRNA target gene expression
 organism --has disposition--> disease (if disease)
 organism --participates in--> aging process (if aging model)
 anatomical part --part of-->organism
@@ -39,5 +40,5 @@ conclusion instance --has role--> "diferent roles"
 Class--Instance expression
 Biological process --biological process indicated by assy--> assay instance
 miRNA target --miRNA target based on--> conclusion instance
-
+Biological process --occurs in--> anatomical part instance
 
