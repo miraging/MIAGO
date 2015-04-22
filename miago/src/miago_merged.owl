@@ -16,8 +16,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;migao_merged.owl#"
-     xml:base="&obo;migao_merged.owl"
+<rdf:RDF xmlns="&obo;miago_merged.owl#"
+     xml:base="&obo;miago_merged.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -29,9 +29,77 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;migao_merged.owl">
+    <owl:Ontology rdf:about="&obo;miago_merged.owl">
+        <dc:date rdf:datatype="&xsd;date">2009-07-31</dc:date>
+        <owl:versionInfo rdf:datatype="&xsd;string">2015-03-17</owl:versionInfo>
+        <rdfs:comment rdf:datatype="&xsd;string">Please cite the OBI consortium http://purl.obolibrary.org/obo/obi where traditional citation is called for. However it is adequate that individual terms be attributed simply by use of the identifying PURL for the term, in projects that refer to them.</rdfs:comment>
         <protege:defaultLanguage rdf:datatype="&xsd;string">en</protege:defaultLanguage>
-        <rdfs:comment xml:lang="en">Ontology for miraging project. It describes the experimernt that observes the functional miRNA and target protein, miRNA&apos;s expression in the aging domain</rdfs:comment>
+        <owl:versionInfo>0.1.34</owl:versionInfo>
+        <dc:creator xml:lang="en">Alan Ruttenberg</dc:creator>
+        <dc:subject xml:lang="en">An ontology for the annotation of biomedical and functional genomics experiments.</dc:subject>
+        <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
+        <dc:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</dc:contributor>
+        <dc:creator xml:lang="en">Allyson Lister</dc:creator>
+        <dc:creator xml:lang="en">Barry Smith</dc:creator>
+        <dc:creator xml:lang="en">Bill Bug</dc:creator>
+        <dc:creator xml:lang="en">Bjoern Peters</dc:creator>
+        <dc:creator xml:lang="en">Carlo Torniai</dc:creator>
+        <dc:creator xml:lang="en">Chris Mungall</dc:creator>
+        <dc:creator xml:lang="en">Chris Stoeckert</dc:creator>
+        <dc:creator xml:lang="en">Chris Taylor</dc:creator>
+        <dc:creator xml:lang="en">Christian Bolling</dc:creator>
+        <dc:creator xml:lang="en">Cristian Cocos</dc:creator>
+        <dc:creator xml:lang="en">Daniel Rubin</dc:creator>
+        <dc:creator xml:lang="en">Daniel Schober</dc:creator>
+        <dc:creator xml:lang="en">Dawn Field</dc:creator>
+        <dc:creator xml:lang="en">Dirk Derom</dc:creator>
+        <dc:creator xml:lang="en">Elisabetta Manduchi</dc:creator>
+        <dc:creator xml:lang="en">Eric Deutsch</dc:creator>
+        <dc:creator xml:lang="en">Frank Gibson</dc:creator>
+        <dc:creator xml:lang="en">Gilberto Fragoso</dc:creator>
+        <dc:creator xml:lang="en">Helen C. Causton</dc:creator>
+        <dc:creator xml:lang="en">Helen Parkinson</dc:creator>
+        <dc:creator xml:lang="en">Holger Stenzhorn</dc:creator>
+        <dc:creator xml:lang="en">James A. Overton</dc:creator>
+        <dc:creator xml:lang="en">James Malone</dc:creator>
+        <dc:creator xml:lang="en">Jay Greenbaum</dc:creator>
+        <dc:creator xml:lang="en">Jeffrey Grethe</dc:creator>
+        <dc:creator xml:lang="en">Jennifer Fostel</dc:creator>
+        <dc:creator xml:lang="en">Jessica Turner</dc:creator>
+        <dc:creator xml:lang="en">Jie Zheng</dc:creator>
+        <dc:creator xml:lang="en">Joe White</dc:creator>
+        <dc:creator xml:lang="en">John Westbrook</dc:creator>
+        <dc:creator xml:lang="en">Kevin Clancy</dc:creator>
+        <dc:creator xml:lang="en">Larisa Soldatova</dc:creator>
+        <dc:creator xml:lang="en">Lawrence Hunter</dc:creator>
+        <dc:creator xml:lang="en">Liju Fan</dc:creator>
+        <dc:creator xml:lang="en">Luisa Montecchi</dc:creator>
+        <rdfs:comment xml:lang="en">MIrna And aGing Ontology(MIAGO).  It represents the experimernt that observes the functional miRNA and target protein in the aging domain. This ontology gives logical definitions to classify miRNA target based on both computational prediction and experimental validation.</rdfs:comment>
+        <dc:creator xml:lang="en">Matthew Brush</dc:creator>
+        <dc:creator xml:lang="en">Matthew Pocock</dc:creator>
+        <dc:creator xml:lang="en">Melanie Courtot</dc:creator>
+        <dc:creator xml:lang="en">Melissa Haendel</dc:creator>
+        <dc:creator xml:lang="en">Mervi Heiskanen</dc:creator>
+        <dc:creator xml:lang="en">Monnie McGee</dc:creator>
+        <dc:creator xml:lang="en">Norman Morrison</dc:creator>
+        <dc:format xml:lang="en">OWL-DL</dc:format>
+        <dc:title xml:lang="en">Ontology for Biomedical Investigation</dc:title>
+        <dc:creator xml:lang="en">Philip Lord</dc:creator>
+        <dc:creator xml:lang="en">Philippe Rocca-Serra</dc:creator>
+        <dc:creator xml:lang="en">Pierre Grenon</dc:creator>
+        <dc:creator xml:lang="en">Richard Bruskiewich</dc:creator>
+        <dc:creator xml:lang="en">Richard Scheuermann</dc:creator>
+        <dc:creator xml:lang="en">Robert Stevens</dc:creator>
+        <dc:creator xml:lang="en">Ryan R. Brinkman</dc:creator>
+        <dc:creator xml:lang="en">Stefan Wiemann</dc:creator>
+        <dc:creator xml:lang="en">Susanna-Assunta Sansone</dc:creator>
+        <dc:creator xml:lang="en">Tanya Gray</dc:creator>
+        <dc:description xml:lang="en">The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific.</dc:description>
+        <dc:creator xml:lang="en">Tina Hernandez-Boussard</dc:creator>
+        <dc:creator xml:lang="en">Trish Whetzel</dc:creator>
+        <dc:contributor xml:lang="en">Xinna Li</dc:contributor>
+        <dc:creator xml:lang="en">Yongqun He</dc:creator>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
     </owl:Ontology>
     
 
@@ -858,7 +926,6 @@
         <obo:IAO_0000116 xml:lang="en">We have defined a class in MIAGO &apos;assay evaluant&apos; as equivalent to &apos;molecular entity&apos; and (&apos;has role&apos; some &apos;evaluant role&apos;), which makes the certain material used in the assay become an assay evaluant after reasoning.</obo:IAO_0000116>
         <obo:IAO_0000116>a shortcut relation describes the relation between an assay(?X) and a material entity(?Y) using the pattern (defined in OBI) as:
  ?X has_specified_input some (?Y and (&apos;has role&apos; some &apos;evaluant role&apos;)) OR ?X realizes some (&apos;evaluant role&apos; and &apos;is role of&apos; ?Y )</obo:IAO_0000116>
-        <rdfs:range rdf:resource="&obo;MIAGGO_000021"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000070"/>
     </owl:ObjectProperty>
     
@@ -868,7 +935,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000032">
         <rdfs:label xml:lang="en">hasAnalyte</rdfs:label>
-        <rdfs:range rdf:resource="&obo;MIAGGO_000022"/>
     </owl:ObjectProperty>
     
 
@@ -1152,12 +1218,12 @@ equivelant to:
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
@@ -1182,12 +1248,12 @@ equivelant to:
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002230"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2842,6 +2908,26 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HGNC_21100 -->
+
+    <owl:Class rdf:about="&obo;HGNC_21100">
+        <rdfs:label rdf:datatype="&xsd;string">QKI (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein coding gene QKI in human.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=external.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">HGNC:21100</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">gene</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HGNC_2362 -->
 
     <owl:Class rdf:about="&obo;HGNC_2362">
@@ -4073,11 +4159,11 @@ equivelant to:
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000116>Philly2013 - AR: What differentiates a directive information entity from an information concretization is that it can have concretizations that are either qualities or realizable entities. The concretizations that are realizable entities are created when an individual chooses to take up the direction, i.e. has the intention to (try to) realize it.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">8/6/2009 Alan Ruttenberg: Changed label from &quot;information entity about a realizable&quot; after discussions at ICBO</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">An information content entity whose concretizations indicate to their bearer how to realize them in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000116>Philly2013 - AR: What differentiates a directive information entity from an information concretization is that it can have concretizations that are either qualities or realizable entities. The concretizations that are realizable entities are created when an individual chooses to take up the direction, i.e. has the intention to (try to) realize it.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">8/6/2009 Alan Ruttenberg: Changed label from &quot;information entity about a realizable&quot; after discussions at ICBO</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Werner pushed back on calling it realizable information entity as it isn&apos;t realizable. However this name isn&apos;t right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn&apos;t about the plan, it, once concretized, *is* the plan. -Alan</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">directive information entity</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -4162,13 +4248,13 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000007"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000005"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 xml:lang="en">2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was &quot; a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan&quot;. It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term.</obo:IAO_0000116>
@@ -4768,6 +4854,26 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MGI_1345138 -->
+
+    <owl:Class rdf:about="&obo;MGI_1345138">
+        <rdfs:label rdf:datatype="&xsd;string">Spry2 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein coding gene Spry2 in mouse.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=external.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">MGI:1345138</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">gene</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MGI_1855698 -->
 
     <owl:Class rdf:about="&obo;MGI_1855698">
@@ -4828,6 +4934,26 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MGI_1890081 -->
+
+    <owl:Class rdf:about="&obo;MGI_1890081">
+        <rdfs:label rdf:datatype="&xsd;string">Foxo3 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein coding gene Foxo3 in mouse.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=external.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">MGI:1890081</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">gene</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MGI_1914813 -->
 
     <owl:Class rdf:about="&obo;MGI_1914813">
@@ -4862,6 +4988,26 @@ equivelant to:
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein coding gene Dusp6 in mouse.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="&xsd;string">Category=external.</rdfs:comment>
         <oboInOwl:id rdf:datatype="&xsd;string">MGI:1914853</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">gene</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MGI_1914858 -->
+
+    <owl:Class rdf:about="&obo;MGI_1914858">
+        <rdfs:label rdf:datatype="&xsd;string">Narf (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein coding gene Narf in mouse.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=external.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">MGI:1914858</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">gene</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
@@ -5583,66 +5729,11 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000016 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000016">
-        <rdfs:label xml:lang="en">human</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000017 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000017">
-        <rdfs:label xml:lang="en">mouse</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000018 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000018">
-        <rdfs:label xml:lang="en">zebrafish</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGGO_000020 -->
 
     <owl:Class rdf:about="&obo;MIAGGO_000020">
         <rdfs:label xml:lang="en">published paper</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000312"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000021 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000021">
-        <rdfs:label xml:lang="en">assay evaluant</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">In the scope of miago, the evaluant might be the cell line, cell or tissue that being handled in a peticular assay.</rdfs:comment>
-        <obo:IAO_0000115 xml:lang="en">a material entity that is being handled or measured in an  OBI assay. It beares the role of [OBI:&apos;evaluant role&apos;]</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000022 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000022">
-        <rdfs:label xml:lang="en">assay analyte</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">Analyte is the entity that is being measured in an  OBI assay. It beares the role of [OBI:&apos;analyte role&apos;]</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">the analyte maybe a process or a material entity</rdfs:comment>
     </owl:Class>
     
 
@@ -5673,8 +5764,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
+                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5684,8 +5775,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5944,8 +6035,30 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000020">
         <rdfs:label xml:lang="en">BBC3 (human)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;PR_000003124"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/27113</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>HGNC:17868</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000021 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000021">
+        <rdfs:label xml:lang="en">semaphorin 6D product (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_2387661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014632</rdfs:comment>
     </owl:Class>
     
 
@@ -5997,6 +6110,12 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000027">
         <rdfs:label xml:lang="en">Hdac4 (rat)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;PR_000008483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -6045,6 +6164,28 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000036 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000036">
+        <rdfs:label xml:lang="en">Sirt 1 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_2135607"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014888</rdfs:comment>
     </owl:Class>
     
 
@@ -6115,6 +6256,8 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115>a molecular entity that is considered as a miRNA target, and is validated by experimental evidence</obo:IAO_0000115>
+        <dc:creator>YL</dc:creator>
     </owl:Class>
     
 
@@ -6138,6 +6281,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 1 validated miRNA target given two evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -6165,6 +6310,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 2 validated miRNA target given three evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -6196,6 +6343,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 3 validated miRNA target given four evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -6231,6 +6380,9 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">This level of validated miRNA target maybe close to Bona fide miRNA target. However, it can not be determined using pure ontology reasoning approach. Based on the evidence given by ontology isntances, a network analysis maybe conducted to suggest the &quot;real&quot; miRNA target. The ontology provides the knowledge base for such analysis.</rdfs:comment>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 4 validated miRNA target given five evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level; 5) evidence shows that miRNA regulates the down stream pathway and have biological function impacts.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -6263,7 +6415,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000049">
         <rdfs:label xml:lang="en">Zmpste24 -/- mouse</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000017"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_10090"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000055"/>
@@ -6438,88 +6590,78 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000074 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000074">
-        <rdfs:label xml:lang="en">Igf1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:2868</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000075 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000075">
-        <rdfs:label xml:lang="en">Bace1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:2191</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000076 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000076">
-        <rdfs:label xml:lang="en">Gja1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:2690</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24392</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000077 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000077">
         <rdfs:label xml:lang="en">Sirt1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasDbXref>RGD:1308542</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/309757</oboInOwl:hasDbXref>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014888</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000078 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000081 -->
 
-    <owl:Class rdf:about="&obo;MIAGO_0000078">
-        <rdfs:label xml:lang="en">Mgst1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:70927</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/171341</oboInOwl:hasDbXref>
+    <owl:Class rdf:about="&obo;MIAGO_0000081">
+        <rdfs:label xml:lang="en">F-box protein 32 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007402"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914981"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000007402</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000079 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000082 -->
 
-    <owl:Class rdf:about="&obo;MIAGO_0000079">
-        <rdfs:label xml:lang="en">Nfe2l2 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/83619</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>RGD:620360</oboInOwl:hasDbXref>
+    <owl:Class rdf:about="&obo;MIAGO_0000082">
+        <rdfs:label xml:lang="en">dusp6 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006756"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914853"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000080 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000083 -->
 
-    <owl:Class rdf:about="&obo;MIAGO_0000080">
-        <rdfs:label xml:lang="en">Sp1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24790</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>RGD:3738</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000084 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000084">
-        <rdfs:label xml:lang="en">Foxo1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:620283</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/84482</oboInOwl:hasDbXref>
+    <owl:Class rdf:about="&obo;MIAGO_0000083">
+        <rdfs:label xml:lang="en">NARF protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000010987"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -6528,7 +6670,13 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000085">
         <rdfs:label xml:lang="en">Nox4 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/85431</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RGD:620600</oboInOwl:hasDbXref>
     </owl:Class>
@@ -6538,10 +6686,210 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000086 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000086">
-        <rdfs:label xml:lang="en">Spry2 (mouse)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:label xml:lang="en">Spry2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015583"/>
         <oboInOwl:hasDbXref>MGI:1345138</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24064</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000087 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000087">
+        <rdfs:label xml:lang="en">PTBP2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1860489"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000013411</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000088 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000088">
+        <rdfs:label xml:lang="en">Ppm1d protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013092"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1858214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000089 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000089">
+        <rdfs:label xml:lang="en">Reck protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013859"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1855698"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000090 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000090">
+        <rdfs:label xml:lang="en">Zeb2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000017618"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1344407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000091 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000091">
+        <rdfs:label xml:lang="en">Ppp1r10 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1289273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/52040</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000092 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000092">
+        <rdfs:label xml:lang="en">Ogn protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000011617"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000093 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000093">
+        <rdfs:label xml:lang="en">Ezh2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007278"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000094 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000094">
+        <rdfs:label xml:lang="en">Pdcd4 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000012455"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107490"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000095 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000095">
+        <rdfs:label xml:lang="en">Tead4 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000016221"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_106907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000096 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000096">
+        <rdfs:label xml:lang="en">Foxo3 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007641"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000097 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000097">
+        <rdfs:label xml:lang="en">pha-4 protein (C.elegans)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000098 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000098">
+        <rdfs:label xml:lang="en">protein skinhead-1 (C.elegans)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -6586,6 +6934,18 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1206794 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_1206794">
+        <rdfs:label rdf:datatype="&xsd;string">Ecdysozoa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_33213"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">Ecdysozoa</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_2">
@@ -6619,6 +6979,43 @@ equivelant to:
         <obo:IAO_0000111 rdf:datatype="&xsd;string">Eukaryota</obo:IAO_0000111>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">eucaryotes</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">eukaryotes</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33154 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_33154">
+        <rdfs:label rdf:datatype="&xsd;string">Opisthokonta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">Opisthokonta</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33213 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_33213">
+        <rdfs:label rdf:datatype="&xsd;string">Bilateria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_33154"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">Bilateria</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6239 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_6239">
+        <rdfs:label rdf:datatype="&xsd;string">Caenorhabditis elegans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_1206794"/>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">Caenorhabditis elegans</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">nematode</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
@@ -6762,13 +7159,13 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000471"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000572"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000471"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="&xsd;string">Could add specific objective specification</obo:IAO_0000232>
@@ -6828,22 +7225,6 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;BFO_0000040"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -6872,6 +7253,22 @@ equivelant to:
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
@@ -6921,18 +7318,12 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6940,6 +7331,12 @@ equivelant to:
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
@@ -6982,6 +7379,12 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="&obo;OBI_0000443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000081"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -6991,12 +7394,6 @@ equivelant to:
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="&obo;OBI_0000443"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="&xsd;string">Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.</obo:IAO_0000232>
@@ -7021,14 +7418,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0001909"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0001909"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">Bjoern Peters</obo:IAO_0000119>
@@ -7250,18 +7647,6 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16991"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000406"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
             </owl:Restriction>
@@ -7280,6 +7665,18 @@ equivelant to:
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000406"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16991"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">OBI Plan</obo:IAO_0000117>
@@ -7383,14 +7780,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000275"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000275"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON:Bjoern Peters, Helen Parkinson, Philippe Rocca-Serra, Alan Ruttenberg</obo:IAO_0000117>
@@ -7412,12 +7809,6 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000079"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
                 <owl:allValuesFrom>
                     <owl:Restriction>
@@ -7425,6 +7816,12 @@ equivelant to:
                         <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000079"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A glucometer measures blood glucose concentration, the glucometer has a measure function.</obo:IAO_0000112>
@@ -7679,14 +8076,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000034"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000094"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A material entity that is designed to perform a function in a scientific investigation, but is not a reagent.</obo:IAO_0000115>
@@ -7731,14 +8128,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An information content entity that is inferred from data.</obo:IAO_0000115>
@@ -7832,6 +8229,12 @@ equivelant to:
         <rdfs:label xml:lang="en">flow cytometer</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0400137"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0400078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -7857,12 +8260,6 @@ equivelant to:
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0400153"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0400078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A flow_cytometer is an instrument for counting, examining and sorting microscopic particles in suspension. It allows simultaneous multiparametric analysis of the physical and/or chemical characteristics of single cells flowing through an optical and/or electronic detection apparatus. A flow cytometer is an instrument that can be used to quantitatively measure the properties of individual cells in a flowing medium.</obo:IAO_0000115>
@@ -8056,12 +8453,6 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -8074,6 +8465,12 @@ equivelant to:
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8122,7 +8519,6 @@ equivelant to:
     <owl:Class rdf:about="&obo;PR_000000001">
         <rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_16670"/>
-        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">PR:000000001</oboInOwl:id>
         <rdfs:comment rdf:datatype="&xsd;string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
@@ -8629,6 +9025,23 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000001350 -->
+
+    <owl:Class rdf:about="&obo;PR_000001350">
+        <rdfs:label rdf:datatype="&xsd;string">forkhead box protein P3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human FOXP3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene. Requested by=CL.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FOXP3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">IPEX</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000001350</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">scurfin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001357 -->
 
     <owl:Class rdf:about="&obo;PR_000001357">
@@ -8745,6 +9158,22 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000001740 -->
+
+    <owl:Class rdf:about="&obo;PR_000001740">
+        <rdfs:label rdf:datatype="&xsd;string">myeloid differentiation primary response protein MyD88</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human MYD88 gene or a 1:1 ortholog thereof. This protein is an adapter involved in the Toll-like receptor and IL-1 receptor signaling pathway in the innate immune response.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">MYD88</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PIRSF:PIRSF037756</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000001740</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001753 -->
 
     <owl:Class rdf:about="&obo;PR_000001753">
@@ -8855,6 +9284,27 @@ equivelant to:
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PIRSF:PIRSF000619</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="&xsd;string">PR:000001812</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001826 -->
+
+    <owl:Class rdf:about="&obo;PR_000001826">
+        <rdfs:label rdf:datatype="&xsd;string">NADPH oxidase 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human NOX4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">KOX-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NOX4</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000001826</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">RENOX</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">kidney oxidase-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">kidney superoxide-producing NADPH oxidase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">renal NAD(P)H-oxidase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">superoxide-generating NADPH oxidase 4</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -9564,6 +10014,23 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000005220 -->
+
+    <owl:Class rdf:about="&obo;PR_000005220">
+        <rdfs:label rdf:datatype="&xsd;string">cell division cycle-associated protein 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human CDCA2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">CDCA2</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000005220</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Repo-Man</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">recruits PP1 onto mitotic chromatin at anaphase protein</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000005253 -->
 
     <owl:Class rdf:about="&obo;PR_000005253">
@@ -9733,6 +10200,36 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000006318 -->
+
+    <owl:Class rdf:about="&obo;PR_000006318">
+        <rdfs:label rdf:datatype="&xsd;string">mRNA-decapping enzyme 1B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human DCP1B gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">DCP1B</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000006318</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006415 -->
+
+    <owl:Class rdf:about="&obo;PR_000006415">
+        <rdfs:label rdf:datatype="&xsd;string">protein DEK</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human DEK gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">DEK</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000006415</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000006606 -->
 
     <owl:Class rdf:about="&obo;PR_000006606">
@@ -9878,6 +10375,60 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000007278 -->
+
+    <owl:Class rdf:about="&obo;PR_000007278">
+        <rdfs:label rdf:datatype="&xsd;string">histone-lysine N-methyltransferase EZH2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human EZH2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ENX-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">EZH2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Enx1h</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">KMT6</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000007278</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">enhancer of zeste homolog 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lysine N-methyltransferase 6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007402 -->
+
+    <owl:Class rdf:about="&obo;PR_000007402">
+        <rdfs:label rdf:datatype="&xsd;string">F-box only protein 32</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human FBXO32 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FBXO32</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">MAFbx</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000007402</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">atrogin-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">muscle atrophy F-box protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007461 -->
+
+    <owl:Class rdf:about="&obo;PR_000007461">
+        <rdfs:label rdf:datatype="&xsd;string">Fer-1-like protein 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human FER1L6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C8orfK23</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FER1L6</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000007461</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000007640 -->
 
     <owl:Class rdf:about="&obo;PR_000007640">
@@ -9891,6 +10442,25 @@ equivelant to:
         <oboInOwl:id rdf:datatype="&xsd;string">PR:000007640</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">forkhead box protein O1A</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">forkhead in rhabdomyosarcoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007641 -->
+
+    <owl:Class rdf:about="&obo;PR_000007641">
+        <rdfs:label rdf:datatype="&xsd;string">forkhead box protein O3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human FOXO3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">AF6q21 protein</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">FKHRL1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FOXO3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">FOXO3A</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000007641</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">forkhead in rhabdomyosarcoma-like 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
@@ -9911,6 +10481,43 @@ equivelant to:
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">TNRC10</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">trinucleotide repeat-containing gene 10 protein</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008373 -->
+
+    <owl:Class rdf:about="&obo;PR_000008373">
+        <rdfs:label rdf:datatype="&xsd;string">gap junction alpha-1 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human GJA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cx43</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Cxn-43</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">GJA1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000008373</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">connexin-43</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">gap junction 43 kDa heart protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008450 -->
+
+    <owl:Class rdf:about="&obo;PR_000008450">
+        <rdfs:label rdf:datatype="&xsd;string">hyaluronan synthase 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human HAS2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">HA synthase 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">HAS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000008450</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hyaluronate synthase 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hyaluronic acid synthase 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -10046,6 +10653,23 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000009362 -->
+
+    <owl:Class rdf:about="&obo;PR_000009362">
+        <rdfs:label rdf:datatype="&xsd;string">krueppel-like factor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human KLF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">KLF2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">LKLF</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000009362</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lung krueppel-like factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000009364 -->
 
     <owl:Class rdf:about="&obo;PR_000009364">
@@ -10106,6 +10730,46 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000010967 -->
+
+    <owl:Class rdf:about="&obo;PR_000010967">
+        <rdfs:label rdf:datatype="&xsd;string">nicotinamide phosphoribosyltransferase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human NAMPT gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NAMPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NAmPRTase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PBEF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">PBEF1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000010967</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nampt</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pre-B cell-enhancing factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pre-B-cell colony-enhancing factor 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pre-B-cell colony-enhancing factor 1 homolog</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">visfatin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010987 -->
+
+    <owl:Class rdf:about="&obo;PR_000010987">
+        <rdfs:label rdf:datatype="&xsd;string">nuclear prelamin A recognition factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human NARF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">IOP2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NARF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000010987</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">iron-only hydrogenase-like protein 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000011170 -->
 
     <owl:Class rdf:about="&obo;PR_000011170">
@@ -10121,6 +10785,26 @@ equivelant to:
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Nrf-2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">PR:000011170</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nuclear factor, erythroid derived 2, like 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011617 -->
+
+    <owl:Class rdf:about="&obo;PR_000011617">
+        <rdfs:label rdf:datatype="&xsd;string">mimecan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human OGN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">OGN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">OIF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Og</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000011617</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">SLRR3A</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">osteoglycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">osteoinductive factor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
@@ -10162,6 +10846,29 @@ equivelant to:
         <oboInOwl:id rdf:datatype="&xsd;string">PR:000012316</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Pax-3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012455 -->
+
+    <owl:Class rdf:about="&obo;PR_000012455">
+        <rdfs:label rdf:datatype="&xsd;string">programmed cell death protein 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human PDCD4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">H731</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Ma3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PDCD4</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000012455</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Tis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">neoplastic transformation inhibitor protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nuclear antigen H731-like</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein 197/15a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein MA-3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">topoisomerase-inhibitor suppressed protein</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -10256,6 +10963,49 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000013092 -->
+
+    <owl:Class rdf:about="&obo;PR_000013092">
+        <rdfs:label rdf:datatype="&xsd;string">protein phosphatase 1D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human PPM1D gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PP2C-delta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PPM1D</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000013092</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">WIP1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">p53-induced protein phosphatase 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein phosphatase 2C isoform delta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein phosphatase magnesium-dependent 1 delta</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013105 -->
+
+    <owl:Class rdf:about="&obo;PR_000013105">
+        <rdfs:label rdf:datatype="&xsd;string">serine/threonine-protein phosphatase 1 regulatory subunit 10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human PPP1R10 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CAT53</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">FB19</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">MHC class I region proline-rich protein CAT53</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">PNUTS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PP1-binding protein of 114 kDa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PPP1R10</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000013105</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">p99</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phosphatase 1 nuclear targeting subunit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein FB19</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000013273 -->
 
     <owl:Class rdf:about="&obo;PR_000013273">
@@ -10286,6 +11036,31 @@ equivelant to:
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PTBP1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterogeneous nuclear ribonucleoprotein I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hnRNP I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013411 -->
+
+    <owl:Class rdf:about="&obo;PR_000013411">
+        <rdfs:label rdf:datatype="&xsd;string">polypyrimidine tract-binding protein 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human PTBP2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Brptb</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">NPTB</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000013411</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">PTB</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PTB-like protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">PTBLP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PTBP2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">RRM-type RNA-binding protein brPTB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">brain-enriched PTB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">brain-enriched polypyrimidine tract-binding protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">neural polypyrimidine tract-binding protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">neurally-enriched homolog of PTB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
@@ -10323,6 +11098,29 @@ equivelant to:
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">purine-rich element-binding protein B</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vascular actin single-stranded DNA-binding factor 2 p44 component</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013564 -->
+
+    <owl:Class rdf:about="&obo;PR_000013564">
+        <rdfs:label rdf:datatype="&xsd;string">protein quaking</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human QKI gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">HKQ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Hqk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">HqkI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">MqkI</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000013564</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">QKI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Qk</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Qk1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Qka1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">qkI</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -10377,6 +11175,23 @@ equivelant to:
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">calcium and DAG-regulated guanine nucleotide exchange factor II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ras guanyl-releasing protein</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013859 -->
+
+    <owl:Class rdf:about="&obo;PR_000013859">
+        <rdfs:label rdf:datatype="&xsd;string">reversion-inducing cysteine-rich protein with Kazal motifs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human RECK gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000013859</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">RECK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">ST15</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">suppressor of tumorigenicity 15 protein</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -10455,6 +11270,44 @@ equivelant to:
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">semaphorin Q</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">semaphorin VIA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">semaphorin-6A-1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014632 -->
+
+    <owl:Class rdf:about="&obo;PR_000014632">
+        <rdfs:label rdf:datatype="&xsd;string">semaphorin-6D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human SEMA6D gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">KIAA1479</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000014632</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SEMA6D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014888 -->
+
+    <owl:Class rdf:about="&obo;PR_000014888">
+        <rdfs:label rdf:datatype="&xsd;string">NAD-dependent protein deacetylase sirtuin-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human SIRT1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NAD-dependent deacetylase sirtuin-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000014888</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SIR2-like protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">SIR2L1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SIR2alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SIRT1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hSIR2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">mSIR2a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sir2</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -10565,6 +11418,22 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000015583 -->
+
+    <owl:Class rdf:about="&obo;PR_000015583">
+        <rdfs:label rdf:datatype="&xsd;string">protein sprouty homolog 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human SPRY2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000015583</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SPRY2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Spry-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000015596 -->
 
     <owl:Class rdf:about="&obo;PR_000015596">
@@ -10628,6 +11497,35 @@ equivelant to:
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pp68</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">synaptotagmin-binding, cytoplasmic RNA-interacting protein</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016221 -->
+
+    <owl:Class rdf:about="&obo;PR_000016221">
+        <rdfs:label rdf:datatype="&xsd;string">transcriptional enhancer factor TEF-3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human TEAD4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ETF-related factor 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ETFR-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000016221</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">RTEF-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">RTEF1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">TCF13L1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TEA domain family member 4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TEAD-4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TEAD4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TEF-1-related factor 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TEF-1-related factor FR-19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">TEF3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Tcf13r1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Tefr1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">transcription factor 13-like 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">transcription factor RTEF-1</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -10727,6 +11625,50 @@ equivelant to:
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">serine/threonine-protein kinase Unc51.1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">unc-51-like kinase 1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017108 -->
+
+    <owl:Class rdf:about="&obo;PR_000017108">
+        <rdfs:label rdf:datatype="&xsd;string">regulator of nonsense transcripts 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human UPF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ATP-dependent helicase RENT1</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">KIAA0221</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NORF1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000017108</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">RENT1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">UPF1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Upf1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nonsense mRNA reducing factor 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">up-frameshift suppressor 1 homolog</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017618 -->
+
+    <owl:Class rdf:about="&obo;PR_000017618">
+        <rdfs:label rdf:datatype="&xsd;string">zinc finger E-box-binding homeobox 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human ZEB2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">KIAA0569</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000017618</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">SIP1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SMADIP1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ZEB2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">ZFHX1B</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">ZFX1B</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">smad-interacting protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">zinc finger homeobox protein 1b</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -11632,6 +12574,42 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_O54968 -->
+
+    <owl:Class rdf:about="&obo;PR_O54968">
+        <rdfs:label rdf:datatype="&xsd;string">nuclear factor erythroid 2-related factor 2 (rat)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000011170"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;RGD_620360"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A nuclear factor erythroid 2-related factor 2 that is encoded in the genome of rat.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NF-E2-related factor 2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NFE2-related factor 2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Nrf2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:O54968</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:O54968</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nuclear factor, erythroid derived 2, like 2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rNFE2L2</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_O60506 -->
 
     <owl:Class rdf:about="&obo;PR_O60506">
@@ -12184,6 +13162,76 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_P08011 -->
+
+    <owl:Class rdf:about="&obo;PR_P08011">
+        <rdfs:label rdf:datatype="&xsd;string">microsomal glutathione S-transferase 1 (rat)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000010390"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;RGD_70927"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A microsomal glutathione S-transferase 1 that is encoded in the genome of rat.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Gst12</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:P08011</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P08011</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">microsomal GST-1 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">microsomal GST-I (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rMGST1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P08025 -->
+
+    <owl:Class rdf:about="&obo;PR_P08025">
+        <rdfs:label rdf:datatype="&xsd;string">insulin-like growth factor I (rat)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000009182"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;RGD_2868"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An insulin-like growth factor I that is encoded in the genome of rat.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">IGF-I (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Igf-1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:P08025</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Somatomedin (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P08025</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rIgf1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_P08047 -->
 
     <owl:Class rdf:about="&obo;PR_P08047">
@@ -12211,6 +13259,42 @@ equivelant to:
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P08047</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hSP1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P08050 -->
+
+    <owl:Class rdf:about="&obo;PR_P08050">
+        <rdfs:label rdf:datatype="&xsd;string">gap junction alpha-1 protein (rat)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000008373"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;RGD_2690"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A gap junction alpha-1 protein that is encoded in the genome of rat.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cx43 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Cxn-43</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:P08050</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P08050</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">connexin-43 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">gap junction 43 kDa heart protein (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rGJA1</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -14149,6 +15233,46 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_P56819 -->
+
+    <owl:Class rdf:about="&obo;PR_P56819">
+        <rdfs:label rdf:datatype="&xsd;string">beta-secretase 1 (rat)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000004615"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;RGD_2191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A beta-secretase 1 that is encoded in the genome of rat.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ASP2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Asp 2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Bace</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:P56819</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P56819</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aspartyl protease 2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">beta-site APP cleaving enzyme 1 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">beta-site amyloid precursor protein cleaving enzyme 1 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">memapsin-2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">membrane-associated aspartic protease 2 (rat)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rBACE1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_P58463 -->
 
     <owl:Class rdf:about="&obo;PR_P58463">
@@ -14633,6 +15757,38 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_Q01714 -->
+
+    <owl:Class rdf:about="&obo;PR_Q01714">
+        <rdfs:label rdf:datatype="&xsd;string">transcription factor Sp1 (rat)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000000133"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;RGD_3738"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A transcription factor Sp1 that is encoded in the genome of rat.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:Q01714</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q01714</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rSP1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_Q04206 -->
 
     <owl:Class rdf:about="&obo;PR_Q04206">
@@ -14866,6 +16022,405 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_Q69YH5 -->
+
+    <owl:Class rdf:about="&obo;PR_Q69YH5">
+        <rdfs:label rdf:datatype="&xsd;string">cell division cycle-associated protein 2 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005220"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_14623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cell division cycle-associated protein 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q69YH5]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q69YH5</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hCDCA2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q7TNV0 -->
+
+    <owl:Class rdf:about="&obo;PR_Q7TNV0">
+        <rdfs:label rdf:datatype="&xsd;string">protein DEK (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1926209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein DEK that is encoded in the genome of mouse. [OMA:MOUSE05772, PRO:DNx] </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q7TNV0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">mDEK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q7Z699 -->
+
+    <owl:Class rdf:about="&obo;PR_Q7Z699">
+        <rdfs:label rdf:datatype="&xsd;string">sprouty-related, EVH1 domain-containing protein 1 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015568"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sprouty-related, EVH1 domain-containing protein 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q7Z699] </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q7Z699</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hSPRED1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q8IZD4 -->
+
+    <owl:Class rdf:about="&obo;PR_Q8IZD4">
+        <rdfs:label rdf:datatype="&xsd;string">mRNA-decapping enzyme 1B (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006318"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_14929"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An mRNA-decapping enzyme 1B that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q8IZD4] </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q8IZD4</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hDCP1B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q8NFY4 -->
+
+    <owl:Class rdf:about="&obo;PR_Q8NFY4">
+        <rdfs:label rdf:datatype="&xsd;string">semaphorin-6D (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_16770"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A semaphorin-6D that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q8NFY4]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q8NFY4</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hSEMA6D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q92819 -->
+
+    <owl:Class rdf:about="&obo;PR_Q92819">
+        <rdfs:label rdf:datatype="&xsd;string">hyaluronan synthase 2 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008450"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_4819"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A hyaluronan synthase 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q92819]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q92819</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hHAS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q92900 -->
+
+    <owl:Class rdf:about="&obo;PR_Q92900">
+        <rdfs:label rdf:datatype="&xsd;string">regulator of nonsense transcripts 1 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000017108"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_9962"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A regulator of nonsense transcripts 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q92900]  </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q7TNV0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hUPF1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q96EB6 -->
+
+    <owl:Class rdf:about="&obo;PR_Q96EB6">
+        <rdfs:label rdf:datatype="&xsd;string">NAD-dependent protein deacetylase sirtuin-1 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_14929"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An NAD-dependent protein deacetylase sirtuin-1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q96EB6] </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q96EB6</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hSIRT1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q96PU8 -->
+
+    <owl:Class rdf:about="&obo;PR_Q96PU8">
+        <rdfs:label rdf:datatype="&xsd;string">protein quaking (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013564"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein quaking that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q96PU8]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q96PU8</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hQKI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q99836 -->
+
+    <owl:Class rdf:about="&obo;PR_Q99836">
+        <rdfs:label rdf:datatype="&xsd;string">myeloid differentiation primary response protein MyD88 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001740"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_7562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A myeloid differentiation primary response protein MyD88 that is encoded in the genome of human. [PRO:CNA]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q7TNV0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hMYD88</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q99KQ4 -->
+
+    <owl:Class rdf:about="&obo;PR_Q99KQ4">
+        <rdfs:label rdf:datatype="&xsd;string">nicotinamide phosphoribosyltransferase (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000010967"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1929865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A nicotinamide phosphoribosyltransferase that is encoded in the genome of mouse. [PRO:DNx]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">NAmPRTase (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Nampt (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PBEF (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">Pbef1</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q99KQ4</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Visfatin (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">mNAMPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pre-B-cell colony-enhancing factor 1 homolog (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9BZS1 -->
+
+    <owl:Class rdf:about="&obo;PR_Q9BZS1">
+        <rdfs:label rdf:datatype="&xsd;string">forkhead box protein P3 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001350"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_6106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A forkhead box protein P3 that is encoded in the genome of human. [PRO:CNA, UniProtKB:Q9BZS1] </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q9BZS1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hFOXP3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9H2E6 -->
+
+    <owl:Class rdf:about="&obo;PR_Q9H2E6">
+        <rdfs:label rdf:datatype="&xsd;string">semaphorin-6A (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014629"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_10738"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A semaphorin-6A that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q9H2E6]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q9H2E6</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hSEMA6A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y4K3 -->
+
+    <owl:Class rdf:about="&obo;PR_Q9Y4K3">
+        <rdfs:label rdf:datatype="&xsd;string">TNF receptor-associated factor 6 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002292"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_12036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A TNF receptor-associated factor 6 that is encoded in the genome of human. [PRO:CNx, Reactome:REACT_7729]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q9Y4K3</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hTRAF6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y5W3 -->
+
+    <owl:Class rdf:about="&obo;PR_Q9Y5W3">
+        <rdfs:label rdf:datatype="&xsd;string">krueppel-like factor 2 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009362"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_6347"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A krueppel-like factor 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q9Y5W3] </obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:Q9Y5W3</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hKLF2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RGD_1305447 -->
 
     <owl:Class rdf:about="&obo;RGD_1305447">
@@ -14898,9 +16453,41 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RGD_2191 -->
+
+    <owl:Class rdf:about="&obo;RGD_2191">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RGD_2532 -->
 
     <owl:Class rdf:about="&obo;RGD_2532">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_2690 -->
+
+    <owl:Class rdf:about="&obo;RGD_2690">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_2868 -->
+
+    <owl:Class rdf:about="&obo;RGD_2868">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_3738 -->
+
+    <owl:Class rdf:about="&obo;RGD_3738">
         <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
     </owl:Class>
     
@@ -14922,11 +16509,27 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RGD_620360 -->
+
+    <owl:Class rdf:about="&obo;RGD_620360">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_70927 -->
+
+    <owl:Class rdf:about="&obo;RGD_70927">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000276 -->
 
     <owl:Class rdf:about="&obo;SO_0000276">
         <rdfs:label rdf:datatype="&xsd;string">miRNA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33696"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
     </owl:Class>
@@ -14937,7 +16540,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;SO_0001217">
         <rdfs:label rdf:datatype="&xsd;string">protein_coding_gene</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33696"/>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
     </owl:Class>
     

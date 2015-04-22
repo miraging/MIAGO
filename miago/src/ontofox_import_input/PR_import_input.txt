@@ -332,7 +332,12 @@ http://purl.obolibrary.org/obo/PR_P08025
 http://purl.obolibrary.org/obo/PR_000001826
 http://purl.obolibrary.org/obo/PR_000013105
 http://purl.obolibrary.org/obo/PR_000007461
-
+http://purl.obolibrary.org/obo/PR_P61812
+http://purl.obolibrary.org/obo/PR_P54320
+http://purl.obolibrary.org/obo/PR_P49639
+http://purl.obolibrary.org/obo/PR_P43121
+http://purl.obolibrary.org/obo/PR_P22387
+http://purl.obolibrary.org/obo/PR_O43597
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
