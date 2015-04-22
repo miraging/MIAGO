@@ -10,10 +10,10 @@ http://purl.obolibrary.org/obo/SO_0001217 # protein_coding_gene
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0000276 #microRNA
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33696
 
 http://purl.obolibrary.org/obo/SO_0001217 # protein_coding_gene
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33696
 
 [Source term retrieval setting]
 includeNoIntermediates

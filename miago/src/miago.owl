@@ -4,6 +4,7 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
@@ -18,15 +19,20 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;miago.owl">
-        <rdfs:comment xml:lang="en">Ontology for miraging project. It describes the experimernt that observes the functional miRNA and target protein, miRNA&apos;s expression in the aging domain</rdfs:comment>
+        <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
+        <owl:versionInfo>0.1.34</owl:versionInfo>
+        <rdfs:comment xml:lang="en">MIrna And aGing Ontology(MIAGO).  It represents the experimernt that observes the functional miRNA and target protein in the aging domain. This ontology gives logical definitions to classify miRNA target based on both computational prediction and experimental validation.</rdfs:comment>
+        <dc:contributor xml:lang="en">Xinna Li</dc:contributor>
         <owl:imports rdf:resource="&obo;obi/2015-03-17/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/BTO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/CLO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/ECO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/GO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/OGMS_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/PR_hand.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/PR_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/RO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolirary.org/obo/miago/SO_import.owl"/>
@@ -78,7 +84,6 @@
         <obo:IAO_0000116 xml:lang="en">We have defined a class in MIAGO &apos;assay evaluant&apos; as equivalent to &apos;molecular entity&apos; and (&apos;has role&apos; some &apos;evaluant role&apos;), which makes the certain material used in the assay become an assay evaluant after reasoning.</obo:IAO_0000116>
         <obo:IAO_0000116>a shortcut relation describes the relation between an assay(?X) and a material entity(?Y) using the pattern (defined in OBI) as:
  ?X has_specified_input some (?Y and (&apos;has role&apos; some &apos;evaluant role&apos;)) OR ?X realizes some (&apos;evaluant role&apos; and &apos;is role of&apos; ?Y )</obo:IAO_0000116>
-        <rdfs:range rdf:resource="&obo;MIAGGO_000021"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000070"/>
     </owl:ObjectProperty>
     
@@ -88,7 +93,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000032">
         <rdfs:label xml:lang="en">hasAnalyte</rdfs:label>
-        <rdfs:range rdf:resource="&obo;MIAGGO_000022"/>
     </owl:ObjectProperty>
     
 
@@ -369,66 +373,11 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000016 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000016">
-        <rdfs:label xml:lang="en">human</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000017 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000017">
-        <rdfs:label xml:lang="en">mouse</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000018 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000018">
-        <rdfs:label xml:lang="en">zebrafish</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGGO_000020 -->
 
     <owl:Class rdf:about="&obo;MIAGGO_000020">
         <rdfs:label xml:lang="en">published paper</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000312"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000021 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000021">
-        <rdfs:label xml:lang="en">assay evaluant</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">In the scope of miago, the evaluant might be the cell line, cell or tissue that being handled in a peticular assay.</rdfs:comment>
-        <obo:IAO_0000115 xml:lang="en">a material entity that is being handled or measured in an  OBI assay. It beares the role of [OBI:&apos;evaluant role&apos;]</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000022 -->
-
-    <owl:Class rdf:about="&obo;MIAGGO_000022">
-        <rdfs:label xml:lang="en">assay analyte</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">Analyte is the entity that is being measured in an  OBI assay. It beares the role of [OBI:&apos;analyte role&apos;]</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">the analyte maybe a process or a material entity</rdfs:comment>
     </owl:Class>
     
 
@@ -459,8 +408,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
+                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -470,8 +419,8 @@ equivelant to:
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CHEBI_23367"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000001"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -725,6 +674,39 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000020 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000020">
+        <rdfs:label xml:lang="en">BBC3 (human)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003124"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/27113</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:17868</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000021 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000021">
+        <rdfs:label xml:lang="en">semaphorin 6D product (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_2387661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014632</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000022 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000022">
@@ -763,6 +745,21 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000025">
         <rdfs:label xml:lang="en">miRNA upstream protein expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000027 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000027">
+        <rdfs:label xml:lang="en">Hdac4 (rat)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -811,6 +808,28 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000036 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000036">
+        <rdfs:label xml:lang="en">Sirt 1 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_2135607"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014888</rdfs:comment>
     </owl:Class>
     
 
@@ -881,6 +900,8 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115>a molecular entity that is considered as a miRNA target, and is validated by experimental evidence</obo:IAO_0000115>
+        <dc:creator>YL</dc:creator>
     </owl:Class>
     
 
@@ -904,6 +925,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 1 validated miRNA target given two evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -931,6 +954,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 2 validated miRNA target given three evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -962,6 +987,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 3 validated miRNA target given four evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -997,6 +1024,9 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">This level of validated miRNA target maybe close to Bona fide miRNA target. However, it can not be determined using pure ontology reasoning approach. Based on the evidence given by ontology isntances, a network analysis maybe conducted to suggest the &quot;real&quot; miRNA target. The ontology provides the knowledge base for such analysis.</rdfs:comment>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 4 validated miRNA target given five evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level; 5) evidence shows that miRNA regulates the down stream pathway and have biological function impacts.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1029,7 +1059,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000049">
         <rdfs:label xml:lang="en">Zmpste24 -/- mouse</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000017"/>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_10090"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000055"/>
@@ -1204,77 +1234,63 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000074 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000074">
-        <rdfs:label xml:lang="en">Igf1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:2868</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000075 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000075">
-        <rdfs:label xml:lang="en">Bace1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:2191</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000076 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000076">
-        <rdfs:label xml:lang="en">Gja1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:2690</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24392</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000077 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000077">
         <rdfs:label xml:lang="en">Sirt1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasDbXref>RGD:1308542</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/309757</oboInOwl:hasDbXref>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014888</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000078 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000081 -->
 
-    <owl:Class rdf:about="&obo;MIAGO_0000078">
-        <rdfs:label xml:lang="en">Mgst1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:70927</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/171341</oboInOwl:hasDbXref>
+    <owl:Class rdf:about="&obo;MIAGO_0000081">
+        <rdfs:label xml:lang="en">F-box protein 32 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007402"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914981"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000007402</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000079 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000082 -->
 
-    <owl:Class rdf:about="&obo;MIAGO_0000079">
-        <rdfs:label xml:lang="en">Nfe2l2 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/83619</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>RGD:620360</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000080 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000080">
-        <rdfs:label xml:lang="en">Sp1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24790</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>RGD:3738</oboInOwl:hasDbXref>
+    <owl:Class rdf:about="&obo;MIAGO_0000082">
+        <rdfs:label xml:lang="en">dusp6 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006756"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914853"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1282,21 +1298,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000083 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000083">
-        <rdfs:label xml:lang="en">Pten (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/50557</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>RGD:61995</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000084 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000084">
-        <rdfs:label xml:lang="en">Foxo1 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
-        <oboInOwl:hasDbXref>RGD:620283</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/84482</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">NARF protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000010987"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1305,7 +1314,13 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000085">
         <rdfs:label xml:lang="en">Nox4 (rat)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001826"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/85431</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>RGD:620600</oboInOwl:hasDbXref>
     </owl:Class>
@@ -1315,10 +1330,210 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000086 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000086">
-        <rdfs:label xml:lang="en">Spry2 (mouse)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:label xml:lang="en">Spry2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015583"/>
         <oboInOwl:hasDbXref>MGI:1345138</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/24064</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000087 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000087">
+        <rdfs:label xml:lang="en">PTBP2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1860489"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000013411</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000088 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000088">
+        <rdfs:label xml:lang="en">Ppm1d protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013092"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1858214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000089 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000089">
+        <rdfs:label xml:lang="en">Reck protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013859"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1855698"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000090 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000090">
+        <rdfs:label xml:lang="en">Zeb2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000017618"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1344407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000091 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000091">
+        <rdfs:label xml:lang="en">Ppp1r10 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1289273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/gene/52040</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000092 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000092">
+        <rdfs:label xml:lang="en">Ogn protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000011617"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000093 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000093">
+        <rdfs:label xml:lang="en">Ezh2 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007278"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000094 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000094">
+        <rdfs:label xml:lang="en">Pdcd4 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000012455"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107490"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000095 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000095">
+        <rdfs:label xml:lang="en">Tead4 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000016221"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_106907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000096 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000096">
+        <rdfs:label xml:lang="en">Foxo3 protein (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007641"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000097 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000097">
+        <rdfs:label xml:lang="en">pha-4 protein (C.elegans)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000098 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000098">
+        <rdfs:label xml:lang="en">protein skinhead-1 (C.elegans)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1361,6 +1576,183 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000003124 -->
+
+    <owl:Class rdf:about="&obo;PR_000003124">
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q69YH5 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q69YH5">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_14623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q7TNV0 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q7TNV0">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1926209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q8IZD4 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q8IZD4">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_14929"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q8NFY4 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q8NFY4">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_16770"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q92819 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q92819">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_4819"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q92900 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q92900">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_9962"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q96EB6 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q96EB6">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_14929"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q99836 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q99836">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_7562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q99KQ4 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q99KQ4">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1929865"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9BZS1 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q9BZS1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_6106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9H2E6 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q9H2E6">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_10738"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y4K3 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q9Y4K3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_12036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y5W3 -->
+
+    <rdf:Description rdf:about="&obo;PR_Q9Y5W3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;HGNC_6347"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RGD_1305447 -->
 
     <rdf:Description rdf:about="&obo;RGD_1305447">
@@ -1385,6 +1777,22 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RGD_2139 -->
+
+    <rdf:Description rdf:about="&obo;RGD_2139">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_2191 -->
+
+    <rdf:Description rdf:about="&obo;RGD_2191">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RGD_2532 -->
 
     <rdf:Description rdf:about="&obo;RGD_2532">
@@ -1393,9 +1801,57 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RGD_2690 -->
+
+    <rdf:Description rdf:about="&obo;RGD_2690">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_2868 -->
+
+    <rdf:Description rdf:about="&obo;RGD_2868">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_3738 -->
+
+    <rdf:Description rdf:about="&obo;RGD_3738">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RGD_61995 -->
 
     <rdf:Description rdf:about="&obo;RGD_61995">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_620283 -->
+
+    <rdf:Description rdf:about="&obo;RGD_620283">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_620360 -->
+
+    <rdf:Description rdf:about="&obo;RGD_620360">
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RGD_70927 -->
+
+    <rdf:Description rdf:about="&obo;RGD_70927">
         <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
     </rdf:Description>
     

@@ -162,7 +162,6 @@ http://purl.obolibrary.org/obo/MGI_1926209
 http://purl.obolibrary.org/obo/MGI_2447992
 http://purl.obolibrary.org/obo/MGI_1914981
 http://purl.obolibrary.org/obo/PR_O54857
-
 http://purl.obolibrary.org/obo/PR_P01137 #transforming growth factor beta-1 (human)
 http://purl.obolibrary.org/obo/PR_P19320 #vascular cell adhesion protein 1 (human)
 http://purl.obolibrary.org/obo/PR_O75385 #serine/threonine-protein kinase ULK1 (human)
@@ -266,12 +265,78 @@ http://purl.obolibrary.org/obo/PR_P18850 #cyclic AMP-dependent transcription fac
 http://purl.obolibrary.org/obo/PR_P54136 #arginyl-tRNA synthetase, cytoplasmic (human)
 http://purl.obolibrary.org/obo/PR_O95477 #ATP-binding cassette sub-family A member 1 (human)
 http://purl.obolibrary.org/obo/PR_P41233 #ATP-binding cassette sub-family A member 1 (mouse)
-
+http://purl.obolibrary.org/obo/PR_G3V7R4
+http://purl.obolibrary.org/obo/PR_P08592
+http://purl.obolibrary.org/obo/MGI_88256
+http://purl.obolibrary.org/obo/HGNC_336
+http://purl.obolibrary.org/obo/MGI_108407
+http://purl.obolibrary.org/obo/MGI_108072
+http://purl.obolibrary.org/obo/HGNC_5464
+http://purl.obolibrary.org/obo/HGNC_6342
+http://purl.obolibrary.org/obo/HGNC_10647
+http://purl.obolibrary.org/obo/MGI_1914853 #no protein subclassof PR:000006756 
+http://purl.obolibrary.org/obo/HGNC_12428
+http://purl.obolibrary.org/obo/HGNC_1144  #no protein URI subClassOf PR
+http://purl.obolibrary.org/obo/PR_P11798 # calcium/calmodulin-dependent protein kinase type II subunit alpha (mouse)
+http://purl.obolibrary.org/obo/PR_P30556 # type-1 angiotensin II receptor (human)
+http://purl.obolibrary.org/obo/PR_P97428 # regulator of G-protein signaling 16 (mouse)
+http://purl.obolibrary.org/obo/PR_P70196 # TNF receptor-associated factor 6 (mouse)
+http://purl.obolibrary.org/obo/PR_P05019 # insulin-like growth factor I (human)
+http://purl.obolibrary.org/obo/PR_P10721 # mast/stem cell growth factor receptor Kit (human)
+http://purl.obolibrary.org/obo/PR_P78423 # fractalkine (human)
+http://purl.obolibrary.org/obo/PR_Q15672 # twist-related protein 1 (human)
+http://purl.obolibrary.org/obo/PR_000003124
+http://purl.obolibrary.org/obo/PR_000008483
+http://purl.obolibrary.org/obo/PR_000014632 #superClassOf protein coded by http://purl.obolibrary.org/obo/MGI_2387661 
+http://purl.obolibrary.org/obo/PR_000014888 #superClassOf sirt1 (rat) and sirt1 (mouse)
+http://purl.obolibrary.org/obo/PR_Q99KQ4 # ** not in current Ontobee
+http://purl.obolibrary.org/obo/PR_000010967
+http://purl.obolibrary.org/obo/PR_000007402
+http://purl.obolibrary.org/obo/PR_000006415
+http://purl.obolibrary.org/obo/PR_000006756 
+http://purl.obolibrary.org/obo/PR_000010987	
+http://purl.obolibrary.org/obo/MGI_1914858
+http://purl.obolibrary.org/obo/PR_000013411
+http://purl.obolibrary.org/obo/PR_000013092
+http://purl.obolibrary.org/obo/PR_000013859
+http://purl.obolibrary.org/obo/PR_000015583
+http://purl.obolibrary.org/obo/MGI_1345138
+http://purl.obolibrary.org/obo/PR_000017618
+http://purl.obolibrary.org/obo/PR_000013495
+http://purl.obolibrary.org/obo/PR_000011617
+http://purl.obolibrary.org/obo/PR_000007278
+http://purl.obolibrary.org/obo/PR_000012455
+http://purl.obolibrary.org/obo/PR_000016221
+http://purl.obolibrary.org/obo/PR_000017108
+http://purl.obolibrary.org/obo/PR_000001740
+http://purl.obolibrary.org/obo/PR_000009362
+http://purl.obolibrary.org/obo/PR_000001350
+http://purl.obolibrary.org/obo/PR_000006318
+http://purl.obolibrary.org/obo/PR_000013564
+http://purl.obolibrary.org/obo/HGNC_21100
+http://purl.obolibrary.org/obo/PR_000015568
+http://purl.obolibrary.org/obo/HGNC_20249
+http://purl.obolibrary.org/obo/PR_000005220
+http://purl.obolibrary.org/obo/PR_000014629
+http://purl.obolibrary.org/obo/PR_000007641
+http://purl.obolibrary.org/obo/MGI_1890081
+http://purl.obolibrary.org/obo/PR_P18850
+http://purl.obolibrary.org/obo/PR_P05362
+http://purl.obolibrary.org/obo/PR_000008450
+http://purl.obolibrary.org/obo/PR_P08050
+http://purl.obolibrary.org/obo/PR_Q01714
+http://purl.obolibrary.org/obo/PR_O54968
+http://purl.obolibrary.org/obo/PR_P08011
+http://purl.obolibrary.org/obo/PR_P56819
+http://purl.obolibrary.org/obo/PR_P08025
+http://purl.obolibrary.org/obo/PR_000001826
+http://purl.obolibrary.org/obo/PR_000013105
+http://purl.obolibrary.org/obo/PR_000007461
 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670
 
 
 [Source term retrieval setting]
