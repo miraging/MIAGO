@@ -8,7 +8,6 @@
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY go "http://purl.obolibrary.org/obo/go#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
@@ -16,30 +15,29 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;miago_merged.owl#"
-     xml:base="&obo;miago_merged.owl"
+<rdf:RDF xmlns="http://purl.obolibray.org/obo/miago_inferred.owl#"
+     xml:base="http://purl.obolibray.org/obo/miago_inferred.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:go="&obo;go#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;miago_merged.owl">
+    <owl:Ontology rdf:about="http://purl.obolibray.org/obo/miago_inferred.owl">
         <dc:date rdf:datatype="&xsd;date">2009-07-31</dc:date>
         <owl:versionInfo rdf:datatype="&xsd;string">2015-03-17</owl:versionInfo>
         <rdfs:comment rdf:datatype="&xsd;string">Please cite the OBI consortium http://purl.obolibrary.org/obo/obi where traditional citation is called for. However it is adequate that individual terms be attributed simply by use of the identifying PURL for the term, in projects that refer to them.</rdfs:comment>
         <protege:defaultLanguage rdf:datatype="&xsd;string">en</protege:defaultLanguage>
+        <dc:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</dc:contributor>
+        <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <owl:versionInfo>0.1.35</owl:versionInfo>
         <dc:creator xml:lang="en">Alan Ruttenberg</dc:creator>
-        <dc:subject xml:lang="en">An ontology for the annotation of biomedical and functional genomics experiments.</dc:subject>
-        <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <dc:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</dc:contributor>
         <dc:creator xml:lang="en">Allyson Lister</dc:creator>
+        <dc:subject xml:lang="en">An ontology for the annotation of biomedical and functional genomics experiments.</dc:subject>
         <dc:creator xml:lang="en">Barry Smith</dc:creator>
         <dc:creator xml:lang="en">Bill Bug</dc:creator>
         <dc:creator xml:lang="en">Bjoern Peters</dc:creator>
@@ -115,12 +113,6 @@
     
 
 
-    <!-- http://protege.stanford.edu/plugins/owl/protege#defaultLanguage -->
-
-    <owl:AnnotationProperty rdf:about="&protege;defaultLanguage"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
@@ -140,7 +132,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000112">
+    <rdf:Description rdf:about="&obo;IAO_0000112">
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
@@ -148,20 +140,20 @@
         <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114">
+    <rdf:Description rdf:about="&obo;IAO_0000114">
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
         <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
@@ -186,7 +178,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
+    <rdf:Description rdf:about="&obo;IAO_0000116">
         <rdfs:label>editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
@@ -195,7 +187,7 @@
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
@@ -217,14 +209,14 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+    <rdf:Description rdf:about="&obo;IAO_0000118">
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
@@ -246,7 +238,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000232">
+    <rdf:Description rdf:about="&obo;IAO_0000232">
         <rdfs:label>curator note</rdfs:label>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
@@ -254,13 +246,13 @@
         <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+    <rdf:Description rdf:about="&obo;IAO_0000412">
         <rdfs:label>imported from</rdfs:label>
         <rdfs:label xml:lang="en">imported from</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
@@ -269,225 +261,112 @@
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000424">
+    <rdf:Description rdf:about="&obo;IAO_0000424">
         <rdfs:label xml:lang="en">expand expression to</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000600">
+    <rdf:Description rdf:about="&obo;IAO_0000600">
         <rdfs:label xml:lang="en">elucidation</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;OBI_0001847">
+    <rdf:Description rdf:about="&obo;OBI_0001847">
         <rdfs:label xml:lang="en">ISA alternative term</rdfs:label>
         <obo:IAO_0000119>ISA tools project (http://isa-tools.org)</obo:IAO_0000119>
         <obo:IAO_0000117>Person: Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">ISA alternative term</obo:IAO_0000111>
         <obo:IAO_0000117>Person: Alejandra Gonzalez-Beltran</obo:IAO_0000117>
         <obo:IAO_0000115>An alternative term used by the ISA tools project (http://isa-tools.org).</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;OBI_9991118">
+    <rdf:Description rdf:about="&obo;OBI_9991118">
         <rdfs:label rdf:datatype="&xsd;string">IEDB alternative term</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An alternative term used by the IEDB.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">IEDB</obo:IAO_0000119>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">IEDB alternative term</obo:IAO_0000111>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</obo:IAO_0000117>
-        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;RO_0001900">
+    <rdf:Description rdf:about="&obo;RO_0001900">
         <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
         <foaf:page rdf:datatype="&xsd;anyURI">https://code.google.com/p/obo-relations/wiki/ROAndTime</foaf:page>
         <obo:IAO_0000115>An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002422"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002416 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;RO_0002416">
-        <rdfs:label xml:lang="en">logical macro assertion</rdfs:label>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://code.google.com/p/obo-relations/wiki/ShortcutRelations</foaf:page>
-        <obo:IAO_0000115>An assertion that holds between two classes that is intended to be expanded into one or more logical axioms. The logical expansion can yield axioms expressed using any formal logical system, including, but not limited to OWL2-DL.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002421 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;RO_0002421">
-        <rdfs:label xml:lang="en">logical macro assertion on a property</rdfs:label>
-        <obo:IAO_0000115>A logical macro assertion whose domain is an IRI for a property</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002416"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002422 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;RO_0002422">
-        <rdfs:label xml:lang="en">logical macro assertion on an object property</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002421"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_aspergillus -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_aspergillus">
-        <rdfs:comment rdf:datatype="&xsd;string">Aspergillus GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_candida -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_candida">
-        <rdfs:comment rdf:datatype="&xsd;string">Candida GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_generic -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_generic">
-        <rdfs:comment rdf:datatype="&xsd;string">Generic GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_metagenomics -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_metagenomics">
-        <rdfs:comment rdf:datatype="&xsd;string">Metagenomics GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_pir -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_pir">
-        <rdfs:comment rdf:datatype="&xsd;string">PIR GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_plant -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_plant">
-        <rdfs:comment rdf:datatype="&xsd;string">Plant GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_pombe -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_pombe">
-        <rdfs:comment rdf:datatype="&xsd;string">Fission yeast GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_yeast -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#goslim_yeast">
-        <rdfs:comment rdf:datatype="&xsd;string">Yeast GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#gosubset_prok -->
-
-    <owl:AnnotationProperty rdf:about="&obo;go#gosubset_prok">
-        <rdfs:comment rdf:datatype="&xsd;string">Prokaryotic GO subset</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
-    <owl:AnnotationProperty rdf:about="&dc;contributor">
+    <rdf:Description rdf:about="&dc;contributor">
         <rdfs:label>Contributor</rdfs:label>
         <rdfs:label xml:lang="en-us">Contributor</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator">
+    <rdf:Description rdf:about="&dc;creator">
         <rdfs:label>Creator</rdfs:label>
         <rdfs:label xml:lang="en-us">Creator</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
-    <owl:AnnotationProperty rdf:about="&dc;date">
+    <rdf:Description rdf:about="&dc;date">
         <rdfs:label>Date</rdfs:label>
         <rdfs:label xml:lang="en-us">Date</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="&dc;description">
+    <rdf:Description rdf:about="&dc;description">
         <rdfs:label>Description</rdfs:label>
         <rdfs:label xml:lang="en-us">Description</rdfs:label>
         <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/format -->
 
-    <owl:AnnotationProperty rdf:about="&dc;format">
+    <rdf:Description rdf:about="&dc;format">
         <rdfs:label>Format</rdfs:label>
         <rdfs:label xml:lang="en-us">Format</rdfs:label>
         <rdfs:comment xml:lang="en-us">The physical or digital manifestation of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
@@ -499,37 +378,29 @@
 
     <!-- http://purl.org/dc/elements/1.1/subject -->
 
-    <owl:AnnotationProperty rdf:about="&dc;subject">
+    <rdf:Description rdf:about="&dc;subject">
         <rdfs:label>Subject and Keywords</rdfs:label>
         <rdfs:label xml:lang="en-us">Subject and Keywords</rdfs:label>
         <rdfs:comment xml:lang="en-us">The topic of the content of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
-    <owl:AnnotationProperty rdf:about="&dc;title">
+    <rdf:Description rdf:about="&dc;title">
         <rdfs:label>Title</rdfs:label>
         <rdfs:label xml:lang="en-us">Title</rdfs:label>
         <rdfs:comment xml:lang="en-us">A name given to the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://usefulinc.com/ns/doap#file-release -->
 
     <owl:AnnotationProperty rdf:about="&doap;file-release"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;SubsetProperty">
-        <rdfs:label rdf:datatype="&xsd;string">subset_property</rdfs:label>
-    </owl:AnnotationProperty>
     
 
 
@@ -547,49 +418,49 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
+    <rdf:Description rdf:about="&oboInOwl;hasAlternativeId">
         <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasBroadSynonym">
+    <rdf:Description rdf:about="&oboInOwl;hasBroadSynonym">
         <rdfs:label rdf:datatype="&xsd;string">has_broad_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+    <rdf:Description rdf:about="&oboInOwl;hasDbXref">
         <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+    <rdf:Description rdf:about="&oboInOwl;hasExactSynonym">
         <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+    <rdf:Description rdf:about="&oboInOwl;hasOBONamespace">
         <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+    <rdf:Description rdf:about="&oboInOwl;hasRelatedSynonym">
         <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
@@ -601,15 +472,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
+    <rdf:Description rdf:about="&oboInOwl;inSubset">
         <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
-
-    <owl:AnnotationProperty rdf:about="&owl;versionInfo"/>
+    </rdf:Description>
     
 
 
@@ -728,6 +593,7 @@
         <obo:IAO_0000112 xml:lang="en">this investigator role is realized in this investigation</obo:IAO_0000112>
         <rdfs:range rdf:resource="&obo;BFO_0000007"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000017"/>
+        <owl:inverseOf rdf:resource="&obo;BFO_0000055"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -747,7 +613,6 @@
         <obo:IAO_0000600 xml:lang="en">to say that b realizes c at t is to assert that there is some material entity d &amp; b is a process which has participant d at t &amp; c is a disposition or role of which d is bearer_of at t&amp; the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])</obo:IAO_0000600>
         <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
         <rdfs:range rdf:resource="&obo;BFO_0000017"/>
-        <owl:inverseOf rdf:resource="&obo;BFO_0000054"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -761,6 +626,7 @@
         <rdfs:label xml:lang="en">participates in</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <owl:inverseOf rdf:resource="&obo;BFO_0000057"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:ObjectProperty>
     
@@ -774,7 +640,6 @@
         <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
         <rdfs:range rdf:resource="&obo;BFO_0000002"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
-        <owl:inverseOf rdf:resource="&obo;BFO_0000056"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000055"/>
@@ -791,6 +656,7 @@
         <obo:IAO_0000111 xml:lang="en">is concretized as</obo:IAO_0000111>
         <rdfs:range rdf:resource="&obo;BFO_0000020"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000031"/>
+        <owl:inverseOf rdf:resource="&obo;BFO_0000059"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:ObjectProperty>
     
@@ -803,7 +669,6 @@
         <obo:IAO_0000111 xml:lang="en">concretizes</obo:IAO_0000111>
         <rdfs:domain rdf:resource="&obo;BFO_0000020"/>
         <rdfs:range rdf:resource="&obo;BFO_0000031"/>
-        <owl:inverseOf rdf:resource="&obo;BFO_0000058"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:ObjectProperty>
     
@@ -852,35 +717,35 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000082 -->
 
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000082">
+    <rdf:Description rdf:about="&obo;BFO_0000082">
         <rdfs:label xml:lang="en">is located in</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">is located in</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">located in</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">located_in</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000085 -->
 
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000085">
+    <rdf:Description rdf:about="&obo;BFO_0000085">
         <rdfs:label xml:lang="en">has function</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">has function</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">has_function</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000087 -->
 
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000087">
+    <rdf:Description rdf:about="&obo;BFO_0000087">
         <rdfs:label xml:lang="en">has role</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">has role</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -933,9 +798,9 @@
 
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000032 -->
 
-    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000032">
+    <rdf:Description rdf:about="&obo;MIAGO_0000032">
         <rdfs:label xml:lang="en">hasAnalyte</rdfs:label>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -949,6 +814,7 @@ equivelant to:
 ?x has_specified_output some (&apos;measurement data item&apos; and (&apos;is about&apos; some ?y))</rdfs:comment>
         <rdfs:comment>the chain property of &apos;has sepcidic output&apos; o &apos;is about&apos;</rdfs:comment>
         <rdfs:range rdf:resource="&obo;GO_0008150"/>
+        <owl:inverseOf rdf:resource="&obo;MIAGO_0000062"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000070"/>
     </owl:ObjectProperty>
     
@@ -968,9 +834,9 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000047 -->
 
-    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000047">
+    <rdf:Description rdf:about="&obo;MIAGO_0000047">
         <rdfs:label xml:lang="en">miRNA target evidence role</rdfs:label>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -986,9 +852,9 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000055 -->
 
-    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000055">
+    <rdf:Description rdf:about="&obo;MIAGO_0000055">
         <rdfs:label xml:lang="en">has disposition</rdfs:label>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -996,7 +862,6 @@ equivelant to:
 
     <owl:ObjectProperty rdf:about="&obo;MIAGO_0000062">
         <rdfs:label xml:lang="en">biological process indicated by assay</rdfs:label>
-        <owl:inverseOf rdf:resource="&obo;MIAGO_0000033"/>
     </owl:ObjectProperty>
     
 
@@ -1203,6 +1068,7 @@ equivelant to:
         <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
         <rdfs:domain rdf:resource="&obo;BFO_0000002"/>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0000057"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
@@ -1222,16 +1088,15 @@ equivelant to:
         <obo:IAO_0000112 xml:lang="en">this process has participant this input material (or this output material)</obo:IAO_0000112>
         <rdfs:range rdf:resource="&obo;BFO_0000002"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0000056"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0000057"/>
-        </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
             <rdf:Description rdf:about="&obo;BFO_0000055"/>
             <rdf:Description rdf:about="&obo;RO_0000052"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;RO_0000057"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -1275,15 +1140,16 @@ equivelant to:
         <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
         <rdfs:range rdf:resource="&obo;BFO_0000007"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002334"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -1323,7 +1189,7 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/RO_0002214 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002214">
+    <rdf:Description rdf:about="&obo;RO_0002214">
         <rdfs:label xml:lang="en">has prototype</rdfs:label>
         <obo:IAO_0000112>heart SubClassOf &apos;has prototype&apos; some (&apos;participates in&apos; some &apos;blood circulation&apos;)</obo:IAO_0000112>
         <obo:IAO_0000112>&apos;human p53 protein&apos; SubClassOf some (&apos;has prototype&apos; some (&apos;participates in&apos; some &apos;DNA repair&apos;))</obo:IAO_0000112>
@@ -1332,7 +1198,7 @@ equivelant to:
         <obo:IAO_0000115>x has prototype y if and only if x is an instance of C and y is a prototypical instance of C. For example, every instance of heart, both normal and abnormal is related by the has prototype relation to some instance of a &quot;canonical&quot; heart, which participates in blood circulation.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -1370,7 +1236,6 @@ equivelant to:
         <obo:IAO_0000115>x actively participates in y if and only if x participates in y and x realizes some active role</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0002218"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
@@ -1386,6 +1251,7 @@ equivelant to:
         <obo:IAO_0000115>x has participant y if and only if x realizes some active role that inheres in y</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0000057"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002217"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
@@ -1458,14 +1324,14 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002323">
+    <rdf:Description rdf:about="&obo;RO_0002323">
         <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
         <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships</obo:IAO_0000232>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -1486,12 +1352,12 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/RO_0002328 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002328">
+    <rdf:Description rdf:about="&obo;RO_0002328">
         <rdfs:label xml:lang="en">functionally related to</rdfs:label>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>This is a grouping relation that collects relations used for the purpose of connecting structure and function</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -1505,11 +1371,11 @@ equivelant to:
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002431"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1523,7 +1389,6 @@ equivelant to:
         <obo:IAO_0000115>inverse of regulates</obo:IAO_0000115>
         <rdfs:range rdf:resource="&obo;BFO_0000007"/>
         <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0002211"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002427"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
@@ -1561,6 +1426,7 @@ equivelant to:
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label>causally upstream of or within</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002410"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002427"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
@@ -1572,7 +1438,6 @@ equivelant to:
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label>causally downstream of or within</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002410"/>
-        <owl:inverseOf rdf:resource="&obo;RO_0002418"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
@@ -1586,11 +1451,11 @@ equivelant to:
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002431"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1604,11 +1469,11 @@ equivelant to:
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002428"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;RO_0002213"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;RO_0002213"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1622,11 +1487,11 @@ equivelant to:
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002428"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;RO_0002212"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;RO_0002212"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1647,28 +1512,28 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/RO_0002502 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002502">
+    <rdf:Description rdf:about="&obo;RO_0002502">
         <rdfs:label>depends on</rdfs:label>
         <rdfs:seeAlso rdf:resource="&obo;BFO_0000169"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/pr#has_gene_template -->
 
-    <owl:ObjectProperty rdf:about="&obo;pr#has_gene_template">
+    <rdf:Description rdf:about="&obo;pr#has_gene_template">
         <rdfs:label rdf:datatype="&xsd;string">has_gene_template</rdfs:label>
         <oboInOwl:id rdf:datatype="&xsd;string">has_gene_template</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/pr#only_in_taxon -->
 
-    <owl:ObjectProperty rdf:about="&obo;pr#only_in_taxon">
+    <rdf:Description rdf:about="&obo;pr#only_in_taxon">
         <rdfs:label rdf:datatype="&xsd;string">only_in_taxon</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Down-propagates. The original name for this in the paper is &apos;specific_to&apos;. Applicable to genes because some genes are lost in sub-species (strains) of a species.</rdfs:comment>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">U only_in_taxon T: U is a feature found in only in organisms of species of taxon T. The feature cannot be found in an organism of any species outside of (not subsumed by) that taxon. Down-propagates in U hierarchy, up-propagates in T hierarchy (species taxonomy). Implies applicable_to_taxon.</obo:IAO_0000115>
@@ -1678,7 +1543,7 @@ equivelant to:
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">specific_to</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">specific_to_taxon</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
-    </owl:ObjectProperty>
+    </rdf:Description>
     
 
 
@@ -1695,10 +1560,10 @@ equivelant to:
 
     <!-- http://usefulinc.com/ns/doap#revision -->
 
-    <owl:DatatypeProperty rdf:about="&doap;revision">
+    <rdf:Description rdf:about="&doap;revision">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://usefulinc.com/ns/doap"/>
-    </owl:DatatypeProperty>
+    </rdf:Description>
     
 
 
@@ -1715,11 +1580,11 @@ equivelant to:
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000001">
+    <rdf:Description rdf:about="&obo;BFO_0000001">
         <rdfs:label xml:lang="en">entity</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">entity</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </owl:Class>
+    </rdf:Description>
     
 
 
@@ -5756,6 +5621,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000002"/>
         <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6036,6 +5902,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000009">
         <rdfs:label xml:lang="en">miRNA mimic decreasing target protein expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6051,6 +5918,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000010">
         <rdfs:label xml:lang="en">miRNA inhibitor increasing target protein expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6084,6 +5952,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000013">
         <rdfs:label xml:lang="en">miRNA target protein co-expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000006"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000037"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6186,6 +6055,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000022">
         <rdfs:label xml:lang="en">miRNA down regulating target protein expression conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000007"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6313,6 +6183,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000037">
         <rdfs:label xml:lang="en">miRNA target experimental conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000004"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6328,6 +6199,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000038">
         <rdfs:label xml:lang="en">miRNA target gene mRNA binding conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000005"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000037"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6355,6 +6227,7 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
     </owl:Class>
     
 
@@ -6375,6 +6248,7 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
         <dc:creator>YL</dc:creator>
         <obo:IAO_0000115>an information content entity that asuming the pair of miRNA and its target, which is validated by experimental evidence</obo:IAO_0000115>
     </owl:Class>
@@ -6400,6 +6274,8 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000039"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000040"/>
         <dc:creator xml:lang="en">YL</dc:creator>
         <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 1 validated miRNA target assumption when given two evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction</obo:IAO_0000115>
     </owl:Class>
@@ -6429,6 +6305,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000041"/>
         <dc:creator xml:lang="en">YL</dc:creator>
         <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 2 validated miRNA target assumption when given three evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence</obo:IAO_0000115>
     </owl:Class>
@@ -6462,6 +6339,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000042"/>
         <dc:creator xml:lang="en">YL</dc:creator>
         <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 3 validated miRNA target assumption when given four evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level</obo:IAO_0000115>
     </owl:Class>
@@ -6499,6 +6377,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000043"/>
         <rdfs:comment xml:lang="en">This level of validating miRNA target maybe close to Bona fide miRNA target. However, it can not be determined using pure ontology reasoning approach. Based on the evidence given by ontology isntances, a network analysis maybe conducted to suggest the &quot;real&quot; miRNA target. The ontology provides the knowledge base for such analysis.</rdfs:comment>
         <dc:creator xml:lang="en">YL</dc:creator>
         <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 4 validated miRNA target assumption when given five evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level; 5) evidence shows that miRNA regulates the down stream pathway and have biological function impacts.</obo:IAO_0000115>
@@ -6510,6 +6389,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000046">
         <rdfs:label xml:lang="en">software predicted miRNA target conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000003"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6607,6 +6487,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000057">
         <rdfs:label xml:lang="en">miRNA target conclusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000001"/>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6788,6 +6669,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000080">
         <rdfs:label xml:lang="en">miR-29a targeting Ppm1d assumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000042"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6897,6 +6779,7 @@ equivelant to:
 
     <owl:Class rdf:about="&obo;MIAGO_0000084">
         <rdfs:label xml:lang="en">miRNA1 targeting 2 assumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000039"/>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13501,6 +13384,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000010831"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13535,6 +13419,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015582"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13570,6 +13455,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015596"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13605,6 +13491,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015597"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13637,6 +13524,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015568"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13669,6 +13557,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007640"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13704,6 +13593,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000012725"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13736,6 +13626,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006151"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13768,6 +13659,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000028746"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13803,6 +13695,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000004617"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13835,6 +13728,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005048"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13867,6 +13761,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015596"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13900,6 +13795,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015597"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13933,6 +13829,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -13965,6 +13862,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001855"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14004,6 +13902,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14038,6 +13937,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014629"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14077,6 +13977,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015596"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14110,6 +14011,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015394"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14148,6 +14050,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003158"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14182,6 +14085,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009364"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14214,6 +14118,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002187"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14246,6 +14151,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015583"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14278,6 +14184,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000028746"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14315,6 +14222,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000011170"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14351,6 +14259,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015874"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14383,6 +14292,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000016529"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14415,6 +14325,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015441"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14447,6 +14358,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000017077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14479,6 +14391,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013758"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14511,6 +14424,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003537"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14543,6 +14457,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015399"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14575,6 +14490,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006933"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14607,6 +14523,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000084"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14639,6 +14556,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000084"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14673,6 +14591,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14705,6 +14624,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009190"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14737,6 +14657,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000134"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14770,6 +14691,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14802,6 +14724,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14839,6 +14762,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001393"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14871,6 +14795,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001467"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14903,6 +14828,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000010390"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14938,6 +14864,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -14973,6 +14900,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000133"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15005,6 +14933,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008373"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15041,6 +14970,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15073,6 +15003,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003328"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15105,6 +15036,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000004168"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15142,6 +15074,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000014165"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15174,6 +15107,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008644"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15206,6 +15140,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15238,6 +15173,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001395"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15271,6 +15207,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002123"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15303,6 +15240,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002307"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15335,6 +15273,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002307"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15368,6 +15307,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000010390"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15400,6 +15340,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15432,6 +15373,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002123"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15473,6 +15415,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15510,6 +15453,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15544,6 +15488,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002060"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15576,6 +15521,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003199"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15610,6 +15556,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005257"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15642,6 +15589,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007221"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15674,6 +15622,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15706,6 +15655,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001415"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15738,6 +15688,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013410"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15774,6 +15725,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000004402"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15806,6 +15758,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001970"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15838,6 +15791,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001754"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15871,6 +15825,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006069"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15903,6 +15858,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006897"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15938,6 +15894,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006897"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -15973,6 +15930,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005121"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16006,6 +15964,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000012316"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16039,6 +15998,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005253"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16073,6 +16033,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006606"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16105,6 +16066,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000012724"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16138,6 +16100,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013457"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16174,6 +16137,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000012498"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16206,6 +16170,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005191"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16238,6 +16203,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001251"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16270,6 +16236,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000129"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16303,6 +16270,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000009107"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16335,6 +16303,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000016354"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16371,6 +16340,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015432"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16405,6 +16375,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000095"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16448,6 +16419,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003537"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16484,6 +16456,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003041"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16516,6 +16489,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001127"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16548,6 +16522,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005882"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16580,6 +16555,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003090"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16614,6 +16590,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003090"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16646,6 +16623,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000042"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16678,6 +16656,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16710,6 +16689,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16743,6 +16723,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005200"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16775,6 +16756,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008686"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16807,6 +16789,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005275"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16839,6 +16822,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005275"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16874,6 +16858,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001782"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16909,6 +16894,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000008866"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16941,6 +16927,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013742"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -16974,6 +16961,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17007,6 +16995,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013670"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17039,6 +17028,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000004615"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17071,6 +17061,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000004615"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17111,6 +17102,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000007644"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17143,6 +17135,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001158"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17175,6 +17168,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000028746"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17207,6 +17201,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17239,6 +17234,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000002292"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17272,6 +17268,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000363"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17316,6 +17313,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000011634"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17348,6 +17346,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000001855"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17380,6 +17379,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17418,6 +17418,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000015597"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17451,6 +17452,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17489,6 +17491,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000128"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17529,6 +17532,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000005264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17561,6 +17565,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006852"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17593,6 +17598,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000003265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17627,6 +17633,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000133"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17659,6 +17666,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013875"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17692,6 +17700,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000013056"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17724,6 +17733,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000016846"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17756,6 +17766,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000011170"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17788,6 +17799,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006756"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17820,6 +17832,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000006755"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -17853,6 +17866,7 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000016663"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
@@ -18551,9 +18565,9 @@ equivelant to:
 
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
-    <owl:Class rdf:about="&owl;Thing">
+    <rdf:Description rdf:about="&owl;Thing">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </owl:Class>
+    </rdf:Description>
     
 
 
@@ -18571,7 +18585,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000002">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">example to be eventually removed</rdfs:label>
         <obo:IAO_0000111 xml:lang="en">example to be eventually removed</obo:IAO_0000111>
     </owl:NamedIndividual>
@@ -18581,7 +18602,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000120">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">metadata complete</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">metadata complete</obo:IAO_0000111>
@@ -18592,7 +18620,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000121 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000121">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">organizational term</rdfs:label>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">organizational term</obo:IAO_0000111>
@@ -18604,7 +18639,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000122">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">ready for release</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking &quot;ready_for_release&quot; should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed &quot;ready_for_release&quot; will also derived from a chain of ancestor classes that are also &quot;ready_for_release.&quot;</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">ready for release</obo:IAO_0000111>
@@ -18616,7 +18658,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000123 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000123">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">metadata incomplete</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">metadata incomplete</obo:IAO_0000111>
@@ -18627,7 +18676,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000124 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000124">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">uncurated</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">Nothing done yet beyond assigning a unique class ID and proposing a preferred term.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">uncurated</obo:IAO_0000111>
@@ -18638,7 +18694,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000125">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">pending final vetting</obo:IAO_0000111>
@@ -18650,7 +18713,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000423 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000423">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">to be replaced with external ontology term</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Terms with this status should eventually replaced with a term from another ontology.</obo:IAO_0000115>
@@ -18663,7 +18733,14 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
 
     <owl:NamedIndividual rdf:about="&obo;IAO_0000428">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000027"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
         <rdf:type rdf:resource="&obo;IAO_0000078"/>
+        <rdf:type rdf:resource="&obo;IAO_0000102"/>
         <rdfs:label xml:lang="en">requires discussion</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
@@ -18677,7 +18754,17 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000026 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000026">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;ECO_0000000"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000001"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000003"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000046"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000057"/>
+        <rdf:type rdf:resource="&obo;OBI_0001909"/>
         <rdfs:label xml:lang="en">predicted conclusion_1</rdfs:label>
     </owl:NamedIndividual>
     
@@ -18686,6 +18773,15 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000059 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000059">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
+        <rdf:type rdf:resource="&obo;IAO_0000310"/>
+        <rdf:type rdf:resource="&obo;IAO_0000311"/>
+        <rdf:type rdf:resource="&obo;IAO_0000312"/>
+        <rdf:type rdf:resource="&obo;MIAGGO_000020"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000030"/>
         <rdfs:label xml:lang="en">publication 21522133</rdfs:label>
     </owl:NamedIndividual>
@@ -18695,7 +18791,21 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000060 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000060">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;ECO_0000000"/>
+        <rdf:type rdf:resource="&obo;ECO_0000006"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000001"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000004"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000014"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000015"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000037"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000056"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000057"/>
+        <rdf:type rdf:resource="&obo;OBI_0001909"/>
         <rdfs:label xml:lang="en">miR-29a is upregulated in Zmpste24 -/- progeroid mice</rdfs:label>
         <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0000059"/>
     </owl:NamedIndividual>
@@ -18705,6 +18815,11 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000063 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000063">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000003"/>
+        <rdf:type rdf:resource="&obo;BFO_0000007"/>
+        <rdf:type rdf:resource="&obo;OBI_0000011"/>
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
         <rdf:type rdf:resource="&obo;OBI_0000893"/>
         <rdfs:label xml:lang="en">stem loop qPCR_1</rdfs:label>
     </owl:NamedIndividual>
@@ -18714,7 +18829,20 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000099 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000099">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;ECO_0000000"/>
+        <rdf:type rdf:resource="&obo;ECO_0000006"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000001"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000004"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000005"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000037"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000038"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000057"/>
+        <rdf:type rdf:resource="&obo;OBI_0001909"/>
         <rdfs:label xml:lang="en">miR-29a and Ppmid mRNA binding conclusion</rdfs:label>
         <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0000059"/>
         <obo:MIAGO_0000104 rdf:resource="&obo;MIAGO_0000102"/>
@@ -18725,7 +18853,17 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000100 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000100">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;ECO_0000000"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000001"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000003"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000046"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000057"/>
+        <rdf:type rdf:resource="&obo;OBI_0001909"/>
         <rdfs:label xml:lang="en">general bioinformatics predicted miRNA target conclusion 1</rdfs:label>
         <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0000059"/>
     </owl:NamedIndividual>
@@ -18735,7 +18873,12 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000102 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000102">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000003"/>
+        <rdf:type rdf:resource="&obo;BFO_0000007"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000101"/>
+        <rdf:type rdf:resource="&obo;OBI_0000011"/>
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
         <rdfs:label xml:lang="en">luciferase assay 1</rdfs:label>
     </owl:NamedIndividual>
     
@@ -18744,23 +18887,22 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000103 -->
 
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000103">
+        <rdf:type rdf:resource="&obo;BFO_0000001"/>
+        <rdf:type rdf:resource="&obo;BFO_0000002"/>
+        <rdf:type rdf:resource="&obo;BFO_0000005"/>
+        <rdf:type rdf:resource="&obo;BFO_0000031"/>
+        <rdf:type rdf:resource="&obo;ECO_0000000"/>
+        <rdf:type rdf:resource="&obo;ECO_0000006"/>
+        <rdf:type rdf:resource="&obo;IAO_0000030"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000001"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000004"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000006"/>
         <rdf:type rdf:resource="&obo;MIAGO_0000013"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000037"/>
+        <rdf:type rdf:resource="&obo;MIAGO_0000057"/>
+        <rdf:type rdf:resource="&obo;OBI_0001909"/>
         <rdfs:label xml:lang="en">miR-29a and Ppm1d co-expression conclusion</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0001901 -->
-
-    <owl:NamedIndividual rdf:about="&obo;RO_0001901">
-        <rdfs:label xml:lang="en">axiom holds for all times</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/obi.owl -->
-
-    <owl:NamedIndividual rdf:about="&obo;obi.owl"/>
     
 
 
@@ -18777,15 +18919,59 @@ equivelant to:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/obi/wiki/Releases/2015-03-17 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:NamedIndividual rdf:about="&obo;obi/wiki/Releases/2015-03-17"/>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap -->
-
-    <owl:NamedIndividual rdf:about="http://usefulinc.com/ns/doap"/>
+    <rdf:Description rdf:about="&obo;go#goslim_candida">
+        <rdfs:comment rdf:datatype="&xsd;string">Candida GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0001901">
+        <rdfs:label xml:lang="en">axiom holds for all times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_yeast">
+        <rdfs:comment rdf:datatype="&xsd;string">Yeast GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0002416">
+        <rdfs:label xml:lang="en">logical macro assertion</rdfs:label>
+        <foaf:page rdf:datatype="&xsd;anyURI">https://code.google.com/p/obo-relations/wiki/ShortcutRelations</foaf:page>
+        <obo:IAO_0000115>An assertion that holds between two classes that is intended to be expanded into one or more logical axioms. The logical expansion can yield axioms expressed using any formal logical system, including, but not limited to OWL2-DL.</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_aspergillus">
+        <rdfs:comment rdf:datatype="&xsd;string">Aspergillus GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_pir">
+        <rdfs:comment rdf:datatype="&xsd;string">PIR GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_generic">
+        <rdfs:comment rdf:datatype="&xsd;string">Generic GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0002422">
+        <rdfs:label xml:lang="en">logical macro assertion on an object property</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_pombe">
+        <rdfs:comment rdf:datatype="&xsd;string">Fission yeast GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#gosubset_prok">
+        <rdfs:comment rdf:datatype="&xsd;string">Prokaryotic GO subset</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_plant">
+        <rdfs:comment rdf:datatype="&xsd;string">Plant GO slim</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;RO_0002421">
+        <rdfs:label xml:lang="en">logical macro assertion on a property</rdfs:label>
+        <obo:IAO_0000115>A logical macro assertion whose domain is an IRI for a property</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="&oboInOwl;SubsetProperty">
+        <rdfs:label rdf:datatype="&xsd;string">subset_property</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;go#goslim_metagenomics">
+        <rdfs:comment rdf:datatype="&xsd;string">Metagenomics GO slim</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 

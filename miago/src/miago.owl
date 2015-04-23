@@ -119,7 +119,7 @@ equivelant to:
         <obo:IAO_0000115>a relation between a molecular entity and an evidence, when this molecular entity is considered as a miRNA target based on the evidence given by any assertion method, for example, a computational method such as a miRNA target software or algorithm.</obo:IAO_0000115>
         <rdfs:comment>In the implementation, the assertion of target is based on the conclusion from experiments or softwares. Since all the conclusion here beares the evidence role, we do put the target based on link to the conclusion instance, instead of the evidence itself.</rdfs:comment>
         <rdfs:range rdf:resource="&obo;MIAGO_0000001"/>
-        <rdfs:domain rdf:resource="&obo;MIAGO_0000002"/>
+        <rdfs:domain rdf:resource="&obo;MIAGO_0000079"/>
     </owl:ObjectProperty>
     
 
@@ -210,6 +210,16 @@ equivelant to:
         <rdfs:label xml:lang="en">is about miRNA</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
         <rdfs:range rdf:resource="&obo;SO_0000276"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000104 -->
+
+    <owl:ObjectProperty rdf:about="&obo;MIAGO_0000104">
+        <rdfs:label xml:lang="en">conclusion based on data measured by assay</rdfs:label>
+        <rdfs:domain rdf:resource="&obo;MIAGO_0000057"/>
+        <rdfs:range rdf:resource="&obo;OBI_0000070"/>
     </owl:ObjectProperty>
     
 
@@ -1267,14 +1277,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_95489"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_95489"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1323,6 +1333,42 @@ equivelant to:
     <owl:Class rdf:about="&obo;MIAGO_0000080">
         <rdfs:label xml:lang="en">miR-29a targeting Ppm1d assumption</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000076"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000076"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1858214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000078"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1377,14 +1423,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000010987"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1914858"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914858"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1430,14 +1476,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000015583"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1345138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1345138"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>MGI:1345138</oboInOwl:hasDbXref>
@@ -1551,14 +1597,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000007278"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107940"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_107940"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1648,6 +1694,1302 @@ equivelant to:
                 <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_6239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000101 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000101">
+        <rdfs:label xml:lang="en">luciferase assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000105 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000105">
+        <rdfs:label xml:lang="en">let-7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000106 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000106">
+        <rdfs:label xml:lang="en">Let-7b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000107 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000107">
+        <rdfs:label xml:lang="en">let-7b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000108 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000108">
+        <rdfs:label xml:lang="en">Let-7e</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000109 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000109">
+        <rdfs:label xml:lang="en">miR-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000110 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000110">
+        <rdfs:label xml:lang="en">miR-10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000111 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000111">
+        <rdfs:label xml:lang="en">miR-101</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000112 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000112">
+        <rdfs:label xml:lang="en">miR-103</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000113 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000113">
+        <rdfs:label xml:lang="en">miR-106b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000114 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000114">
+        <rdfs:label xml:lang="en">miR-107</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000115 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000115">
+        <rdfs:label xml:lang="en">miR-10a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000116 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000116">
+        <rdfs:label xml:lang="en">miR-122</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000117 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000117">
+        <rdfs:label xml:lang="en">miR-124</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000118 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000118">
+        <rdfs:label xml:lang="en">miR-1248</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000119 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000119">
+        <rdfs:label xml:lang="en">miR-125a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000120 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000120">
+        <rdfs:label xml:lang="en">miR-125a-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000121 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000121">
+        <rdfs:label xml:lang="en">miR-125b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000122 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000122">
+        <rdfs:label xml:lang="en">miR-126</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000123 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000123">
+        <rdfs:label xml:lang="en">miR-128</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000124 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000124">
+        <rdfs:label xml:lang="en">miR-130b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000125 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000125">
+        <rdfs:label xml:lang="en">miR-131b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000126 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000126">
+        <rdfs:label xml:lang="en">miR-132</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000127 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000127">
+        <rdfs:label xml:lang="en">miR-133a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000128 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000128">
+        <rdfs:label xml:lang="en">miR-134</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000129 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000129">
+        <rdfs:label xml:lang="en">miR-135a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000130 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000130">
+        <rdfs:label xml:lang="en">miR-136</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000131 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000131">
+        <rdfs:label xml:lang="en">miR-137</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000132 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000132">
+        <rdfs:label xml:lang="en">miR-138-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000133 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000133">
+        <rdfs:label xml:lang="en">miR-141</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000134 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000134">
+        <rdfs:label xml:lang="en">miR-142-3p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000135 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000135">
+        <rdfs:label xml:lang="en">miR-142-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000136 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000136">
+        <rdfs:label xml:lang="en">miR-143</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000137 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000137">
+        <rdfs:label xml:lang="en">miR-144</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000138 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000138">
+        <rdfs:label xml:lang="en">miR-145</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000139 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000139">
+        <rdfs:label xml:lang="en">miR-146</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000140 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000140">
+        <rdfs:label xml:lang="en">miR-146a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000141 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000141">
+        <rdfs:label xml:lang="en">miR-146b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000142 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000142">
+        <rdfs:label xml:lang="en">miR-148a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000143 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000143">
+        <rdfs:label xml:lang="en">miR-148b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000144 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000144">
+        <rdfs:label xml:lang="en">miR-149</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000145 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000145">
+        <rdfs:label xml:lang="en">miR-15</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000146 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000146">
+        <rdfs:label xml:lang="en">miR-150</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000147 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000147">
+        <rdfs:label xml:lang="en">miR-151a/b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000148 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000148">
+        <rdfs:label xml:lang="en">miR-152</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000149 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000149">
+        <rdfs:label xml:lang="en">miR-153</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000150 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000150">
+        <rdfs:label xml:lang="en">miR-1538</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000151 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000151">
+        <rdfs:label xml:lang="en">miR-155</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000152 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000152">
+        <rdfs:label xml:lang="en">miR-15a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000153 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000153">
+        <rdfs:label xml:lang="en">miR-15b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000154 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000154">
+        <rdfs:label xml:lang="en">miR-16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000155 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000155">
+        <rdfs:label xml:lang="en">miR-17-3p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000156 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000156">
+        <rdfs:label xml:lang="en">miR-17-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000157 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000157">
+        <rdfs:label xml:lang="en">miR-17-92</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000158 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000158">
+        <rdfs:label xml:lang="en">miR-181a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000159 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000159">
+        <rdfs:label xml:lang="en">miR-181a-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000160 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000160">
+        <rdfs:label xml:lang="en">miR-181a-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000161 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000161">
+        <rdfs:label xml:lang="en">miR-181c</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000162 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000162">
+        <rdfs:label xml:lang="en">miR-184</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000163 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000163">
+        <rdfs:label xml:lang="en">miR-18a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000164 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000164">
+        <rdfs:label xml:lang="en">miR-18b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000165 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000165">
+        <rdfs:label xml:lang="en">miR-191</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000166 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000166">
+        <rdfs:label xml:lang="en">miR-192</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000167 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000167">
+        <rdfs:label xml:lang="en">miR-195</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000168 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000168">
+        <rdfs:label xml:lang="en">miR-196</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000169 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000169">
+        <rdfs:label xml:lang="en">miR-196a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000170 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000170">
+        <rdfs:label xml:lang="en">miR-196b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000171 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000171">
+        <rdfs:label xml:lang="en">miR-199a-3p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000172 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000172">
+        <rdfs:label xml:lang="en">miR-199a-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000173 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000173">
+        <rdfs:label xml:lang="en">miR-19a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000174 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000174">
+        <rdfs:label xml:lang="en">miR-19b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000175 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000175">
+        <rdfs:label xml:lang="en">miR-200b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000176 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000176">
+        <rdfs:label xml:lang="en">miR-200c</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000177 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000177">
+        <rdfs:label xml:lang="en">miR-206</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000178 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000178">
+        <rdfs:label xml:lang="en">miR-208a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000179 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000179">
+        <rdfs:label xml:lang="en">miR-208b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000180 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000180">
+        <rdfs:label xml:lang="en">miR-20a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000181 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000181">
+        <rdfs:label xml:lang="en">miR-21</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000182 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000182">
+        <rdfs:label xml:lang="en">miR-210</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000183 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000183">
+        <rdfs:label xml:lang="en">miR-214</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000184 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000184">
+        <rdfs:label xml:lang="en">miR-216a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000185 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000185">
+        <rdfs:label xml:lang="en">miR-217</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000186 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000186">
+        <rdfs:label xml:lang="en">miR-219</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000187 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000187">
+        <rdfs:label xml:lang="en">miR-22</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000188 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000188">
+        <rdfs:label xml:lang="en">miR-221</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000189 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000189">
+        <rdfs:label xml:lang="en">miR-222</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000190 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000190">
+        <rdfs:label xml:lang="en">miR-223</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000191 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000191">
+        <rdfs:label xml:lang="en">miR-228</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000192 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000192">
+        <rdfs:label xml:lang="en">miR-23</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000193 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000193">
+        <rdfs:label xml:lang="en">miR-23a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000194 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000194">
+        <rdfs:label xml:lang="en">miR-23a-3p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000195 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000195">
+        <rdfs:label xml:lang="en">miR-23b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000196 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000196">
+        <rdfs:label xml:lang="en">miR-24</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000197 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000197">
+        <rdfs:label xml:lang="en">miR-25</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000198 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000198">
+        <rdfs:label xml:lang="en">miR-26a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000199 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000199">
+        <rdfs:label xml:lang="en">miR-27</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000200 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000200">
+        <rdfs:label xml:lang="en">miR-27a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000201 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000201">
+        <rdfs:label xml:lang="en">miR-27b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000202 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000202">
+        <rdfs:label xml:lang="en">miR-29</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000203 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000203">
+        <rdfs:label xml:lang="en">miR-29 family</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000204 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000204">
+        <rdfs:label xml:lang="en">miR-29a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000205 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000205">
+        <rdfs:label xml:lang="en">miR-29b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000206 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000206">
+        <rdfs:label xml:lang="en">miR-29b-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000207 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000207">
+        <rdfs:label xml:lang="en">miR-29c</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000208 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000208">
+        <rdfs:label xml:lang="en">miR-31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000209 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000209">
+        <rdfs:label xml:lang="en">miR-32</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000210 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000210">
+        <rdfs:label xml:lang="en">miR-329</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000211 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000211">
+        <rdfs:label xml:lang="en">miR-33</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000212 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000212">
+        <rdfs:label xml:lang="en">miR-339-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000213 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000213">
+        <rdfs:label xml:lang="en">miR-33a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000214 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000214">
+        <rdfs:label xml:lang="en">miR-33b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000215 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000215">
+        <rdfs:label xml:lang="en">miR-340</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000216 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000216">
+        <rdfs:label xml:lang="en">miR-34a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000217 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000217">
+        <rdfs:label xml:lang="en">miR-34b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000218 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000218">
+        <rdfs:label xml:lang="en">miR-34c</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000219 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000219">
+        <rdfs:label xml:lang="en">miR-3607</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000220 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000220">
+        <rdfs:label xml:lang="en">miR-365</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000221 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000221">
+        <rdfs:label xml:lang="en">miR-365-3p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000222 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000222">
+        <rdfs:label xml:lang="en">miR-375</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000223 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000223">
+        <rdfs:label xml:lang="en">miR-449a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000224 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000224">
+        <rdfs:label xml:lang="en">miR-470</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000225 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000225">
+        <rdfs:label xml:lang="en">miR-483-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000226 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000226">
+        <rdfs:label xml:lang="en">miR-486 </rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000227 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000227">
+        <rdfs:label xml:lang="en">miR-486-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000228 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000228">
+        <rdfs:label xml:lang="en">miR-489</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000229 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000229">
+        <rdfs:label xml:lang="en">miR-494</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000230 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000230">
+        <rdfs:label xml:lang="en">miR-496</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000231 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000231">
+        <rdfs:label xml:lang="en">miR-499</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000232 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000232">
+        <rdfs:label xml:lang="en">miR-590-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000233 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000233">
+        <rdfs:label xml:lang="en">miR-599</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000234 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000234">
+        <rdfs:label xml:lang="en">miR-638</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000235 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000235">
+        <rdfs:label xml:lang="en">miR-663</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000236 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000236">
+        <rdfs:label xml:lang="en">miR-669b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000237 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000237">
+        <rdfs:label xml:lang="en">miR-681</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000238 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000238">
+        <rdfs:label xml:lang="en">miR-685</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000239 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000239">
+        <rdfs:label xml:lang="en">miR-7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000240 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000240">
+        <rdfs:label xml:lang="en">miR-71</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000241 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000241">
+        <rdfs:label xml:lang="en">miR-758</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000242 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000242">
+        <rdfs:label xml:lang="en">miR-9</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000243 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000243">
+        <rdfs:label xml:lang="en">miR-92a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000244 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000244">
+        <rdfs:label xml:lang="en">miR-92b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000245 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000245">
+        <rdfs:label xml:lang="en">miR-93</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000246 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000246">
+        <rdfs:label xml:lang="en">miR-99b-5p</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000247 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000247">
+        <rdfs:label xml:lang="en">miR-hsa-let-7g</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
     </owl:Class>
     
 
@@ -2088,6 +3430,45 @@ equivelant to:
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000063">
         <rdf:type rdf:resource="&obo;OBI_0000893"/>
         <rdfs:label xml:lang="en">stem loop qPCR_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000099 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000099">
+        <rdf:type rdf:resource="&obo;MIAGO_0000038"/>
+        <rdfs:label xml:lang="en">miR-29a and Ppmid mRNA binding conclusion</rdfs:label>
+        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0000059"/>
+        <obo:MIAGO_0000104 rdf:resource="&obo;MIAGO_0000102"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000100 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000100">
+        <rdf:type rdf:resource="&obo;MIAGO_0000046"/>
+        <rdfs:label xml:lang="en">general bioinformatics predicted miRNA target conclusion 1</rdfs:label>
+        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0000059"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000102 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000102">
+        <rdf:type rdf:resource="&obo;MIAGO_0000101"/>
+        <rdfs:label xml:lang="en">luciferase assay 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000103 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000103">
+        <rdf:type rdf:resource="&obo;MIAGO_0000013"/>
+        <rdfs:label xml:lang="en">miR-29a and Ppm1d co-expression conclusion</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

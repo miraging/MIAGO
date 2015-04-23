@@ -121,3 +121,15 @@ WHERE
  }
 
  
+ 
+# search a target protein/ gene pair that is a level 2 validated(MIAGO_0000042)  from miago
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+Select
+Where
+{
+ ?s rdfs:subClassOf ?s1 .
+ ?s1 owl:onProperty obo:MIAGO_0000076; owl:someValuesFrom ?t .
+ ?s rdfs:subClassOf obo:MIAGO_0000042 .}
