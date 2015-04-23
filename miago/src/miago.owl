@@ -574,7 +574,7 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000067"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -589,7 +589,7 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000067"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -719,7 +719,7 @@ equivelant to:
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000022 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000022">
-        <rdfs:label xml:lang="en">miRNA downregulating target protein expression conclusion</rdfs:label>
+        <rdfs:label xml:lang="en">miRNA down regulating target protein expression conclusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -935,7 +935,7 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <dc:creator xml:lang="en">YL</dc:creator>
-        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 1 validated miRNA target given two evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 1 validated miRNA target assumption when given two evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -964,7 +964,7 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <dc:creator xml:lang="en">YL</dc:creator>
-        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 2 validated miRNA target given three evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 2 validated miRNA target assumption when given three evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -997,7 +997,7 @@ equivelant to:
             </owl:Class>
         </owl:equivalentClass>
         <dc:creator xml:lang="en">YL</dc:creator>
-        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 3 validated miRNA target given four evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 3 validated miRNA target assumption when given four evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1033,9 +1033,9 @@ equivelant to:
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="en">This level of validated miRNA target maybe close to Bona fide miRNA target. However, it can not be determined using pure ontology reasoning approach. Based on the evidence given by ontology isntances, a network analysis maybe conducted to suggest the &quot;real&quot; miRNA target. The ontology provides the knowledge base for such analysis.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This level of validating miRNA target maybe close to Bona fide miRNA target. However, it can not be determined using pure ontology reasoning approach. Based on the evidence given by ontology isntances, a network analysis maybe conducted to suggest the &quot;real&quot; miRNA target. The ontology provides the knowledge base for such analysis.</rdfs:comment>
         <dc:creator xml:lang="en">YL</dc:creator>
-        <obo:IAO_0000115 xml:lang="en">a molecular entity that is considered as a level 4 validated miRNA target given five evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level; 5) evidence shows that miRNA regulates the down stream pathway and have biological function impacts.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is considered as a level 4 validated miRNA target assumption when given five evidences: 1) the miRNA target is predicted by a bioinformatics software; 2) the experimental evidence of miRNA target mRNA and miRNA binding interaction; 3) miRNA and target protein co-expression evidence; 4) evidence shows that miRNA down regulates target protein expression level; 5) evidence shows that miRNA regulates the down stream pathway and have biological function impacts.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1318,6 +1318,15 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000080 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000080">
+        <rdfs:label xml:lang="en">miR-29a targeting Ppm1d assumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000081 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000081">
@@ -1421,14 +1430,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000015583"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1345138"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1345138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>MGI:1345138</oboInOwl:hasDbXref>
@@ -1521,14 +1530,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000011617"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1599,14 +1608,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000007641"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1890081"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1890081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
