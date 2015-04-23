@@ -1382,6 +1382,21 @@ equivelant to:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000084 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0000084">
+        <rdfs:label xml:lang="en">miRNA1 targeting 2 assumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000085 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000085">
