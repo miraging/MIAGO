@@ -1724,7 +1724,14 @@ equivelant to:
     </owl:Class>
     
 
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000107 -->
 
+    <owl:Class rdf:about="&obo;MIAGO_0000107">
+        <rdfs:label xml:lang="en">let-7b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000276"/>
+    </owl:Class>
+    
+	
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000108 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000108">
@@ -3474,6 +3481,10 @@ equivelant to:
         <rdf:type rdf:resource="&obo;MIAGO_0000013"/>
         <rdfs:label xml:lang="en">miR-29a and Ppm1d co-expression conclusion</rdfs:label>
     </owl:NamedIndividual>
+	
+	
+
+
 </rdf:RDF>
 
 
