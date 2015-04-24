@@ -201,6 +201,8 @@ for j in range(0,len0):
         updateFile.write('        <rdfs:label xml:lang="en">'+as_miRNA_name[j]+' and '+as_target_name[j]+' miRNA binding conclusion</rdfs:label>\n')
         updateFile.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(pmid_ID)+'"/>\n')
         updateFile.write('    </owl:NamedIndividual>\n\n\n')
+    else :
+        bindingconclusion_ID = ''
     
     if as_downstream_conclusion[j] <> 'None':
         varID = varID + 1
@@ -313,6 +315,9 @@ for j in range(0,len0):
     if as_prediction[j] <> 'None':
         updateFile.write('        <rdfs:subClassOf>\n            <owl:Restriction>\n                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>\n')
         updateFile.write('                <owl:hasValue rdf:resource="&obo;MIAGO_'+prediction_ID+'"/>\n            </owl:Restriction>\n        </rdfs:subClassOf>\n')
+    if bindingconclusion_ID :
+        updateFile.write('        <rdfs:subClassOf>\n            <owl:Restriction>\n                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>\n')
+        updateFile.write('                <owl:hasValue rdf:resource="&obo;MIAGO_'+bindingconclusion_ID+'"/>\n            </owl:Restriction>\n        </rdfs:subClassOf>\n')    
     updateFile.write('    </owl:Class>\n\n\n')
   
 

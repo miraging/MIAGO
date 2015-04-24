@@ -886,6 +886,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000670"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000668"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -967,6 +973,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000675"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000673"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1154,6 +1166,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000686"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000683"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1499,6 +1517,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000706"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000704"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -1579,6 +1603,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000711"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000709"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2663,6 +2693,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000775"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000773"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -2744,6 +2780,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000780"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000778"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3228,6 +3270,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -3541,6 +3589,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000825"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -3772,6 +3826,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4095,6 +4155,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000858"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000856"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5287,6 +5353,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000932"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000929"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -5383,6 +5455,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000938"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000935"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5483,6 +5561,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000944"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000941"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -5564,6 +5648,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000949"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000947"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5649,6 +5739,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000952"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -5730,6 +5826,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000959"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000957"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6258,6 +6360,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000988"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -6339,6 +6447,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000993"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000991"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6439,6 +6553,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000996"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -6535,6 +6655,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -7035,6 +7161,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -7442,6 +7574,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -8040,6 +8178,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -8369,6 +8513,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -8470,6 +8620,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -8566,6 +8722,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9066,6 +9228,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001154"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -9388,6 +9556,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -9547,6 +9721,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001183"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -9612,6 +9792,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001186"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9771,6 +9957,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001196"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -9867,6 +10059,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001202"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001199"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10050,6 +10248,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001213"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001210"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -10229,6 +10433,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001224"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001221"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10413,6 +10623,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001234"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10840,6 +11056,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001261"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -11490,6 +11712,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001298"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001297"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -11654,6 +11882,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001308"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001306"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -12098,6 +12332,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001331"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -12203,6 +12443,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001341"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -12312,6 +12558,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001348"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001345"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -12408,6 +12660,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001354"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001351"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -13454,6 +13712,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001416"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001413"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -13785,6 +14049,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001436"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001434"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -13970,6 +14240,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001447"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001444"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -14300,6 +14576,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001466"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -14464,6 +14746,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001476"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001474"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -14647,6 +14935,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001487"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001484"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -14739,6 +15033,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001493"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001491"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -14829,6 +15129,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001499"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001497"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -15219,6 +15525,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001521"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001519"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -15318,6 +15630,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001528"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001526"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -15550,6 +15868,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001541"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001539"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -15632,6 +15956,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001546"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -15712,6 +16042,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001551"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001549"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -16030,6 +16366,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001569"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -16273,6 +16615,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001582"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -16742,6 +17090,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001610"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -16807,6 +17161,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001614"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001613"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -16876,6 +17236,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001618"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001617"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -16943,6 +17309,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001622"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001621"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -17008,6 +17380,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -17478,6 +17856,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001652"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001649"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -17559,6 +17943,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001657"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001655"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -17644,6 +18034,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001662"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -17725,6 +18121,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001667"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001665"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -17987,6 +18389,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001682"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001679"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -18070,6 +18478,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001687"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001685"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -18150,6 +18564,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001690"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -19074,6 +19494,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001745"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -19464,6 +19890,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001768"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001767"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -19529,6 +19961,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001772"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001771"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -20179,6 +20617,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001809"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001808"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -20320,6 +20764,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001817"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001816"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -20443,6 +20893,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001826"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001823"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -20691,6 +21147,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001841"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001839"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -21011,6 +21473,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001859"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001856"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -21342,6 +21810,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001878"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001875"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -21432,6 +21906,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001884"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001882"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -21698,6 +22178,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001900"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -21779,6 +22265,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001905"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001903"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -22205,6 +22697,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001931"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001929"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -22469,6 +22967,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001947"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001945"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -22550,6 +23054,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001952"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001950"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -22950,6 +23460,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -23016,6 +23532,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001980"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -23080,6 +23602,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0001984"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0001983"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -23474,6 +24002,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -23556,6 +24090,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -23636,6 +24176,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -24317,6 +24863,12 @@
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -24545,6 +25097,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -24795,6 +25353,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002083"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -24877,6 +25441,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -24957,6 +25527,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002091"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -25189,6 +25765,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -25354,6 +25936,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002116"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -25436,6 +26024,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -25516,6 +26110,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002124"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -26090,6 +26690,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002160"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -26171,6 +26777,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002165"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002163"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -26255,6 +26867,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002170"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002168"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -26336,6 +26954,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002175"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -26955,6 +27579,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002215"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -27170,6 +27800,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002229"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002225"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -27286,6 +27922,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002237"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002234"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -27382,6 +28024,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002243"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002240"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -27813,6 +28461,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002269"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002267"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -28028,6 +28682,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002283"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002279"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -28144,6 +28804,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002288"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -28242,6 +28908,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002297"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002294"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -28338,6 +29010,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002303"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002300"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -28858,6 +29536,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -29120,6 +29804,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002350"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002348"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -29286,6 +29976,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002360"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002358"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -29382,6 +30078,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002366"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002363"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -29935,6 +30637,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002397"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -30387,6 +31095,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002422"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -30955,6 +31669,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002458"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -31630,6 +32350,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002497"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002495"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -31710,6 +32436,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002502"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002500"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -31875,6 +32607,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002512"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002511"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -32209,6 +32947,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002532"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002530"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -32290,6 +33034,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002537"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002535"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -32609,6 +33359,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002555"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002553"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -33417,6 +34173,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002603"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002601"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -33498,6 +34260,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -33657,6 +34425,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002617"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002615"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -33813,6 +34587,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002626"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -33893,6 +34673,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002631"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002629"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -34218,6 +35004,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002650"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002648"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -34383,6 +35175,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002660"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002659"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -34538,6 +35336,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002669"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002667"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -34786,6 +35590,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002683"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002680"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -34882,6 +35692,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -34982,6 +35798,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002695"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -35078,6 +35900,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002701"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002698"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -36279,6 +37107,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002771"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002770"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -36346,6 +37180,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002775"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002774"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -36411,6 +37251,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002779"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002778"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -36718,6 +37564,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002796"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002794"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -36799,6 +37651,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002799"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -37629,6 +38487,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002851"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002848"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -37800,6 +38664,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002861"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002859"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -37880,6 +38750,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002866"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002864"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -37965,6 +38841,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -38048,6 +38930,12 @@ gene, BCL2L11</rdfs:label>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002876"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 
 
@@ -38129,6 +39017,12 @@ gene, BCL2L11</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0002881"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0002879"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
