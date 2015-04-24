@@ -260,7 +260,7 @@ for j in range(0,len0):
         updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+ prediction_ID +' -->\n\n')
         updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_' + prediction_ID +'">\n')
         updateFile.write('        <rdf:type rdf:resource="&obo;MIAGO_0000046"/>\n')
-        updateFile.write('        <rdfs:label xml:lang="en">'+as_prediction[j]+' predicted miRNA target conclusion 1</rdfs:label>\n')
+        updateFile.write('        <rdfs:label xml:lang="en">'+as_prediction[j]+' predicted miRNA target conclusion'+prediction_ID+'</rdfs:label>\n')
         updateFile.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(pmid_ID)+'"/>\n')
         updateFile.write('    </owl:NamedIndividual>\n\n\n')
 

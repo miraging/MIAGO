@@ -1,6 +1,7 @@
 """ This file is to generate lists for the next py file to write the OWL file.
 as_assump --> assumption ID list
 as_uniq --> combination of gene_id and miRNA name to corespond with the as_list
+as_coexpression --> coexpression conclusion list (will be Y or N)
 
 """
 import math
