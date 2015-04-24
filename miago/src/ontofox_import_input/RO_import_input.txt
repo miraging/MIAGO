@@ -14,6 +14,7 @@ http://purl.obolibrary.org/obo/RO_0002428
 http://purl.obolibrary.org/obo/RO_0002430
 http://purl.obolibrary.org/obo/RO_0002429
 http://purl.obolibrary.org/obo/RO_0002353 #output of
+http://purl.obolibrary.org/obo/RO_0002472 #is evidence for
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/RO_0002431 #involved in or regulates
@@ -31,4 +32,3 @@ includeAllAxiomsRecursively
 [Source annotation URIs to be excluded]
 
 
-[This code can not pull out all the children from the properties. ]

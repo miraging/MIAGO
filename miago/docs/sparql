@@ -82,12 +82,13 @@ UNION { ?s1 owl:someValuesFrom <http://purl.obolibrary.org/obo/HGNC_12558> .}
 
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
-SELECT distinct ?s ?label ?s2
+SELECT distinct ?s ?label ?label2 ?s2 
 WHERE
 
 { ?s rdfs:label ?label .
   ?s rdfs:subClassOf ?s1 .
   ?s1 owl:onProperty <http://purl.obolibrary.org/obo/pr#has_gene_template>; owl:someValuesFrom ?s2.
+  ?s2 rdfs:subClassOf ?label2 .
  
  }
  
