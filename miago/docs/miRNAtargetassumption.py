@@ -84,6 +84,7 @@ from openpyxl import load_workbook
 
 wb = load_workbook(filename = 'transfering_assumption.xlsx')
 ws = wb.get_sheet_by_name(name = 'test')
+as_target_desc = []
 as_miRNA = []
 as_miRNA_name = []
 as_target_protein = []
@@ -104,6 +105,7 @@ for i in range(2,1006):
     if target_name <> 'None':
         miRNA_name =  ws.cell('D'+ str(i)).value
         miRNA_name = miRNA_name.strip()
+        as_target_desc.append(str(target_name))
         validation_status =  ws.cell('F'+ str(i)).value
         NCBI_ID = ws.cell('H'+ str(i)).value
         NCBI_ID = str(NCBI_ID)
@@ -205,9 +207,24 @@ for j in range(0,len0):
         len1 = int(math.log10(varID))+1
         string_val = "0" * (7-len1)
         downconclusion_ID = string_val+str(varID)
+
+        downconclusion = as_downstream_conclusion[j]
+        miRNA_name_l = as_miRNA_name[j].split('-')
+        miRNA_number = miRNA_name_l[1]
+        target = as_target_desc[j]
+        list_downregulates = ['decrease', 'inhibit', 'downregulate','suppress', 'repress', 'reduce']
+        target_miRNA_pair = [miRNA_number,target]
+        if any(x in downconclusion for x in list_downregulates):
+            if all(y in downconclusion for y in target_miRNA_pair):
+                mother_term = 'MIAGO_0000022'
+            else:
+                mother_term = 'MIAGO_0000084'
+        else:
+            mother_term = 'MIAGO_0000084'
+        
         updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+ downconclusion_ID +' -->\n\n')
         updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+ downconclusion_ID +'">\n')
-        updateFile.write('        <rdf:type rdf:resource="&obo;MIAGO_0000037"/>\n')
+        updateFile.write('        <rdf:type rdf:resource="&obo;'+str(mother_term)+'"/>\n')
         updateFile.write('        <rdfs:label xml:lang="en">'+as_downstream_conclusion[j]+'</rdfs:label>\n')
         updateFile.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(pmid_ID)+'"/>\n')
         if assay_id_list :
