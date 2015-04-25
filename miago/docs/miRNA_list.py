@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-wb = load_workbook(filename = 'data\miRNA_ID_list.xlsx')
+wb = load_workbook(filename = r'data\miRNA_ID_list.xlsx')
 ws = wb.get_sheet_by_name( name = 'Sheet1')
 miRNA_ID_list = []
 miRNA_name_list = []
