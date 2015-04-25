@@ -1,0 +1,23 @@
+# search the conclusion, conclusion id and related assay, assay id (Individuals)
+# the result is in the data\conclusion_assay_query.xlsx
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?s ?label ?s1 ?label1 
+WHERE
+{
+  ?s rdfs:label ?label .
+  ?s rdf:type owl:NamedIndividual .
+  {?s rdf:type obo:MIAGO_0000014 .}
+  UNION {?s rdf:type obo:MIAGO_0000038 .}
+  UNION {?s rdf:type obo:MIAGO_0000084 .}
+  UNION {?s rdf:type obo:MIAGO_0000022 .}
+  ?s obo:MIAGO_0000104 ?s1 .
+  ?s1 rdfs:label ?label1 .}
+
+
+
+
