@@ -68,55 +68,58 @@ updateFile.write('\n\n=========\ins_conclusion not matching, check the input tab
 
 varID = 2930
 
-for j in range(len(ins_conclusion)) :
+for j in range(len(ins_conclusion)) :  # didn't think about the one conclusion mapping to multiple assay's condition?
     conclusion = ins_conclusion[j]
     if conclusion in conclusion_assay_list.conclusion_text_list:
-        p = conclusion_assay_list.conclusion_text_list.index(conclusion)
-        assay_ID = conclusion_assay_list.assay_ID_list[p]
-        tissue = ins_tissue[j]+ ' ' + line_list[j]
-        line_number = line_list[j]
-        #line = line_list[j]  error: list index out of range, but the files are correct
-        study_model = ins_study_model[j]+ ' ' + line_list[j]
-        
+      
         # determine the mother term for study model
+        mother_study_model = 'OBI_0100026'
         for k in range(len(organism)) :
             if organism[k] in study_model :
                 mother_study_model = organism_ID[k]
             else:
-                mother_study_model = 'OBI_0100026'
-
-        #TODO: determine the mother term for tissue
+                pass
         
-		
         # write the OWL for study_model -- only create the term
         varID = varID + 1
         len1 = int(math.log10(varID)) + 1
         string_val = "0" * (7-len1)
         study_model_ID = string_val + str(varID)
+        study_model = ins_study_model[j]+ ' ' + line_list[j]
         updateFile1.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(study_model_ID)+' -->\n')
         updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(study_model_ID)+'">\n')
         updateFile1.write('        <rdf:type rdf:resource="&obo;'+mother_study_model+'"/>\n')
         updateFile1.write('        <rdfs:label xml:lang="en">'+study_model+'</rdfs:label>\n')
         updateFile1.write('    </owl:NamedIndividual>\n\n\n')
-
+ 
+        
         # write the OWL for tissue -- add pattern: tissue "is par of"(BFO_0000051) study model
+        #TODO: determine the mother term for tissue
+        # TODO: add pattern tissue "is assay evaluant of" assay 
         varID = varID + 1
         len1 = int(math.log10(varID)) + 1
         string_val = "0" * (7-len1)
-        tissue_ID = string_val + str(varID)    
+        tissue_ID = string_val + str(varID) 
+        
+        tissue = ins_tissue[j]+ ' ' + line_list[j]
         updateFile1.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(tissue_ID)+' -->\n')
         updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(tissue_ID)+'">\n')
         updateFile1.write('        <rdf:type rdf:resource="&obo;BFO_0000040"/>\n')
         updateFile1.write('        <rdfs:label xml:lang="en">'+tissue+'</rdfs:label>\n')
         updateFile1.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(study_model_ID)+'"/>\n')
         updateFile1.write('    </owl:NamedIndividual>\n\n\n')
-
-        # add pattern: assay "hasEvaluant"(MIAGO_0000031) tissue
-        updateFile1.write('    <!-- http://purl.obolibrary.org/obo/'+str(assay_ID)+' -->\n')
-        updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;'+str(assay_ID)+'">\n')
-        updateFile1.write('        <rdf:type rdf:resource="&obo;BFO_0000040"/>\n')
-        updateFile1.write('        <MIAGO_0000031 rdf:resource="&obo;MIAGO_'+str(tissue_ID)+'"/>\n')
-        updateFile1.write('    </owl:NamedIndividual>\n\n\n')
+        
+        for l in range(len(conclusion_assay_list.conclusion_text_list)):
+            if conclusion == conclusion_assay_list.conclusion_text_list[l]:
+                assay_ID = conclusion_assay_list.assay_ID_list[l]          
+             
+                # add pattern: assay "hasEvaluant"(MIAGO_0000031) tissue
+                updateFile1.write('    <!-- http://purl.obolibrary.org/obo/'+str(assay_ID)+' -->\n')
+                updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;'+str(assay_ID)+'">\n')
+                updateFile1.write('        <MIAGO_0000031 rdf:resource="&obo;MIAGO_'+str(tissue_ID)+'"/>\n')
+                updateFile1.write('    </owl:NamedIndividual>\n\n\n')
+            else:
+                pass
         
     else:
         updateFile.write(conclusion+'\n')
