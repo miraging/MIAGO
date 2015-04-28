@@ -82,7 +82,7 @@ import re
 
 from openpyxl import load_workbook
 
-wb = load_workbook(filename = 'transfering_assumption.xlsx')
+wb = load_workbook(filename = r'data\transfering_assumption.xlsx')
 ws = wb.get_sheet_by_name(name = 'test')
 as_target_desc = []
 as_miRNA = []
@@ -148,8 +148,8 @@ for i in range(2,1006):
 len0 = len(as_miRNA)
 
 
-updateFile = open('miRNAtarget_assumption_class.owl','a')
-varID = 620
+updateFile = open(r'miRNAtarget_assumption_class_individual.owl','a')
+varID = 10620
 
 for j in range(0,len0):
     varID = varID +1
@@ -204,7 +204,7 @@ for j in range(0,len0):
     else :
         bindingconclusion_ID = ''
     
-    if as_downstream_conclusion[j] <> 'None':
+    if as_downstream_conclusion[j] is not None:
         varID = varID + 1
         len1 = int(math.log10(varID))+1
         string_val = "0" * (7-len1)
@@ -237,7 +237,7 @@ for j in range(0,len0):
         updateFile.write('    </owl:NamedIndividual>\n\n\n')
 
 
-    if as_upstream_conclusion[j] <> 'None':
+    if as_upstream_conclusion[j] is not None:
         varID = varID + 1
         len1 = int(math.log10(varID))+1
         string_val = "0" * (7-len1)
@@ -255,10 +255,9 @@ for j in range(0,len0):
         updateFile.write('    </owl:NamedIndividual>\n\n\n')
 
     if as_coexpression[j] == 'Y':
-        varID = varID + 1
-        len1 = int(math.log10(varID))+1
-        string_val = "0" * (7-len1)
-        coexpression_ID = string_val+str(varID)
+        uniq = as_NCBI_miRNA_name[j]
+        p3 = mitaras.as_uniq.index(uniq)
+        coexpression_ID = mitaras.as_coexpression[p3]
         updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+ coexpression_ID +' -->\n\n')
         updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+ coexpression_ID +'">\n')
         updateFile.write('        <rdf:type rdf:resource="&obo;MIAGO_0000013"/>\n')

@@ -66,7 +66,7 @@ organism_ID = ['NCBITaxon_9606','NCBITaxon_10090','NCBITaxon_10116','NCBITaxon_9
 
 updateFile.write('\n\n=========\ins_conclusion not matching, check the input table\n==========\n')
 
-varID = 2930
+varID = 12930
 
 for j in range(len(ins_conclusion)) :  # didn't think about the one conclusion mapping to multiple assay's condition?
     conclusion = ins_conclusion[j]
@@ -95,7 +95,7 @@ for j in range(len(ins_conclusion)) :  # didn't think about the one conclusion m
         
         # write the OWL for tissue -- add pattern: tissue "is par of"(BFO_0000051) study model
         #TODO: determine the mother term for tissue
-        # TODO: add pattern tissue "is assay evaluant of" assay 
+        
         varID = varID + 1
         len1 = int(math.log10(varID)) + 1
         string_val = "0" * (7-len1)
