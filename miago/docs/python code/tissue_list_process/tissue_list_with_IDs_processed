@@ -1,0 +1,161 @@
+
+salivary glands;UBERON_0001044
+lymphoid cells;BTO_0001096
+heads;UBERON_0000033;BTO_0000282
+body;UBERON_0000309;BTO_0000139
+ovaries;UBERON_0000992
+testes;UBERON_0000473;BTO_0001363
+microglia and RAW264.7 macrophages transfected with let-7b
+HEK293 cells;BTO_0000007;EFO_0001182
+cerebral cortex;UBERON_0000956;BTO_0000233
+hearts;UBERON_0000948;BTO_0000562
+HEK-293 cell;BTO_0000007;EFO_0001182
+H9C2 cell;BTO_0001879;CLO_0003614
+various tissues;UBERON_0000479
+plasma;OBI_0100016;MA_0002501
+heart;UBERON_0000948;BTO_0000562
+cardiac myocytes induced by Triton X-100
+serum;BTO_0001239;UBERON_0001977
+muscle stem cells;CL_0000355;BTO_0005300
+human aortic endothelial cells(HAEC);BTO_0004602
+human umbilical vein endothelial cells (HUVECs);BTO_0001949
+forebrain cortex and hippocampus
+peripheral blood mononuclear cells;CL_2000001;BTO_0001025
+C2C12 myoblasts;BTO_0000165;CLO_0050871
+brain neocortex;UBERON_0001950;BTO_0000920
+HEK 293 cells;BTO_0000007;EFO_0001182
+Myocardial tissue
+myocardial tissue
+PC12 cells;EFO_0001225
+Neuro2a (N2a);BTO_0001976
+hippocampus;BTO_0000601;EFO_0000530
+hippocampus slice;BTO_0000601;EFO_0000530
+microglia;CL_0000129;BTO_0000078
+vascular endothelial cells;BTO_0001854;CL_0002139
+mouse endothelial cell line H5V cells;CLO_0009785
+aorta;UBERON_0000947;BTO_0000135
+HUVECs;BTO_0001949
+Hela cells;CLO_0003684;BTO_0000567;
+human umbilical vein endothelial cells (HUVEC );BTO_0001949
+a variety of mouse organs
+human umbilical vein endothelial cells (HUVEC);BTO_0001949
+Carotid arteries;BTO_0000168;EFO_0000818
+Muscle biopsies;UBERON_0001630;BTO_0000887;EFO_0001949
+C2C12 myocytes;BTO_0000165;CLO_0050871
+C2C12 myotubes;BTO_0000165;CLO_0050871
+brain;UBERON_0000955;BTO_0000142
+SH-SY5Y cells;BTO_0000793;CLO_0009015
+endothelial cells;CL_0000115;BTO_0001176
+GFP+ endothelial cells;CL_0000115;BTO_0001176
+HeLa cells;CLO_0003684;BTO_0000567
+muscle;UBERON_0001630;BTO_0000887;EFO_0001949
+brain regions;UBERON_0000955;BTO_0000142
+Cortical neurons;BTO_0004102
+oocytes;CL_0000023;BTO_0000964
+post-mortem hippocampus;BTO_0000601;EFO_0000530
+frontal cortex specimen;UBERON_0000955;BTO_0000142
+lymphoblastoid cell lines;BTO_0000773
+SH-SY5Y;CLO_0009015
+primary human vascular smooth muscle cells;BTO_0000793
+K562 cells;BTO_0000664;EFO_0002067
+erythroid cells;BTO_0002731
+erythrocyte;CL_0000232;BTO_0000424
+reticulocyte;CL_0000558;BTO_0001173
+erythroid progenitors;CL_0000038;BTO_0004911
+human umbilical vein endothelial cell(HUVEC);BTO_0001949
+CD4+T cells;CL_0000492
+Jurkat;BTO_0000661
+cardiac  tissue;CL_0002548
+HEK293 cells;BTO_0000007;EFO_0001182
+cardiomyocytes;CL_0000746
+CD5+ B lymphocytes;CL_0000816
+tissues;UBERON_0000479
+platelets;CL_0000233
+human umbilical vein endothelial cells (HUVECs);BTO_0001949
+vascular smooth muscle cells (VSMCs);BTO_0004578
+blood;UBERON_0000178;BTO_0000089
+spleen;UBERON_0002106;BTO_0001281
+lymph node;UBERON_0000029;BTO_0000784
+CNS;UBERON_0001017;BTO_0000227
+COS-7 cells;BTO_0000298;CLO_0002597
+HUVECs;BTO_0001949
+CD4+ T cells;CL_0000492
+memory T cells;CL_0000813
+CD14+ monocytes;CL_0001054
+T cells(CD4,CD8 cell);CL_0000084
+T cells;CL_0000084
+embryonic blood (BECs);BTO_0000381
+lymphatic(LECs) vascular endothelial cells;BTO_0004167
+BECs;BTO_0000381
+LECs;BTO_0004167
+RPE cells from AMD human;CL_0002586;BTO_0004910
+glomerular mesangial cells;CL_1000742
+kidney;UBERON_0002113;BTO_0000671
+mesangial cells;CL_0000650
+mouse kidney glomeruli;UBERON_0000074;BTO_0000530
+human mesenchymal stromal/stem cells;BTO_0003952
+HEK293T cell;BTO_0002181
+C2C12 cells;BTO_0000165
+monocytes;CL_0000576;BTO_0000876
+monocytes(health);CL_0000576;BTO_0000876
+HEK-293 cells;BTO_0000007;EFO_0001182
+C2C12 myoblast;BTO_0000165
+skeletal muscle;BTO_0001103
+HCV-positive liver biopsy;UBERON_0002107;BTO_0000759
+primary mouse BMDMs;IDO_0100769
+cardiac myocytes;CL_0000746
+myofibroblasts;CL_0000186;BTO_0001946
+MCF-7;CLO_0007606
+SW480 cells;CLO_0009218
+Human umbilical vein Ecs  (HUVECs);BTO_0001949
+cardiac fibroblasts;CL_0008023
+PBMCs;CL_2000001;BTO_0001025
+mononuclear cells;CL_0000842;BTO_0000878
+ES cells;CL_0002322;BTO_0001086
+EC types;CL_0000115;BTO_0001176
+VSMCs;CL_0000359;BTO_0004578
+HUVEC;BTO_0001949
+renal glomeruli;UBERON_0000074;BTO_0000530
+human umbilical vein endothelial cells (HUVECs);BTO_0001949
+Hippocampus and cortex OF brain;UBERON_0000955;BTO_0000142
+HT22;BTO_0003037
+N2a cell lines;BTO_0001976
+Cerebrospinal Fluid (CSF);BTO_0000237
+synovial tissue;BTO_0001338
+fibroblast-like synoviocyte;BTO_0004060
+fibroblast-like synoviocytes;BTO_0004060
+HEK 293T cells;BTO_0002181
+peripheral blood mononuclear cells(PBMNCs);CL_2000001;BTO_0001025
+lung;UBERON_0002048;BTO_0000763
+BMDMs;IDO_0100769
+polymorphonuclear neutrophils(PMNs);BTO_0003473
+human umbilical vein EC line (HUVECs);BTO_0001949
+COS cells;BTO_0004055
+myoblast cell line;BTO_0000256;CLO_0000057
+heart;UBERON_0000948
+fibroblasts;CL_0000057;BTO_0000452
+dermal fibroblasts;BTO_0004419
+C2C12 myoblast cells;BTO_0000165
+293T cells;BTO_0002181
+liver;UBERON_0002107
+U2OS cell;CLO_0009454
+muscle;UBERON_0001134
+human umbilical vein endothelial cells(HUVECs);BTO_0001949
+mouse macrophage cell line J774;CLO_0007003
+aortic sinus lesion area(Ldlr-/- mice);OBI_0000047
+human umbilical cord vein endothelial cells (HUVEC);BTO_0001949
+Hepa1c1c7 cells;BTO_0002894;CLO_0003712
+lens epithelium;BTO_0001873
+cochlear hair cell;FMA_62364
+retina;UBERON_0000966;BTO_0001175
+RPE/choroid;BTO_0001829
+SH-SY5Y cells;BTO_0000793;CLO_0009015
+HepG2 hepatocellular carcinome cells;CLO_0003704
+neuroblastoma cell line;BTO_0000932
+Hippocampal;UBERON_0000955;BTO_0000142
+HeLa cells,;CLO_0003684;BTO_0000567
+HEK293 cells;BTO_0000007;EFO_0001182
+adult muscle stem cells;satellite cells(SCs)
+myoblasts;CL_0000056;BTO_0000222
+lung fibroblasts;BTO_0000764
+human arterial endothelial cells (HAECs);BTO_0004758

@@ -61,8 +61,8 @@ for i in range(2,1006):
         else: 
             updateFile.write('"'+study_model+'";"'+tissue+'";"'+str(i)+'"\n')
  
-organism = ['human','mouse','rat','pig','Drosophila']
-organism_ID = ['NCBITaxon_9606','NCBITaxon_10090','NCBITaxon_10116','NCBITaxon_9823','NCBITaxon_7227']
+organism = ['human','mouse','rat','pig','Drosophila','Caenorhabditis elegans']
+organism_ID = ['NCBITaxon_9606','NCBITaxon_10090','NCBITaxon_10116','NCBITaxon_9823','NCBITaxon_7227','NCBITaxon_6239']
 
 updateFile.write('\n\n=========\ins_conclusion not matching, check the input table\n==========\n')
 

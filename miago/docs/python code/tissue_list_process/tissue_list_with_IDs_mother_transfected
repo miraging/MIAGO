@@ -1,0 +1,36 @@
+HEK293 cells transfected with Tlr7;Mother-BTO_0000007;Mother-EFO_0001182
+HeLa cells transfected with miR-1248;Mother-CLO_0003684;Mother-BTO_0000567
+HEK293 cells transfected with miR-125a;Mother-BTO_0000007;Mother-EFO_0001182
+HEK293 cells transfected with miR-125b;Mother-BTO_0000007;Mother-EFO_0001182
+HEK293 cells transfected with miR-126;Mother-BTO_0000007;Mother-EFO_0001182
+Cortical neurons co-transfected with GFP-tagged p250GAP and premiRNA132;Mother-BTO_0004102
+primary rat astrocytes transfected with human SPTLC1 3 UTR luciferase;Mother-CL_0000127;Mother-BTO_0000099
+DCs transfected with miR-148a;Mother-CL_0000451;Mother-BTO_0002042
+HEK293 cells were cotransfected with pGL3-CaMKIIa 3'-UTR;Mother-BTO_0000007;Mother-EFO_0001182
+DCs transfected with miR-148b;Mother-CL_0000451;Mother-BTO_0002042
+DCs transfected with miR-152;Mother-CL_0000451;Mother-BTO_0002042
+HeLa cells transfected with luciferase-EZR-30UTR;Mother-CLO_0003684;Mother-BTO_0000567
+ARPE19 cells were transfected with miR-184 inhibitor;Mother-cell_line
+cardiomyocytes were transfected with miR-195 antagomir;Mother-CL_0000746
+cardiomyocytes were transfected with miR-195;Mother-CL_0000746
+HEK293 cells were transfected with miR-199a-5p;Mother-BTO_0000007;Mother-EFO_0001182
+monocytes transfected with synthetic premiR-199a-5;Mother-CL_0000576;Mother-BTO_0000876
+cardiomyocytes were transfected with miR-22 mimics and treated with the hypertrophic agonist PE;Mother-CL_0000746
+human umbilical vein endothelial cells (HUVECs) transfected with miR-221;Mother-BTO_0001949
+human umbilical vein endothelial cells (HUVECs) transfected with miR-222;Mother-BTO_0001949
+Hela transfected with reporter construct and the miR-223 mimic;Mother-CLO_0003684;Mother-BTO_0000567
+Cardiomyocytes cells transfected with miR-23a;Mother-CL_0000746
+HEK293 cells transfected with miR-23a;Mother-BTO_0000007;Mother-EFO_0001182
+non-senescent fibroblasts transfected with miR-23a-3p mimic;Mother-CL_0000057;Mother-BTO_0000452
+rat renal mesangial cells(High Glucose Treatment)transfected with miR-25 precursor;Mother-CL_0000650
+HEK-293 cell line transfected with miR-29;Mother-EFO_0001182
+primary rat astrocytes transfected with human SPTLC2 3 UTR luciferase;Mother-CL_0000127;Mother-BTO_0000099
+U373 cells transfected with miR-29b;Mother-CLO_0009460
+Hela cells cotransfected with miR-339-5p;Mother-CLO_0003684;Mother-BTO_0000567
+U373 cells transfected with miR-339-5p;Mother-CLO_0009460
+human fetal brain(HFB) transfected with miR-339-5p mimics;Mother-UBERON_0000955;Mother-BTO_0000142
+HEK 293 cells transfected with miR-34a or miR-93;Mother-BTO_0000007;Mother-EFO_0001182
+HUVECs were transfected with hsa-miR-365 inhibitor;Mother-BTO_0001949
+RAW264.7 macrophages transfected with let-7b;Mother-cell_line
+Jurkat cells transfected with miR-210 and FOXP3;Mother-BTO_0000661
+CD4+ T cells of healthy controls transfected miR-210 mimic;Mother-CD4+ T cells

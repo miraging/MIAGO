@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-wb = load_workbook(filename = 'data\mapping table.xlsx')
+wb = load_workbook(filename = r'data\mapping table.xlsx')
 ws = wb.get_sheet_by_name( name = 'final2')
 target_protein_list = []
 target_gene_list = []

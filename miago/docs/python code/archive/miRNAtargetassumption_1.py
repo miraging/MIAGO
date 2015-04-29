@@ -1,3 +1,8 @@
+# this code seperating the class with the individuals
+# output: miRNAtarget_assumption_class_1.owl , miRNAtarget_assumption_individual.owl 
+# The file is out of date. Since we moved the excel file into the data folder and coexpression changed.
+
+
 """ The pattern for miRNA target assumption (class) is:
     MIAGO_0000076  is about miRNA target
     MIAGO_0000078  is about miRNA

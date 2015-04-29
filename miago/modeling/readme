@@ -1,0 +1,13 @@
+To use following files. Change the name to miago.owl and copy to the src\ replace the miago.owl file. 
+
+miago_modeling_001.owl   
+    The ontology basic modeling using 'evidence role' to link a conclusion and evidence role, then define the evidence so conclusion become evidence.
+
+miago_modeling_002.owl
+    Use 'conclusion used as evidence' to link a conclusion and evidence directly.
+	
+migao_modeling_003.owl -- putatively
+    Use 'miRNA target assumption based on' relation to directly link an assumption with a conclusion. This way is more straight forward, but then evidence of miRNA down regulating target mRNA expression can not be linked directly.
+
+4/27/2015: we use model 1. Model 1 has to be obsolete. Because the domain of evidence role can't be GDC. https://sourceforge.net/p/obi/obi-terms/762/
+4/28/2015: Currently we use model 2.
