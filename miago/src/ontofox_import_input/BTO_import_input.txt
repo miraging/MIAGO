@@ -7,6 +7,61 @@ BTO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BTO_0000007 #HEK-239 cell
 http://purl.obolibrary.org/obo/BTO_0000165 #c2C12 cell
+http://purl.obolibrary.org/obo/BTO_0000007
+http://purl.obolibrary.org/obo/BTO_0000165
+http://purl.obolibrary.org/obo/BTO_0000168
+http://purl.obolibrary.org/obo/BTO_0000237
+http://purl.obolibrary.org/obo/BTO_0000246
+http://purl.obolibrary.org/obo/BTO_0000256
+http://purl.obolibrary.org/obo/BTO_0000298
+http://purl.obolibrary.org/obo/BTO_0000381
+http://purl.obolibrary.org/obo/BTO_0000601
+http://purl.obolibrary.org/obo/BTO_0000661
+http://purl.obolibrary.org/obo/BTO_0000664
+http://purl.obolibrary.org/obo/BTO_0000716
+http://purl.obolibrary.org/obo/BTO_0000738
+http://purl.obolibrary.org/obo/BTO_0000760
+http://purl.obolibrary.org/obo/BTO_0000764
+http://purl.obolibrary.org/obo/BTO_0000773
+http://purl.obolibrary.org/obo/BTO_0000793
+http://purl.obolibrary.org/obo/BTO_0000932
+http://purl.obolibrary.org/obo/BTO_0001096
+http://purl.obolibrary.org/obo/BTO_0001103
+http://purl.obolibrary.org/obo/BTO_0001109
+http://purl.obolibrary.org/obo/BTO_0001229
+http://purl.obolibrary.org/obo/BTO_0001239
+http://purl.obolibrary.org/obo/BTO_0001338
+http://purl.obolibrary.org/obo/BTO_0001370
+http://purl.obolibrary.org/obo/BTO_0001538
+http://purl.obolibrary.org/obo/BTO_0001829
+http://purl.obolibrary.org/obo/BTO_0001854
+http://purl.obolibrary.org/obo/BTO_0001873
+http://purl.obolibrary.org/obo/BTO_0001879
+http://purl.obolibrary.org/obo/BTO_0001938
+http://purl.obolibrary.org/obo/BTO_0001949
+http://purl.obolibrary.org/obo/BTO_0001976
+http://purl.obolibrary.org/obo/BTO_0002126
+http://purl.obolibrary.org/obo/BTO_0002181
+http://purl.obolibrary.org/obo/BTO_0002335
+http://purl.obolibrary.org/obo/BTO_0002731
+http://purl.obolibrary.org/obo/BTO_0002894
+http://purl.obolibrary.org/obo/BTO_0002895
+http://purl.obolibrary.org/obo/BTO_0003037
+http://purl.obolibrary.org/obo/BTO_0003292
+http://purl.obolibrary.org/obo/BTO_0003353
+http://purl.obolibrary.org/obo/BTO_0003428
+http://purl.obolibrary.org/obo/BTO_0003473
+http://purl.obolibrary.org/obo/BTO_0003952
+http://purl.obolibrary.org/obo/BTO_0004055
+http://purl.obolibrary.org/obo/BTO_0004060
+http://purl.obolibrary.org/obo/BTO_0004102
+http://purl.obolibrary.org/obo/BTO_0004167
+http://purl.obolibrary.org/obo/BTO_0004419
+http://purl.obolibrary.org/obo/BTO_0004578
+http://purl.obolibrary.org/obo/BTO_0004602
+http://purl.obolibrary.org/obo/BTO_0004758
+http://purl.obolibrary.org/obo/BTO_0004790
+http://purl.obolibrary.org/obo/BTO_0004891
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BTO_0000007 #HEK-239 cell

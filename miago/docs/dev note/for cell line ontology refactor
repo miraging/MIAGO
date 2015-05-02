@@ -1,0 +1,8 @@
+a good example to model the cell line ontology:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2862129/
+Con1 cells, Hub-7.5 cells, 9-13 cells
+9-13 cells were kindly provided by R. Bartenschlager (University of Heidelberg, Heidelberg, Germany). 9-13 cells harbor a replicating HCV non-structural region with the use of the NS3 -NS5B gene regions from the Con1 isolate (21). Huh-7.5 and Con1 subgenomic genotype 1b HCV replicon cell lines were from Apath LLC (St, Louis, MO). Huh-7.5 is a highly permissive, alpha interferon-cured Huh-7 human hepatocellular carcinoma cell line derivative. The Con1 cell line is a Huh-7.5 cell population containing the full-length HCV genotype 1b replicon. The 9-13, Huh.7.5 and Con1 cells were maintained in DMEM supplemented with 10% (v/v) FBS, 100 units/mL penicillin, 100 µg/mL streptomycin, and selection antibiotic 500 µg/mL G418 for 9-13 cells, or 750 µg/mL G418 for Con1 cells.
+
+9-13 cell seems a transfected cell
+Huh-7.5 cell is a cell line;BTO_0004126;EFO_0005704
+Con1 cell is not existing in either BTO or CLO

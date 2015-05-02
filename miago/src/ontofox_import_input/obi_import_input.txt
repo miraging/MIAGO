@@ -19,6 +19,10 @@ http://purl.obolibrary.org/obo/OBI_0000893 #qPCR
 http://purl.obolibrary.org/obo/OBI_0000916 #flow cytometry assay
 http://purl.obolibrary.org/obo/NCBITaxon_6239 #Caenorhabditis elegans
 http://purl.obolibrary.org/obo/NCBITaxon_7227 #Drosophila melanogaster
+http://purl.obolibrary.org/obo/OBI_0000047
+http://purl.obolibrary.org/obo/OBI_0100016
+http://purl.obolibrary.org/obo/CARO_0001008
+http://purl.obolibrary.org/obo/CARO_0000043
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity

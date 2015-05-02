@@ -1,0 +1,840 @@
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003001 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003001">
+        <rdfs:label xml:lang="en">adult Drosophila gonads</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000991"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003002 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003002">
+        <rdfs:label xml:lang="en">human vastus lateralis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001379"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003003 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003003">
+        <rdfs:label xml:lang="en">cortical neurons with let-7b</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004102"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003004 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003004">
+        <rdfs:label xml:lang="en">Tlr7-/- neurons</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000540"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003005 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003005">
+        <rdfs:label xml:lang="en">quadriceps muscle from dy 3K/dy 3K and dy 2J/dy 2J mouse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001377"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003006 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003006">
+        <rdfs:label xml:lang="en">Myocardial tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003007 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003007">
+        <rdfs:label xml:lang="en">human dermal fibroblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004419"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003008 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003008">
+        <rdfs:label xml:lang="en">myocardial tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003009 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003009">
+        <rdfs:label xml:lang="en">in the frontal cortices of human</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000956"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003010 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003010">
+        <rdfs:label xml:lang="en">mouse brain cortices</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000956"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003011 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003011">
+        <rdfs:label xml:lang="en">mouse neuroblastoma cell line CAD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0000932"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003012 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003012">
+        <rdfs:label xml:lang="en">Young ECs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000115"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003013 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003013">
+        <rdfs:label xml:lang="en">Old ECs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000115"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003014 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003014">
+        <rdfs:label xml:lang="en">Young Ecs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000115"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003015 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003015">
+        <rdfs:label xml:lang="en">Old Ecs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000115"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003016 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003016">
+        <rdfs:label xml:lang="en">human-astroglial cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0002609"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003017 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003017">
+        <rdfs:label xml:lang="en">a variety of mouse organs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000062"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003018 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003018">
+        <rdfs:label xml:lang="en">Rat ventral mesencephalon primary neurons</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_2000029"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003019 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003019">
+        <rdfs:label xml:lang="en">human umbilical vein endothelial cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004296"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003020 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003020">
+        <rdfs:label xml:lang="en">TNF-alpha-treated endothelial cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000115"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003021 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003021">
+        <rdfs:label xml:lang="en">mouse primary embryonic neural stem cells (NSCs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004091"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003022 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003022">
+        <rdfs:label xml:lang="en">mouse brains</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003023 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003023">
+        <rdfs:label xml:lang="en">E18.5 mouse embryonic cortices</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001851"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003024 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003024">
+        <rdfs:label xml:lang="en">primary astrocytes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000127"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003025 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003025">
+        <rdfs:label xml:lang="en">coronal brain section</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003026 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003026">
+        <rdfs:label xml:lang="en">IL-1beta treated human umbilical vein endothelial cells (HUVEC)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0001949"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003027 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003027">
+        <rdfs:label xml:lang="en">DCs stimulated with LPS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000451"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003028 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003028">
+        <rdfs:label xml:lang="en">DC-initiated Ag-specific CD4+T cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000492"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003029 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003029">
+        <rdfs:label xml:lang="en">knockdown of CaMKIIa in DCs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000451"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003030 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003030">
+        <rdfs:label xml:lang="en">microglia of adult and aged mice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0000078"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003031 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003031">
+        <rdfs:label xml:lang="en">human dermal fibroblasts (HDFs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004419"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003032 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003032">
+        <rdfs:label xml:lang="en">hearts from miR-17-92 cKO mice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000948"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003033 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003033">
+        <rdfs:label xml:lang="en">hearts from miR-17-92 TGMHC mice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000948"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003034 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003034">
+        <rdfs:label xml:lang="en">hearts frpm miR-17-92 TGMerCreMer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000948"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003035 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003035">
+        <rdfs:label xml:lang="en">the heart of heart failure (HF)-prone mice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000948"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003036 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003036">
+        <rdfs:label xml:lang="en">rat cardiomyocytes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003037 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003037">
+        <rdfs:label xml:lang="en">rat cardiac fibroblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0008023"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003038 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003038">
+        <rdfs:label xml:lang="en">rat H9C2 cardiac muscle cells with human Bcl-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0001879"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003039 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003039">
+        <rdfs:label xml:lang="en">Pediatric MSC</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0003952"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003040 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003040">
+        <rdfs:label xml:lang="en">mbryonic pancreas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001264"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003041 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003041">
+        <rdfs:label xml:lang="en">mouse primary myoblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000056"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003042 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003042">
+        <rdfs:label xml:lang="en">Human dermal microvascular endothelial cells (HMECs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004574"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003043 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003043">
+        <rdfs:label xml:lang="en">mouse muscle tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002385"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003044 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003044">
+        <rdfs:label xml:lang="en">mouse heart tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003045 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003045">
+        <rdfs:label xml:lang="en">mouse heart lysate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003046 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003046">
+        <rdfs:label xml:lang="en">mouse heart</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003047 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003047">
+        <rdfs:label xml:lang="en">rat soleus muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001389"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003048 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003048">
+        <rdfs:label xml:lang="en">mouse soleus tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001389"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003049 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003049">
+        <rdfs:label xml:lang="en">human diploid fibroblasts (HDFs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003050 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003050">
+        <rdfs:label xml:lang="en">human PBMCs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_2000001"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003051 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003051">
+        <rdfs:label xml:lang="en">MyD88-deficient BMDMs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IDO_0100769"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003052 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003052">
+        <rdfs:label xml:lang="en">TRIF-deficient BMDMs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IDO_0100769"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003053 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003053">
+        <rdfs:label xml:lang="en">wild-type mouse embryonic fibroblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_2000042"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003054 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003054">
+        <rdfs:label xml:lang="en">HEK293-TLR4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0000007"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003055 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003055">
+        <rdfs:label xml:lang="en">muscle from dy 3K/dy 3K and dy 2J/dy 2J mouse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002385"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003056 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003056">
+        <rdfs:label xml:lang="en">muscle from dy 3K/dy 3K</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002385"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003057 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003057">
+        <rdfs:label xml:lang="en">H9c2 cells exposed to hypoxic conditions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0001879"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003058 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003058">
+        <rdfs:label xml:lang="en">vascular fibroblasts(vFBs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003059 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003059">
+        <rdfs:label xml:lang="en">mouse embryonic endothelial cells (MEECs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000115"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003060 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003060">
+        <rdfs:label xml:lang="en">human microvascular endothelial cells (HMECs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_2000008"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003061 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003061">
+        <rdfs:label xml:lang="en">rat hippocampus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0000601"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003062 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003062">
+        <rdfs:label xml:lang="en">human aortic endothelial cells (HAECs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004758"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003063 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003063">
+        <rdfs:label xml:lang="en">primary hippocampal neurons</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0002608"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003064 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003064">
+        <rdfs:label xml:lang="en">hippocampal tissues</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003065 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003065">
+        <rdfs:label xml:lang="en">human skin fibroblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0002620"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003066 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003066">
+        <rdfs:label xml:lang="en">heart tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003067 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003067">
+        <rdfs:label xml:lang="en">mouse tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003068 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003068">
+        <rdfs:label xml:lang="en">rat cardiomyocytes treated with hypertrophic agonists</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003069 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003069">
+        <rdfs:label xml:lang="en">cardiomyocytes from miR-22-knockout (KO) mice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003070 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003070">
+        <rdfs:label xml:lang="en">blood with active pulmonary TB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000178"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003071 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003071">
+        <rdfs:label xml:lang="en">retinal/choroidal region in neonatal mouse retina</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000966"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003072 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003072">
+        <rdfs:label xml:lang="en">Cardiomyocytes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003073 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003073">
+        <rdfs:label xml:lang="en">non-senescent fibroblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003074 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003074">
+        <rdfs:label xml:lang="en">mouse heart tissues</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004419"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003075 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003075">
+        <rdfs:label xml:lang="en">Smad3 -/- primary myoblast cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000056"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003076 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003076">
+        <rdfs:label xml:lang="en">cardiomyocytes with 2-methoxyestradiol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003077 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003077">
+        <rdfs:label xml:lang="en">cardiomyocytes cultured under ischemic conditions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003078 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003078">
+        <rdfs:label xml:lang="en">rat renal mesangial cells(High Glucose Treatment)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000650"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003079 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003079">
+        <rdfs:label xml:lang="en">mouse primary myoblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000056"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003080 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003080">
+        <rdfs:label xml:lang="en">human primary myoblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000056"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003081 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003081">
+        <rdfs:label xml:lang="en">Senescence Zmpste24 -/- primary fibroblast cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003082 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003082">
+        <rdfs:label xml:lang="en">Zmpste24 -/- fibroblasts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003083 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003083">
+        <rdfs:label xml:lang="en">p53 Primary ear fibroblasts from p53 -/- mice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003084 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003084">
+        <rdfs:label xml:lang="en">cells of the osteoclast lineage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000055"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003085 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003085">
+        <rdfs:label xml:lang="en">post-mortem brain tissue of human</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003086 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003086">
+        <rdfs:label xml:lang="en">db/db mice kidney cortice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0001225"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003087 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003087">
+        <rdfs:label xml:lang="en">human microvascular endothelial cells(HMECs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_2000008"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003088 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003088">
+        <rdfs:label xml:lang="en">retinal tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003089 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003089">
+        <rdfs:label xml:lang="en">human HepG2 hepatoma cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0003704"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003090 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003090">
+        <rdfs:label xml:lang="en">liver(Ldlr-/- mice injected  with 2'F/MOE anti-miR33)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002107"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003091 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003091">
+        <rdfs:label xml:lang="en">primary human fetal brain(HFB) cultures</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003092 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003092">
+        <rdfs:label xml:lang="en">AD brain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003093 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003093">
+        <rdfs:label xml:lang="en">human atherosclerotic plaques</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0003120"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003094 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003094">
+        <rdfs:label xml:lang="en">Ku802/2 mice cardiac cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000746"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003095 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003095">
+        <rdfs:label xml:lang="en">human ESCs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000034"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003096 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003096">
+        <rdfs:label xml:lang="en">naive stem cells (ESCs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000034"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003097 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003097">
+        <rdfs:label xml:lang="en">Parkinson's disease patient brain sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003098 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003098">
+        <rdfs:label xml:lang="en">Parkinson's disease brain sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003099 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003099">
+        <rdfs:label xml:lang="en">p53 -/- mouse embryonic fibroblasts (MEF)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0000057"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003100 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003100">
+        <rdfs:label xml:lang="en">Ames dwarf mouse brain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000955"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003101 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003101">
+        <rdfs:label xml:lang="en">neonatal rat cardiomyocytes (CMCs)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0002495"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003102 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003102">
+        <rdfs:label xml:lang="en">senescent WI38</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0000458"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003103 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003103">
+        <rdfs:label xml:lang="en">emphysematous lung tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003104 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003104">
+        <rdfs:label xml:lang="en">human aortic smooth muscle cells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CL_0002539"/>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0003105 -->
+
+    <owl:Class rdf:about="&obo;MIAGO_0003105">
+        <rdfs:label xml:lang="en">ischemic myocardial tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000479"/>
+    </owl:Class>
+
+

@@ -16,6 +16,7 @@ as_uniq = [] # list of ncbi_ID miRNA_name
 as_coexpression = [] # list of coexpression_ID
 varID = 250
 
+
 updateFile = open('nocoexpression','a') 
 updateFile.write('The list of no coexpression coloumn : \n')
 

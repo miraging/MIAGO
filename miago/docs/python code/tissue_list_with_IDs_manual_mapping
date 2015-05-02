@@ -8,7 +8,7 @@ body;UBERON_0000309;BTO_0000139
 ovaries;UBERON_0000992
 testes;UBERON_0000473;BTO_0001363
 human vastus lateralis;Mother-UBERON_0001379;Mother-BTO_0001563
-microglia and RAW264.7 macrophages transfected with let-7b
+microglia transfected with let-7b;Mother-CL_0000129;Mother-BTO_0000078
 HEK293 cells transfected with Tlr7;Mother-BTO_0000007;Mother-EFO_0001182
 cortical neurons with let-7b;Mother-BTO_0004102 
 HEK293 cells;BTO_0000007;EFO_0001182
@@ -20,26 +20,26 @@ H9C2 cell;BTO_0001879;CLO_0003614
 various tissues;UBERON_0000479
 plasma;OBI_0100016;MA_0002501
 heart;UBERON_0000948;BTO_0000562
-cardiac myocytes induced by Triton X-100
+cardiac myocytes induced by Triton X-100;CL_0000746
 serum;BTO_0001239;UBERON_0001977
 muscle stem cells;CL_0000355;BTO_0005300
 quadriceps muscle from dy 3K/dy 3K and dy 2J/dy 2J mouse;Mother-UBERON_0001377
 human aortic endothelial cells(HAEC);BTO_0004602
 human umbilical vein endothelial cells (HUVECs);BTO_0001949
-forebrain cortex and hippocampus
+forebrain cortex;UBERON_0001870
+hippocampus;BTO_0000601;EFO_0000530
 peripheral blood mononuclear cells;CL_2000001;BTO_0001025
 C2C12 myoblasts;BTO_0000165;CLO_0050871
 brain neocortex;UBERON_0001950;BTO_0000920
 HEK 293 cells;BTO_0000007;EFO_0001182
-Myocardial tissue
+Myocardial tissue;Mother-UBERON_0000479
 human dermal fibroblasts;Mother-BTO_0004419
-myocardial tissue
+myocardial tissue;Mother-UBERON_0000479
 PC12 cells;EFO_0001225
 in the frontal cortices of human;Mother-UBERON_0000956;Mother-BTO_0000233
 mouse brain cortices;Mother-UBERON_0000956;Mother-BTO_0000233
 mouse neuroblastoma cell line CAD;Mother-BTO_0000932
-Neuro2a (N2a);BTO_0001976
-forebrain cortex;Mother-UBERON_0000956;Mother-BTO_0000233
+Neuro2a(N2a);BTO_0001976
 hippocampus;BTO_0000601;EFO_0000530
 hippocampus slice;BTO_0000601;EFO_0000530
 microglia;CL_0000129;BTO_0000078
@@ -53,12 +53,14 @@ ECs;CL_0000115;BTO_0001176
 Ecs;CL_0000115;BTO_0001176
 Young ECs;Mother-CL_0000115;Mother-BTO_0001176
 Old ECs;Mother-CL_0000115;Mother-BTO_0001176
+Young Ecs;Mother-CL_0000115;Mother-BTO_0001176
+Old Ecs;Mother-CL_0000115;Mother-BTO_0001176
 human-astroglial cells;Mother-BTO_0002609 
 HUVECs;BTO_0001949
 HEK293 cells transfected with miR-125b;Mother-BTO_0000007;Mother-EFO_0001182
 Hela cells;CLO_0003684;BTO_0000567;
 human umbilical vein endothelial cells (HUVEC );BTO_0001949
-a variety of mouse organs
+a variety of mouse organs;Mother-UBERON_0000062
 HEK293 cells transfected with miR-126;Mother-BTO_0000007;Mother-EFO_0001182
 human umbilical vein endothelial cells (HUVEC);BTO_0001949
 Carotid arteries;BTO_0000168;EFO_0000818
@@ -79,17 +81,16 @@ muscle;UBERON_0001630;BTO_0000887;EFO_0001949
 brain regions;UBERON_0000955;BTO_0000142
 Cortical neurons;BTO_0004102
 Cortical neurons co-transfected with GFP-tagged p250GAP and premiRNA132;Mother-BTO_0004102
-LLC-PK1 cells treated with OTA;Mother-cell_line
-E18.5 mouse embryonic cortices;Mother-UBERON_0001851;
-THP-1 cells;Mother-cell_line
+LLC-PK1 cells treated with OTA;BTO_0000760
+E18.5 mouse embryonic cortices;Mother-UBERON_0001851
+THP-1 cells;BTO_0001370;CLO_0009348
 oocytes;CL_0000023;BTO_0000964
-U373MG cells;Mother-cell_line
-???AppTg/Cebpd -/- mice
+U373MG cells;BTO_0002126
 primary rat astrocytes transfected with human SPTLC1 3 UTR luciferase;Mother-CL_0000127;Mother-BTO_0000099
 primary astrocytes;Mother-CL_0000127;Mother-BTO_0000099
 HEK293 co-transfections of the resulting 3'UTR Renilla vectors;Mother-BTO_0000007;Mother-EFO_0001182
 post-mortem hippocampus;BTO_0000601;EFO_0000530
-frontal cortex specimen;UBERON_0000955;BTO_0000142
+frontal cortex specimen;UBERON_0001870
 lymphoblastoid cell lines;BTO_0000773
 SH-SY5Y;CLO_0009015
 primary human vascular smooth muscle cells;BTO_0000793
@@ -101,11 +102,10 @@ erythroid progenitors;CL_0000038;BTO_0004911
 coronal brain section;Mother-UBERON_0000955;Mother-BTO_0000142
 human umbilical vein endothelial cell(HUVEC);BTO_0001949
 IL-1beta treated human umbilical vein endothelial cells (HUVEC);Mother-BTO_0001949
-??? None
-HL-60 cells;Mother-cell_line
-THP-1 cells;Mother-cell_line
-293/IL-1R/TLR4/MD2 cell line;Mother-cell_line
-293 cells;Mother-cell_line
+HL-60 cells;BTO_0000738;CLO_0003775
+THP-1 cells;BTO_0001370;CLO_0009348
+293/IL-1R/TLR4/MD2 cell line;BTO_0000007;EFO_0001182
+293 cells;BTO_0000007;EFO_0001182
 CD4+T cells;CL_0000492
 Jurkat;BTO_0000661
 DCs stimulated with LPS;Mother-CL_0000451;Mother-BTO_0002042 
@@ -140,13 +140,13 @@ memory T cells;CL_0000813
 CD14+ monocytes;CL_0001054
 T cells(CD4,CD8 cell);CL_0000084
 T cells;CL_0000084
-Peptide-loaded CH27 cells;a mouse B lymphoma cell line;Mother-cell_line
+Peptide-loaded CH27 cells;BTO_0004891
 embryonic blood (BECs);BTO_0000381
 lymphatic(LECs) vascular endothelial cells;BTO_0004167
 BECs;BTO_0000381
 LECs;BTO_0004167 
 HeLa cells transfected with luciferase-EZR-30UTR;Mother-CLO_0003684;Mother-BTO_0000567
-ARPE19 cells were transfected with miR-184 inhibitor;Mother-cell_line
+ARPE19 cells were transfected with miR-184 inhibitor;BTO_0002335;CLO_0001749
 RPE cells from AMD human;CL_0002586;BTO_0004910
 the heart of heart failure (HF)-prone mice;Mother-UBERON_0000948;Mother-BTO_0000562
 rat cardiomyocytes;Mother-CL_0000746 
@@ -158,10 +158,9 @@ mouse kidney glomeruli;UBERON_0000074;BTO_0000530
 cardiomyocytes were transfected with miR-195 antagomir;Mother-CL_0000746
 cardiomyocytes were transfected with miR-195;Mother-CL_0000746
 rat H9C2 cardiac muscle cells with human Bcl-2;Mother-BTO_0001879;Mother-CLO_0003614
-HCV replicon cell lines;Mother-cell_line
 Pediatric MSC;Mother-BTO_0003952
 human mesenchymal stromal/stem cells;BTO_0003952
-bTC6 cells;Mother-cell_line
+bTC6 cells;BTO_0003428;CLO_0001933
 HEK293T cell;BTO_0002181
 mbryonic pancreas;Mother-UBERON_0001264;Mother-BTO_0000988
 C2C12 cells;BTO_0000165
@@ -175,7 +174,7 @@ Human dermal microvascular endothelial cells (HMECs);Mother-BTO_0004574
 HEK-293 cells;BTO_0000007;EFO_0001182
 mouse muscle tissue;Mother-UBERON_0002385
 mouse heart tissue;Mother-UBERON_0000479
-COS-1 cells;Mother-cell_line;http://en.wikipedia.org/wiki/COS_cells
+COS-1 cells;BTO_0001538;CLO_0002596
 C2C12 myoblast;BTO_0000165
 mouse heart lysate;Mother-UBERON_0000479
 mouse heart;Mother-UBERON_0000479
@@ -184,13 +183,13 @@ rat soleus muscle;Mother-UBERON_0001389
 mouse soleus tissue;Mother-UBERON_0001389 
 human diploid fibroblasts (HDFs);Mother-CL_0000057;Mother-BTO_0000452
 HCV-positive liver biopsy;UBERON_0002107;BTO_0000759
-RAW264.7 macrophages;Mother-cell_line
+RAW264.7 macrophages;BTO_0003292;CLO_0008753
 primary mouse BMDMs;IDO_0100769
 human PBMCs;Mother-CL_2000001;Mother-BTO_0001025 
 MyD88-deficient BMDMs;Mother-IDO_0100769
 TRIF-deficient BMDMs;Mother-IDO_0100769
 wild-type mouse embryonic fibroblasts;Mother-CL_2000042;Mother-BTO_0004725
-RAW264.7;Mother-cell_line
+RAW264.7;BTO_0003292;CLO_0008753
 HEK293-TLR4;Mother-BTO_0000007;Mother-EFO_0001182
 cardiac myocytes;CL_0000746
 myofibroblasts;CL_0000186;BTO_0001946
@@ -198,7 +197,6 @@ MCF-7;CLO_0007606
 SW480 cells;CLO_0009218
 Human umbilical vein Ecs  (HUVECs);BTO_0001949
 cardiac fibroblasts;CL_0008023
-???myocardial
 muscle from dy 3K/dy 3K and dy 2J/dy 2J mouse;Mother-UBERON_0002385
 muscle from dy 3K/dy 3K;Mother-UBERON_0002385
 PBMCs;CL_2000001;BTO_0001025
@@ -215,7 +213,7 @@ rat hippocampus;Mother-BTO_0000601;Mother-EFO_0000530
 renal glomeruli;UBERON_0000074;BTO_0000530
 human umbilical vein endothelial cells (HUVECs);BTO_0001949
 human aortic endothelial cells (HAECs);Mother-BTO_0004758
-Hippocampus and cortex OF brain;UBERON_0000955;BTO_0000142
+Hippocampus and cortex of brain;UBERON_0000956
 primary hippocampal neurons;Mother-CL_0002608
 HT22;BTO_0003037
 N2a cell lines;BTO_0001976
@@ -233,15 +231,15 @@ cardiomyocytes from miR-22-knockout (KO) mice;Mother-CL_0000746
 human umbilical vein endothelial cells (HUVECs) transfected with miR-221;Mother-BTO_0001949
 HEK 293T cells;BTO_0002181
 peripheral blood mononuclear cells(PBMNCs);CL_2000001;BTO_0001025
-???mouse vessels
 human umbilical vein endothelial cells (HUVECs) transfected with miR-222;Mother-BTO_0001949
 blood with active pulmonary TB;Mother-UBERON_0000178;Mother-BTO_0000089
 lung;UBERON_0002048;BTO_0000763
 BMDMs;IDO_0100769
 polymorphonuclear neutrophils(PMNs);BTO_0003473
-RAW 246.7 cells;Mother-cell_line
+RAW 246.7 cells;BTO_0003292;CLO_0008753
 Hela transfected with reporter construct and the miR-223 mimic;Mother-CLO_0003684;Mother-BTO_0000567
-???young animals;old animals
+young C. elegans;OBI_0000047 
+old C. elegans;OBI_0000047 
 human umbilical vein EC line (HUVECs);BTO_0001949
 COS cells;BTO_0004055
 retinal/choroidal region in neonatal mouse retina;Mother-UBERON_0000966;Mother-BTO_0001175
@@ -267,9 +265,10 @@ human primary myoblast;Mother-CL_0000056
 liver;UBERON_0002107
 Senescence Zmpste24 -/- primary fibroblast cell;Mother-CL_0000057;Mother-BTO_0000452
 Zmpste24 -/- fibroblasts;Mother-CL_0000057;Mother-BTO_0000452
-U2OS cell;CLO_0009454
+U2OS cell;BTO_0001938;CLO_0009454
+U2OS cell;BTO_0001938;CLO_0009454
 p53 Primary ear fibroblasts from p53 -/- mice;Mother-CL_0000057;Mother-BTO_0000452
-p53 -/- HCT-116 cells;Mother-cell_line
+p53 -/- HCT-116 cells;BTO_0001109
 cells of the osteoclast lineage;Mother-CL_0000055
 muscle;UBERON_0001134
 HEK-293 cell line transfected with miR-29;Mother-EFO_0001182
@@ -281,7 +280,7 @@ human umbilical vein endothelial cells(HUVECs);BTO_0001949
 human microvascular endothelial cells(HMECs);Mother-CL_2000008;Mother-BTO_0003123
 retinal tissue;Mother-UBERON_0000479
 human HepG2 hepatoma cells;Mother-CLO_0003704
-human IMR-90 fibroblasts;Mother-cell_line
+human IMR-90 fibroblasts;BTO_0001229;CLO_0006951
 mouse macrophage cell line J774;CLO_0007003
 liver(Ldlr-/- mice injected  with 2'F/MOE anti-miR33);Mother-UBERON_0002107
 aortic sinus lesion area(Ldlr-/- mice);OBI_0000047
@@ -303,7 +302,7 @@ retina;UBERON_0000966;BTO_0001175
 RPE/choroid;BTO_0001829
 Parkinson's disease patient brain sample;Mother-UBERON_0000955;Mother-BTO_0000142
 SH-SY5Y cells;BTO_0000793;CLO_0009015
-RPE-1 epithelial retinal cells;Mother-cell_line
+RPE-1 epithelial retinal cells;BTO_0004790;CLO_0004290
 HepG2 hepatocellular carcinome cells;CLO_0003704
 Parkinson's disease brain sample;Mother-UBERON_0000955;Mother-BTO_0000142
 neuroblastoma cell line;BTO_0000932 
@@ -312,24 +311,27 @@ HeLa cells,;CLO_0003684;BTO_0000567
 HEK293 cells;BTO_0000007;EFO_0001182
 p53 -/- mouse embryonic fibroblasts (MEF);Mother-CL_0000057
 HUVECs were transfected with hsa-miR-365 inhibitor;Mother-BTO_0001949
-???pancreatic beta and non-beta cell lines
+pancreatic beat cell line;BTO_0000716
+CHO (Chinese hamster ovary cells);BTO_0000246;CLO_0002421
 Ames dwarf mouse brain;Mother-UBERON_0000955;Mother-BTO_0000142
-mouse cancer cell line (Hepa1-6);Mother-cell_line
+mouse cancer cell line (Hepa1-6);BTO_0002895
 neonatal rat cardiomyocytes (CMCs);Mother-CL_0002495
-human primary fibroblasts IMR90;Mother-cell_line
-adult muscle stem cells;satellite cells(SCs)
+human primary fibroblasts IMR90;BTO_0001229;CLO_0006951
+adult muscle stem cells;CL_0000355;BTO_0005300
+satellite cells(SCs);CL_0000594;
 myoblasts;CL_0000056;BTO_0000222
-IMR90 cells;Mother-cell_line
-senescent IMR90;Mother-cell_line
-???senescent WI38;Mother-BTO_0000458;
-IMR90 repeated DEM treatment;Mother-cell_line
-IMR90;;Mother-cell_line
-RAW264.7 macrophages transfected with let-7b;Mother-cell_line
-lung(regional emphysema;emphysema;COPD);Mother-UBERON_0002048;Mother-BTO_0000763
+IMR90 cells;BTO_0001229;CLO_0006951
+senescent IMR90;BTO_0001229;CLO_0006951
+senescent WI38;Mother-BTO_0000458
+IMR90 repeated DEM treatment;BTO_0001229;CLO_0006951
+IMR90;BTO_0001229;CLO_0006951
+RAW264.7 macrophages transfected with let-7b;Mother-BTO_0003292;Mother-CLO_0008753
 lung fibroblasts;BTO_0000764
 emphysematous lung tissue;Mother-UBERON_0000479
 human arterial endothelial cells (HAECs);BTO_0004758
 human aortic smooth muscle cells;Mother-CL_0002539;Mother-BTO_0004577 
 ischemic myocardial tissue;Mother-UBERON_0000479
 Jurkat cells transfected with miR-210 and FOXP3;Mother-BTO_0000661
-CD4+ T cells of healthy controls transfected miR-210 mimic;Mother-CD4+ T cells
+CD4+ T cells of healthy controls transfected miR-210 mimic;Mother-CL_0000492
+astrocyte;CL_0000127;BTO_0000099
+myocardial tru-cut needle subepicardial biopsies;UBERON_0002349;BTO_0000901

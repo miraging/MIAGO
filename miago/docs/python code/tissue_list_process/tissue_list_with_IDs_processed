@@ -5,7 +5,6 @@ heads;UBERON_0000033;BTO_0000282
 body;UBERON_0000309;BTO_0000139
 ovaries;UBERON_0000992
 testes;UBERON_0000473;BTO_0001363
-microglia and RAW264.7 macrophages transfected with let-7b
 HEK293 cells;BTO_0000007;EFO_0001182
 cerebral cortex;UBERON_0000956;BTO_0000233
 hearts;UBERON_0000948;BTO_0000562
@@ -14,30 +13,31 @@ H9C2 cell;BTO_0001879;CLO_0003614
 various tissues;UBERON_0000479
 plasma;OBI_0100016;MA_0002501
 heart;UBERON_0000948;BTO_0000562
-cardiac myocytes induced by Triton X-100
+cardiac myocytes induced by Triton X-100;CL_0000746
 serum;BTO_0001239;UBERON_0001977
 muscle stem cells;CL_0000355;BTO_0005300
 human aortic endothelial cells(HAEC);BTO_0004602
 human umbilical vein endothelial cells (HUVECs);BTO_0001949
-forebrain cortex and hippocampus
+forebrain cortex;UBERON_0001870
+hippocampus;BTO_0000601;EFO_0000530
 peripheral blood mononuclear cells;CL_2000001;BTO_0001025
 C2C12 myoblasts;BTO_0000165;CLO_0050871
 brain neocortex;UBERON_0001950;BTO_0000920
 HEK 293 cells;BTO_0000007;EFO_0001182
-Myocardial tissue
-myocardial tissue
 PC12 cells;EFO_0001225
-Neuro2a (N2a);BTO_0001976
+Neuro2a(N2a);BTO_0001976
 hippocampus;BTO_0000601;EFO_0000530
 hippocampus slice;BTO_0000601;EFO_0000530
 microglia;CL_0000129;BTO_0000078
 vascular endothelial cells;BTO_0001854;CL_0002139
+bEND.3;BTO_0003353
 mouse endothelial cell line H5V cells;CLO_0009785
 aorta;UBERON_0000947;BTO_0000135
+ECs;CL_0000115;BTO_0001176
+Ecs;CL_0000115;BTO_0001176
 HUVECs;BTO_0001949
 Hela cells;CLO_0003684;BTO_0000567;
 human umbilical vein endothelial cells (HUVEC );BTO_0001949
-a variety of mouse organs
 human umbilical vein endothelial cells (HUVEC);BTO_0001949
 Carotid arteries;BTO_0000168;EFO_0000818
 Muscle biopsies;UBERON_0001630;BTO_0000887;EFO_0001949
@@ -51,9 +51,12 @@ HeLa cells;CLO_0003684;BTO_0000567
 muscle;UBERON_0001630;BTO_0000887;EFO_0001949
 brain regions;UBERON_0000955;BTO_0000142
 Cortical neurons;BTO_0004102
+LLC-PK1 cells treated with OTA;BTO_0000760
+THP-1 cells;BTO_0001370;CLO_0009348
 oocytes;CL_0000023;BTO_0000964
+U373MG cells;BTO_0002126
 post-mortem hippocampus;BTO_0000601;EFO_0000530
-frontal cortex specimen;UBERON_0000955;BTO_0000142
+frontal cortex specimen;UBERON_0001870
 lymphoblastoid cell lines;BTO_0000773
 SH-SY5Y;CLO_0009015
 primary human vascular smooth muscle cells;BTO_0000793
@@ -63,6 +66,10 @@ erythrocyte;CL_0000232;BTO_0000424
 reticulocyte;CL_0000558;BTO_0001173
 erythroid progenitors;CL_0000038;BTO_0004911
 human umbilical vein endothelial cell(HUVEC);BTO_0001949
+HL-60 cells;BTO_0000738;CLO_0003775
+THP-1 cells;BTO_0001370;CLO_0009348
+293/IL-1R/TLR4/MD2 cell line;BTO_0000007;EFO_0001182
+293 cells;BTO_0000007;EFO_0001182
 CD4+T cells;CL_0000492
 Jurkat;BTO_0000661
 cardiac  tissue;CL_0002548
@@ -84,25 +91,31 @@ memory T cells;CL_0000813
 CD14+ monocytes;CL_0001054
 T cells(CD4,CD8 cell);CL_0000084
 T cells;CL_0000084
+Peptide-loaded CH27 cells;BTO_0004891
 embryonic blood (BECs);BTO_0000381
 lymphatic(LECs) vascular endothelial cells;BTO_0004167
 BECs;BTO_0000381
 LECs;BTO_0004167
+ARPE19 cells were transfected with miR-184 inhibitor;BTO_0002335;CLO_0001749
 RPE cells from AMD human;CL_0002586;BTO_0004910
 glomerular mesangial cells;CL_1000742
 kidney;UBERON_0002113;BTO_0000671
 mesangial cells;CL_0000650
 mouse kidney glomeruli;UBERON_0000074;BTO_0000530
 human mesenchymal stromal/stem cells;BTO_0003952
+bTC6 cells;BTO_0003428;CLO_0001933
 HEK293T cell;BTO_0002181
 C2C12 cells;BTO_0000165
 monocytes;CL_0000576;BTO_0000876
 monocytes(health);CL_0000576;BTO_0000876
 HEK-293 cells;BTO_0000007;EFO_0001182
+COS-1 cells;BTO_0001538;CLO_0002596
 C2C12 myoblast;BTO_0000165
 skeletal muscle;BTO_0001103
 HCV-positive liver biopsy;UBERON_0002107;BTO_0000759
+RAW264.7 macrophages;BTO_0003292;CLO_0008753
 primary mouse BMDMs;IDO_0100769
+RAW264.7;BTO_0003292;CLO_0008753
 cardiac myocytes;CL_0000746
 myofibroblasts;CL_0000186;BTO_0001946
 MCF-7;CLO_0007606
@@ -117,7 +130,7 @@ VSMCs;CL_0000359;BTO_0004578
 HUVEC;BTO_0001949
 renal glomeruli;UBERON_0000074;BTO_0000530
 human umbilical vein endothelial cells (HUVECs);BTO_0001949
-Hippocampus and cortex OF brain;UBERON_0000955;BTO_0000142
+Hippocampus and cortex of brain;UBERON_0000956
 HT22;BTO_0003037
 N2a cell lines;BTO_0001976
 Cerebrospinal Fluid (CSF);BTO_0000237
@@ -129,6 +142,9 @@ peripheral blood mononuclear cells(PBMNCs);CL_2000001;BTO_0001025
 lung;UBERON_0002048;BTO_0000763
 BMDMs;IDO_0100769
 polymorphonuclear neutrophils(PMNs);BTO_0003473
+RAW 246.7 cells;BTO_0003292;CLO_0008753
+young C. elegans;OBI_0000047
+old C. elegans;OBI_0000047
 human umbilical vein EC line (HUVECs);BTO_0001949
 COS cells;BTO_0004055
 myoblast cell line;BTO_0000256;CLO_0000057
@@ -138,9 +154,12 @@ dermal fibroblasts;BTO_0004419
 C2C12 myoblast cells;BTO_0000165
 293T cells;BTO_0002181
 liver;UBERON_0002107
-U2OS cell;CLO_0009454
+U2OS cell;BTO_0001938;CLO_0009454
+U2OS cell;BTO_0001938;CLO_0009454
+p53 -/- HCT-116 cells;BTO_0001109
 muscle;UBERON_0001134
 human umbilical vein endothelial cells(HUVECs);BTO_0001949
+human IMR-90 fibroblasts;BTO_0001229;CLO_0006951
 mouse macrophage cell line J774;CLO_0007003
 aortic sinus lesion area(Ldlr-/- mice);OBI_0000047
 human umbilical cord vein endothelial cells (HUVEC);BTO_0001949
@@ -150,12 +169,24 @@ cochlear hair cell;FMA_62364
 retina;UBERON_0000966;BTO_0001175
 RPE/choroid;BTO_0001829
 SH-SY5Y cells;BTO_0000793;CLO_0009015
+RPE-1 epithelial retinal cells;BTO_0004790;CLO_0004290
 HepG2 hepatocellular carcinome cells;CLO_0003704
 neuroblastoma cell line;BTO_0000932
 Hippocampal;UBERON_0000955;BTO_0000142
 HeLa cells,;CLO_0003684;BTO_0000567
 HEK293 cells;BTO_0000007;EFO_0001182
-adult muscle stem cells;satellite cells(SCs)
+pancreatic beat cell line;BTO_0000716
+CHO (Chinese hamster ovary cells);BTO_0000246;CLO_0002421
+mouse cancer cell line (Hepa1-6);BTO_0002895
+human primary fibroblasts IMR90;BTO_0001229;CLO_0006951
+adult muscle stem cells;CL_0000355;BTO_0005300
+satellite cells(SCs);CL_0000594;
 myoblasts;CL_0000056;BTO_0000222
+IMR90 cells;BTO_0001229;CLO_0006951
+senescent IMR90;BTO_0001229;CLO_0006951
+IMR90 repeated DEM treatment;BTO_0001229;CLO_0006951
+IMR90;BTO_0001229;CLO_0006951
 lung fibroblasts;BTO_0000764
 human arterial endothelial cells (HAECs);BTO_0004758
+astrocyte;CL_0000127;BTO_0000099
+myocardial tru-cut needle subepicardial biopsies;UBERON_0002349;BTO_0000901

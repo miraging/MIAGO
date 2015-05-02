@@ -1,5 +1,5 @@
 # search the conclusion, conclusion id and related assay, assay id (Individuals)
-# the result is in the data\conclusion_assay_query.xlsx
+# the result is stored in the data\conclusion_assay_query.xlsx
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -18,6 +18,29 @@ WHERE
   ?s obo:MIAGO_0000104 ?s1 .
   ?s1 rdfs:label ?label1 .}
 
+# search the the beta Tc6 cell in BTO.
 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+ 
+SELECT distinct ?s ?label 
+from <http://purl.obolibrary.org/obo/merged/BTO>
+WHERE  
+{ ?s rdfs:label ?label .
+  FILTER REGEX(str(?label),"TC6")} 
+
+## mapping search from CLO
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+ 
+SELECT distinct ?s ?label 
+from <http://purl.obolibrary.org/obo/merged/CLO>
+WHERE  
+{ ?s rdfs:label ?label .
+  FILTER REGEX(str(?label),"TC-6")} 
 
 

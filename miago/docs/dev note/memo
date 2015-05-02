@@ -1,1 +1,6 @@
-http://purl.obolibrary.org/obo/MIAGO_0000107 deleted
+1. http://purl.obolibrary.org/obo/MIAGO_0000107 deleted
+
+2. tissue_list_ID_process.py
+    using rdfs:seeAlso for mapping between BTO and CLO, UBERON and BTO; 
+	which may change later
+	the content in seeAlso, we use IDs without namespace. We will resolve it later.

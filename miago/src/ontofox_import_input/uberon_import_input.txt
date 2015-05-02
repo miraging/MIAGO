@@ -5,19 +5,21 @@ http://purl.obolirary.org/obo/miago/UBERON_import.owl
 UBERON
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/UBERON_0002107 #liver
 http://purl.obolibrary.org/obo/UBERON_0002385 #muscle tissue
 http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+http://purl.obolibrary.org/obo/UBERON_0000029
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0002385 #muscle tissue
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
 
 http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 
 http://purl.obolibrary.org/obo/UBERON_0002107 #liver
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 
 [Source term retrieval setting]
 includeAllIntermediates

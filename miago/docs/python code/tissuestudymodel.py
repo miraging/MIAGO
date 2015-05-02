@@ -2,15 +2,18 @@
 # input: the sheet:assay_tissue_organism_mapping in table transfering_assumption.xlsx
 # output: noconclusion  tissuestudymodel_individual.owl
 
+
 """
-NamedIndividual pattern:
+NamedIndividual pattern: (tissue used for the origin of the processed material instance)
 
 conclusion "conclusion based on data measured by assay"(MIAGO_0000104) assay
-assay "hasEvaluant"(MIAGO_0000031) tissue
+assay "hasEvaluant"(MIAGO_0000031) processed material
+tissue "processed into" processed material instance
 tissue "is par of"(BFO_0000051) study model
 
 """
 
+import tissue_list_final_one_list
 import conclusion_assay_list
 import math
 
@@ -24,8 +27,8 @@ ins_tissue = []
 ins_conclusion = []
 line_list = []
 
-updateFile = open('noclonclusion','a')
-updateFile1 = open('tissuestudymodel_individual.owl','a')
+updateFile = open('noconclusion','w+')
+updateFile1 = open('tissuestudymodel_individual.owl','w+')
 
 for i in range(2,1006):
     print i
@@ -40,9 +43,10 @@ for i in range(2,1006):
         updateFile.write('no record in '+str(i)+'\n')
         continue
     if tissue is not None:
-        tissue = str(tissue).strip()
+        tissue = str(tissue).strip() 
     else:
         tissue = 'no tissue'
+        updateFile.write(str(i)+' no tissue info. check the paper!\n')
     
     
     if conclusion_up is not None:
@@ -70,6 +74,7 @@ varID = 12930
 
 for j in range(len(ins_conclusion)) :  # didn't think about the one conclusion mapping to multiple assay's condition?
     conclusion = ins_conclusion[j]
+    
     if conclusion in conclusion_assay_list.conclusion_text_list:
       
         # determine the mother term for study model
@@ -95,34 +100,62 @@ for j in range(len(ins_conclusion)) :  # didn't think about the one conclusion m
         
         # write the OWL for tissue -- add pattern: tissue "is par of"(BFO_0000051) study model
         #TODO: determine the mother term for tissue
-        
+        ## there is the script for assigning tissue mother terms. Maybe import.
+ 
         varID = varID + 1
         len1 = int(math.log10(varID)) + 1
         string_val = "0" * (7-len1)
         tissue_ID = string_val + str(varID) 
         
-        tissue = ins_tissue[j]+ ' ' + line_list[j]
-        updateFile1.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(tissue_ID)+' -->\n')
-        updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(tissue_ID)+'">\n')
-        updateFile1.write('        <rdf:type rdf:resource="&obo;BFO_0000040"/>\n')
-        updateFile1.write('        <rdfs:label xml:lang="en">'+tissue+'</rdfs:label>\n')
-        updateFile1.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(study_model_ID)+'"/>\n')
-        updateFile1.write('    </owl:NamedIndividual>\n\n\n')
+        #get tissue mother term from the list in tissue_list_final_one_list
+        tissue_name = str(ins_tissue[j]).strip()
+        if tissue_name <> 'no tissue' :
+        #split tissue
+            tissue_list = tissue_name.split(';')
+            for i in range(len(tissue_list)):
+                varID = varID + 1
+                len1 = int(math.log10(varID)) + 1
+                string_val = "0" * (7-len1)
+                tissue_ID = string_val + str(varID) 
+ 
+                tissue = str(tissue_list[i]).strip()
+                if tissue not in tissue_list_final_one_list.tissue_instance_name_list:
+                    updateFile.write(tissue +' no in tissue_final_one_list.'+line_list[j]+'\n')
+                else:
+                    p = tissue_list_final_one_list.tissue_instance_name_list.index(tissue)
+                    tissue_mother_ID = tissue_list_final_one_list.tissue_mother_ID_list[p]
+                    tissue_mother_both = tissue_list_final_one_list.tissue_mother_both_list[p]    
+        # change the naming : add 'specimen' or 'culture' depends on the mother_term !!! starting from here
+                    if 'UBERON' in tissue_mother_both:
+                        tissue = 'processed '+ tissue + ' specimen'
+                    elif 'CL' or 'CLO' in tissue_mother_both:
+                        tissue = tissue + ' culture'
+                    else:
+                        print tissue_ID + ' ' + tissue + ' ' + line_list[j] + 'name not changed yet. TODO!'
+                        updateFile.write(tissue_ID + ' ' + tissue + ' ' + line_list[j] + 'name not changed yet. TODO!\n')
+                    tissue_text = tissue + ' ' + line_list[j]
+                    updateFile1.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(tissue_ID)+' -->\n')
+                    updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(tissue_ID)+'">\n')
+                    updateFile1.write('        <rdf:type rdf:resource="&obo;'+tissue_mother_ID+'"/>\n')
+                    updateFile1.write('        <rdfs:label xml:lang="en">'+tissue_text+'</rdfs:label>\n')
+                    updateFile1.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(study_model_ID)+'"/>\n')
+                    updateFile1.write('    </owl:NamedIndividual>\n\n\n')
         
-        for l in range(len(conclusion_assay_list.conclusion_text_list)):
-            if conclusion == conclusion_assay_list.conclusion_text_list[l]:
-                assay_ID = conclusion_assay_list.assay_ID_list[l]          
+                    for l in range(len(conclusion_assay_list.conclusion_text_list)):
+                        if conclusion == conclusion_assay_list.conclusion_text_list[l]:
+                            assay_ID = conclusion_assay_list.assay_ID_list[l]          
              
                 # add pattern: assay "hasEvaluant"(MIAGO_0000031) tissue
-                updateFile1.write('    <!-- http://purl.obolibrary.org/obo/'+str(assay_ID)+' -->\n')
-                updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;'+str(assay_ID)+'">\n')
-                updateFile1.write('        <MIAGO_0000031 rdf:resource="&obo;MIAGO_'+str(tissue_ID)+'"/>\n')
-                updateFile1.write('    </owl:NamedIndividual>\n\n\n')
-            else:
-                pass
+                # ! check the multiple tissue to one assay's situation
+                            updateFile1.write('    <!-- http://purl.obolibrary.org/obo/'+str(assay_ID)+' -->\n')
+                            updateFile1.write('    <owl:NamedIndividual rdf:about="&obo;'+str(assay_ID)+'">\n')
+                            updateFile1.write('        <obo:MIAGO_0000031 rdf:resource="&obo;MIAGO_'+str(tissue_ID)+'"/>\n')
+                            updateFile1.write('    </owl:NamedIndividual>\n\n\n')
+                        else:
+                            pass
         
     else:
-        updateFile.write(conclusion+'\n')
+        updateFile.write(conclusion+ ' ' + line_list[j]+'\n')  # put the conclusion into no_conclusion list file.
 
 
 updateFile.close()

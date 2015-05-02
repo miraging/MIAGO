@@ -97,6 +97,7 @@ as_downstream_conclusion = []
 as_upstream_conclusion = []
 as_coexpression = []
 as_NCBI_miRNA_name = []
+line_list = []
 
 for i in range(2,1006):
     target_name = ws.cell('E'+ str(i)).value
@@ -143,15 +144,13 @@ for i in range(2,1006):
         as_downstream_conclusion.append(str(downstream_conclusion))
         as_upstream_conclusion.append(str(upstream_conclusion))
         as_coexpression.append(str(coexpression))
+        line_list.append(str(i))
     print i
-
-len0 = len(as_miRNA)
-
 
 updateFile = open(r'miRNAtarget_assumption_class_individual.owl','a')
 varID = 10620
 
-for j in range(0,len0):
+for j in range(len(as_miRNA)):
     varID = varID +1
     len1 = int(math.log10(varID)) + 1
     string_val = "0" * (7-len1)
@@ -165,7 +164,7 @@ for j in range(0,len0):
     
     assay_id_list = []
     assay = as_assay[j]
-    assay= str(assay).strip()
+    assay = str(assay).strip()
     searchObj = re.search(';', assay)
     if searchObj:
         assay_list = assay.split(';')
@@ -178,15 +177,18 @@ for j in range(0,len0):
             assay_id_list.append(str(assay_id))
  
             updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(assay_id)+' -->\n')
-            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n        <rdf:type rdf:resource="&obo;OBI_0000070"/>\n        <rdfs:label xml:lang="en">'+str(assay)+' '+str(assay_id)+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
+            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n        <rdf:type rdf:resource="&obo;OBI_0000070"/>\n        <rdfs:label xml:lang="en">'+str(assay)+' '+str(line_list[j])+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
     else:
-        varID = varID +1
-        len1 = int(math.log10(varID)) + 1
-        string_val = "0" * (7-len1)
-        assay_id = string_val + str(varID)
+        if assay <> 'None':
+            varID = varID +1
+            len1 = int(math.log10(varID)) + 1
+            string_val = "0" * (7-len1)
+            assay_id = string_val + str(varID)
          
-        updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(assay_id)+' -->\n')
-        updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n        <rdf:type rdf:resource="&obo;OBI_0000070"/>\n        <rdfs:label xml:lang="en">'+assay+' '+str(assay_id)+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
+            updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(assay_id)+' -->\n')
+            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n        <rdf:type rdf:resource="&obo;OBI_0000070"/>\n        <rdfs:label xml:lang="en">'+assay+' '+str(line_list[j])+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
+        else:
+            pass
  
     # if there is luciferase assay, then there is binding conclusion
     searchObj1 = re.search('luciferase', assay)
@@ -204,7 +206,7 @@ for j in range(0,len0):
     else :
         bindingconclusion_ID = ''
     
-    if as_downstream_conclusion[j] is not None:
+    if as_downstream_conclusion[j] <> 'None':
         varID = varID + 1
         len1 = int(math.log10(varID))+1
         string_val = "0" * (7-len1)
@@ -237,7 +239,8 @@ for j in range(0,len0):
         updateFile.write('    </owl:NamedIndividual>\n\n\n')
 
 
-    if as_upstream_conclusion[j] is not None:
+    if as_upstream_conclusion[j] <> 'None':
+    #! need a little text mining here! if up, then put into miRNA upregulated' if down, then put into miRNA downregulated'
         varID = varID + 1
         len1 = int(math.log10(varID))+1
         string_val = "0" * (7-len1)
@@ -278,7 +281,7 @@ for j in range(0,len0):
         updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+ prediction_ID +' -->\n\n')
         updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_' + prediction_ID +'">\n')
         updateFile.write('        <rdf:type rdf:resource="&obo;MIAGO_0000046"/>\n')
-        updateFile.write('        <rdfs:label xml:lang="en">'+as_prediction[j]+' predicted miRNA target conclusion'+prediction_ID+'</rdfs:label>\n')
+        updateFile.write('        <rdfs:label xml:lang="en">'+as_prediction[j]+' predicted miRNA target conclusion'+str(line_list[j])+'</rdfs:label>\n')
         updateFile.write('        <obo:BFO_0000050 rdf:resource="&obo;MIAGO_'+str(pmid_ID)+'"/>\n')
         updateFile.write('    </owl:NamedIndividual>\n\n\n')
 
@@ -289,7 +292,6 @@ for j in range(0,len0):
     assump_ID = mitaras.as_assump[p3]
     #miRNA = as_miRNA[j]
     #target = as_target_name[j]
-    #updateFile = open('miRNAtarget_assumption_class.owl','a')
 
     updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+ assump_ID +' -->\n\n')
     updateFile.write('    <owl:Class rdf:about="&obo;MIAGO_'+ assump_ID +'">\n')

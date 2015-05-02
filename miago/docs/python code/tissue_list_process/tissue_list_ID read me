@@ -1,0 +1,34 @@
+1. go to folder 'python code'
+
+2. run tissue_list_ID_process.py 
+    input : tissue_list_with_IDs_manual_mapping
+	output: 1) 'tissue_list_process\tissue_list_with_IDs_processed' # this file gives only the tissue list with the IDs that will need to import and build up the derives from relation between a tissue and an existing ID.
+	        2)'tissue_list_process\tissue_list_with_IDs_mother' # this file gives the tissues that needs to assign to a mother term
+			3)'tissue_list_process\tissue_list_with_IDs_noID','a') # this file gives the tissue that has no id or needs to check the original papers. It is empty after revisiting the manual mapping file(tissue_list_with_IDs_manual_mapping)
+			4)'tissue_list_process\tissue_list_with_IDs_mother_transfected' # this file gives the tissues that needs to assign to a mother term / after deleted the 'Mother-' just assert it as an instance
+			5)'tissue_list_process\tissue_list_with_IDs_mother_cell_line' # this file gives the tissues that needs to assign to a new cell line term. There is no data in this file after revisiting the manual mapping file(tissue_list_with_IDs_manual_mapping). 
+			6) 'tissue_list_process\tissue_mapping_list' # this file contains the distinct mapping list from the manual mapping, then it will be processed and produce a tissue_mapping owl file
+			
+3. go to folder 'tissue_list_process'
+
+4. run new_tissue_ID.py
+    input : tissue_list_with_IDs_mother
+	output : 1) new_tissue_class_ID.owl # owl file for importing into the ontology owl file
+	         2) final\tissue_list_with_IDs_mother_processed
+
+5. run mapping_ID_owl.py
+   input : tissue_mapping_list
+   output : tissue_terms_mapping.owl # this OWL contains tissue mother terms mapping, for importing into the ontology owl file
+ 
+6. copy and paste file tissue_list_with_IDs_processed and tissue_list_with_IDs_mother_transfected into final\tissue_list_final_noID (manual! better change to automatic input file)
+
+7. go to folder 'final'
+
+8. run tissue_list_final_noID_process.py
+    input : tissue_list_final_noID
+	output: tissue_list_final_noID_processed
+
+9. final file for generating studymodelpattern owl file are:
+     'tissue_list_final_noID_processed' and 'tissue_list_with_IDs_mother_processed'
+	 this two files will be used as import in tissue_list_final_one_list.py (under folder'python code')
+	 tissue_list_final_one_list.py will be imported into tissuestudymodel.py (under folder'python code') to generate owl file.

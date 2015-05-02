@@ -23,7 +23,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;miago.owl">
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <owl:versionInfo>0.1.35</owl:versionInfo>
+        <owl:versionInfo>0.1.40</owl:versionInfo>
         <rdfs:comment xml:lang="en">MIrna And aGing Ontology(MIAGO).  It represents the experimernt that observes the functional miRNA and target protein in the aging domain. This ontology gives logical definitions to classify miRNA target based on both computational prediction and experimental validation.</rdfs:comment>
         <dc:contributor xml:lang="en">Xinna Li</dc:contributor>
         <owl:imports rdf:resource="&obo;obi/2015-03-17/obi.owl"/>
@@ -1266,19 +1266,19 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                <owl:hasValue rdf:resource="&obo;MIAGO_0000099"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000076"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000088"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000076"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1858214"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1290,13 +1290,13 @@ equivelant to:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                <owl:hasValue rdf:resource="&obo;MIAGO_0000103"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                <owl:hasValue rdf:resource="&obo;MIAGO_0000100"/>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000076"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1858214"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1332,14 +1332,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000006756"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1914853"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914853"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1353,14 +1353,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000010987"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1914858"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914858"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1508,14 +1508,14 @@ equivelant to:
         <rdfs:subClassOf rdf:resource="&obo;PR_000011617"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3436,13 +3436,9 @@ equivelant to:
     <rdf:Description rdf:about="&obo;RO_0002472">
         <rdfs:comment>we used this relation loosely to link a conclusion (GDC) and an evidence</rdfs:comment>
     </rdf:Description>
-	
- 
-	
-
 </rdf:RDF>
 
-<!-- core ends at 3440-->
+
 
 <!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
