@@ -4,3 +4,6 @@
     using rdfs:seeAlso for mapping between BTO and CLO, UBERON and BTO; 
 	which may change later
 	the content in seeAlso, we use IDs without namespace. We will resolve it later.
+	
+3. changed the mapping ID from CL_0008023 to CL_0002548.
+   Ontology is fine. All the files need to rework.

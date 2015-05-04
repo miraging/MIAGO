@@ -1,0 +1,50 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/CL_import.owl
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/CL_0000023
+http://purl.obolibrary.org/obo/CL_0000038
+http://purl.obolibrary.org/obo/CL_0000056
+http://purl.obolibrary.org/obo/CL_0000057
+http://purl.obolibrary.org/obo/CL_0000084
+http://purl.obolibrary.org/obo/CL_0000115
+http://purl.obolibrary.org/obo/CL_0000127
+http://purl.obolibrary.org/obo/CL_0000129
+http://purl.obolibrary.org/obo/CL_0000186
+http://purl.obolibrary.org/obo/CL_0000232
+http://purl.obolibrary.org/obo/CL_0000233
+http://purl.obolibrary.org/obo/CL_0000355
+http://purl.obolibrary.org/obo/CL_0000359
+http://purl.obolibrary.org/obo/CL_0000451
+http://purl.obolibrary.org/obo/CL_0000492
+http://purl.obolibrary.org/obo/CL_0000558
+http://purl.obolibrary.org/obo/CL_0000576
+http://purl.obolibrary.org/obo/CL_0000594
+http://purl.obolibrary.org/obo/CL_0000650
+http://purl.obolibrary.org/obo/CL_0000746
+http://purl.obolibrary.org/obo/CL_0000813
+http://purl.obolibrary.org/obo/CL_0000816
+http://purl.obolibrary.org/obo/CL_0000842
+http://purl.obolibrary.org/obo/CL_0001054
+http://purl.obolibrary.org/obo/CL_0002322
+http://purl.obolibrary.org/obo/CL_0002548
+http://purl.obolibrary.org/obo/CL_0002586
+http://purl.obolibrary.org/obo/CL_1000742
+http://purl.obolibrary.org/obo/CL_2000001
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

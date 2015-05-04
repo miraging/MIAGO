@@ -84,6 +84,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
@@ -173,6 +181,19 @@
         <rdfs:label rdf:datatype="&xsd;string">material entity</rdfs:label>
         <oboInOwl:id rdf:datatype="&xsd;string">BFO:0000040</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">bfo</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23367">
+        <rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:23367</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -3218,6 +3239,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MGI_99511 -->
+
+    <owl:Class rdf:about="&obo;MGI_99511">
+        <rdfs:label rdf:datatype="&xsd;string">Ptpn11 (mouse)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0001217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein coding gene Ptpn11 in mouse.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=external.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">MGI:99511</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">gene</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MGI_99607 -->
 
     <owl:Class rdf:about="&obo;MGI_99607">
@@ -5993,6 +6034,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000013449 -->
+
+    <owl:Class rdf:about="&obo;PR_000013449">
+        <rdfs:label rdf:datatype="&xsd;string">tyrosine-protein phosphatase non-receptor type 11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein that is a translation product of the human PTPN11 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000013449</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PTP-1D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PTP-2C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">PTP2C</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PTPN11</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SH-PTP2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SH-PTP3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SHP-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">SHPTP2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein-tyrosine phosphatase 1D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein-tyrosine phosphatase 2C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein-tyrosine phosphatase SYP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">shp2</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000013457 -->
 
     <owl:Class rdf:about="&obo;PR_000013457">
@@ -6595,6 +6662,21 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">smad-interacting protein 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">zinc finger homeobox protein 1b</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000018263 -->
+
+    <owl:Class rdf:about="&obo;PR_000018263">
+        <rdfs:label rdf:datatype="&xsd;string">amino acid chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A molecular entity that is a polymer of amino acids linked by peptide bonds.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:000018263</oboInOwl:id>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">peptide</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">polypeptide</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -9482,6 +9564,42 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P30556</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hAGTR1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P35235 -->
+
+    <owl:Class rdf:about="&obo;PR_P35235">
+        <rdfs:label rdf:datatype="&xsd;string">tyrosine-protein phosphatase non-receptor type 11 (mouse)</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PR_000013449"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                        <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_99511"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tyrosine-protein phosphatase non-receptor type 11 that is encoded in the genome of mouse.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Category=organism-gene.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PR:P35235</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SH-PTP2 (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">SHP-2 (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Shp2 (mouse)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UniProtKB:P35235</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">mPTPN11</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein-tyrosine phosphatase SYP (mouse)</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     

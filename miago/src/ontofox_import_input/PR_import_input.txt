@@ -347,7 +347,7 @@ http://purl.obolibrary.org/obo/MGI_97837
 http://purl.obolibrary.org/obo/PR_P35235
 http://purl.obolibrary.org/obo/MGI_99511
 http://purl.obolibrary.org/obo/PR_P78380
-
+http://purl.obolibrary.org/obo/PR_000018263
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolirary.org/obo/miago/CL_import.owl" uri="CL_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolirary.org/obo/miago/OBI_import.owl" uri="NCBITaxon_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolirary.org/obo/miago/ECO_import.owl" uri="ECO_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolirary.org/obo/miago/OGMS_import.owl" uri="OGMS_import.owl"/>
@@ -14,24 +15,26 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="SO_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi/2014-08-18/obi.owl" uri="obi_import.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolibrary.org/obo/iao.owl" uri="IAO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="duplicate:http://purl.obolibrary.org/obo/miago.owl" uri="miago.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="duplicate:http://purl.obolibrary.org/obo/miago.owl" uri="miago_1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="duplicate:http://purl.obolibrary.org/obo/miago_merged.owl" uri="miago_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="duplicate:http://purl.obolibrary.org/obo/miago_merged.owl" uri="miago_merged_with_individuals.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolibrary.org/obo/obi.owl" uri="obi_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolibray.org/obo/miago_inferred.owl" uri="miago_inferred.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/BTO_import.owl" uri="BTO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/CLO_import.owl" uri="CLO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/ECO_import.owl" uri="ECO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/GO_import.owl" uri="GO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/OBI_import.owl" uri="NCBITaxon_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/OGMS_import.owl" uri="OGMS_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/PR_hand.owl" uri="PR_hand.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/PR_import.owl" uri="PR_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/RO_import.owl" uri="RO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="SO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="http://purl.obolirary.org/obo/miago/UBERON_import.owl" uri="UBERON_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1430569303997" name="shadowed:http://purl.obolibrary.org/obo/miago.owl" uri="build/migao_with_individuals_build_0140.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolibrary.org/obo/iao.owl" uri="IAO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="duplicate:http://purl.obolibrary.org/obo/miago.owl" uri="miago.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="duplicate:http://purl.obolibrary.org/obo/miago.owl" uri="miago_1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="duplicate:http://purl.obolibrary.org/obo/miago_merged.owl" uri="miago_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="duplicate:http://purl.obolibrary.org/obo/miago_merged.owl" uri="miago_merged_with_individuals.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolibrary.org/obo/obi.owl" uri="obi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolibray.org/obo/miago_inferred.owl" uri="miago_inferred.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/BTO_import.owl" uri="BTO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/CLO_import.owl" uri="CLO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/ECO_import.owl" uri="ECO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/GO_import.owl" uri="GO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/OBI_import.owl" uri="NCBITaxon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/OGMS_import.owl" uri="OGMS_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/PR_hand.owl" uri="PR_hand.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/PR_import.owl" uri="PR_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/RO_import.owl" uri="RO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="SO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="http://purl.obolirary.org/obo/miago/UBERON_import.owl" uri="UBERON_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="shadowed:http://purl.obolibrary.org/obo/miago.owl" uri="build/miago_core_build_0140.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="shadowed:http://purl.obolibrary.org/obo/miago.owl" uri="build/milestone%20build/miago_core_build_0140.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430674659996" name="shadowed:http://purl.obolibrary.org/obo/miago.owl" uri="build/milestone%20build/migao_with_individuals_build_0140.owl"/>
     </group>
 </catalog>

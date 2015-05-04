@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/SO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/RO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/RO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/PR_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/PR_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/PR_hand.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/PR_hand.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/OGMS_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/IAO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/GO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/GO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/ECO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/ECO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/CLO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/CLO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/BTO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/src/BTO_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1430673987276" name="http://purl.obolibrary.org/obo/miago.owl" uri="miago_core_build_0140.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430673987276" name="shadowed:http://purl.obolibrary.org/obo/miago.owl" uri="milestone%20build/miago_core_build_0140.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1430673987276" name="shadowed:http://purl.obolibrary.org/obo/miago.owl" uri="milestone%20build/migao_with_individuals_build_0140.owl"/>
+    </group>
+</catalog>

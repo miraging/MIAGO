@@ -150,7 +150,7 @@ ARPE19 cells were transfected with miR-184 inhibitor;BTO_0002335;CLO_0001749
 RPE cells from AMD human;CL_0002586;BTO_0004910
 the heart of heart failure (HF)-prone mice;Mother-UBERON_0000948;Mother-BTO_0000562
 rat cardiomyocytes;Mother-CL_0000746 
-rat cardiac fibroblasts;Mother-CL_0008023 
+rat cardiac fibroblasts;Mother-CL_0002548
 glomerular mesangial cells;CL_1000742
 kidney;UBERON_0002113;BTO_0000671 
 mesangial cells;CL_0000650
@@ -196,7 +196,7 @@ myofibroblasts;CL_0000186;BTO_0001946
 MCF-7;CLO_0007606 
 SW480 cells;CLO_0009218
 Human umbilical vein Ecs  (HUVECs);BTO_0001949
-cardiac fibroblasts;CL_0008023
+cardiac fibroblasts;CL_0002548
 muscle from dy 3K/dy 3K and dy 2J/dy 2J mouse;Mother-UBERON_0002385
 muscle from dy 3K/dy 3K;Mother-UBERON_0002385
 PBMCs;CL_2000001;BTO_0001025

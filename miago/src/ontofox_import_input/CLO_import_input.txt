@@ -6,10 +6,22 @@ CLO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+http://purl.obolibrary.org/obo/CLO_0003684
+http://purl.obolibrary.org/obo/CLO_0003704
+http://purl.obolibrary.org/obo/CLO_0007003
+http://purl.obolibrary.org/obo/CLO_0007606
+http://purl.obolibrary.org/obo/CLO_0009015
+http://purl.obolibrary.org/obo/CLO_0009218
+http://purl.obolibrary.org/obo/CLO_0009460
+http://purl.obolibrary.org/obo/CLO_0009785
+http://purl.obolibrary.org/obo/CLO_0000000 # cell line cell culturing
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
-subClassOf subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/CLO_0000000 # cell line cell culturing
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011
 
 [Source term retrieval setting]
 includeNoIntermediates

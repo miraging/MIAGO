@@ -17,7 +17,7 @@ as_coexpression = [] # list of coexpression_ID
 varID = 250
 
 
-updateFile = open('nocoexpression','a') 
+updateFile = open('nocoexpression','w+') 
 updateFile.write('The list of no coexpression coloumn : \n')
 
 for i in range(2,1006):
@@ -25,10 +25,10 @@ for i in range(2,1006):
     #print target_name
     target_name = str(target_name).strip()
 
-    if target_name is not None:
+    if target_name <> 'None':
         miRNA_name =  ws.cell('D'+ str(i)).value
         miRNA_name = str(miRNA_name).strip()
-        if miRNA_name is not None :
+        if miRNA_name <> 'None' :
             NCBI_ID = ws.cell('H'+ str(i)).value
             NCBI_ID = str(NCBI_ID)
             uniq = NCBI_ID+ '_' +str(miRNA_name)
@@ -58,7 +58,9 @@ for i in range(2,1006):
 
 updateFile.close()
 
-
+print len(as_uniq)
+print as_uniq
+print len(as_assump)
 
 #p = as_uniq.index('1021_Let-7e')
 #print as_assump[p]
