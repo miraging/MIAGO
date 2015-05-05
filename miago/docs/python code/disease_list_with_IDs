@@ -4,40 +4,40 @@ Sexually Dimorphic;PATO_0002451
 sarcopenia;http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000181181
 neurodegeneration;MP_0002229;HP_0002180
 myocardial infarction;DOID_5844;MP_0000343
-hypoxic
 Acute myocardial infarction (AMI);DOID_9408
 acute myocardial infarction(AMI);DOID_9408
 Muscular dystrophy;DOID_9884
 atherosclerosis;DOID_1936
-endothelial homeostasis
-aging;MP_0010768
-Autophagy
+endothelial homeostasis;MIAGO_0000064
+aging;GO_0007568
+Autophagy;GO_0006914
 Aging Process;MP_0010768
 Alzheimer's disease;DOID_10652;HP_0002511;EFO_0000249
 aortic valve stenosis;DOID_1712;MP_0006117;HP_0001650
 Alzheimer's Disease;DOID_10652;HP_0002511;EFO_0000249
-Neuronal Differentiation
+Neuronal Differentiation;GO:0030182 
 vascular diseases;http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000003111
 None
 vascular inflammation;MP_0001863
 Parkinson's disease (PD);DOID_14330;HP_0001300;EFO_0002508
-Nonsense-mediated decay (NMD)
-neuronal morphogenesis
-renal toxication
+Nonsense-mediated decay (NMD);GO_0000184
+neuronal morphogenesis;GO:0048667
+renal toxication;http://purl.obolibrary.org/obo/MIAGO_0000066
 radial migration of neurons
 oxidative;MP_0003674
 sepsis;IDO_0000636;MP_0005044;HP_0100806
-coronary heart diseases (CHD)
+coronary heart diseases (CHD);DOID_3393
 heart failure;DOID_6000;MP_0006138 
-aging mice;MP_0010768
+aging mice;GO_0007568
 Atherosclerosis;DOID_1936;HP_0002621
 oxidative stress;MP_0003674
 Cardiovascular complications of type 2 diabetes
 Sickle cell disease;DOID_10923
-inflammation;increased inflammatory response
+inflammation;MP_0001845
+increased inflammatory response;MP_0001846
 Systemic lupus erythematosus;DOID_9074;HP_0002725
 myocardial infarction(MI);DOID_5844;MP_0000343;HP_0001658
-ischemic
+ischemic;DOID_326
 chronic lymphocytic leukemia;DOID_1040
 cardiovascular diseases;DOID_1287
 Multiple sclerosis;DOID_2377
@@ -46,8 +46,8 @@ age-related macular degeneration(AMD);DOID_10871;HP_0007868;EFO_0001365
 senescence;GO_0010149
 Diabetic Nephropathy;DOID_2370;EFO_0000401
 diabetic nephropathy(DN);DOID_2370;EFO_0000401
-cell apoptosis
-Hepatitis C virus infection
+cell apoptosis;GO_0006915
+Hepatitis C virus infection;DOID_1883
 diabetes;DOID_9351 
 Chronic Obstructive Pulmonary Disease(COPD);DOID_3083;HP_0006510;EFO_0000341
 angiogenic;MP_0000260
@@ -57,50 +57,50 @@ hepatitis C;DOID_1883
 hypoxia;MP_0005039
 coronary artery occlusion;Mother_DOID_11843
 ischemia/reperfusion;DOID_326 
-long term ischemic injury;
-vascular endothelium inflammation;Mother_MP_0001846
-myocardial disease
+long term ischemic injury;DOID_326
+vascular endothelium inflammation;MP_0001863
+myocardial disease;DOID_5844
 Cerebrovascular disease;DOID_6713
 aortic stenosis(AS);DOID_1929
-Psoriasis vulgaris(PV)
+Psoriasis vulgaris(PV);DOID_8893
 Congestive Heart Failure;DOID_6000
 angiogenesis;MP_0000260
-learning and memory impairment and neurodegeneration
-endothelial senescence
+learning and memory impairment and neurodegeneration;MIAGO_0000067
+endothelial senescence;GO_0010149
 epilepsy;DOID_1826
 temporal lobe epilepsy (TLE);DOID_3328 
 seizure;MP_0002064
 rheumatoid arthritis (RA);DOID_7148;MP_0003561
 cardiac hypertrophy;MP_0001625
-vascular damage
+vascular damage;DOID_178
 Tuberculosis;DOID_399
 Dietary restriction (DR)
 Angiogenesis;MP_0000260
-neovascularization
-muscle injury
+neovascularization;DOID_10871
+muscle injury;MIAGO_0000068
 Cardiac Hypertrophy;MP_0001625;EFO_0002503
-vascularized
+vascularized;DOID_10871
 ischemic cardiomyocytes;EFO_0001425
-angiogenesis and ischemic diseases
+angiogenesis and ischemic diseases;DOID_326
 muscle cell differentiation;GO_0042692
-Hutchinson-Gilford progeria;http://www.orpha.net/ORDO/Orphanet_740
-Osteoclastogenesis
+Hutchinson-Gilford progeria;MIAGO_0000052
+Osteoclastogenesis;process_term
 Alzheimer disease (AD);DOID_10652;HP_0002511;EFO_0000249
 diabetic nephropathy;DOID_2370;EFO_0000401
 pathological
 retinal angiogenesis model;Mother_MP_0000260
 Cholesterol Homeostasis;HP_0003464;MP_0005278
-atherosclerotic vascular disease
-atherosclerotic
+atherosclerotic vascular disease;DOID_1936
+atherosclerotic;DOID_1936
 obesity;DOID_9970;HP_0001513;EFO_0001073
 age-related cataracts;Mother_MP_0001304
 age-related hearing loss;MP_0004741;EFO_0004238
 Parkinson's disease;DOID_14330;HP_0001300;EFO_0002508
-DNA damage
+DNA damage;GO_0000077
 Endocrine Pancreas
-growth hormone
-metabolism regulation;tumourigenesis
+long-lived;GO_0007568
+metabolism regulation tumourigenesis;MP_0002006
 Chronic obstructive pulmonary disease (COPD);DOID_3083;HP_0006510;EFO_0000341
 Atherosclerotic lesions;MP_0005338
-dysfunctional endothelium
+dysfunctional endothelium;MP_0003674
 

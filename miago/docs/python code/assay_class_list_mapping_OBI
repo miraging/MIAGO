@@ -1,0 +1,178 @@
+RT-qPCR;OBI_0000893
+Immunofluorescence;ERO_0000409
+MicroRNA array;OBI_0001323
+Real-time PCR;OBI_0000893
+ELISA;OBI_0000661
+In situ hybridization;ERO_0000771
+PCR;OBI_0000415
+immunostained;OBI_0001632
+Immunohistochemical;OBI_0001632
+RT-PCR;OBI_0000893
+real-time PCR;OBI_0000893
+luciferase assay;MIAGO_0000101
+western blot;OBI_0000854;BAO_0002424
+Caspase-3 activity assay
+mitochondrial potential assay
+northern blot;OBI_0000860
+realtime PCR;OBI_0000893
+qRT-PCR;OBI_0000893
+pathological staining;OBI_0302887
+real-time;OBI_0000893
+Western analysis;OBI_0000854;BAO_0002424
+qPCR;OBI_0000893
+Ingenuity Pathway Analysis (IPA)
+microarray analysis;OBI_0001323
+luciferase assays;MIAGO_0000101
+Western blot;OBI_0000854;BAO_0002424
+RTqPCR;OBI_0000893
+counts;ERO_0001899
+Statistical regression analyses;OBI_0200102
+Gene set enrichment analysis(GSEA);OBCS_0000147
+real-time RT-PCR;OBI_0000893
+transfection;OBI_0001152
+MTT;BAO_0002457
+immunohistochemical;OBI_0001632
+Quantitative analysis of necrotic
+and TUNEL assay;ERO_0000731
+Microarray Analyses;OBI_0001323
+real time qPCR;;OBI_0000893
+Illumina small-RNA next generation sequencing;OBI_0600047
+staining;OBI_0302887
+Western blot assays;OBI_0000854
+Northern blotting;OBI_0000860
+using 3H-labeled S- adenosyl-L-methionine
+microarray;OBI_0001323
+Northern blot;OBI_0000860
+Bioinformatics analysis
+HL-60 Cell Binding assay;OBI_0001146
+miRNA microarray;OBI_0001323
+real-time RT-PCR;OBI_0000893
+Real-time RT-PCR;OBI_0000893
+immunohistochemistry;OBI_0001632
+Immunocytochemistry;OBI_0001632
+cell counting;ERO_0001899
+phalloidin staining;;OBI_0302887
+scratch assays;MIAGO_0000064
+TUNEL assays;ERO_0000731
+Serial Analysis
+Reporter Assays;MIAGO_0000101
+Microarray analysis;OBI_0001323
+real time PCR;OBI_0000893
+TaqMan reverse transcription-PCR;OBI_0000893
+real time RT-PCR;OBI_0000893
+westernblot;OBI_0000854;BAO_0002424
+TaqMan RT-PCR;OBI_0000893
+luciferase assay based reporter assay;MIAGO_0000101
+luciferase assay reporter constructs;MIAGO_0000101
+Fluorescence;OBI_0001499;ERO_0000409
+microarrays;OBI_0001323
+immunofluorescence;OBI_0001499;ERO_0000409
+Northern blot analysis
+quantitative Real-time PCR
+luciferase assay reporter assay;MIAGO_0000101
+flow cytometry;OBI_0000916
+3'-UTR luciferase assay;MIAGO_0000101
+infection
+TUNEL assay;ERO_0000731
+Caspase-3 Activity Assay
+echocardiography;ERO_0000385
+miRNome analysis
+q-PCR;OBI_0000893
+Cell adhesion assay;ERO_0001512
+in vitro scratch assay;MIAGO_0000064
+QRT-PCR;OBI_0000893
+DAPI;OBI_0001499;ERO_0000409
+EdU incorporation assay;MIAGO_0000065
+Fusion luciferase assay;MIAGO_0000101
+Immunostaining;OBI_0302887
+miRNA plate assay kit
+microarray analyses;OBI_0001323
+transfection of Ago2 siRNA;OBI_0001152
+RNA electrophoretic mobility shift assay;OBI_0001671
+ribonucleoprotein immunoprecipitation (RIP) analysis;OBI_0001700;MI_1017
+RT- qPCR;OBI_0000893
+QuantiMiR kit
+Ribonuclease Protection Assay;ERO_0000930
+nCounter miRNA Expression Assay
+real-timeRT-PCR;OBI_0000893
+Taqman RT-PCR;OBI_0000893
+metachromatic ATPase stain;OBI_0302887
+metachromatic;;OBI_0302887
+Western blotting;OBI_0000854;BAO_0002424
+Immunoblot analysis;OBI_0000854;BAO_0002424
+luciferase assay activity;MIAGO_0000101
+Monitoring Mitochondrial Membrane Potential
+activity analyze
+Evans blue and triphenyltetrazolium chloride staining;OBI_0302887
+echocardiography and hemodynamic measurements;ERO_0000385
+in situ hybridization;ERO_0000771
+Student's t test
+Linear regression analysis
+miRNA array analysis;OBI_0001323
+immnuoprecipitation;OBI_0001700;MI_1017
+immunostaining;OBI_0302887
+Spheroid angiogenesis assay;MIAGO_0000066
+Matrigel angiogenesis assay;MIAGO_0000066
+RT-PCR;OBI_0000893
+beta-galactosidase staining;OBI_0302887
+in vitro Matrigel assay;MIAGO_0000066
+SA-beta- Gal staining;OBI_0302887
+Sirius Red/Fast Green collagen staining;OBI_0302887
+Wheat germ agglutinin staining;OBI_0302887
+Echocardiography analyses;ERO_0000385
+TaqMan microRNA assay
+dual-luciferase assay;MIAGO_0000101
+cell viability assay;OBI_0000070
+EGFP reporter assay;MIAGO_0000101
+Giemsa staining;OBI_0302887
+Reporter Assay;MIAGO_0000101
+Western Blot;OBI_0000854;BAO_0002424
+hematoxyline-eosin stain;OBI_0302887
+MTT assay;BAO_0002457
+Hoechst 33258 dye staining;OBI_0302887
+Annexin V-FITC/propidium iodide (AV/PI) dual staining;OBI_0302887
+stem-loop real-time PCR;OBI_0000893
+real-time RT-PCR;OBI_0000893 
+Fluorescent in situ hybridization (FISH);ERO_0001168
+western blotting;OBI_0000854;BAO_0002424
+spheroid assay;OBI_0000070
+bead-based flow cytometry platform;MIAGO_0000051
+cell countint;ERO_0001899
+MTT assays;BAO_0002457
+senescence-associated beta-galactosidase activity
+miRNA Microarray;OBI_0001323
+stem loop qPCR;OBI_0000893
+Northern Blot;OBI_0000860
+chromatin immunoprecipitation-quantitative PCR (ChIP-qPCR);OBI_0001956
+Matrigel plug assay;MIAGO_0000067
+RCT assay
+hematoxylin- and eosin-stained;OBI_0302887
+oil red O staining;OBI_0302887
+immunohistochemical staining;OBI_0001632;ERO_0000214;MI_1198;LP6338-0
+laser-capture microdissection
+immunocytochemistry;OBI_0001632;ERO_0000214;MI_1198;LP6338-0
+Quantitative real-time PCR;OBI_0000893
+(q)RT-PCR;OBI_0000893
+western;OBI_0000854;BAO_0002424
+luciferase assay reporter;MIAGO_0000101
+RT- PCR;OBI_0000893
+ATP content determination
+fear conditioning and freezing behaviour analysis
+cell cycle analysis
+weternblot;;OBI_0000854;BAO_0002424
+Hoechst 33324 staining;OBI_0302887
+FCM after AV/PI double stain;OBI_0302887
+luciferase assay assy;MIAGO_0000101
+si-miRNA transfection;OBI_0001152
+2-dimensional differential gel electrophoresis
+transfection and luciferase assay;MIAGO_0000101
+microarray chips;OBI_0001323
+GSEA;OBCS_0000147
+hybridized
+GSEA analysis;OBCS_0000147
+quantitative PCR;OBI_0000893
+Flow cytometry analysis;OBI_0000916
+Taqman miRNA qPCR analyses;OBI_0000893
+MTT analysis;BAO_0002457
+Immunohistochemistry;OBI_0001632;ERO_0000214;MI_1198;LP6338-0
+Mitochondrial Staining and Immunofluorescence;OBI_0001499;ERO_0000409

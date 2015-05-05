@@ -707,7 +707,6 @@
         <obo:IAO_0000117>Jie Zheng, Yongqun He, Yu Lin, Allen Xiang</obo:IAO_0000117>
         <rdfs:domain rdf:resource="&obo;OBI_0100026"/>
         <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-        <rdfs:range rdf:resource="&efo;EFO_0000408"/>
     </owl:ObjectProperty>
     
 
@@ -809,14 +808,14 @@
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1001,13 +1000,13 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;CLO_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;CLO_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1496,6 +1495,18 @@
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000636"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&cellline2;is_model_for"/>
+                <owl:someValuesFrom rdf:resource="&cellline2;cervical_carcinoma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1530,18 +1541,6 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&cellline2;is_model_for"/>
-                <owl:someValuesFrom rdf:resource="&cellline2;cervical_carcinoma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:seeAlso>HyperCLDB: cl1601</rdfs:seeAlso>
         <rdfs:seeAlso>ATCC: CCL-2</rdfs:seeAlso>
         <rdfs:seeAlso>MeSH: D006367</rdfs:seeAlso>
@@ -1556,6 +1555,12 @@
     <owl:Class rdf:about="&obo;CLO_0003704">
         <rdfs:label rdf:datatype="&xsd;string">Hep G2 cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000565"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
@@ -1580,12 +1585,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Hep G2</obo:IAO_0000118>
@@ -1614,6 +1613,12 @@
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000488"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1636,12 +1641,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>ATCC: HTB-22</rdfs:seeAlso>
@@ -1704,6 +1703,12 @@
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000513"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1726,12 +1731,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>SW480</obo:IAO_0000118>
@@ -2098,7 +2097,6 @@
 
     <owl:Class rdf:about="&obo;DOID_162">
         <rdfs:label rdf:datatype="&xsd;string">cancer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&efo;EFO_0000408"/>
         <rdfs:comment rdf:datatype="&xsd;string">&quot;A neoplastic disease that is malignant and characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.&quot; [stedman:rlc, url:http\://en.wikipedia.org/wiki/cancer, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=cancer]</rdfs:comment>
         <rdfs:seeAlso rdf:datatype="&xsd;string">ICD9CM_2010:239.4</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:189535002</rdfs:seeAlso>
@@ -2181,7 +2179,6 @@
 
     <owl:Class rdf:about="&obo;DOID_7">
         <rdfs:label rdf:datatype="&xsd;string">disease of anatomical entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&efo;EFO_0000408"/>
         <rdfs:comment rdf:datatype="&xsd;string">&quot;A disease that manifests in a defined anatomical structure.&quot; [DO:wk\,ls, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=anatomic]</rdfs:comment>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">&quot;acellular anatomical structure disease&quot; EXACT []</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">&quot;disease of anatomical set&quot; EXACT []</obo:IAO_0000118>
@@ -2745,18 +2742,6 @@
                 <owl:someValuesFrom rdf:resource="&efo;EFO_0000979"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0000408 -->
-
-    <owl:Class rdf:about="&efo;EFO_0000408">
-        <rdfs:label rdf:datatype="&xsd;string">disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A disease is a disposition that describes states of disease associated with a particular sample and/or organism.</rdfs:comment>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">James Malone</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
     </owl:Class>
     

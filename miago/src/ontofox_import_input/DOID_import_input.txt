@@ -1,0 +1,46 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/DOID_import.owl
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_326
+http://purl.obolibrary.org/obo/DOID_6713
+http://purl.obolibrary.org/obo/DOID_6000
+http://purl.obolibrary.org/obo/DOID_1826
+http://purl.obolibrary.org/obo/DOID_3328
+http://purl.obolibrary.org/obo/DOID_7148
+http://purl.obolibrary.org/obo/DOID_399
+http://purl.obolibrary.org/obo/DOID_10652
+http://purl.obolibrary.org/obo/DOID_2370
+http://purl.obolibrary.org/obo/DOID_14330
+http://purl.obolibrary.org/obo/DOID_3083
+http://purl.obolibrary.org/obo/DOID_9408
+http://purl.obolibrary.org/obo/DOID_9884
+http://purl.obolibrary.org/obo/DOID_1936
+http://purl.obolibrary.org/obo/DOID_1712
+http://purl.obolibrary.org/obo/DOID_1883
+http://purl.obolibrary.org/obo/DOID_10871
+http://purl.obolibrary.org/obo/DOID_2377
+http://purl.obolibrary.org/obo/DOID_1287
+http://purl.obolibrary.org/obo/DOID_5844
+http://purl.obolibrary.org/obo/DOID_9074
+http://purl.obolibrary.org/obo/DOID_10923
+http://purl.obolibrary.org/obo/DOID_3393
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/DOID_4 #disease
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/DOID_2370
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #disease
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively 
+
+[Source annotation URIs to be excluded]

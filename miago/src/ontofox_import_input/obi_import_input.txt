@@ -23,6 +23,24 @@ http://purl.obolibrary.org/obo/OBI_0000047
 http://purl.obolibrary.org/obo/OBI_0100016
 http://purl.obolibrary.org/obo/CARO_0001008
 http://purl.obolibrary.org/obo/CARO_0000043
+http://purl.obolibrary.org/obo/OBI_0000070
+http://purl.obolibrary.org/obo/OBI_0000415
+http://purl.obolibrary.org/obo/OBI_0000661
+http://purl.obolibrary.org/obo/OBI_0000854
+http://purl.obolibrary.org/obo/OBI_0000860
+http://purl.obolibrary.org/obo/OBI_0000893
+http://purl.obolibrary.org/obo/OBI_0000916
+http://purl.obolibrary.org/obo/OBI_0001146
+http://purl.obolibrary.org/obo/OBI_0001152
+http://purl.obolibrary.org/obo/OBI_0001323
+http://purl.obolibrary.org/obo/OBI_0001499
+http://purl.obolibrary.org/obo/OBI_0001632
+http://purl.obolibrary.org/obo/OBI_0001671
+http://purl.obolibrary.org/obo/OBI_0001700
+http://purl.obolibrary.org/obo/OBI_0001956
+http://purl.obolibrary.org/obo/OBI_0200102
+http://purl.obolibrary.org/obo/OBI_0302887
+http://purl.obolibrary.org/obo/OBI_0600047
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity

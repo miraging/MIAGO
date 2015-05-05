@@ -8,7 +8,7 @@ UBERON
 http://purl.obolibrary.org/obo/UBERON_0002385 #muscle tissue
 http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
 http://purl.obolibrary.org/obo/UBERON_0002107 #liver
-http://purl.obolibrary.org/obo/UBERON_0000029
+http://purl.obolibrary.org/obo/UBERON_0000029 #lymph node
 http://purl.obolibrary.org/obo/UBERON_0000033
 http://purl.obolibrary.org/obo/UBERON_0000074
 http://purl.obolibrary.org/obo/UBERON_0000178
@@ -65,6 +65,12 @@ subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 http://purl.obolibrary.org/obo/UBERON_0000955
 subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 
+http://purl.obolibrary.org/obo/UBERON_0002036
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002385
+
+http://purl.obolibrary.org/obo/UBERON_0001062
+subClassOf http://purl.obolibrary.org/obo/CARO_0001008 
+
 
 
 http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
@@ -77,12 +83,7 @@ subClassOf http://purl.obolibrary.org/obo/CARO_0001008
 includeNoIntermediates
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
-http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
-http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
-http://www.geneontology.org/formats/oboInOwl#hasDefinition
-http://www.geneontology.org/formats/oboInOwl#hasSynonym
+includeAllAnnotationProperties
 #http://www.w3.org/2002/07/owl#equivalentClass
 
 [Source annotation URIs to be excluded]

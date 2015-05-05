@@ -1,0 +1,50 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/ERO_import.owl
+
+[Source ontology]
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0000385
+http://purl.obolibrary.org/obo/ERO_0000409
+http://purl.obolibrary.org/obo/ERO_0000731
+http://purl.obolibrary.org/obo/ERO_0000771
+http://purl.obolibrary.org/obo/ERO_0000930
+http://purl.obolibrary.org/obo/ERO_0001168
+http://purl.obolibrary.org/obo/ERO_0001512
+http://purl.obolibrary.org/obo/ERO_0001899
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/ERO_0001292
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0000409
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0000731
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0000771
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0000930
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0001168
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0001512
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+http://purl.obolibrary.org/obo/ERO_0001899
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
