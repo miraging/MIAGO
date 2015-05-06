@@ -1,7 +1,7 @@
 # this file is manually curated with ontology IDs from the output of disease_list.py
 
 Sexually Dimorphic;PATO_0002451
-sarcopenia;http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000181181
+sarcopenia;MIAGO_0000065
 neurodegeneration;MP_0002229;HP_0002180
 myocardial infarction;DOID_5844;MP_0000343
 Acute myocardial infarction (AMI);DOID_9408
@@ -15,17 +15,17 @@ Aging Process;MP_0010768
 Alzheimer's disease;DOID_10652;HP_0002511;EFO_0000249
 aortic valve stenosis;DOID_1712;MP_0006117;HP_0001650
 Alzheimer's Disease;DOID_10652;HP_0002511;EFO_0000249
-Neuronal Differentiation;GO:0030182 
-vascular diseases;http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000003111
+Neuronal Differentiation;GO_0030182 
+vascular diseases;DOID_178
 None
 vascular inflammation;MP_0001863
 Parkinson's disease (PD);DOID_14330;HP_0001300;EFO_0002508
 Nonsense-mediated decay (NMD);GO_0000184
-neuronal morphogenesis;GO:0048667
-renal toxication;http://purl.obolibrary.org/obo/MIAGO_0000066
+neuronal morphogenesis;GO_0048667
+renal toxication;MIAGO_0000066
 radial migration of neurons
 oxidative;MP_0003674
-sepsis;IDO_0000636;MP_0005044;HP_0100806
+sepsis;MP_0005044;HP_0100806
 coronary heart diseases (CHD);DOID_3393
 heart failure;DOID_6000;MP_0006138 
 aging mice;GO_0007568
@@ -55,7 +55,7 @@ muscle atrophy;GO_0014889
 Aging;GO_0007568 
 hepatitis C;DOID_1883
 hypoxia;MP_0005039
-coronary artery occlusion;Mother_DOID_11843
+coronary artery occlusion;DOID_11843
 ischemia/reperfusion;DOID_326 
 long term ischemic injury;DOID_326
 vascular endothelium inflammation;MP_0001863
@@ -66,7 +66,7 @@ Psoriasis vulgaris(PV);DOID_8893
 Congestive Heart Failure;DOID_6000
 angiogenesis;MP_0000260
 learning and memory impairment and neurodegeneration;MIAGO_0000067
-endothelial senescence;GO_0010149
+endothelial senescence;GO:0007569
 epilepsy;DOID_1826
 temporal lobe epilepsy (TLE);DOID_3328 
 seizure;MP_0002064
@@ -88,12 +88,12 @@ Osteoclastogenesis;process_term
 Alzheimer disease (AD);DOID_10652;HP_0002511;EFO_0000249
 diabetic nephropathy;DOID_2370;EFO_0000401
 pathological
-retinal angiogenesis model;Mother_MP_0000260
-Cholesterol Homeostasis;HP_0003464;MP_0005278
+retinal angiogenesis model;MP_0000260
+Cholesterol Homeostasis;MP_0005278;HP_0003464
 atherosclerotic vascular disease;DOID_1936
 atherosclerotic;DOID_1936
 obesity;DOID_9970;HP_0001513;EFO_0001073
-age-related cataracts;Mother_MP_0001304
+age-related cataracts;DOID_83
 age-related hearing loss;MP_0004741;EFO_0004238
 Parkinson's disease;DOID_14330;HP_0001300;EFO_0002508
 DNA damage;GO_0000077

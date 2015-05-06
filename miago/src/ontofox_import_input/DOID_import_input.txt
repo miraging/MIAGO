@@ -28,6 +28,15 @@ http://purl.obolibrary.org/obo/DOID_5844
 http://purl.obolibrary.org/obo/DOID_9074
 http://purl.obolibrary.org/obo/DOID_10923
 http://purl.obolibrary.org/obo/DOID_3393
+http://purl.obolibrary.org/obo/DOID_1040
+http://purl.obolibrary.org/obo/DOID_11843
+http://purl.obolibrary.org/obo/DOID_178
+http://purl.obolibrary.org/obo/DOID_1929
+http://purl.obolibrary.org/obo/DOID_83
+http://purl.obolibrary.org/obo/DOID_8893
+http://purl.obolibrary.org/obo/DOID_9351
+http://purl.obolibrary.org/obo/DOID_9970
+
 
 [Top level source term URIs and target direct superclass URIs]
 

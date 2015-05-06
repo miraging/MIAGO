@@ -7,6 +7,16 @@ GO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 http://purl.obolibrary.org/obo/GO_0005575
+http://purl.obolibrary.org/obo/GO_0030182
+http://purl.obolibrary.org/obo/GO_0048667
+http://purl.obolibrary.org/obo/GO_0000077
+http://purl.obolibrary.org/obo/GO_0000184
+http://purl.obolibrary.org/obo/GO_0006914
+http://purl.obolibrary.org/obo/GO_0006915
+http://purl.obolibrary.org/obo/GO_0007568
+http://purl.obolibrary.org/obo/GO_0007569
+http://purl.obolibrary.org/obo/GO_0014889
+http://purl.obolibrary.org/obo/GO_0042692
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -17,7 +27,7 @@ http://purl.obolibrary.org/obo/GO_0005575
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeNoIntermediates
 
 [Source annotation URIs]
 includeAllAxiomsRecursively 

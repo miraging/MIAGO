@@ -1,0 +1,81 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolirary.org/obo/miago/MP_import.owl
+
+[Source ontology]
+MP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MP_0000260
+http://purl.obolibrary.org/obo/MP_0001625
+http://purl.obolibrary.org/obo/MP_0001845
+http://purl.obolibrary.org/obo/MP_0001846
+http://purl.obolibrary.org/obo/MP_0001863
+http://purl.obolibrary.org/obo/MP_0002006
+http://purl.obolibrary.org/obo/MP_0002064
+http://purl.obolibrary.org/obo/MP_0002229
+http://purl.obolibrary.org/obo/MP_0003674
+http://purl.obolibrary.org/obo/MP_0004741
+http://purl.obolibrary.org/obo/MP_0005039
+http://purl.obolibrary.org/obo/MP_0005338
+http://purl.obolibrary.org/obo/MP_0010768
+http://purl.obolibrary.org/obo/MP_0002229
+http://purl.obolibrary.org/obo/MP_0005044
+http://purl.obolibrary.org/obo/MP_0005278
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/MP_0000260
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0001625
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0001845
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0001846
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0001863
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0002006
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0002064
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0003674
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0004741
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0005039
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0002064
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0005338
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0010768
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0002229
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0005044
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/MP_0005278
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively 
+
+[Source annotation URIs to be excluded]
