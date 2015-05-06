@@ -27,7 +27,7 @@ Western blot;OBI_0000854;BAO_0002424
 RTqPCR;OBI_0000893
 counts;ERO_0001899
 Statistical regression analyses;OBI_0200102
-Gene set enrichment analysis(GSEA);OBCS_0000147
+Gene set enrichment analysis(GSEA)
 real-time RT-PCR;OBI_0000893
 transfection;OBI_0001152
 MTT;BAO_0002457
@@ -167,9 +167,9 @@ si-miRNA transfection;OBI_0001152
 2-dimensional differential gel electrophoresis
 transfection and luciferase assay;MIAGO_0000101
 microarray chips;OBI_0001323
-GSEA;OBCS_0000147
+GSEA
 hybridized
-GSEA analysis;OBCS_0000147
+GSEA analysis
 quantitative PCR;OBI_0000893
 Flow cytometry analysis;OBI_0000916
 Taqman miRNA qPCR analyses;OBI_0000893

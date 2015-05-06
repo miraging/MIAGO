@@ -35,7 +35,15 @@ http://purl.obolibrary.org/obo/CL_0002548
 http://purl.obolibrary.org/obo/CL_0002586
 http://purl.obolibrary.org/obo/CL_1000742
 http://purl.obolibrary.org/obo/CL_2000001
-
+http://purl.obolibrary.org/obo/CL_0000540
+http://purl.obolibrary.org/obo/CL_0002495
+http://purl.obolibrary.org/obo/CL_0002539
+http://purl.obolibrary.org/obo/CL_0002608
+http://purl.obolibrary.org/obo/CL_0002620
+http://purl.obolibrary.org/obo/CL_2000008
+http://purl.obolibrary.org/obo/CL_2000029
+http://purl.obolibrary.org/obo/CL_2000042
+http://purl.obolibrary.org/obo/CL_0000202
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000000 #cell

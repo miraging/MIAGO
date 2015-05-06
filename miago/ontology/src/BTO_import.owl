@@ -172,6 +172,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001488"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001491"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000047</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either of a pair of complex endocrine organs near the anterior medial border of the kidney consisting of a mesodermal cortex that produces glucocorticoid, mineralocorticoid, and androgenic hormones and an ectodermal medulla that produces epinephrine and norepinephrine.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrabiliary capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epinephros</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula suprarenalis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suprarenal capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suprarenal gland</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000051">
@@ -220,6 +241,24 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000067</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell line</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000524"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000801"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0002606"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000078</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hortega cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The small, non-neural, interstitial cells of mesodermal origin that form part of the supporting structure of the central nervous system. They are of various forms and may have slender branched processes. They are migratory and act as phagocytes to waste products of nerve tissue.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglial cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgliocyte</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -471,13 +510,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000282"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000227"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000227"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000282"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000142</oboInOwl:id>
@@ -777,26 +816,26 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001279"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#related_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000879"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000089"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000230"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000230"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001279"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000237</oboInOwl:id>
@@ -1117,7 +1156,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000381">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic blood</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000089"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
@@ -1381,6 +1420,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000458">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WI-38 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001958"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000458</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human embryonic lung fibroblast cell line. The WI-38 human diploid cell line was derived by Leonard Hayflick from normal embryonic (3 months gestation) lung tissue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0000478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000478">
@@ -1464,13 +1517,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000142"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001279"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001279"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000524</oboInOwl:id>
@@ -1489,13 +1542,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0002606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000524"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor cell originating in the neuroglia of the brain or spinal cord.</obo:IAO_0000115>
@@ -1665,13 +1718,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000224"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000608"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000608"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000224"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000578</oboInOwl:id>
@@ -1747,6 +1800,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0000592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000592">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal gland cancer cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrenal gland cancers are rare cancers occuring in the endocrine tissue of the adrenals. They are characterized by overproduction of adrenal gland hormones.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000592</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal gland tumor cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0000594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000594">
@@ -1772,13 +1845,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000928"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000928"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001355"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000601</oboInOwl:id>
@@ -1911,6 +1984,24 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human chronic myeloid leukemia in blast crisis established from the pleural effusion of a 53-year-old woman with chronic myeloid leukemia (CML) in blast crisis in 1970; cells can be used as highly sensitive targets in in-vitro natural killer assays; cells produce hemoglobin; cells carry the Philadelphia chromosome with a b3-a2 fusion gene.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K562 cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K562wt cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0000669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000669">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000669</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -2667,12 +2758,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000925"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2680,6 +2765,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000930"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A grayish or reddish granular cell with specialized processes that is the fundamental functional unit of nervous tissue.</obo:IAO_0000115>
@@ -2753,6 +2844,21 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">island of Langerhans</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">island of pancreas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">islet of Langerhans</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PC-12 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001009</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PC12 cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat adrenal pheochromocytoma established from a transplantable rat adrenal pheochromocytoma in 1976; cells were described to synthesize catecholamines (dopamine, norepinephrine); in response to nerve growth factor (NGF) a neuronal phenotype could be induced reversibly.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pheochromocytoma 12 cell</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -2836,6 +2942,26 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gefaesssystem</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vessels of the body, especially the blood vessels.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0001086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001086">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic stem cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001086</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Totipotent cell cultured from early embryo. Have the advantage that following modification in vitrothey can be used to produce chimeric embryos and thus transgenic animals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -2945,13 +3071,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000706"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001613"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001613"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000706"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001158</oboInOwl:id>
@@ -2995,13 +3121,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000562"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000766"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000766"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000562"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001176</oboInOwl:id>
@@ -3285,12 +3411,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">umbilical cord</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0004705"/>
             </owl:Restriction>
@@ -3299,6 +3419,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000449"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cord arising from the navel that connects the fetus with the placenta.</obo:IAO_0000115>
@@ -3624,13 +3750,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0002606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0002606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000524"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001531</oboInOwl:id>
@@ -3981,6 +4107,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0001958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001958">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic fibroblast cell line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000453"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000669"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0004725"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001958</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0001976 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001976">
@@ -3996,6 +4141,46 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEURO-2A cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nb2a cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuro2A cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artery wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000573"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002009</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The wall of an artery consists typically of an outer coat (tunica externa), a middle coat (tunica media), and an inner coat (tunica intima).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0002012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0002012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tunica intima vasorum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0002009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002012</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bichat&#39;s tunic</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The inner coat of the blood vessels, made up of endothelial cells surrounded by longitudinal elastic fibers and connective tissue.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intima</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -4159,13 +4344,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001177"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0004910"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0004910"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0001177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002334</oboInOwl:id>
@@ -4444,6 +4629,57 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0003120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atherosclerotic plaque</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0002012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003120</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial plaque</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atheroma cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microvascular endothelium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001853"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003122</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0003123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003123">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microvascular endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001854"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0003122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0003123</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MVEC cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0003245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0003245">
@@ -4677,6 +4913,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0004091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004091">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic neural stem cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0001086"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004091</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neural stem cells are the multipotent stem cells that generate nerve cells. However, since the early 1990s, neural stem cells have been isolated from the adult brain as well as fetal brain tissues. Stem cells in the adult brain are found in the areas called the subventricular zone and the ventricle zone. Another location of brain stem cells occurs in the hippocampus, a special structure of the cerebral cortex related to memory function. Stem cells isolated from these areas are able to divide and to give rise to nerve cells and neuron-supporting cell types in culture.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural progenitor cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0004102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004102">
@@ -4773,6 +5023,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0004574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004574">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dermal microvascular endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0003123"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-04-11T11:11:39Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004574</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DMEC cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgr</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0004578 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004578">
@@ -4824,6 +5089,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BTO_0004725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004725">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic fibroblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000452"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bto#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BTO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-08-20T08:25:19Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004725</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgr</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BTO_0004730 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004730">
@@ -4839,6 +5124,25 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the two stem cells derived from hematopoietic stem cells, the other being the lymphoid progenitor cell. Derived from these myeloid progenitor cells are the erythroid progenitor cells and the myeloid cells.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgr</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BTO_0004732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0004732">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow-derived macrophage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BTO_0000801"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-08-20T09:43:18Z</oboInOwl:creation_date>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMDM cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMM cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0004732</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone marrow-derived macrophages (BMM) are primary macrophage cells, derived from bone marrow cells in vitro in the presence of growth factors.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow-derived monocyte-macrophage cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mgr</oboInOwl:created_by>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary bone-marrow derived macrophage</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
     </owl:Class>
     
@@ -4933,9 +5237,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CARO_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001008"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
 </rdf:RDF>
 
 

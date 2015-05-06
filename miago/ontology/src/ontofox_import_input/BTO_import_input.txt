@@ -62,6 +62,17 @@ http://purl.obolibrary.org/obo/BTO_0004602
 http://purl.obolibrary.org/obo/BTO_0004758
 http://purl.obolibrary.org/obo/BTO_0004790
 http://purl.obolibrary.org/obo/BTO_0004891
+http://purl.obolibrary.org/obo/BTO_0000078
+http://purl.obolibrary.org/obo/BTO_0000458
+http://purl.obolibrary.org/obo/BTO_0003120
+http://purl.obolibrary.org/obo/BTO_0004091
+http://purl.obolibrary.org/obo/BTO_0000381
+http://purl.obolibrary.org/obo/BTO_0004732
+http://purl.obolibrary.org/obo/BTO_0004574
+http://purl.obolibrary.org/obo/BTO_0002012
+http://purl.obolibrary.org/obo/BTO_0001009
+
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BTO_0000007 #HEK-239 cell
@@ -71,6 +82,30 @@ http://purl.obolibrary.org/obo/BTO_0000165 #c2C12 cell
 subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
 
 http://purl.obolibrary.org/obo/BTO_0000567 # Hela cell
+subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+
+http://purl.obolibrary.org/obo/BTO_0000669 
+subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+
+http://purl.obolibrary.org/obo/BTO_0001086
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+
+http://purl.obolibrary.org/obo/BTO_0003120
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+
+http://purl.obolibrary.org/obo/BTO_0002009
+subClassOf http://purl.obolibrary.org/obo/CARO_0001008 # gross anatomical part
+
+http://purl.obolibrary.org/obo/BTO_0000381
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000178
+
+http://purl.obolibrary.org/obo/BTO_0002012
+subClassOf http://purl.obolibrary.org/obo/CARO_0001008
+
+http://purl.obolibrary.org/obo/BTO_0000592
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+
+http://purl.obolibrary.org/obo/BTO_0001009
 subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
 
 [Source term retrieval setting]

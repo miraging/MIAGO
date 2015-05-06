@@ -147,7 +147,7 @@ for i in range(2,1006):
         line_list.append(str(i))
     print i
 
-updateFile = open(r'miRNAtarget_assumption_class_individual.owl','a')
+updateFile = open(r'miRNAtarget_assumption_class_individual.owl','w+')
 varID = 10620
 
 for j in range(len(as_miRNA)):
@@ -177,7 +177,8 @@ for j in range(len(as_miRNA)):
             assay_id_list.append(str(assay_id))
  
             updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(assay_id)+' -->\n')
-            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n        <rdf:type rdf:resource="&obo;OBI_0000070"/>\n        <rdfs:label xml:lang="en">'+str(assay)+' '+str(line_list[j])+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
+            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n')
+            updateFile.write('        <rdfs:label xml:lang="en">'+str(assay)+' '+str(line_list[j])+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
     else:
         if assay <> 'None':
             varID = varID +1
@@ -186,7 +187,8 @@ for j in range(len(as_miRNA)):
             assay_id = string_val + str(varID)
          
             updateFile.write('    <!-- http://purl.obolibrary.org/obo/MIAGO_'+str(assay_id)+' -->\n')
-            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n        <rdf:type rdf:resource="&obo;OBI_0000070"/>\n        <rdfs:label xml:lang="en">'+assay+' '+str(line_list[j])+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
+            updateFile.write('    <owl:NamedIndividual rdf:about="&obo;MIAGO_'+str(assay_id)+'">\n')
+            updateFile.write('        <rdfs:label xml:lang="en">'+assay+' '+str(line_list[j])+'</rdfs:label>\n    </owl:NamedIndividual>\n\n\n')
         else:
             pass
  

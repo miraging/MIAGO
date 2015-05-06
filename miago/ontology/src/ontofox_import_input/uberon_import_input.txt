@@ -32,6 +32,12 @@ http://purl.obolibrary.org/obo/UBERON_0002106
 http://purl.obolibrary.org/obo/UBERON_0002107
 http://purl.obolibrary.org/obo/UBERON_0002113
 http://purl.obolibrary.org/obo/UBERON_0002349
+http://purl.obolibrary.org/obo/UBERON_0000991
+http://purl.obolibrary.org/obo/UBERON_0001264
+http://purl.obolibrary.org/obo/UBERON_0001377
+http://purl.obolibrary.org/obo/UBERON_0001379
+http://purl.obolibrary.org/obo/UBERON_0001389
+http://purl.obolibrary.org/obo/UBERON_0001851
 
 
 [Top level source term URIs and target direct superclass URIs]

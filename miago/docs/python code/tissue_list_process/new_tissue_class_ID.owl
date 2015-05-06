@@ -402,7 +402,7 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0003051">
         <rdfs:label xml:lang="en">MyD88-deficient BMDMs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IDO_0100769"/>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004732"/>
     </owl:Class>
 
 
@@ -410,7 +410,7 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0003052">
         <rdfs:label xml:lang="en">TRIF-deficient BMDMs</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IDO_0100769"/>
+        <rdfs:subClassOf rdf:resource="&obo;BTO_0004732"/>
     </owl:Class>
 
 

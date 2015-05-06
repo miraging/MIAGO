@@ -35,7 +35,7 @@ HEK 293 cells;BTO_0000007;EFO_0001182
 Myocardial tissue;Mother-UBERON_0000479
 human dermal fibroblasts;Mother-BTO_0004419
 myocardial tissue;Mother-UBERON_0000479
-PC12 cells;EFO_0001225
+PC12 cells;BTO_0001009
 in the frontal cortices of human;Mother-UBERON_0000956;Mother-BTO_0000233
 mouse brain cortices;Mother-UBERON_0000956;Mother-BTO_0000233
 mouse neuroblastoma cell line CAD;Mother-BTO_0000932
@@ -184,10 +184,10 @@ mouse soleus tissue;Mother-UBERON_0001389
 human diploid fibroblasts (HDFs);Mother-CL_0000057;Mother-BTO_0000452
 HCV-positive liver biopsy;UBERON_0002107;BTO_0000759
 RAW264.7 macrophages;BTO_0003292;CLO_0008753
-primary mouse BMDMs;IDO_0100769
+primary mouse BMDMs;BTO_0004732
 human PBMCs;Mother-CL_2000001;Mother-BTO_0001025 
-MyD88-deficient BMDMs;Mother-IDO_0100769
-TRIF-deficient BMDMs;Mother-IDO_0100769
+MyD88-deficient BMDMs;Mother-BTO_0004732
+TRIF-deficient BMDMs;Mother-BTO_0004732
 wild-type mouse embryonic fibroblasts;Mother-CL_2000042;Mother-BTO_0004725
 RAW264.7;BTO_0003292;CLO_0008753
 HEK293-TLR4;Mother-BTO_0000007;Mother-EFO_0001182
@@ -196,7 +196,7 @@ myofibroblasts;CL_0000186;BTO_0001946
 MCF-7;CLO_0007606 
 SW480 cells;CLO_0009218
 Human umbilical vein Ecs  (HUVECs);BTO_0001949
-cardiac fibroblasts;CL_0002548
+cardiac fibroblasts;CL_0008023
 muscle from dy 3K/dy 3K and dy 2J/dy 2J mouse;Mother-UBERON_0002385
 muscle from dy 3K/dy 3K;Mother-UBERON_0002385
 PBMCs;CL_2000001;BTO_0001025
@@ -295,7 +295,7 @@ human umbilical cord vein endothelial cells (HUVEC);BTO_0001949
 Ku802/2 mice cardiac cells;Mother-CL_0000746
 Hepa1c1c7 cells;BTO_0002894;CLO_0003712
 lens epithelium;BTO_0001873
-cochlear hair cell;FMA_62364
+cochlear hair cell;CL_0000202
 human ESCs;Mother-CL_0000034
 naive stem cells (ESCs);Mother-CL_0000034
 retina;UBERON_0000966;BTO_0001175 

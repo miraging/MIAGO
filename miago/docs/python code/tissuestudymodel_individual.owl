@@ -7058,7 +7058,7 @@
 
     <!-- http://purl.obolibrary.org/obo/MIAGO_0013691 -->
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0013691">
-        <rdf:type rdf:resource="&obo;IDO_0100769"/>
+        <rdf:type rdf:resource="&obo;BTO_0004732"/>
         <rdfs:label xml:lang="en">BMDMs culture 632</rdfs:label>
         <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0013688"/>
     </owl:NamedIndividual>
@@ -7125,7 +7125,7 @@
 
     <!-- http://purl.obolibrary.org/obo/MIAGO_0013696 -->
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0013696">
-        <rdf:type rdf:resource="&obo;IDO_0100769"/>
+        <rdf:type rdf:resource="&obo;BTO_0004732"/>
         <rdfs:label xml:lang="en">BMDMs culture 633</rdfs:label>
         <obo:BFO_0000050 rdf:resource="&obo;MIAGO_0013693"/>
     </owl:NamedIndividual>
