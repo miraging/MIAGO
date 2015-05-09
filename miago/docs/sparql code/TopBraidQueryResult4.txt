@@ -1,0 +1,17 @@
+[s]	label
+obo:MIAGO_0000329	miR-126 targeting VCAM1 (human) assumption
+obo:MIAGO_0000333	miR-126 targeting SPRED1 (human) assumption
+obo:MIAGO_0000343	miR-126 targeting PIK3R2 (human) assumption
+obo:MIAGO_0000408	miR-144 targeting NFE2L2 (human) assumption
+obo:MIAGO_0000597	miR-214 targeting Ezh2 (mouse) assumption
+obo:MIAGO_0000626	miR-217 targeting SIRT1 (human) assumption
+obo:MIAGO_0000630	miR-22 targeting CYR61 (human) assumption
+obo:MIAGO_0000635	miR-22 targeting Ogn (mouse) assumption
+obo:MIAGO_0000701	miR-23a-3p targeting HAS2 (human) assumption
+obo:MIAGO_0000798	miR-329 targeting MCAM (human) assumption
+obo:MIAGO_0000814	miR-339-5p targeting BACE1 (human) assumption
+obo:MIAGO_0000842	miR-34a targeting Nampt (mouse) assumption
+obo:MIAGO_0000895	miR-494 targeting HNRNPA3 (human) assumption
+obo:MIAGO_0000897	miR-494 targeting RAD23B (human) assumption
+obo:MIAGO_0000899	miR-494 targeting SYNCRIP (human) assumption
+obo:MIAGO_0000901	miR-494 targeting PDIA3 (human) assumption

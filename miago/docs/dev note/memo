@@ -7,3 +7,12 @@
 	
 3. changed the mapping ID from CL_0008023 to CL_0002548.
    Ontology is fine. All the files need to rework.
+   
+4. TomCat or Sesame's bug?
+   encounter JAXP00010001: The parser has encountered more than "64000" entity expansions in this document; this is the limit imposed by the JDK.
+   https://greencircle.vmturbo.com/community/products/blog/2014/5/18
+
+5. interesting finding:
+   the assays that currently has no assay classes as its mother terms are inaccurate curations.
+   But some inaccurate curations are still exists.
+   This can be fixed in the python code. If the luciferase assay, then it should go only binding conclusion.

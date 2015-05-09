@@ -18,6 +18,7 @@ WHERE
   ?s obo:MIAGO_0000104 ?s1 .
   ?s1 rdfs:label ?label1 .}
 
+
 # search the the beta Tc6 cell in BTO.
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -56,3 +57,19 @@ WHERE
   ?s rdfs:label ?label .
   ?s rdf:type owl:NamedIndividual .
   ?s rdf:type obo:MIAGO_0000030.}
+  
+  
+  ### check CONSTRUCT
+  
+CONSTRUCT{?target_gene obo:MIAGO_0000028 ?miRNA .}
+WHERE {
+?s rdfs:subClassOf* obo:MIAGO_0000079 .
+?s rdfs:subClassOf ?s1 .
+?s1 owl:onProperty obo:MIAGO_0000078; owl:someValuesFrom ?x .
+?s rdfs:subClassOf ?s2 .
+?s2 owl:onProperty obo:MIAGO_0000076; owl:someValuesFrom ?y .
+?x rdfs:subClassOf obo:SO_0000276 .
+?y rdfs:subClassOf obo:SO_0001217 .
+?x rdfs:label ?miRNA .
+?y rdfs:label ?target_gene
+}

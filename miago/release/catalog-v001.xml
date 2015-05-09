@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/external_by_hand.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/external_by_hand.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/UBERON_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/UBERON_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/SO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/SO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/RO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/RO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/PR_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/PR_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/PR_hand.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/PR_hand.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/PATO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/PATO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/OBI_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/OBI_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/MP_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/MP_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/GO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/GO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/ERO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/ERO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/ECO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/ECO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/DOID_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/DOID_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/CL_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/CL_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/CLO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/CLO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/BTO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/BTO_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1431145970915" name="duplicate:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago_release_inferred.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1431145970915" name="duplicate:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago_release_inferred.rdf"/>
+    </group>
+</catalog>
