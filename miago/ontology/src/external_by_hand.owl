@@ -51,6 +51,15 @@
      -->
 
 
+    <!-- http://purl.obolibrary.org/obo/pr#has_gene_template -->
+
+    <owl:ObjectProperty rdf:about="&obo;pr#has_gene_template">
+        <rdfs:label rdf:datatype="&xsd;string">has_gene_template</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">has_gene_template</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+    </owl:ObjectProperty>
+
    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

@@ -17,11 +17,18 @@ http://purl.obolibrary.org/obo/GO_0007568
 http://purl.obolibrary.org/obo/GO_0007569
 http://purl.obolibrary.org/obo/GO_0014889
 http://purl.obolibrary.org/obo/GO_0042692
+http://purl.obolibrary.org/obo/GO_0061614
+http://purl.obolibrary.org/obo/GO_0006351
 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000007 #process
+
+http://purl.obolibrary.org/obo/GO_0061614
+subClassOf http://purl.obolibrary.org/obo/GO_0006351
+
+http://purl.obolibrary.org/obo/GO_0006351
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 
 http://purl.obolibrary.org/obo/GO_0005575
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040

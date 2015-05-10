@@ -1,0 +1,21 @@
+# this query run on PR SPARQL endpoint: 
+# http://protein.ctde.net:8080/openrdf-workbench/repositories/PRO
+
+
+# search the gene_template relation used in PR
+
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo:<http://purl.obolibrary.org/obo/>
+PREFIX pro:<http://purl.obolibrary.org/obo/PR_>
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+ 
+SELECT distinct ?s ?label 
+WHERE  
+{ ?s rdfs:label ?label .
+  FILTER REGEX(str(?label),"template")}

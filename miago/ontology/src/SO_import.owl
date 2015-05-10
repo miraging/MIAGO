@@ -65,11 +65,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33697"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000234 -->
+
+    <owl:Class rdf:about="&obo;SO_0000234">
+        <rdfs:label rdf:datatype="&xsd;string">mRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33697"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000276 -->
 
     <owl:Class rdf:about="&obo;SO_0000276">
         <rdfs:label rdf:datatype="&xsd;string">miRNA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33696"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33697"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
     </owl:Class>
