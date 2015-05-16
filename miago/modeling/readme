@@ -1,4 +1,8 @@
-To use following files. Change the name to miago.owl and copy to the src\ replace the miago.owl file. 
+This folder contains the graphic design of modeling core-constructs and their relations in MIAGO and the implemented miago OWL file.
+/'vue graphic'	all the vue graphic views of the design. The Visual Understanding Environment (VUE) tool has to be downloaded from http://vue.tufts.edu/
+
+
+Others are OWL files contain some modelings. To use these files: Change the name to miago.owl and copy to the src\ replace the miago.owl file. 
 
 miago_modeling_001.owl   
     The ontology basic modeling using 'evidence role' to link a conclusion and evidence role, then define the evidence so conclusion become evidence.
