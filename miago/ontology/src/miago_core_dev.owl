@@ -1408,8 +1408,8 @@
         <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000256"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1420,8 +1420,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002353"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000256"/>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>YL</obo:IAO_0000117>
@@ -1717,26 +1717,26 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000073"/>
-                <owl:someValuesFrom rdf:resource="&obo;SO_0000276"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000252"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000253"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000251"/>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000073"/>
+                <owl:someValuesFrom rdf:resource="&obo;SO_0000276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002217"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000253"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000251"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1966,14 +1966,14 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;PR_000014888"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_2135607"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_2135607"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000014888</rdfs:comment>
@@ -2246,15 +2246,6 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000051 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000051">
-        <rdfs:label xml:lang="en">bead-based flow cytometry platform</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000916"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MIAGO_0000052 -->
 
     <owl:Class rdf:about="&obo;MIAGO_0000052">
@@ -2305,15 +2296,6 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a conclusion that is drawn based on the data from miRNA target identification experiments or softwares.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MIAGO_0000061 -->
-
-    <owl:Class rdf:about="&obo;MIAGO_0000061">
-        <rdfs:label xml:lang="en">Zmpste24 -/- mouse liver</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;UBERON_0002107"/>
     </owl:Class>
     
 
@@ -2471,24 +2453,6 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000079"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                <owl:hasValue rdf:resource="&obo;MIAGO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000078"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000204"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
-                <owl:hasValue rdf:resource="&obo;MIAGO_0000103"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000076"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000088"/>
             </owl:Restriction>
@@ -2502,7 +2466,25 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000078"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
                 <owl:hasValue rdf:resource="&obo;MIAGO_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;MIAGO_0000045"/>
+                <owl:hasValue rdf:resource="&obo;MIAGO_0000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2516,14 +2498,14 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;PR_000007402"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_1914981"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_1914981"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>subClassOf http://purl.obolibrary.org/obo/PR_000007402</rdfs:comment>
@@ -2714,14 +2696,14 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;PR_000011617"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_109278"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2735,14 +2717,14 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;PR_000007278"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_107940"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107940"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2756,14 +2738,14 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;PR_000012455"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="&obo;MGI_107490"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="&obo;MGI_107490"/>
+                <owl:onProperty rdf:resource="&obo;pr#only_in_taxon"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4175,12 +4157,6 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         <rdfs:subClassOf rdf:resource="&obo;SO_0000234"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002217"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000250"/>
                 <owl:someValuesFrom rdf:resource="&obo;SO_0000276"/>
             </owl:Restriction>
@@ -4189,6 +4165,12 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000033"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002217"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4829,6 +4811,12 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002217"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0061614"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002430"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGO_0000256"/>
             </owl:Restriction>
@@ -4843,12 +4831,6 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002217"/>
                 <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002217"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0061614"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4893,6 +4875,16 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000026">
         <rdf:type rdf:resource="&obo;MIAGO_0000046"/>
         <rdfs:label xml:lang="en">predicted conclusion_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000051 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000051">
+        <rdf:type rdf:resource="&obo;OBI_0000916"/>
+        <rdfs:label xml:lang="en">bead-based flow cytometry platform test 1</rdfs:label>
+        <obo:MIAGO_0000031 rdf:resource="&obo;MIAGO_0000268"/>
     </owl:NamedIndividual>
     
 
@@ -4960,6 +4952,24 @@ The mature miRNA is part of an active RNA-induced silencing complex (RISC) conta
     <owl:NamedIndividual rdf:about="&obo;MIAGO_0000103">
         <rdf:type rdf:resource="&obo;MIAGO_0000013"/>
         <rdfs:label xml:lang="en">miR-29a and Ppm1d co-expression conclusion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000268 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000268">
+        <rdf:type rdf:resource="&obo;OBI_0000953"/>
+        <rdfs:label xml:lang="en">liver specimen of Zmpste24-/- mouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIAGO_0000269 -->
+
+    <owl:NamedIndividual rdf:about="&obo;MIAGO_0000269">
+        <rdf:type rdf:resource="&obo;UBERON_0002107"/>
+        <rdfs:label xml:lang="en">Zmpste24 -/- mouse liver test 1</rdfs:label>
     </owl:NamedIndividual>
     
 
