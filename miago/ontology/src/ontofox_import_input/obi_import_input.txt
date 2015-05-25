@@ -19,35 +19,49 @@ http://purl.obolibrary.org/obo/OBI_0000893 #qPCR
 http://purl.obolibrary.org/obo/OBI_0000916 #flow cytometry assay
 http://purl.obolibrary.org/obo/NCBITaxon_6239 #Caenorhabditis elegans
 http://purl.obolibrary.org/obo/NCBITaxon_7227 #Drosophila melanogaster
-http://purl.obolibrary.org/obo/OBI_0000047
-http://purl.obolibrary.org/obo/OBI_0100016
-http://purl.obolibrary.org/obo/CARO_0001008
-http://purl.obolibrary.org/obo/CARO_0000043
-http://purl.obolibrary.org/obo/OBI_0000070
-http://purl.obolibrary.org/obo/OBI_0000415
-http://purl.obolibrary.org/obo/OBI_0000661
-http://purl.obolibrary.org/obo/OBI_0000854
-http://purl.obolibrary.org/obo/OBI_0000860
-http://purl.obolibrary.org/obo/OBI_0000893
-http://purl.obolibrary.org/obo/OBI_0000916
-http://purl.obolibrary.org/obo/OBI_0001146
-http://purl.obolibrary.org/obo/OBI_0001152
-http://purl.obolibrary.org/obo/OBI_0001323
-http://purl.obolibrary.org/obo/OBI_0001499
-http://purl.obolibrary.org/obo/OBI_0001632
-http://purl.obolibrary.org/obo/OBI_0001671
-http://purl.obolibrary.org/obo/OBI_0001700
-http://purl.obolibrary.org/obo/OBI_0001956
-http://purl.obolibrary.org/obo/OBI_0200102
-http://purl.obolibrary.org/obo/OBI_0302887
-http://purl.obolibrary.org/obo/OBI_0600047
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+http://purl.obolibrary.org/obo/OBI_0100016 #blood plasma specimen
+http://purl.obolibrary.org/obo/CARO_0001008 #gross anatomical part
+http://purl.obolibrary.org/obo/CARO_0000043 #portion of tissue
+http://purl.obolibrary.org/obo/OBI_0000415 #polymerase chain reaction
+http://purl.obolibrary.org/obo/OBI_0000661 #ELISA
+http://purl.obolibrary.org/obo/OBI_0000854 #western blot analysis
+http://purl.obolibrary.org/obo/OBI_0000860 #northern blot analysis
+http://purl.obolibrary.org/obo/OBI_0001146 #binding assay
+http://purl.obolibrary.org/obo/OBI_0001152 #transfection
+http://purl.obolibrary.org/obo/OBI_0001323 #microRNA profiling by array design
+http://purl.obolibrary.org/obo/OBI_0001499 #fluorescence detection binding assay
+http://purl.obolibrary.org/obo/OBI_0001632 #immuno staining assay
+http://purl.obolibrary.org/obo/OBI_0001671 #electrophoretic mobility shift assay 
+http://purl.obolibrary.org/obo/OBI_0001700 #immunoprecipitation assay
+http://purl.obolibrary.org/obo/OBI_0001956 #assay using chromatin immunoprecipitation
+http://purl.obolibrary.org/obo/OBI_0200102 #regression analysis method
+http://purl.obolibrary.org/obo/OBI_0302887 #staining
+http://purl.obolibrary.org/obo/OBI_0600047 #sequencing assay
 http://purl.obolibrary.org/obo/RO_0000087 # has role (replace BFO_0000087)
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
 
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034
+
+http://purl.obolibrary.org/obo/BFO_0000040
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004
+
+http://purl.obolibrary.org/obo/BFO_0000017
+subClassOf http://purl.obolibrary.org/obo/BFO_0000020
+
+http://purl.obolibrary.org/obo/BFO_0000003
+subClassOf http://purl.obolibrary.org/obo/BFO_0000001
+
+http://purl.obolibrary.org/obo/BFO_0000015
+subClassOf http://purl.obolibrary.org/obo/BFO_0000003
+
+
 [Source term retrieval setting]
-includeAllIntermediates
+includeNoIntermediates
 
 [Source annotation URIs]
 includeAllAxiomsRecursively 

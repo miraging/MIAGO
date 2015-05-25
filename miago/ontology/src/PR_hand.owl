@@ -443,6 +443,24 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
 	
+
+    <!--  http://purl.obolibrary.org/obo/PR_000003035 -->
+	
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular tumor antigen p53</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TP53 gene or a 1:1 ortholog thereof. [PRO:CNA]</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene.</rdfs:comment>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor suppressor p53</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphoprotein p53</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen NY-CO-13</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TP53</oboInOwl:hasExactSynonym>
+		<oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P53</oboInOwl:hasRelatedSynonym>
+		<oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trp53</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+
 	
 </rdf:RDF>
 

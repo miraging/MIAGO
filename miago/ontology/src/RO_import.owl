@@ -360,12 +360,12 @@
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -386,12 +386,12 @@
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -693,11 +693,11 @@
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002431"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -711,11 +711,11 @@
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002428"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;RO_0002213"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;RO_0002213"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -729,11 +729,11 @@
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002428"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002331"/>
             <rdf:Description rdf:about="&obo;RO_0002212"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002331"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
             <rdf:Description rdf:about="&obo;RO_0002212"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>

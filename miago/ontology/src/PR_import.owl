@@ -190,7 +190,6 @@
 
     <owl:Class rdf:about="&obo;CHEBI_23367">
         <rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:23367</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>

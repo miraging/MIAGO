@@ -808,14 +808,14 @@
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002131"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
@@ -1000,13 +1000,13 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;CLO_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;CLO_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1080,13 +1080,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="&obo;CLO_0000001"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000001"/>
+                <owl:allValuesFrom rdf:resource="&obo;CLO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>MB, SS, JZ, MAH, BP, CS, YH</obo:IAO_0000117>
@@ -1495,12 +1495,6 @@
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000636"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&cellline2;is_model_for"/>
-                <owl:someValuesFrom rdf:resource="&cellline2;cervical_carcinoma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
                 <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
             </owl:Restriction>
@@ -1539,6 +1533,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&cellline2;is_model_for"/>
+                <owl:someValuesFrom rdf:resource="&cellline2;cervical_carcinoma"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>HyperCLDB: cl1601</rdfs:seeAlso>
@@ -1613,12 +1613,6 @@
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000488"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1641,6 +1635,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>ATCC: HTB-22</rdfs:seeAlso>
@@ -1703,12 +1703,6 @@
         <rdfs:subClassOf rdf:resource="&obo;CLO_0000513"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1731,6 +1725,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>SW480</obo:IAO_0000118>
