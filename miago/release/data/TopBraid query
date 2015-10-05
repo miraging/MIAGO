@@ -1,0 +1,35 @@
+== select all class count ==
+
+SELECT Count(distinct ?subject)
+WHERE {
+    ?subject rdfs:subClassOf+ owl:Thing .
+}
+ = result: 5121
+
+
+== Select the MIAGO specific class count ==
+SELECT Count(?subject)
+WHERE {
+    ?subject rdfs:subClassOf+ owl:Thing .
+FILTER REGEX(str(?subject), "MIAGO") .
+}
+
+ = result: 519
+ 
+== Select all the individual count ==
+SELECT Count(distinct ?in)
+WHERE {
+    ?in rdf:type owl:NamedIndividual .
+
+}
+
+ = result: 3031
+ 
+== Select MIAGO specific individual count ==
+SELECT Count(distinct ?in)
+WHERE {
+    ?in rdf:type owl:NamedIndividual .
+FILTER REGEX(str(?in), "MIAGO") .
+}
+
+ = result: 2865

@@ -1279,9 +1279,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000002 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000002 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000002">
+    <owl:Class rdf:about="&obo;MIAGO_000002">
         <rdfs:label xml:lang="en">microRNA target protein</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -1304,81 +1304,81 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000004 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000004 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000004">
+    <owl:Class rdf:about="&obo;MIAGO_000004">
         <rdfs:label xml:lang="en">miRNA expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000005 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000005 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000005">
+    <owl:Class rdf:about="&obo;MIAGO_000005">
         <rdfs:label xml:lang="en">miRNA target gene mRNA binding</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000006 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000006 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000006">
+    <owl:Class rdf:about="&obo;MIAGO_000006">
         <rdfs:label xml:lang="en">miRNA target gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MIAGO_0000024"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000007 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000007 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000007">
+    <owl:Class rdf:about="&obo;MIAGO_000007">
         <rdfs:label xml:lang="en">miRNA target binding assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000008 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000008 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000008">
+    <owl:Class rdf:about="&obo;MIAGO_000008">
         <rdfs:label xml:lang="en">miRNA expression assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000009 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000009 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000009">
+    <owl:Class rdf:about="&obo;MIAGO_000009">
         <rdfs:label xml:lang="en">target protein expression assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000014 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000014 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000014">
+    <owl:Class rdf:about="&obo;MIAGO_000014">
         <rdfs:label xml:lang="en">aging related biological process</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000015 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000015 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000015">
+    <owl:Class rdf:about="&obo;MIAGO_000015">
         <rdfs:label xml:lang="en">aging disease course</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MIAGGO_000020 -->
+    <!-- http://purl.obolibrary.org/obo/MIAGO_000020 -->
 
-    <owl:Class rdf:about="&obo;MIAGGO_000020">
+    <owl:Class rdf:about="&obo;MIAGO_000020">
         <rdfs:label xml:lang="en">published paper</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000312"/>
     </owl:Class>
@@ -1620,7 +1620,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000004"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1772,7 +1772,7 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0000029">
         <rdfs:label xml:lang="en">review paper</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000020"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_000020"/>
         <owl:disjointWith rdf:resource="&obo;MIAGO_0000030"/>
     </owl:Class>
     
@@ -1782,7 +1782,7 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0000030">
         <rdfs:label xml:lang="en">non-review paper</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000020"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_000020"/>
     </owl:Class>
     
 
@@ -1861,7 +1861,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="&obo;MIAGGO_000005"/>
+                <owl:someValuesFrom rdf:resource="&obo;MIAGO_000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2084,7 +2084,7 @@
 
     <owl:Class rdf:about="&obo;MIAGO_0000050">
         <rdfs:label xml:lang="en">miR-29a expression</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MIAGGO_000004"/>
+        <rdfs:subClassOf rdf:resource="&obo;MIAGO_000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;MIAGO_0000062"/>
