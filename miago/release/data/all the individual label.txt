@@ -1,0 +1,1001 @@
+[label]
+ bioinformatic analysis predicted miRNA target conclusion224
+ bioinformatic analysis predicted miRNA target conclusion286
+(q)RT-PCR 834
+(q)RT-PCR 836
+24-month-old mouse;APPPS1-21 mouse 857
+3'-UTR luciferase assay 253
+5C.C7 mouse 330
+Affymetrix
+Agilent
+BACE1 protein expression was reduced by miR-29b
+BALB/c mouse 742
+BALB/c mouse 743
+BMDMs culture 632
+Beckman Coulter
+C2C12 cells culture 530
+C2C12 mouse 692
+C2C12 myoblasts culture 41
+C2C12 myoblasts culture 460
+C57BL/6 male mouse 726
+C57BL/6 mouse 92
+CDK2 were enriched in our biotin miR-1248 pulldowns
+CHO (Chinese hamster ovary cells) culture 875
+COS-7 cells culture 310
+Compensation-ML
+Cotransfection decreased the expression of the PTBP1 3'UTR-containing reporter
+Dako Cytomation
+E16.5 mouse;E18.5 mouse 335
+E18.5 mouse embryonic cortices culture 979
+ECs culture 607
+EGFP reporter assay 601
+ELISA 10
+ELISA 210
+ELISA 213
+ELISA 248
+ES cells transduced with miR-214-wt and exposed to RA displayed increased Dkk1 and nestin expression
+Edingburgh handedness inventory
+Enforced expression of miR-27a affects Nrf2 localization and its transactivation
+Ets-1 is a target of miR-222
+Expression of Sirt1 was decreased in the retina at 24 months when compared to 18 months 
+Flow cytometry analysis 965
+Fluorescence 743
+Fusion luciferase assay 329
+Fusion luciferase assay 330
+Gating-ML
+GenePattern HeatMapViewer data visualization
+GenePattern SVM
+GenePattern k-nearest neighbors
+GenePattern module CARTXValidation
+GenePattern module PeakMatch
+GenePattern peak matching
+HEK 293 cells culture 566
+HEK 293 cells transfected with miR-34a or miR-93 culture 820
+HEK 293 cells transfected with miR-34a or miR-93 culture 821
+HEK 293T cells culture 601
+HEK-293 cells culture 743
+HEK-293 cells culture 752
+HEK-293 cells culture 962
+HEK293 cells culture 209
+HEK293 cells culture 211
+HEK293 cells culture 791
+HEK293 cells were cotransfected with pGL3-CaMKIIa 3'-UTR culture 253
+HEK293 co-transfections of the resulting 3'UTR Renilla vectors culture 196
+HEK293T cell culture 384
+HL-60 Cell Binding assay 107
+HOXB7 is a direct target of miR-196a
+HUVECs culture 643
+HUVECs culture 644
+HUVECs culture 703
+HUVECs culture 704
+HUVECs culture 773
+HUVECs culture 777
+HUVECs culture 987
+HUVECs culture 988
+HUVECs culture 989
+HeLa cells culture 156
+HeLa cells culture 242
+HeLa cells transfected with miR-1248 culture 81
+HeLa cells transfected with miR-1248 culture 82
+Human dermal microvascular endothelial cells (HMECs) culture 427
+Human umbilical vein Ecs  (HUVECs) culture 495
+Human umbilical vein Ecs  (HUVECs) culture 666
+IGF1R is repressed by the transfected miR-669b
+IGF1R is repressed by the transfected miR-681
+IMR90 cells culture 902
+IMR90 cells culture 907
+IMR90 cells culture 912
+IMR90 cells culture 913
+IMR90 cells culture 918
+Illumina
+In situ hybridization 11
+Jurkat culture 241
+K562 cells culture 210
+Knock down of endothelial miR-10a in HAEC significantly up-regulated MAP3K7
+LLC-PK1 cells treated with OTA culture 163
+LPS regulates the translation of Pdcd4 mRNA through the induction of miR-21
+Ldlr-/- mouse 792
+Ldlr-/- mouse 795
+Let-7e downregulates CDC25A
+MCK-Sox6 transgenic mouse 945
+MCK-miR-499 mouse 946
+MTT 63
+MTT analysis 1003
+Mgst1 expression is reduced inversely to the up-regulation of miR-34a
+Miltenyi Biotec
+Neuro2a(N2a) culture 71
+Northern blot 307
+Northern blot 566
+Nrf2 expression is reduced inversely to the up-regulation of miR-34a
+Nrf2 expression is reduced inversely to the up-regulation of miR-93
+OBI Release 2015-04-13
+OWL
+PCR 121
+PHA-4 promotes mir-228 expression in DR
+PIK3R2 mRNA levels were reduced by miR-126 abundance 
+PIK3R2 protein were increased when miR-126 levels were decreased 
+PMID: 17681183  PMID: 17478730  PMID: 16762633 predicted miRNA target conclusion484
+PMID: 18755897 predicted miRNA target conclusion857
+PMID: 20727858 predicted miRNA target conclusion376
+PMID: 21249429 predicted miRNA target conclusion120
+PMID: 21464990 predicted miRNA target conclusion121
+PMID:15806104 predicted miRNA target conclusion599
+PMID:17588946 predicted miRNA target conclusion292
+PTPN22 protein levels are quantitatively reduced by miR-181a
+Pacific Biosciences
+Peptide-loaded CH27 cells culture 327
+Peptide-loaded CH27 cells culture 330
+PicTar, Targetscan, and miRanda)  predicted miRNA target conclusion697
+PubMed 16885212
+PubMed 16885212
+PubMed 17382377
+PubMed 18281287
+PubMed 18694566
+PubMed 18694566
+PubMed 18694566
+PubMed 18694566
+PubMed 18694566
+PubMed 18723672
+PubMed 18723672
+PubMed 18723672
+PubMed 19043405
+PubMed 19043405
+PubMed 19245789
+PubMed 19343226
+PubMed 19786632
+PubMed 19818710
+PubMed 19818710
+PubMed 19818710
+PubMed 19818710
+PubMed 19818710
+PubMed 19818710
+PubMed 19818710
+PubMed 19922871
+PubMed 19922871
+PubMed 19922871
+PubMed 19949084
+PubMed 19949084
+PubMed 19996457
+PubMed 19996457
+PubMed 19996457
+PubMed 20133741
+PubMed 20142475
+PubMed 20404348
+PubMed 20624982
+PubMed 20624982
+PubMed 20709907
+PubMed 20709907
+PubMed 20709907
+PubMed 20876843
+PubMed 21068402
+PubMed 21068402
+PubMed 21068402
+PubMed 21068402
+PubMed 21081489
+PubMed 21146586
+PubMed 21146586
+PubMed 21216258
+PubMed 21216258
+PubMed 21310411
+PubMed 21310411
+PubMed 21461636
+PubMed 21461636
+PubMed 21461636
+PubMed 21461636
+PubMed 21461636
+PubMed 21522133
+PubMed 21536891
+PubMed 21536891
+PubMed 21536891
+PubMed 21536891
+PubMed 21536891
+PubMed 21536891
+PubMed 21536891
+PubMed 21622680
+PubMed 21646721
+PubMed 21926429
+PubMed 21946562
+PubMed 21946562
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 21994399
+PubMed 22227154
+PubMed 22227154
+PubMed 22227154
+PubMed 22267480
+PubMed 22358842
+PubMed 22538858
+PubMed 22610069
+PubMed 22781751
+PubMed 22956623
+PubMed 23023500
+PubMed 23028144
+PubMed 23028144
+PubMed 23098654
+PubMed 23236440
+PubMed 23281030
+PubMed 23281030
+PubMed 23281030
+PubMed 23281030
+PubMed 23633945
+PubMed 23633945
+PubMed 23733368
+PubMed 23834033
+PubMed 23834033
+PubMed 23878390
+PubMed 23878390
+PubMed 23878390
+PubMed 23878390
+PubMed 23880139
+PubMed 23880139
+PubMed 24084739
+PubMed 24084739
+PubMed 24088671
+PubMed 24088671
+PubMed 24134702
+PubMed 24168656
+PubMed 24168656
+PubMed 24299514
+PubMed 24299514
+PubMed 24352696
+PubMed 24352696
+PubMed 24352696
+PubMed 24401368
+PubMed 24401371
+PubMed 24401376
+PubMed 24401376
+PubMed 24559646
+PubMed 24823364
+PubMed 24823364
+PubMed 24823364
+PubMed 24823364
+PubMed 24823364
+PubMed 24823364
+PubMed 24823364
+PubMed 24823364
+PubMed 24905922
+PubMed 24914689
+PubMed 24963165
+PubMed 25003985
+PubMed 25003985
+PubMed 25003985
+PubMed 25003985
+PubMed 25059272
+PubMed 25059272
+PubMed 25251993
+PubMed 25264594
+PubMed 25277076
+PubMed 25277076
+PubMed 25428821
+PubMed 25550450
+PubMed 25554493
+PubMed 25638533
+RNA electrophoretic mobility shift assay 387
+RNAhybrid, miRanda, and TargetScan predicted miRNA target conclusion690
+RT- PCR 848
+RT-PCR 164
+RT-PCR 166
+RT-PCR 430
+RT-PCR 742
+RT-PCR 743
+RT-PCR 782
+RT-PCR 932
+RT-qPCR 388
+RT-qPCR 797
+Real-time PCR 15
+Real-time PCR 50
+Real-time PCR 534
+Reporter Assays 162
+SA-beta- Gal staining 585
+SD rats 64
+SH-SY5Y culture 202
+SH-SY5Y culture 203
+SKN-1 promotes mir-71 expression in DR
+SNP rs9882688 correlates with changes in hsa-mir-138-5p expression in human peripheral cell lines
+SPRED1 mRNA levels were reduced by miR-126 abundance 
+SPRED1 protein were increased when miR-126 levels were decreased 
+SirT1 3'UTR reporter activity was significantly downregulated
+Sox6 over-expression decreases miRNA-499 expression
+T cells culture 329
+THBS1 3'UTR reporter was suppressed on PGE2 treatment
+Taqman RT-PCR 455
+Taqman RT-PCR 931
+Target Scan Human 5.1 database predicted miRNA target conclusion594
+TargetScan (Human 5.1) predicted miRNA target conclusion983
+TargetScan (Human 5.1) predicted miRNA target conclusion984
+TargetScan 5.1 predicted miRNA target conclusion52
+TargetScan 5.1 predicted miRNA target conclusion53
+TargetScan 6.2 predicted miRNA target conclusion659
+TargetScan 6.2, miRDB, miRanda, PITA, and RNA hybrid  predicted miRNA target conclusion907
+TargetScan algorithm predicted miRNA target conclusion41
+TargetScan algorithm predicted miRNA target conclusion460
+TargetScan predicted miRNA target conclusion332
+TargetScan predicted miRNA target conclusion342
+TargetScan predicted miRNA target conclusion82
+TargetScan v5.1 and Microcosm target prediction software predicted miRNA target conclusion485
+TargetScan, MicroCosm targets and mirSVR databases predicted miRNA target conclusion168
+Targetscan and Pictar databases predicted miRNA target conclusion769
+Targetscan and Pictar databases predicted miRNA target conclusion980
+Targetscan, Pictar, MiRanda, MiRBase Target Data base predicted miRNA target conclusion425
+TargetscanHuman 5.1 predicted miRNA target conclusion7
+TargetscanHuman 5.1 predicted miRNA target conclusion9
+The Targetscan prediction program predicted miRNA target conclusion728
+The activity of luciferase from constructs that included portions of the PIK3R2 3' UTR was increased upon knockdown of miR-126 
+The activity of luciferase from constructs that included portions of the SPRED1 3' UTR was increased upon knockdown of miR-126 
+The activity of luciferase from constructs that included portions of the VCAM1 3' UTR was increased upon knockdown of miR-126 
+Tlr7-/-  mouse; Myd88-/- mouse 952
+Tlr7-/- mouse 13
+Tlr7-/- neurons culture 12
+U.S. Food and Drug Administration
+U373 cells transfected with miR-29b culture 758
+U373MG cells culture 187
+VCAM1 mRNA levels were elevated upon miR-126 inhibition, but were not decreased in the presence of miR-126 mimic 
+VEGF and TNF-a resulted in downregulation of miR-329 expression and simultaneous upregulation of CD146 expression in HUVECs
+Western blot 1004
+Western blot 109
+Western blot 110
+Western blot 111
+Western blot 112
+Western blot 193
+Western blot 210
+Western blot 225
+Western blot 231
+Western blot 301
+Western blot 335
+Western blot 345
+Western blot 348
+Western blot 55
+Western blot 567
+Western blot 599
+Western blot 607
+Western blot 644
+Western blot 67
+Western blot 747
+Western blot 763
+Western blot 797
+Western blot 801
+Western blot 817
+Western blot 819
+Western blot assays 91
+Western blot assays 92
+XML
+anti-miR-132 diminished ROS production
+anti-miR-132 restored OTA-decreased Nrf2 expression
+anti-miR-200c diminished TGF-beta2 expression
+anti-miR33 can directly alter target gene expression in plaque macrophages by ABCA1
+anti-miR33 treatment induces atherosclerosis regression and lesion remodeling by ABCA1
+aortic sinus lesion area(Ldlr-/- mice) culture 794
+bEND.3 culture 85
+bEND.3 culture 97
+bTC6 cells culture 388
+bTC6 cells culture 389
+bioinformatics predicted miRNA target conclusion576
+c-Kit is a target of miR-222
+cardiac  tissue culture 727
+cardiac fibroblasts culture 504
+cardiac fibroblasts culture 584
+centimeter
+chromatin immunoprecipitation-quantitative PCR (ChIP-qPCR) 785
+cochlear hair cell culture 840
+colony forming unit per volume
+cortical neurons with let-7b culture 11
+count per nanomolar
+count per nanomolar second
+day
+dermal fibroblasts culture 660
+dual-luciferase assay 594
+endogenous BACE1 levels are inhibited by miR-339-5p 
+erythroid cells culture 210
+example to be eventually removed
+expression of miR-196b modestly decreased the association of the insulin 5'UTR reporter mRNA with HuD 
+expression of miRNA-22 inhibited Cyr61 expression in RA synovial tissue. 
+failed exploratory term
+fibroblasts culture 659
+fibroblasts culture 965
+flow cytometry 254
+general bioinformatics predicted miRNA target conclusion321
+general bioinformatics predicted miRNA target conclusion402
+general bioinformatics predicted miRNA target conclusion741
+general bioinformatics predicted miRNA target conclusion745
+general bioinformatics predicted miRNA target conclusion760
+general bioinformatics predicted miRNA target conclusion766
+general bioinformatics predicted miRNA target conclusion830
+general bioinformatics predicted miRNA target conclusion850
+hematoxylin- and eosin-stained 794
+high level of miR-494 in senescent IMR90 cells correlated with reduced level of mRNA and protein levels of PDIA3
+high level of miR-494 in senescent IMR90 cells correlated with reduced level of mRNA and protein levels of hnRNPA3
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222
+hippocampus culture 199
+hippocampus culture 281
+hippocampus culture 308
+hippocampus culture 980
+huamn 142
+huamn 143
+huamn 144
+huamn 148
+huamn 150
+human 1004
+human 106
+human 109
+human 110
+human 15
+human 163
+human 165
+human 166
+human 17
+human 198
+human 216
+human 225
+human 241
+human 242
+human 280
+human 294
+human 350
+human 382
+human 406
+human 41
+human 467
+human 604
+human 614
+human 619
+human 643
+human 659
+human 662
+human 679
+human 7
+human 710
+human 716
+human 724
+human 744
+human 772
+human 779
+human 781
+human 783
+human 797
+human 798
+human 8
+human 823
+human 850
+human 868
+human 869
+human 872
+human 893
+human 9
+human 910
+human 912
+human 914
+human 920
+human 922
+human 964
+human 974
+human 997
+human 998
+human aortic endothelial cells (HAECs) culture 568
+human aortic smooth muscle cells culture 1004
+human dermal fibroblasts culture 58
+human dermal fibroblasts culture 59
+human dermal fibroblasts culture 60
+human primary fibroblasts IMR90 culture 893
+human primary fibroblasts IMR90 culture 894
+human umbilical vein endothelial cells (HUVEC) culture 111
+human umbilical vein endothelial cells (HUVEC) culture 228
+human umbilical vein endothelial cells (HUVECs) culture 291
+human umbilical vein endothelial cells (HUVECs) culture 605
+human umbilical vein endothelial cells (HUVECs) culture 614
+human umbilical vein endothelial cells (HUVECs) culture 617
+human umbilical vein endothelial cells (HUVECs) culture 619
+human umbilical vein endothelial cells culture 145
+human umbilical vein endothelial cells culture 287
+human umbilical vein endothelial cells culture 288
+human umbilical vein endothelial cells(HUVECs) culture 783
+human umbilical vein endothelial cells(HUVECs) culture 784
+human umbilical vein endothelial cells(HUVECs) culture 785
+human vastus lateralis culture 15
+human vastus lateralis culture 7
+human(Alzheimer's Disease) 344
+human(Alzheimer's Disease) 746
+human(Alzheimer's Disease) 761
+human(HbSS) 209
+human(PD) 120
+human(PD) 121
+human(PD) 123
+human(aging) 341
+human(aging) 342
+immunocytochemistry 997
+immunocytochemistry 999
+immunofluorescence 231
+immunostained 12
+immunostaining 529
+in situ hybridization 994
+in situ hybridization 996
+in the frontal cortices of human culture 191
+in the frontal cortices of human culture 976
+increased miR-29b expression negatively correlates with reduced IGF-1 mRNA expression
+induced a TLR7-dependent cytokine response
+induction of senescence by miR-23a-3p, siHAS2, and HAS inhibitor 4-MU
+inhibits miR-33 activity increases expression of genes repressed by miR-33
+kilogram
+knockdown of miR-126 led to an increase in luciferase activity of the spred1 3' UTR luciferase construct when transfected into HUVECs 
+left handed
+let-7b and Tlr7 (mouse) co-expression conclusion
+let-7b stimulates the TLR7 pathway directly 
+liver(Ldlr-/- mice injected  with 2'F/MOE anti-miR33) culture 793
+luciferase assay 105
+luciferase assay 141
+luciferase assay 144
+luciferase assay 151
+luciferase assay 202
+luciferase assay 228
+luciferase assay 332
+luciferase assay 349
+luciferase assay 386
+luciferase assay 466
+luciferase assay 58
+luciferase assay 597
+luciferase assay 726
+luciferase assay 727
+luciferase assay 743
+luciferase assay 752
+luciferase assay 753
+luciferase assay 754
+luciferase assay 755
+luciferase assay 760
+luciferase assay 866
+luciferase assay 932
+luciferase assay 975
+luciferase assay reporter assay 242
+luciferase assay reporter assay 470
+luciferase assay reporter constructs 209
+luciferase assays 155
+luciferase assays 460
+luciferase assays 495
+luciferase assays 724
+luciferase assays 791
+luciferase assays 825
+luciferase assays 879
+luciferase assays 987
+lymphoblastoid cell lines culture 198
+mRNA of SYNCRIP was enriched in the pulldown material from cells transfected with Biot miR-494, 
+mass percentage
+mbryonic pancreas culture 393
+memory T cells culture 324
+meter
+miR-1 and Igf1 (rat) miRNA binding conclusion
+miR-101 and MTOR (human) co-expression conclusion
+miR-10a and MAP3K7 (human) co-expression conclusion
+miR-124 and Bace1 (rat) co-expression conclusion
+miR-124 and Ptbp2 (mouse) co-expression conclusion
+miR-124 and Ptbp2 (mouse) miRNA binding conclusion
+miR-1248 and CDK2 (human) co-expression conclusion
+miR-1248 and IL8 (human) co-expression conclusion
+miR-125a decrease endothelin-1 expression
+miR-125a were significantly decreased in SHR-SP aorta 
+miR-126 and PIK3R2 (human) miRNA binding conclusion
+miR-126 and SPRED1 (human) miRNA binding conclusion
+miR-126 and VCAM1 (human) miRNA binding conclusion
+miR-126 and ZFIN_ZDB-GENE-040426-2338 co-expression conclusion
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of PIK3R2
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of SPRED1
+miR-126 targets RGS16 and mediate atheroprotective effects of apoptotic bodies
+miR-126 targets RGS16 to enable induction of CXCL12 expression through CXCR4
+miR-126 targets of RGS16
+miR-126 targets of SPRED1 
+miR-128 and CASC3 (human) miRNA binding conclusion
+miR-128 and UPF1 (human) co-expression conclusion
+miR-128 and UPF1 (human) miRNA binding conclusion
+miR-128 inhibitor increased luciferase activity from MLN51-3' UTR reporter vectors
+miR-132 and Foxp2 (mouse) co-expression conclusion
+miR-132 and ROS1 (human) co-expression conclusion
+miR-137 and Sptlc1 (rat) co-expression conclusion
+miR-137 downregulated the endogenous expression levels of SPTLC1
+miR-138-5p and DCP1B (human) miRNA binding conclusion
+miR-141 and Bace1 (rat) co-expression conclusion
+miR-142-5p and NFE2L2 (human) miRNA binding conclusion
+miR-144 expression was  inversely correlated with SOD activity through NRF2 modulated
+miR-144 inhibit ARE-driven gene expression by its inhibitory effect on NRF2 expression
+miR-146a -/- mouse 231
+miR-146a and TRAF6 (human) miRNA binding conclusion
+miR-146a decreased expression of TRAF6
+miR-146a negative regulates NOX4 expression in a post-transcriptional manner
+miR-148a and DNMT1 (human) co-expression conclusion
+miR-152 and Camk2a (mouse) co-expression conclusion
+miR-152 and Camk2a (mouse) miRNA binding conclusion
+miR-153 and App (rat) co-expression conclusion
+miR-155 and ETS1 (human) miRNA binding conclusion
+miR-155 reduces HUVECs migration
+miR-15a and SPTLC1 (human) co-expression conclusion
+miR-16 and RARS (human) co-expression conclusion
+miR-17-3p and ICAM1 (human) miRNA binding conclusion
+miR-17-3p regulates TNF-induced ICAM-1 expression by targeting the ICAM-1 3'UTR
+miR-17-92 and Pten (mouse) co-expression conclusion
+miR-181a and Dusp6 (mouse) co-expression conclusion
+miR-181a and Ptpn22 (mouse) miRNA binding conclusion
+miR-181a-5p and TGFB1 (human) co-expression conclusion
+miR-181a-5p and TNF (human) co-expression conclusion
+miR-181c and SPTLC1 (human) co-expression conclusion
+miR-181c suppressed the endogenous SPTLC1 expression
+miR-184 and LAMP1 (human) co-expression conclusion
+miR-192 and Zeb2 (mouse) co-expression conclusion
+miR-195 inhibited Sirt1 expression
+miR-195 mediated apoptosis through downregulation of Sirt1
+miR-196a and HOXB7 (human) co-expression conclusion
+miR-196a and HOXB7 (human) miRNA binding conclusion
+miR-196b and Ins2 (mouse) miRNA binding conclusion
+miR-196b and Ins2 (mouse) miRNA binding conclusion
+miR-196b inhibitor blocks the miR-196 mediated activation of insulin2-5'UTR-Luciferase translation 
+miR-199a-5p and ATF6 (human) co-expression conclusion
+miR-199a-5p and NFKB1 (human) co-expression conclusion
+miR-199a-5p and RELA (human) miRNA binding conclusion
+miR-19a and Bace1 (rat) co-expression conclusion
+miR-19a and CCND1 (human) co-expression conclusion
+miR-200b and ETS1 (human) co-expression conclusion
+miR-208a and Cbx1 (mouse) co-expression conclusion
+miR-208a and Cbx1 (mouse) miRNA binding conclusion
+miR-208a and Sox6 (mouse) miRNA binding conclusion
+miR-208a-/-mouse 449
+miR-208a-/-mouse 450
+miR-208a-/-mouse 452
+miR-208b downregulated after 28 days of HS
+miR-21 and Fasl (mouse) co-expression conclusion
+miR-21 and Fasl (mouse) miRNA binding conclusion
+miR-21 and IRAK1 (human) co-expression conclusion
+miR-21 and Pdcd4 (mouse) co-expression conclusion
+miR-21 and RASGRP1 (human) miRNA binding conclusion
+miR-21 and Timp3 (mouse) co-expression conclusion
+miR-21 derepresses ERK signalling and enhances fibroblast survival by inhibiting SPRY1 expression 
+miR-21 response was blunted in the aged brain following TBI, which resulted in up-regulation of mRNA targets RECK
+miR-21 targets RASGRP1 to downregulate DNMT1 expression
+miR-214 and Ezh2 (mouse) miRNA binding conclusion
+miR-214 and Pten (rat) co-expression conclusion
+miR-214 and Qk (mouse) miRNA binding conclusion
+miR-214 expression increases myogenin expression 
+miR-214 expression reduces Ezh2 Protein expression with cell differentiation
+miR-216a mimic decreased Pten levels in MMC 
+miR-217 and SIRT1 (human) miRNA binding conclusion
+miR-217 inhibits SirT1 expression through a miR-217-binding site within the 3'-UTR of SirT1
+miR-217 mimic decreased Pten levels in MMC 
+miR-22 and Ogn (mouse) co-expression conclusion
+miR-221 and CDKN1B (human) co-expression conclusion
+miR-221 and CDKN1C (human) miRNA binding conclusion
+miR-221 and Cdkn1b (mouse) co-expression conclusion
+miR-221 and PIK3R1 (human) co-expression conclusion
+miR-222 and Cdkn1b (mouse) co-expression conclusion
+miR-222 and Cdkn1c (mouse) co-expression conclusion
+miR-222 and ETS1 (human) co-expression conclusion
+miR-222 and ETS1 (human) miRNA binding conclusion
+miR-222 directly target P57KIP2 3'UTR 
+miR-222 downregulate P27KIP1 expression 
+miR-223 and CCL3 (human) miRNA binding conclusion
+miR-223 and CXCL2 (human) miRNA binding conclusion
+miR-223 and IL6 (human) miRNA binding conclusion
+miR-223 induces negative feedback control of PMN CCL3
+miR-223 induces negative feedback control of PMN CXCL2
+miR-23 and SEMA6D (human) miRNA binding conclusion
+miR-23 and SPRY2 (human) co-expression conclusion
+miR-23 could repress the expression of endogenous SPROUTY2 proteins
+miR-23 could repress the expression of endogenous SPROUTY2 proteins
+miR-23 could repress the expression of endogenous Sema6A proteins
+miR-23 could repress the expression of endogenous Sema6D proteins
+miR-23 target proteins Sprouty2 was significantly up-regulated upon miR-23 knockdown in the retinas;miR-23 modulate retinal vascular development in vivo.
+miR-23a and Foxo3 (mouse) co-expression conclusion
+miR-23a and Foxo3 (mouse) miRNA binding conclusion
+miR-23a transgenic mouse 655
+miR-23a-3p expression was increased and HAS2 mRNA expression decreased in senescent
+miR-23a-3p targets HAS2 mRNA in aging and cellular senescence
+miR-24 and BCL2L11 (human) co-expression conclusion
+miR-24 inhibited the expression of the proapoptotic gene, BCL2L11
+miR-27 and SEMA6A (human) co-expression conclusion
+miR-27 and SEMA6A (human) miRNA binding conclusion
+miR-27 and SPRY2 (human) miRNA binding conclusion
+miR-27a and SEMA6A (human) co-expression conclusion
+miR-27a and SEMA6A (human) miRNA binding conclusion
+miR-27b and SEMA6A (human) co-expression conclusion
+miR-29 and Col1a2 (mouse) co-expression conclusion
+miR-29 and Eln (mouse) co-expression conclusion
+miR-29-b reduces the CX3CL1 protein expression
+miR-29a and Cx3cl1 (mouse) co-expression conclusion
+miR-29a and Igf1 (mouse) miRNA binding conclusion
+miR-29a and Narf (mouse) co-expression conclusion
+miR-29a and Ppm1d co-expression conclusion
+miR-29a and Sptlc2 (rat) co-expression conclusion
+miR-29a increases in the microglia of aged  BALB/c mice
+miR-29a is upregulated in Zmpste24 -/- progeroid mice
+miR-29b and BACE1 (human) co-expression conclusion
+miR-29b and Igf1 (mouse) miRNA binding conclusion
+miR-29b and Narf (mouse) co-expression conclusion
+miR-29b-1 and SPTLC2 (human) co-expression conclusion
+miR-29c and Narf (mouse) co-expression conclusion
+miR-31 and SELE (human) miRNA binding conclusion
+miR-31 and SELE (human) miRNA binding conclusion
+miR-31 significantly reduced the relative luciferase activity
+miR-329 and MCAM (human) miRNA binding conclusion
+miR-33 and ABCA1 (human) co-expression conclusion
+miR-339-5p inhibited BACE1 3 -UTR reporter expression
+miR-339-5p negatively regulates Abeta secretion via BACE1
+miR-339-5p negatively regulates BACE1 expression
+miR-33b target and upregulate ABCA1
+miR-34a and Bcl2 (mouse) miRNA binding conclusion
+miR-34a and CDK4 (human) co-expression conclusion
+miR-34a and Mgst1 (rat) co-expression conclusion
+miR-34a and Nampt (mouse) miRNA binding conclusion
+miR-34a and Nef2l2 (rat) co-expression conclusion
+miR-34a and SIRT1 (human) miRNA binding conclusion
+miR-34a and Sirt1 (mouse) miRNA binding conclusion
+miR-34a reduced Mgst1 expression
+miR-34a reduced Sirt1 expression
+miR-34a reduced Sp1 expression
+miR-34c and Myc (mouse) co-expression conclusion
+miR-34c and Sirt1 (mouse) co-expression conclusion
+miR-34c induction occur in the absence of p53
+miR-375 inhibit expression of human bHLH family
+miR-470 and IGF1R (human) co-expression conclusion
+miR-486 and Foxo1 (rat) co-expression conclusion
+miR-486 and Pten (rat) co-expression conclusion
+miR-489 overexpression suppresses proliferation by regulating DEK expression
+miR-494 and CDCA2 (human) miRNA binding conclusion
+miR-494 and CDK6 (human) co-expression conclusion
+miR-494 and PDIA3 (human) co-expression conclusion
+miR-494 and RAD23B (human) co-expression conclusion
+miR-494 and RAD23B (human) miRNA binding conclusion
+miR-499 and Purb (mouse) co-expression conclusion
+miR-499 and Sox6 (mouse) co-expression conclusion
+miR-669b and IGF1R (human) co-expression conclusion
+miR-669b and IGF1R (human) miRNA binding conclusion
+miR-71 and OLR1 (human) co-expression conclusion
+miR-758 target and upregulate ABCA1 
+miR-9 and Foxp2 (mouse) miRNA binding conclusion
+miR-9 and Sptlc2 (mouse) co-expression conclusion
+miR-92a and KLF2 (human) co-expression conclusion
+miR-92a and KLF2 (human) miRNA binding conclusion
+miR-92a and KLF4 (human) miRNA binding conclusion
+miR-93 and MGST1 (human) co-expression conclusion
+miR-93 and Nef2l2 (rat) co-expression conclusion
+miR-93 reduced Mgst1 expression
+miR-93 reduced Sp1 expression
+miR-hsa-let-7g regulates apoptosis
+miRBase Targets version 5 predicted miRNA target conclusion817
+miRNA algorithm TargetScan predicted miRNA target conclusion155
+miRNA decreases the Ezh2 protein expression
+miRNA-106b expression decreased in both the forebrain cortex and hippocampus 
+miRNA-135a expression decreased in the forebrain cortex
+miRNA-135a expression increased in hippocampus
+miRNA-153 expression decreased  in both the forebrain cortex and hippocampus
+miRNA-16 expression decreased in both the forebrain cortex and hippocampus
+miRNA-208A decreases HP1b protein expression
+miRNA-208A decreases Purb protein expression
+miRNA-486 decreases the Foxo1a protein expression
+miRNA-486 decreases the PTEN protein expression
+miRNA-499 over-expression decreases Sox6 mRNA expression
+miRanda analysis predicted miRNA target conclusion428
+miRanda, PicTar and Targetscan 5.1 predicted miRNA target conclusion828
+microgram
+microliter
+micromolar
+milligram per milliliter
+milliliter
+milliliter per liter
+minute
+modulation of miR-199a-5p levels affects ATF6
+monocytes transfection with premiR-199a-5p or antimiR-199a-5p culture 404
+mouse 168
+mouse 247
+mouse 248
+mouse 253
+mouse 387
+mouse 388
+mouse 389
+mouse 392
+mouse 478
+mouse 485
+mouse 528
+mouse 529
+mouse 530
+mouse 536
+mouse 560
+mouse 698
+mouse 760
+mouse 762
+mouse 860
+mouse 896
+mouse 979
+mouse brain cortices culture 194
+mouse brain cortices culture 302
+mouse brain cortices culture 67
+mouse brain cortices culture 747
+mouse brain cortices culture 748
+mouse brain cortices culture 763
+mouse cancer cell line (Hepa1-6) culture 882
+mouse endothelial cell line H5V cells culture 86
+mouse heart culture 452
+mouse heart lysate culture 450
+mouse heart lysate culture 451
+mouse neuroblastoma cell line CAD culture 70
+mouse neuroblastoma cell line CAD culture 71
+mouse(expressing the human APP Swedish mutation) 195
+mouse(female) 68
+mouse(high-fat/high-cholesterol diets) 193
+mouse(high-fat/high-cholesterol diets) 346
+naive stem cells (ESCs) culture 844
+nanoliter
+nanomole
+negative correlations were observed between SPTLC1 and miR-124
+negative correlations were observed between SPTLC1 and miR-137
+negative correlations were observed between SPTLC1 and miR-15a
+negative correlations were observed between SPTLC1 and miR-181c
+negative correlations were observed between SPTLC2 and miR-29a
+negative correlations were observed between SPTLC2 and miR-29a
+negative correlations were observed between SPTLC2 and miR-29b-1
+negative correlations were observed between SPTLC2 and miR-9
+negative correlations were observed between SPTLC2 and miR-9
+neonatal C57BL/6 mouse 646
+neonatal C57BL/6 mouse 706
+neonatal C57BL/6 mouse 707
+neonatal C57BL/6 mouse 708
+non-senescent fibroblasts culture 662
+obese mouse 830
+obsolete_manufacturer role of Bruker Daltonics
+obsolete_manufacturer role of applied biosystems
+obsolete_the manufacturer role of BIO-RAD
+obsolete_the manufacturer role of Helicos
+obsolete_the manufacturer role of Illumina
+obsolete_the manufacturer role of Roche
+obsolete_the manufacturer role of Thermo
+old C. elegans culture 635
+organizational term
+overexpressed miR-22 efficiently downregulated OGN wt 3'-UTR luciferase reporter activity 
+overexpression of miR-494 significantly inhibited the activity of the reporter constructs bearing 3'UTR of PDIA3
+oxLDL downregulate the expression of miR-125b
+oxLDL upregulate the expression of miR-125a
+pH
+post-mortem brain tissue of human culture 754
+post-mortem brain tissue of human culture 755
+primary astrocytes culture 195
+primary rat astrocytes transfected with human SPTLC2 3 UTR luciferase culture 975
+processed HCV-positive liver biopsy specimen 466
+processed HCV-positive liver biopsy specimen 467
+processed Hippocampal specimen 860
+processed aorta specimen 87
+processed brain specimen 512
+processed forebrain cortex specimen 281
+processed forebrain cortex specimen 308
+processed forebrain cortex specimen 316
+processed forebrain cortex specimen 548
+processed forebrain cortex specimen 73
+processed liver specimen 830
+processed liver specimen 835
+processed lung specimen 633
+processed retina specimen 847
+proteomic analysis predicted miRNA target conclusion349
+qPCR 197
+qPCR 198
+qPCR 304
+qPCR 316
+qPCR 321
+qPCR 334
+qPCR 340
+qPCR 371
+qPCR 38
+qPCR 405
+qPCR 44
+qPCR 548
+qPCR 73
+qPCR 868
+qRT-PCR 194
+qRT-PCR 202
+qRT-PCR 280
+qRT-PCR 302
+qRT-PCR 344
+qRT-PCR 347
+qRT-PCR 352
+qRT-PCR 533
+qRT-PCR 545
+qRT-PCR 546
+qRT-PCR 608
+qRT-PCR 620
+qRT-PCR 748
+qRT-PCR 773
+qRT-PCR 850
+qRT-PCR 971
+qRT-PCR 976
+qRT-PCR 977
+rat 281
+rat 304
+rat 371
+rat 413
+rat 414
+rat 549
+rat 886
+rat 889
+rat 980
+rat 995
+rat 996
+rat soleus muscle culture 455
+rat(stroke-prone spontaneously hypertensive rat) 99
+real time PCR 171
+real time PCR 642
+real time PCR 643
+real time PCR 647
+real time PCR 707
+real time PCR 708
+real time PCR 726
+real time PCR 727
+real time PCR 945
+real time RT-PCR 917
+real time RT-PCR 921
+real-time PCR 783
+real-time PCR 85
+real-time PCR 97
+real-time RT-PCR 514
+real-time RT-PCR 81
+reticulocyte culture 214
+retinal/choroidal region in neonatal mouse retina culture 645
+ribonucleoprotein immunoprecipitation (RIP) analysis 389
+senescent IMR90 culture 919
+senescent IMR90 culture 920
+stimuli decreased the luciferase activity in ECs transfected with KLF2
+tar
+term imported
+the RNA folding program MFOLD predicted miRNA target conclusion330
+the bioinformatics tool TargetScan predicted miRNA target conclusion896
+the decrease of miR-181a is responsible for increased DUSP6 expression
+the downregulation of miR-29 increased in the remote myocardium
+the expression of TGF-beta1 protein increased in HDFs transfected with anti-miR-122 
+the expression of phospho-NF-kB p65 induced by ox-LDL was inhibited by the hsa-let-7g 
+the online TargetScan program  predicted miRNA target conclusion743
+the online TargetScan program  predicted miRNA target conclusion753
+there is a let-7g binding site on the 3'-untranslated region of LOX-1 mRNA
+transfection 385
+transfection 528
+transfection 57
+traumatic brain injury(TBI) C57BL/6 mouse 513
+traumatic brain injury(TBI) C57BL/6 mouse 514
+traumatic brain injury(TBI) C57BL/6 mouse 515
+uncurated
+western 834
+western 835
+western blot 120
+western blot 121
+western blot 122
+western blot 123
+western blot 148
+western blot 203
+western blot 216
+western blot 324
+western blot 330
+western blot 334
+western blot 352
+western blot 406
+western blot 449
+western blot 450
+western blot 451
+western blot 550
+western blot 560
+western blot 580
+western blot 584
+western blot 59
+western blot 793
+western blot 805
+western blot 862
+western blot 867
+western blot 869
+western blot 889
+western blot 893
+western blot 916
+western blot 917
+western blot 918
+western blot 922
+western blot 974
+westernblot 190
+westernblot 975
+young C. elegans culture 636
+zip

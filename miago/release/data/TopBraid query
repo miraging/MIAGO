@@ -11,7 +11,7 @@ WHERE {
 SELECT Count(?subject)
 WHERE {
     ?subject rdfs:subClassOf+ owl:Thing .
-FILTER REGEX(str(?subject), "MIAGO") .
+FILTER REGEX(str(?subject), "/MIAGO") .
 }
 
  = result: 519
@@ -33,3 +33,20 @@ FILTER REGEX(str(?in), "MIAGO") .
 }
 
  = result: 2865
+ 
+ 
+== select all the labels for the classes ==
+SELECT ?label
+WHERE {
+    ?subject rdfs:subClassOf+ owl:Thing .
+   ?subject rdfs:label ?label .
+}
+
+== select all the labels for the individuals ==
+SELECT ?label
+WHERE {
+    ?in rdf:type owl:NamedIndividual .
+    ?in rdfs:label ?label .
+}
+
+

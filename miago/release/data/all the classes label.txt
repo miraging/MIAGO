@@ -1,0 +1,1001 @@
+[label]
+B cell activation involved in immune response
+B cell epitope specific antibody-dependent cellular cytotoxicity
+B cell epitope specific complement-dependent cytotoxicity
+B cell epitope specific histamine secretion mediated by immunoglobulin
+B cell epitope specific hypersensitivity
+B cell epitope specific immune complex formation
+B cell epitope specific immunoglobulin-mediated neutralization
+B cell epitope specific opsonization
+B cell mediated immunity
+B cell tolerance induction
+DNA Subtraction
+DNA damage checkpoint
+DNA extraction
+DNA metabolic process
+DNA methylation
+DNA packaging
+DNA replication
+ELISA
+IP-10 production
+Immunization in vivo
+Individual epitope immunization in vivo
+Let-7b
+Let-7b targeting CDC25A (human) assumption
+Let-7b targeting CDC34 (human) assumption
+Let-7b targeting CDK6 (human) assumption
+Let-7e
+Let-7e targeting CDC25A (human) assumption
+Let-7e targeting CDC34 (human) assumption
+MHC protein complex binding to ligand
+MHC:epitope complex binding to TCR
+Oncostatin M production
+RNA catabolic process
+RNA extraction
+RNA metabolic process
+T cell activation
+T cell differentiation
+T cell mediated cytotoxicity
+T cell mediated immunity
+T cell proliferation
+T cell selection
+T cell tolerance induction
+TRAIL production
+actin filament polymerization
+actin polymerization-dependent cell motility
+action specification
+adaptive immune response
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains
+adding a material entity into a target
+adding material objective
+addition of molecular label
+adherent cell line culturing
+aging
+aging disease course
+aging related biological process
+algorithm
+allergic reaction
+ameboidal-type cell migration
+ammonium transport
+analyte assay
+analyte measurement objective
+anatomical structure development
+anatomical structure morphogenesis
+animal feeding
+antibody-dependent cellular cytotoxicity
+antigen processing and presentation
+apoptotic chromosome condensation
+apoptotic nuclear changes
+apoptotic process
+aromatic compound catabolic process
+assay
+assay using chromatin immunoprecipitation
+assembly
+autophagy
+binding
+binding assay
+biological feature identification objective
+biological regulation
+biological_process
+blood circulation
+blood coagulation
+blood harvesting
+cardiac muscle cell differentiation
+cardiac muscle tissue development
+cardiocyte differentiation
+cardiovascular system development
+cartilage development
+catabolic process
+cation transport
+cell activation
+cell activation involved in immune response
+cell aging
+cell collecting
+cell culture splitting
+cell cycle
+cell cycle process
+cell death
+cell development
+cell differentiation
+cell killing
+cell line cell culturing
+cell line immortalization
+cell morphogenesis involved in differentiation
+cell morphogenesis involved in neuron differentiation
+cell motility
+cell permeabilization
+cell projection organization
+cell proliferation
+cell-cell signaling
+cellular aromatic compound metabolic process
+cellular catabolic process
+cellular component assembly
+cellular component biogenesis
+cellular component disassembly
+cellular component disassembly involved in execution phase of apoptosis
+cellular component morphogenesis
+cellular component organization
+cellular component organization or biogenesis
+cellular developmental process
+cellular localization
+cellular macromolecule catabolic process
+cellular macromolecule metabolic process
+cellular metabolic process
+cellular nitrogen compound catabolic process
+cellular nitrogen compound metabolic process
+cellular process
+cellular process involved in reproduction in multicellular organism
+cellular response to DNA damage stimulus
+cellular response to stimulus
+cellular response to stress
+centrifugation
+chemokine (C-C motif) ligand 1 production
+chemokine (C-C motif) ligand 17 production
+chemokine (C-C motif) ligand 19 production
+chemokine (C-C motif) ligand 21 production
+chemokine (C-C motif) ligand 22 production
+chemokine (C-C motif) ligand 4 production
+chemokine (C-C motif) ligand 5 production
+chemokine (C-X-C motif) ligand 12 production
+chemokine (C-X-C motif) ligand 13 production
+chemokine (C-X-C motif) ligand 16 production
+chemokine (C-X-C motif) ligand 9 production
+chemokine production
+chondroblast differentiation
+chromatin remodeling
+chromosome condensation
+chromosome organization
+circulatory system development
+circulatory system process
+co-expression of miRNA target and miRNA
+collecting specimen from organism
+complement-dependent cytotoxicity
+computationally asserted miRNA target evidence
+concentrate
+conclusion based on data
+connective tissue development
+connective tissue growth factor production
+contact to pathogen carrying biological vector
+contig
+continuant
+cytokine production
+cytokine production involved in immune response
+cytokine production involved in inflammatory response
+cytoplasmic RNA extraction
+cytotoxic T cell degranulation
+data encoding
+data transformation
+data transformation objective
+decision-theoretic analysis objective
+detection of abiotic stimulus
+detection of external stimulus
+detection of mechanical stimulus
+detection of mechanical stimulus involved in sensory perception
+detection of mechanical stimulus involved in sensory perception of sound
+detection of molecular label
+detection of stimulus
+developmental process
+developmental process involved in reproduction
+dialysis
+digital curation
+directive information entity
+disease course
+disease stage
+documenting
+downregulated miRNA expression conclusion
+downregulated target protein expression conclusion
+downstream biological process regulated by miRNA expression
+drawing a conclusion based on data
+electrophoresis
+endocrine hormone secretion
+endocrine process
+endocytosis
+endomitotic cell cycle
+entity
+environmental exposure to infectious agent
+environmental proximity to infectious agent
+enzymatic amplification
+epigenetic modification identification objective
+epithelial cell differentiation
+epithelium development
+epitope binding by adaptive immune receptor
+epitope specific GM-CSF release by T cells
+epitope specific IFN-g release by T cells
+epitope specific IL-10 release by T cells
+epitope specific IL-12 release by T cells
+epitope specific IL-13 release by T cells
+epitope specific IL-17 release by T cells
+epitope specific IL-18 release by T cells
+epitope specific IL-1b release by T cells
+epitope specific IL-2 release by T cells
+epitope specific IL-4 release by T cells
+epitope specific IL-5 release by T cells
+epitope specific IL-6 release by T cells
+epitope specific IP-10 production by T cells
+epitope specific RANTES production by T cells
+epitope specific T cell activation
+epitope specific T cell enhancement of B cell mediated immune response
+epitope specific T cell proliferation
+epitope specific T cell tolerance induction
+epitope specific TNF release by T cells
+epitope specific chemokine (C-C motif) ligand 1 production by T cells
+epitope specific chemokine (C-C motif) ligand 19 production by T cells
+epitope specific chemokine (C-C motif) ligand 21 production by T cells
+epitope specific chemokine (C-C motif) ligand 22 production by T cells
+epitope specific chemokine (C-C motif) ligand 4 production by T cells
+epitope specific chemokine (C-X-C motif) ligand 12 production by T cells
+epitope specific chemokine (C-X-C motif) ligand 13 production by T cells
+epitope specific chemokine (C-X-C motif) ligand 16 production by T cells
+epitope specific chemokine (C-X-C motif) ligand 9 production by T cells
+epitope specific cytokine production by T cells
+epitope specific cytotoxic T cell degranulation
+epitope specific granulocyte colony stimulating factor production by T cells
+epitope specific granulysin production by T cells
+epitope specific granzyme A production by T cells
+epitope specific granzyme B production by T cells
+epitope specific helper T cell enhancement of T cell mediated immune response
+epitope specific interferon-beta production by T cells
+epitope specific interleukin-1 alpha production by T cells
+epitope specific interleukin-15 production by T cells
+epitope specific interleukin-16 production by T cells
+epitope specific interleukin-17A production by T cells
+epitope specific interleukin-17F production by T cells
+epitope specific interleukin-21 production by T cells
+epitope specific interleukin-22 production by T cells
+epitope specific interleukin-23 production by T cells
+epitope specific interleukin-27 production by T cells
+epitope specific interleukin-3 production by T cells
+epitope specific interleukin-7 production by T cells
+epitope specific interleukin-8 production by T cells
+epitope specific interleukin-9 production by T cells
+epitope specific killing by T cells
+epitope specific lymphotoxin A production by T cells
+epitope specific macrophage inflammatory protein-1 alpha production by T cells
+epitope specific macrophage inflammatory protein-1 gamma production by T cells
+epitope specific monocyte chemotactic protein-1 production by T cells
+epitope specific perforin production by T cells
+epitope specific tolerance induction by T cells
+epitope specific transforming growth factor-beta production by T cells
+epitope specific tumor necrosis factor (ligand) superfamily member 11 production by T cells
+epitope specific tumor necrosis factor superfamily cytokine production by T cells
+epitope specific type IV hypersensitivity by T cells
+epitope specific vascular endothelial growth factor production by T cells
+erythrocyte differentiation
+erythrocyte homeostasis
+establishing cancer cell line
+establishing cell culture
+establishing cell line
+establishing primary cell culture
+establishment of localization
+establishment of localization in cell
+evidence of miRNA regulating down stream biological function
+excision
+execution phase of apoptosis
+experimental disease induction
+experimentaly validated miRNA target assumption
+exposure resulting in immune reactivity
+extracellular vesicular exosome assembly
+extraction
+fat cell differentiation
+female meiotic division
+fertilization
+filtration
+flow cytometry assay
+fluorescence detection
+fluorescence detection binding assay
+gamete generation
+gene expression
+generation of neurons
+generically dependent continuant
+genetic transformation
+genetic transformation objective
+germ cell development
+glucose metabolic process
+gradient separation
+granulocyte colony-stimulating factor production
+granulocyte differentiation
+granulocyte macrophage colony-stimulating factor production
+granulysin production
+granzyme A production
+granzyme B production
+heart contraction
+heart development
+helper T cell enhancement of B cell mediated immune response
+helper T cell enhancement of T cell mediated immune response
+helper T cell enhancement of adaptive immune response
+hematopoietic or lymphoid organ development
+hematopoietic progenitor cell differentiation
+hemopoiesis
+hepatocyte growth factor production
+heterocycle catabolic process
+heterocycle metabolic process
+histamine secretion mediated by immunoglobulin
+histone modification
+hormone secretion
+hormone transport
+host exposure to infectious agent
+hypersensitivity
+immune complex formation
+immune effector process
+immune response
+immune system development
+immune system process
+immunization
+immuno staining assay
+immunoglobulin V(D)J recombination
+immunoglobulin binding to epitope
+immunoglobulin heavy chain V-D-J recombination
+immunoglobulin light chain V-J recombination
+immunoglobulin mediated histamine release
+immunoglobulin mediated immune response
+immunoglobulin production involved in immunoglobulin mediated immune response
+immunoglobulin-mediated neutralization
+immunoprecipitation
+immunoprecipitation assay
+infection
+information content entity
+innate immune response
+interferon-beta production
+interferon-gamma production
+interleukin-1 alpha production
+interleukin-1 beta production
+interleukin-1 production
+interleukin-10 production
+interleukin-11 production
+interleukin-12 production
+interleukin-13 production
+interleukin-14 production
+interleukin-15 production
+interleukin-16 production
+interleukin-17 production
+interleukin-17A production
+interleukin-17F production
+interleukin-18 production
+interleukin-19 production
+interleukin-2 production
+interleukin-20 production
+interleukin-21 production
+interleukin-22 production
+interleukin-23 production
+interleukin-24 production
+interleukin-25 production
+interleukin-26 production
+interleukin-27 production
+interleukin-3 production
+interleukin-4 production
+interleukin-5 production
+interleukin-6 production
+interleukin-7 production
+interleukin-8 production
+interleukin-9 production
+investigation
+ion channel activity
+ion transport
+isolation of PBMCs
+isolation of adherent cells
+isolation of cell culture supernatant
+isolation of cell population
+isotype switching
+journal article
+let-7
+let-7b
+let-7b targeting Tlr7 (mouse) assumption
+leukocyte activation
+leukocyte activation involved in immune response
+leukocyte differentiation
+level 1 validated miRNA target assumption
+level 2 validated miRNA target assumption
+level 3 validated miRNA target assumption
+level 4 validated miRNA target assumption
+life cycle stage
+living in endemic area
+living with infected household contact
+localization
+localization of cell
+luciferase assay
+lymphocyte activation
+lymphocyte activation involved in immune response
+lymphocyte differentiation
+lymphocyte mediated immunity
+lymphotoxin A production
+mRNA catabolic process
+macromolecule catabolic process
+macromolecule localization
+macromolecule metabolic process
+macrophage differentiation
+macrophage inflammatory protein-1 alpha production
+macrophage inflammatory protein-1 gamma production
+macrophage migration inhibitory factor production
+maintaining cell culture
+material combination
+material component separation
+material maintenance objective
+material portioning
+material processing
+material separation objective
+material transformation objective
+megakaryocyte differentiation
+meiotic cell cycle
+meiotic nuclear division
+membrane invagination
+metabolic process
+miR-1
+miR-1 targeting Igf1 (rat) assumption
+miR-10
+miR-101
+miR-101 targeting App (rat) assumption
+miR-101 targeting MTOR (human) assumption
+miR-103
+miR-106b
+miR-106b targeting App (rat) assumption
+miR-106b targeting ULK1 (human) assumption
+miR-107
+miR-10a
+miR-10a targeting BTRC (human) assumption
+miR-10a targeting HOXA1 (human) assumption
+miR-10a targeting MAP3K7 (human) assumption
+miR-122
+miR-122 targeting TGFB1 (human) assumption
+miR-124
+miR-124 targeting Bace1 (rat) assumption
+miR-124 targeting Ptbp1 (mouse) assumption
+miR-124 targeting Ptbp2 (mouse) assumption
+miR-124 targeting SPTLC1 (human) assumption
+miR-124 targeting Sptlc1 (mouse) assumption
+miR-1248
+miR-1248 targeting CDK2 (human) assumption
+miR-1248 targeting IL6 (human) assumption
+miR-1248 targeting IL8 (human) assumption
+miR-125a
+miR-125a targeting Edn1 (mouse) assumption
+miR-125a targeting Edn1 (rat) assumption
+miR-125a-5p
+miR-125a-5p targeting Tead4 (mouse) assumption
+miR-125b
+miR-125b targeting Edn1 (rat) assumption
+miR-126
+miR-126 targeting CRK (human) assumption
+miR-126 targeting CXCL12 (human) assumption
+miR-126 targeting PIK3R2 (human) assumption
+miR-126 targeting RGS16 (human) assumption
+miR-126 targeting Rgs16 (mouse) assumption
+miR-126 targeting SPRED1 (human) assumption
+miR-126 targeting TOM1 (human) assumption
+miR-126 targeting VCAM1 (human) assumption
+miR-126 targeting ZFIN_ZDB-GENE-040426-2338 assumption
+miR-128
+miR-128 targeting CASC3 (human) assumption
+miR-128 targeting UPF1 (human) assumption
+miR-130b
+miR-131b
+miR-132
+miR-132 targeting Foxp2 (mouse) assumption
+miR-132 targeting Gja1 (rat) assumption
+miR-132 targeting HMOX1 (human) assumption
+miR-132 targeting NFE2L2 (human) assumption
+miR-132 targeting ROS1 (human) assumption
+miR-132 targeting Sirt1 (mouse) assumption
+miR-132 targeting TGFB2 (human) assumption
+miR-133a
+miR-134
+miR-135a
+miR-135a targeting Bace1 (rat) assumption
+miR-135a targeting Thbs1 (mouse) assumption
+miR-136
+miR-137
+miR-137 targeting SPTLC1 (human) assumption
+miR-137 targeting Sptlc1 (mouse) assumption
+miR-137 targeting Sptlc1 (rat) assumption
+miR-138-5p
+miR-138-5p targeting DCP1B (human) assumption
+miR-141
+miR-141 targeting Bace1 (rat) assumption
+miR-142-3p
+miR-142-5p
+miR-142-5p targeting NFE2L2 (human) assumption
+miR-143
+miR-144
+miR-144 targeting NFE2L2 (human) assumption
+miR-144 targeting SOD1 (human) assumption
+miR-145
+miR-146
+miR-146a
+miR-146a targeting IRAK1 (human) assumption
+miR-146a targeting NOX4 (human) assumption
+miR-146a targeting Traf6 (mouse) assumption
+miR-146b
+miR-148a
+miR-148a targeting Camk2a (mouse) assumption
+miR-148a targeting DNMT1 (human) assumption
+miR-148b
+miR-148b targeting Camk2a (mouse) assumption
+miR-149
+miR-15
+miR-150
+miR-151a/b
+miR-152
+miR-152 targeting Camk2a (mouse) assumption
+miR-153
+miR-153 targeting App (rat) assumption
+miR-153 targeting NFE2L2 (human) assumption
+miR-1538
+miR-155
+miR-155 targeting AGTR1 (human) assumption
+miR-155 targeting BACH1 (human) assumption
+miR-15a
+miR-15a targeting Sptlc1 (mouse) assumption
+miR-15b
+miR-15b targeting Bace1 (rat) assumption
+miR-16
+miR-16 targeting Bace1 (rat) assumption
+miR-16 targeting RARS (human) assumption
+miR-17-3p
+miR-17-3p targeting ICAM1 (human) assumption
+miR-17-5p
+miR-17-5p targeting App (rat) assumption
+miR-17-92
+miR-17-92 targeting Pten (mouse) assumption
+miR-181a
+miR-181a targeting DUSP6 (human) assumption
+miR-181a targeting Dusp5 (mouse) assumption
+miR-181a targeting Dusp6 (mouse) assumption
+miR-181a targeting Prox1 (mouse) assumption
+miR-181a targeting Ptpn22 (mouse) assumption
+miR-181a-1
+miR-181a-5p
+miR-181a-5p targeting IL6 (human) assumption
+miR-181a-5p targeting TGFB1 (human) assumption
+miR-181a-5p targeting TNF (human) assumption
+miR-181c
+miR-181c targeting SPTLC1 (human) assumption
+miR-181c targeting Sptlc1 (rat) assumption
+miR-184
+miR-184 targeting EZR (human) assumption
+miR-184 targeting LAMP1 (human) assumption
+miR-18a
+miR-18b
+miR-191
+miR-192
+miR-192 targeting Zeb2 (mouse) assumption
+miR-195
+miR-195 targeting BCL2 (human) assumption
+miR-195 targeting Bace1 (rat) assumption
+miR-195 targeting SIRT1 (human) assumption
+miR-195 targeting Sirt1 (mouse) assumption
+miR-196
+miR-196a
+miR-196a targeting HOXB7 (human) assumption
+miR-196b
+miR-196b targeting Ins2 (mouse) assumption
+miR-199a-3p
+miR-199a-5p
+miR-199a-5p targeting ATF6 (human) assumption
+miR-199a-5p targeting NFKB1 (human) assumption
+miR-199a-5p targeting RELA (human) assumption
+miR-19a
+miR-19a targeting Bace1 (rat) assumption
+miR-19a targeting CCND1 (human) assumption
+miR-19b
+miR-200b
+miR-200b targeting ETS1 (human) assumption
+miR-200c
+miR-200c targeting HMOX1 (human) assumption
+miR-200c targeting ROS1 (human) assumption
+miR-206
+miR-206 targeting Igf1 (rat) assumption
+miR-208a
+miR-208a targeting Cbx1 (mouse) assumption
+miR-208a targeting Purb (mouse) assumption
+miR-208a targeting Sp3 (mouse) assumption
+miR-208b
+miR-208b targeting Myh7b (mouse) assumption
+miR-20a
+miR-20a targeting ULK1 (human) assumption
+miR-21
+miR-21 targeting Fasl (mouse) assumption
+miR-21 targeting MYD88 (human) assumption
+miR-21 targeting PPARA (human) assumption
+miR-21 targeting Pdcd4 (mouse) assumption
+miR-21 targeting Pten (mouse) assumption
+miR-21 targeting RASGRP1 (human) assumption
+miR-21 targeting Reck (mouse) assumption
+miR-21 targeting Spry1 (rat) assumption
+miR-21 targeting Timp3 (mouse) assumption
+miR-210
+miR-214
+miR-214 targeting Bace1 (rat) assumption
+miR-214 targeting Ezh2 (mouse) assumption
+miR-214 targeting Pten (rat) assumption
+miR-214 targeting QKI (human) assumption
+miR-214 targeting Qk (mouse) assumption
+miR-216a
+miR-216a targeting PTEN (human) assumption
+miR-217
+miR-217 targeting PTEN (human) assumption
+miR-217 targeting SIRT1 (human) assumption
+miR-219
+miR-22
+miR-22 targeting CYR61 (human) assumption
+miR-22 targeting Ogn (mouse) assumption
+miR-221
+miR-221 targeting CDKN1C (human) assumption
+miR-221 targeting Cdkn1b (mouse) assumption
+miR-221 targeting Cdkn1c (mouse) assumption
+miR-221 targeting KIT (human) assumption
+miR-221 targeting PIK3R1 (human) assumption
+miR-222
+miR-222 targeting CDKN1B (human) assumption
+miR-222 targeting CDKN1C (human) assumption
+miR-222 targeting Cdkn1b (mouse) assumption
+miR-222 targeting Cdkn1c (mouse) assumption
+miR-222 targeting ETS1 (human) assumption
+miR-222 targeting KIT (human) assumption
+miR-223
+miR-223 targeting CCL3 (human) assumption
+miR-223 targeting CXCL2 (human) assumption
+miR-223 targeting Ccl3 (mouse) assumption
+miR-223 targeting Cxcl2 (mouse) assumption
+miR-223 targeting IL6 (human) assumption
+miR-228
+miR-228 targeting OLR1 (human) assumption
+miR-23
+miR-23 targeting SEMA6A (human) assumption
+miR-23 targeting SEMA6D (human) assumption
+miR-23 targeting SPRY2 (human) assumption
+miR-23 targeting Sema6d (mouse) assumption
+miR-23 targeting Spry2 (mouse) assumption
+miR-23a
+miR-23a targeting Fbxo32 (mouse) assumption
+miR-23a targeting Foxo3 (mouse) assumption
+miR-23a targeting Trim63 (mouse) assumption
+miR-23a-3p
+miR-23a-3p targeting HAS2 (human) assumption
+miR-23b
+miR-23b targeting E2F1 (human) assumption
+miR-24
+miR-24 targeting BCL2L11 (human) assumption
+miR-25
+miR-26a
+miR-26a targeting Ezh2 (mouse) assumption
+miR-26a targeting Smad1 (mouse) assumption
+miR-26a targeting Smad4 (mouse) assumption
+miR-27
+miR-27 targeting SEMA6A (human) assumption
+miR-27 targeting SEMA6D (human) assumption
+miR-27 targeting SPRY2 (human) assumption
+miR-27 targeting Sema6a (mouse) assumption
+miR-27 targeting Sema6d (mouse) assumption
+miR-27 targeting Spry2 (mouse) assumption
+miR-27a
+miR-27a targeting SEMA6A (human) assumption
+miR-27b
+miR-27b targeting SEMA6A (human) assumption
+miR-29
+miR-29 family
+miR-29 targeting Col1a1 (mouse) assumption
+miR-29 targeting Col1a2 (mouse) assumption
+miR-29 targeting Col3a1 (mouse) assumption
+miR-29 targeting Eln (mouse) assumption
+miR-29 targeting Fbn1 (mouse) assumption
+miR-29a
+miR-29a expression
+miR-29a targeting Cx3cl1 (mouse) assumption
+miR-29a targeting IGF1 (human) assumption
+miR-29a targeting Igf1 (mouse) assumption
+miR-29a targeting Ppm1d (mouse) assumption
+miR-29a targeting Ppm1d assumption
+miR-29a targeting SPTLC2 (human) assumption
+miR-29a targeting Sptlc2 (mouse) assumption
+miR-29a targeting Sptlc2 (rat) assumption
+miR-29b
+miR-29b targeting BACE1 (human) assumption
+miR-29b targeting CX3CL1 (human) assumption
+miR-29b targeting Cx3cl1 (mouse) assumption
+miR-29b targeting IGF1 (human) assumption
+miR-29b targeting Igf1 (mouse) assumption
+miR-29b targeting Ppm1d (mouse) assumption
+miR-29b-1
+miR-29b-1 targeting SPTLC2 (human) assumption
+miR-29b-1 targeting Sptlc2 (mouse) assumption
+miR-29b-1 targeting Sptlc2 (rat) assumption
+miR-29c
+miR-29c targeting Bace1 (rat) assumption
+miR-29c targeting Narf (mouse) assumption
+miR-29c targeting Ppm1d (mouse) assumption
+miR-31
+miR-32
+miR-329
+miR-329 targeting MCAM (human) assumption
+miR-329 targeting NFKB1 (human) assumption
+miR-33
+miR-33 targeting ABCA1 (human) assumption
+miR-33 targeting Abca1 (mouse) assumption
+miR-339-5p
+miR-339-5p targeting BACE1 (human) assumption
+miR-33a
+miR-33b
+miR-33b targeting ABCA1 (human) assumption
+miR-340
+miR-34a
+miR-34a targeting Bcl2 (mouse) assumption
+miR-34a targeting CDK4 (human) assumption
+miR-34a targeting NFE2L2 (human) assumption
+miR-34a targeting Nampt (mouse) assumption
+miR-34a targeting Nef2l2 (rat) assumption
+miR-34a targeting Ppp1r10 (mouse) assumption
+miR-34a targeting SIRT1 (human) assumption
+miR-34a targeting SP1 (human) assumption
+miR-34a targeting Sirt1 (mouse) assumption
+miR-34a targeting Sp1 (rat) assumption
+miR-34b
+miR-34c
+miR-34c targeting MYC (human) assumption
+miR-34c targeting Myc (mouse) assumption
+miR-34c targeting Sirt1 (mouse) assumption
+miR-3607
+miR-365
+miR-365 targeting BCL2 (human) assumption
+miR-365-3p
+miR-375
+miR-375 targeting TWIST1 (human) assumption
+miR-449a
+miR-470
+miR-470 targeting IGF1R (human) assumption
+miR-483-5p
+miR-483-5p targeting Socs3 (mouse) assumption
+miR-486 
+miR-486 targeting Foxo1 (rat) assumption
+miR-486 targeting Pten (rat) assumption
+miR-486-5p
+miR-486-5p targeting ID4 (human) assumption
+miR-489
+miR-489 targeting Dek (mouse) assumption
+miR-494
+miR-494 targeting CCND1 (human) assumption
+miR-494 targeting CDCA2 (human) assumption
+miR-494 targeting CDK6 (human) assumption
+miR-494 targeting HNRNPA3 (human) assumption
+miR-494 targeting PDIA3 (human) assumption
+miR-494 targeting RAD23B (human) assumption
+miR-494 targeting SYNCRIP (human) assumption
+miR-496
+miR-499
+miR-499 targeting Purb (mouse) assumption
+miR-499 targeting Sox6 (mouse) assumption
+miR-499 targeting Sp3 (mouse) assumption
+miR-590-5p
+miR-599
+miR-599 targeting Tlr7 (mouse) assumption
+miR-638
+miR-663
+miR-669b
+miR-669b targeting IGF1R (human) assumption
+miR-681
+miR-681 targeting IGF1R (human) assumption
+miR-685
+miR-7
+miR-7 targeting EGFR (human) assumption
+miR-71
+miR-758
+miR-758 targeting ABCA1 (human) assumption
+miR-9
+miR-9 targeting Bace1 (rat) assumption
+miR-9 targeting Foxp2 (mouse) assumption
+miR-9 targeting SPTLC2 (human) assumption
+miR-9 targeting Sptlc2 (mouse) assumption
+miR-9 targeting Sptlc2 (rat) assumption
+miR-92a
+miR-92a targeting KLF2 (human) assumption
+miR-92a targeting KLF4 (human) assumption
+miR-92b
+miR-93
+miR-93 targeting MGST1 (human) assumption
+miR-93 targeting Mgst1 (rat) assumption
+miR-93 targeting Nef2l2 (rat) assumption
+miR-93 targeting SIRT1 (human) assumption
+miR-93 targeting SP1 (human) assumption
+miR-93 targeting Sp1 (rat) assumption
+miR-99b-5p
+miR-hsa-let-7g
+miR-hsa-let-7g targeting OLR1 (human) assumption
+miRNA
+miRNA affects down stream pathway function through repressing target expression level
+miRNA down regulating target protein expression conclusion
+miRNA down regulating target protein expression evidence
+miRNA expression
+miRNA expression assay
+miRNA expression conclusion
+miRNA inhibitor increasing target protein expression conclusion
+miRNA mimic decreasing target protein expression conclusion
+miRNA target binding assay
+miRNA target conclusion
+miRNA target evidence
+miRNA target experimental conclusion
+miRNA target experimental evidence
+miRNA target gene expression
+miRNA target gene mRNA binding
+miRNA target gene mRNA binding conclusion
+miRNA target gene mRNA binding evidence
+miRNA target gene/protein expression
+miRNA target protein co-expression conclusion
+miRNA target protein co-expression evidence
+miRNA upstream protein expression
+microRNA profiling assay
+microRNA profiling by array assay
+microRNA profiling by array design
+mitotic nuclear division
+molecular feature identification objective
+monoamine transport
+monocyte chemotactic protein-1 production
+monocyte differentiation
+multi-organism reproductive process
+multicellular organism reproduction
+multicellular organismal development
+multicellular organismal process
+multicellular organismal reproductive process
+multicellular organismal signaling
+muscle adaptation
+muscle atrophy
+muscle cell differentiation
+muscle structure development
+myeloid cell differentiation
+myeloid cell homeostasis
+myeloid dendritic cell differentiation
+myeloid leukocyte differentiation
+nervous system development
+neurogenesis
+neurological system process
+neuron development
+neuron differentiation
+nitrogen compound transport
+northern blot analysis
+nuclear RNA extraction
+nuclear division
+nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+nucleic acid extraction
+nucleic acid metabolic process
+nucleobase-containing compound catabolic process
+nucleobase-containing compound metabolic process
+objective specification
+occurrence of allergy
+occurrence of infectious disease
+occurrent
+oogenesis
+opsonization
+organ development
+organ harvesting
+organellar RNA extraction
+organelle assembly
+organelle organization
+organic cyclic compound catabolic process
+organic cyclic compound metabolic process
+organic hydroxy compound transport
+organic substance catabolic process
+organic substance metabolic process
+organic substance transport
+ossification
+osteoblast differentiation
+osteoclast differentiation
+oxygen transport
+pathogen release in laboratory accident
+pathologic process
+perforin production
+phagocytosis
+plan specification
+planned process
+planning
+platelet activating factor production
+polyA RNA extraction
+polymerase chain reaction
+polypeptide
+portioning objective
+positive T cell selection
+precipitation
+preparative chromatography
+primary structure of DNA macromolecule
+primary structure of RNA molecule
+process
+process boundary
+protein and DNA interaction identification objective
+protein domain specific binding
+protocol
+pseudopodium organization
+purification
+real time polymerase chain reaction assay
+real time reverse-transcription polymerase chain reaction  assay
+region
+regression analysis method
+regulation of DNA methylation
+regulation of T cell activation
+regulation of T cell differentiation
+regulation of biological process
+regulation of biological quality
+regulation of body fluid levels
+regulation of cell differentiation
+regulation of cellular process
+regulation of developmental process
+regulation of gene expression, epigenetic
+regulation of hemopoiesis
+regulation of immune system process
+regulation of leukocyte activation
+regulation of leukocyte differentiation
+regulation of lymphocyte activation
+regulation of lymphocyte differentiation
+regulation of molecular function, epigenetic
+regulation of multicellular organismal development
+report
+reproduction
+reproductive process
+response to abiotic stimulus
+response to external stimulus
+response to mechanical stimulus
+response to stimulus
+response to stress
+reverse transcribed polymerase chain reaction
+reverse transcription polymerase chain reaction assay
+secretion by cell
+sensory perception of sound
+separation into different composition objective
+sequence-specific DNA binding
+sequence_assembly
+sequencing assay
+serotonin secretion
+serotonin transport
+sexual reproduction
+signal release
+single organism cell adhesion
+single organism reproductive process
+single organism signaling
+single-multicellular organism process
+single-organism cellular process
+single-organism developmental process
+single-organism localization
+single-organism metabolic process
+single-organism organelle organization
+single-organism process
+single-organism transport
+skeletal system development
+software predicted miRNA target conclusion
+somatic diversification of immune receptors
+somatic diversification of immune receptors via germline recombination within a single locus
+somatic diversification of immunoglobulins
+somatic diversification of immunoglobulins involved in immune response
+somatic recombination of immunoglobulin gene segments
+somatic recombination of immunoglobulin genes involved in immune response
+somatic stem cell division
+specimen collection objective
+specimen collection process
+staining
+study design
+study design execution
+supercontig
+system development
+system process
+target protein expression assay
+target protein expression conclusion
+tissue development
+tolerance induction
+total RNA extraction
+transcription profiling assay
+transcription profiling identification objective
+transfection
+transforming growth factor beta production
+transforming growth factor beta1 production
+transforming growth factor beta2 production
+transforming growth factor beta3 production
+transmission of nerve impulse
+transport
+tumor necrosis factor (ligand) superfamily member 11 production
+tumor necrosis factor production
+tumor necrosis factor superfamily cytokine production
+type I interferon production
+type III interferon production
+type IV hypersensitivity
+upregulated miR-29a expression conclusion
+upregulated miRNA expression conclusion
+upregulated target protein expression conclusion
+upstream biological process regulating miRNA expression
+vascular endothelial growth factor production
+viral RNA extraction
+western blot analysis
+wound healing
