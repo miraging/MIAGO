@@ -1,18 +1,18 @@
-<!-- Tufts VUE 3.2.2 concept-map (conclusion and assay.vue) 2015-05-06 -->
+<!-- Tufts VUE 3.3.0 concept-map (conclusion and assay.vue) 2015-10-22 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Program%20Files%20(x86)/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed May 06 12:20:38 CDT 2015 by yuln on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
-<!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
+<!-- Do Not Remove: Saved date Thu Oct 22 20:59:24 EDT 2015 by yuln on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="conclusion and assay.vue" created="1428945884979" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1430932839021" size="29740"
-        spec="C:\Users\yuln\Dropbox\miragingdb\modeling\conclusion and assay.vue"
+    <resource referenceCreated="1445561964859" size="29641"
+        spec="C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic\conclusion and assay.vue"
         type="1" xsi:type="URLResource">
         <title>conclusion and assay.vue</title>
-        <property key="File" value="C:\Users\yuln\Dropbox\miragingdb\modeling\conclusion and assay.vue"/>
+        <property key="File" value="C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic\conclusion and assay.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -487,8 +487,8 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/b3d89c26c0a8000701b38cdf5c7c2ad2</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-24.418201" y="-244.42235"/>
+    <userZoom>2.0</userZoom>
+    <userOrigin x="1780.0996" y="-162.50005"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1428945884979"
@@ -540,6 +540,6 @@
     </PathwayList>
     <date>2015-04-13</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>C:\Users\yuln\Dropbox\miragingdb\modeling</saveLocation>
-    <saveFile>C:\Users\yuln\Dropbox\miragingdb\modeling\conclusion and assay.vue</saveFile>
+    <saveLocation>C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic</saveLocation>
+    <saveFile>C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic\conclusion and assay.vue</saveFile>
 </LW-MAP>
