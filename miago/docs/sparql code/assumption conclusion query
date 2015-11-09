@@ -1,0 +1,135 @@
+=== The following SPARQL query was run on TopBraid Composer Free Edition Version 4.5.0 against the MIAGO RDF/OWL v1.5 release file: https://raw.githubusercontent.com/linikujp/miraging/master/miago/release/miago_release_inferred_v1.5.rdf ===
+=== It is also tested using protege (version 5.0.0, beta-15) loading OWL file: https://raw.githubusercontent.com/linikujp/miraging/master/miago/release/miago_release_inferred_v1.5.owl and received the same results. ==
+
+== 1. select the publications provide with experimental assay evidence to support "miR-126 targeting VCAM1 (human) assumption"  ==
+
+SELECT distinct ?conclusion_label ?publication_label 
+WHERE {
+   <http://purl.obolibrary.org/obo/MIAGO_0000329> rdfs:subClassOf ?o .
+   ?o owl:onProperty <http://purl.obolibrary.org/obo/MIAGO_0000045>; owl:hasValue ?conclusion .
+  ?conclusion rdfs:label ?conclusion_label .
+  ?conclusion <http://purl.obolibrary.org/obo/MIAGO_0000104> ?assay .
+  ?assay rdfs:label ?assay_label .
+ ?assay <http://purl.obolibrary.org/obo/MIAGO_0000031> ?evaluant .
+ ?evaluant  rdfs:label ?evaluant_label .
+ ?conclusion <http://purl.obolibrary.org/obo/BFO_0000050> ?publication . 
+ ?publication rdfs:label ?publication_label .
+}
+
+  ==result==
+[conclusion_label]	publication_label
+The activity of luciferase from constructs that included portions of the VCAM1 3' UTR was increased upon knockdown of miR-126 	PubMed 18694566
+VCAM1 mRNA levels were elevated upon miR-126 inhibition, but were not decreased in the presence of miR-126 mimic 	PubMed 18694566
+miR-126 and VCAM1 (human) co-expression conclusion	PubMed 18694566
+miR-126 and VCAM1 (human) co-expression conclusion	PubMed 18227515
+miR-126 and VCAM1 (human) co-expression conclusion	PubMed 19996457
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	PubMed 18227515
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	PubMed 18227515
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of VCAM1	PubMed 18694566
+miR-126 suppresses VCAM-1 expression	PubMed 18227515
+miR-126 targets of VCAM-1	PubMed 19996457
+
+
+== 2. select all publication evidence to support "miR-126 targeting VCAM1 (human) assumption" ==
+SELECT distinct ?conclusion_label ?publication_label 
+WHERE {
+   <http://purl.obolibrary.org/obo/MIAGO_0000329> rdfs:subClassOf ?o .
+   ?o owl:onProperty <http://purl.obolibrary.org/obo/MIAGO_0000045>; owl:hasValue ?conclusion .
+   ?conclusion rdfs:label ?conclusion_label .
+   ?conclusion <http://purl.obolibrary.org/obo/BFO_0000050> ?publication . 
+   ?publication rdfs:label ?publication_label .
+}
+
+  ==result==
+[conclusion_label]	publication_label
+PMID:18227515 predicted miRNA target conclusion149	PubMed 18694566
+The activity of luciferase from constructs that included portions of the VCAM1 3' UTR was increased upon knockdown of miR-126 	PubMed 18694566
+VCAM1 mRNA levels were elevated upon miR-126 inhibition, but were not decreased in the presence of miR-126 mimic 	PubMed 18694566
+miR-126 and VCAM1 (human) co-expression conclusion	PubMed 18694566
+miR-126 and VCAM1 (human) co-expression conclusion	PubMed 18227515
+miR-126 and VCAM1 (human) co-expression conclusion	PubMed 19996457
+miR-126 and VCAM1 (human) miRNA binding conclusion	PubMed 18694566
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	PubMed 18227515
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	PubMed 18227515
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of VCAM1	PubMed 18694566
+miR-126 suppresses VCAM-1 expression	PubMed 18227515
+miR-126 targets of VCAM-1	PubMed 19996457
+target prediction algorithms  predicted miRNA target conclusion140	PubMed 18694566
+
+
+== 3. evidence types supporting  "miR-126 targeting VCAM1 (human) assumption" ==
+SELECT distinct ?conclusion_label  ?evidence_type_label ?publication_label 
+WHERE {
+   <http://purl.obolibrary.org/obo/MIAGO_0000329> rdfs:subClassOf ?o .
+   ?o owl:onProperty <http://purl.obolibrary.org/obo/MIAGO_0000045>; owl:hasValue ?conclusion .
+  ?conclusion rdfs:label ?conclusion_label .
+ ?conclusion <http://purl.obolibrary.org/obo/BFO_0000050> ?publication . 
+ ?publication rdfs:label ?publication_label .
+ ?conclusion rdf:type ?conclusion_type .
+ ?conclusion_type rdfs:subClassOf ?evidence_type .
+ ?evidence_type rdfs:subClassOf* <http://purl.obolibrary.org/obo/MIAGO_0000001> .
+ ?evidence_type rdfs:label ?evidence_type_label .
+ Filter regex(str(?evidence_type_label),"evidence" )
+}
+
+
+   ==result==
+[conclusion_label]	evidence_type_label	publication_label
+PMID:18227515 predicted miRNA target conclusion149	computationally asserted miRNA target evidence	PubMed 18694566
+The activity of luciferase from constructs that included portions of the VCAM1 3' UTR was increased upon knockdown of miR-126 	evidence of miRNA regulating down stream biological function	PubMed 18694566
+VCAM1 mRNA levels were elevated upon miR-126 inhibition, but were not decreased in the presence of miR-126 mimic 	miRNA down regulating target protein expression evidence	PubMed 18694566
+miR-126 and VCAM1 (human) co-expression conclusion	miRNA target protein co-expression evidence	PubMed 18694566
+miR-126 and VCAM1 (human) co-expression conclusion	miRNA target protein co-expression evidence	PubMed 18227515
+miR-126 and VCAM1 (human) co-expression conclusion	miRNA target protein co-expression evidence	PubMed 19996457
+miR-126 and VCAM1 (human) miRNA binding conclusion	miRNA target gene mRNA binding evidence	PubMed 18694566
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	evidence of miRNA regulating down stream biological function	PubMed 18227515
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	evidence of miRNA regulating down stream biological function	PubMed 18227515
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of VCAM1	miRNA down regulating target protein expression evidence	PubMed 18694566
+miR-126 suppresses VCAM-1 expression	evidence of miRNA regulating down stream biological function	PubMed 18227515
+miR-126 targets of VCAM-1	evidence of miRNA regulating down stream biological function	PubMed 19996457
+target prediction algorithms  predicted miRNA target conclusion140	computationally asserted miRNA target evidence	PubMed 18694566
+
+
+== 4. assays that supports "miR-126 targeting VCAM1 (human) assumption" ==
+
+SELECT distinct ?conclusion_label ?assay_label 
+WHERE {
+   <http://purl.obolibrary.org/obo/MIAGO_0000329> rdfs:subClassOf ?o .
+   ?o owl:onProperty <http://purl.obolibrary.org/obo/MIAGO_0000045>; owl:hasValue ?conclusion .
+  ?conclusion rdfs:label ?conclusion_label .
+  ?conclusion <http://purl.obolibrary.org/obo/MIAGO_0000104> ?assay .
+  ?assay rdfs:label ?assay_label .
+ ?assay <http://purl.obolibrary.org/obo/MIAGO_0000031> ?evaluant .
+ ?evaluant  rdfs:label ?evaluant_label .
+
+}
+
+   ==result==
+[conclusion_label]	assay_label
+The activity of luciferase from constructs that included portions of the VCAM1 3' UTR was increased upon knockdown of miR-126 	luciferase assay 143
+VCAM1 mRNA levels were elevated upon miR-126 inhibition, but were not decreased in the presence of miR-126 mimic 	qRT-PCR 146
+miR-126 and VCAM1 (human) co-expression conclusion	luciferase assay 143
+miR-126 and VCAM1 (human) co-expression conclusion	qRT-PCR 146
+miR-126 and VCAM1 (human) co-expression conclusion	luciferase assay 105
+miR-126 and VCAM1 (human) co-expression conclusion	Bioinformatics analysis 105
+miR-126 and VCAM1 (human) co-expression conclusion	western blot 148
+miR-126 and VCAM1 (human) co-expression conclusion	luciferase assay 110
+miR-126 and VCAM1 (human) co-expression conclusion	HL-60 Cell Binding assay 107
+miR-126 and VCAM1 (human) co-expression conclusion	Western blot 107
+miR-126 and VCAM1 (human) co-expression conclusion	Western blot 110
+miR-126 and VCAM1 (human) co-expression conclusion	real-time RT-PCR and ELISA 110
+miR-126 and VCAM1 (human) co-expression conclusion	luciferase assay 140
+miR-126 and VCAM1 (human) co-expression conclusion	Western blot 106
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	Western blot 107
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	HL-60 Cell Binding assay 107
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	luciferase assay 105
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	Bioinformatics analysis 105
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of VCAM1	luciferase assay 140
+miR-126 suppresses VCAM-1 expression	Western blot 106
+miR-126 targets of VCAM-1	Western blot 110
+miR-126 targets of VCAM-1	real-time RT-PCR and ELISA 110
+miR-126 targets of VCAM-1	luciferase assay 110
+
+   
+
+

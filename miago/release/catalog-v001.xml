@@ -17,11 +17,9 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/CLO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/CLO_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolirary.org/obo/miago/BTO_import.owl" uri="file:/C:/Users/yuln/Documents/miraging/miago/ontology/src/BTO_import.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1444110242153" name="duplicate:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago_release_inferred_v1.5.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1444110242153" name="duplicate:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago_release_inferred_v1.5.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1444110242153" name="shadowed:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="archive/miago_release_inferred_v1.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1444110242153" name="shadowed:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="archive/miago_release_inferred_v1.0.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1444110242153" name="shadowed:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago/miago_release_inferred_v1.5.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1444110242153" name="shadowed:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago/miago_release_inferred_v1.5.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1447043180515" name="duplicate:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago_release_inferred_v1.5.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1447043180515" name="duplicate:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="miago_release_inferred_v1.5.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1447043180515" name="shadowed:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="archive/miago_release_inferred_v1.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1447043180515" name="shadowed:http://purl.obolibrary.org/obo/miago_release_inferred.owl" uri="archive/miago_release_inferred_v1.0.rdf"/>
     </group>
 </catalog>

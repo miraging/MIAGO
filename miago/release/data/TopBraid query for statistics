@@ -57,4 +57,32 @@ WHERE {
 }
 
   =result: 40
+  
+  
+== count all the triples in the ontology ==
+SELECT (COUNT(*) as ?count)
+WHERE {
+   ?s ?p ?o .
+}
+
+  = result : 64385
+  
+  
+== count all the classes in the ontology ==
+SELECT (COUNT(*) as ?count)
+WHERE {
+   ?s rdf:type owl:Class .
+}
+
+  = result: 3715
+  
+  
+== count all the individuals in the ontology ==
+SELECT (COUNT(*) as ?count)
+WHERE {
+   ?s rdf:type owl:NamedIndividual .
+}
+
+   = result: 3031
+
 
