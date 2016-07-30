@@ -1,18 +1,18 @@
-<!-- Tufts VUE 3.2.2 concept-map (conclusion and assay 2  use case.vue) 2015-05-06 -->
+<!-- Tufts VUE 3.3.0 concept-map (conclusion and assay 2  use case.vue) 2016-07-30 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Program%20Files%20(x86)/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed May 06 12:25:11 CDT 2015 by yuln on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
-<!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
+<!-- Do Not Remove: Saved date Sat Jul 30 14:10:53 EDT 2016 by yuln on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="conclusion and assay 2  use case.vue" created="1428949260129"
     x="0.0" y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1430933111789" size="34828"
-        spec="C:\Users\yuln\Dropbox\miragingdb\modeling\conclusion and assay 2  use case.vue"
+    <resource referenceCreated="1469902253453" size="33708"
+        spec="C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic\conclusion and assay 2  use case.vue"
         type="1" xsi:type="URLResource">
         <title>conclusion and assay 2  use case.vue</title>
-        <property key="File" value="C:\Users\yuln\Dropbox\miragingdb\modeling\conclusion and assay 2  use case.vue"/>
+        <property key="File" value="C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic\conclusion and assay 2  use case.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -77,9 +77,9 @@
         <ID2 xsi:type="node">12</ID2>
     </child>
     <child ID="14"
-        label="conclusion based &#xa;on data&#xa;measured by asay"
-        layerID="1" created="1428960323350" x="166.875" y="-241.1875"
-        width="90.0" height="65.0" strokeWidth="1.0" autoSized="false"
+        label="conclusion based &#xa;on data&#xa;measured by assay"
+        layerID="1" created="1428960323350" x="163.375" y="-241.1875"
+        width="97.0" height="65.0" strokeWidth="1.0" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#EA2218</strokeColor>
         <textColor>#EA2218</textColor>
@@ -334,9 +334,9 @@
         <shape arcwidth="20.0" archeight="20.0" xsi:type="roundRect"/>
     </child>
     <child ID="60"
-        label="conclusion based on data&#xa; measured by asay"
-        layerID="1" created="1428960323350" x="213.625" y="-55.5"
-        width="124.0" height="44.3125" strokeWidth="1.0"
+        label="conclusion based on data&#xa; measured by assay"
+        layerID="1" created="1428960323350" x="213.125" y="-55.5"
+        width="125.0" height="44.3125" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#EA2218</strokeColor>
         <textColor>#EA2218</textColor>
@@ -411,19 +411,19 @@
         <font>Arial-plain-16</font>
         <URIString>http://vue.tufts.edu/rdf/resource/b4ad6820c0a8000701b38cdf1b545fdb</URIString>
         <richText>&lt;html&gt;
-  &lt;head style="color: #000000" color="#000000"&gt;
+  &lt;head color="#000000" style="color: #000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-top: 0px; font-family: Arial; color: #000000; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 10 }
-        ol { vertical-align: middle; margin-top: 6; font-family: Arial; list-style-position: outside; margin-left: 30; font-size: 10 }
-        p { margin-top: 0; color: #000000; margin-left: 0; margin-right: 0; margin-bottom: 0 }
-        ul { vertical-align: middle; margin-top: 6; font-family: Arial; list-style-position: outside; margin-left: 30; font-size: 10 }
+        body { font-size: 10; margin-top: 0px; margin-bottom: 0px; color: #000000; margin-right: 0px; margin-left: 0px; font-family: Arial }
+        ol { font-size: 10; vertical-align: middle; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside }
+        p { margin-top: 0; margin-bottom: 0; color: #000000; margin-right: 0; margin-left: 0 }
+        ul { font-size: 10; vertical-align: middle; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p style="color: #000000" color="#000000"&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
       &lt;font style="font-size:16;"&gt;Data Pattern 1:&lt;/font&gt;
     &lt;/p&gt;
   &lt;/body&gt;
@@ -439,19 +439,19 @@
         <font>Arial-plain-16</font>
         <URIString>http://vue.tufts.edu/rdf/resource/b4ad6820c0a8000701b38cdfe781d74b</URIString>
         <richText>&lt;html&gt;
-  &lt;head style="color: #000000" color="#000000"&gt;
+  &lt;head color="#000000" style="color: #000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-top: 0px; font-family: Arial; color: #000000; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 10 }
-        ol { vertical-align: middle; margin-top: 6; font-family: Arial; list-style-position: outside; margin-left: 30; font-size: 10 }
-        p { margin-top: 0; color: #000000; margin-left: 0; margin-right: 0; margin-bottom: 0 }
-        ul { vertical-align: middle; margin-top: 6; font-family: Arial; list-style-position: outside; margin-left: 30; font-size: 10 }
+        body { font-size: 10; margin-top: 0px; margin-bottom: 0px; color: #000000; margin-right: 0px; margin-left: 0px; font-family: Arial }
+        ol { font-size: 10; vertical-align: middle; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside }
+        p { margin-top: 0; margin-bottom: 0; color: #000000; margin-right: 0; margin-left: 0 }
+        ul { font-size: 10; vertical-align: middle; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p style="color: #000000" color="#000000"&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
       &lt;font style="font-size:16;"&gt;Data Pattern 2:&lt;/font&gt;
     &lt;/p&gt;
   &lt;/body&gt;
@@ -648,6 +648,6 @@
     </PathwayList>
     <date>2015-04-13</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>C:\Users\yuln\Dropbox\miragingdb\modeling</saveLocation>
-    <saveFile>C:\Users\yuln\Dropbox\miragingdb\modeling\conclusion and assay 2  use case.vue</saveFile>
+    <saveLocation>C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic</saveLocation>
+    <saveFile>C:\Users\yuln\Documents\miraging\miago\modeling\vue graphic\conclusion and assay 2  use case.vue</saveFile>
 </LW-MAP>
