@@ -1,0 +1,4 @@
+Data QT check plan:
+
+1. check all the evidence categories. 
+2. recreate the table by SPARQL and compare with the original table.

@@ -1,0 +1,2 @@
+[label]	assay_label	pubmedID
+miR-29a and Ppmid mRNA binding conclusion	luciferase assay 1	publication 21522133

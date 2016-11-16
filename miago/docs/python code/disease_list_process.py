@@ -23,3 +23,7 @@ for line in fileinput.input([r'disease_list_with_IDs']):
 disease_mother_list = sorted(disease_mother_list)
 for disease_ID in disease_mother_list:
     updateFile1.write(disease_ID+'\n')
+
+
+updateFile.close()
+updateFile1.close()

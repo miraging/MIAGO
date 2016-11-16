@@ -1,0 +1,1001 @@
+[label]	assay_label	pubmedID
+Let-7b and CDC34 (human) co-expression conclusion	Real-time PCR 9	PubMed 20876843
+Let-7b and CDK6 (human) co-expression conclusion	Real-time PCR 7	PubMed 20876843
+Let-7e and CDK6 (human) co-expression conclusion	Real-time PCR 15	PubMed 20876843
+let-7b and Tlr7 (mouse) co-expression conclusion	Immunohistochemical 13	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	Immunohistochemical 13	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	Immunohistochemical 13	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	Immunohistochemical 13	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	In situ hybridization 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	In situ hybridization 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	In situ hybridization 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	In situ hybridization 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	PCR 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	PCR 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	PCR 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	PCR 11	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	immunostained 12	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	immunostained 12	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	immunostained 12	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	immunostained 12	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	ELISA 10	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	ELISA 10	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	ELISA 10	PubMed 22610069
+let-7b and Tlr7 (mouse) co-expression conclusion	ELISA 10	PubMed 22610069
+miR-1 and Igf1 (rat) co-expression conclusion	luciferase assay 20	PubMed 19245789
+miR-101 and MTOR (human) co-expression conclusion	luciferase assay 37	PubMed 22989749
+miR-106b and App (rat) co-expression conclusion	qPCR 44	PubMed 24401368
+miR-106b and ULK1 (human) co-expression conclusion	luciferase assays 41	PubMed 22781751
+miR-10a and BTRC (human) co-expression conclusion	RT-PCR 55	PubMed 20624982
+miR-10a and BTRC (human) co-expression conclusion	RT-PCR 55	PubMed 20624982
+miR-10a and BTRC (human) co-expression conclusion	Western blot 55	PubMed 20624982
+miR-10a and BTRC (human) co-expression conclusion	Western blot 55	PubMed 20624982
+miR-10a and BTRC (human) co-expression conclusion	luciferase assay 53	PubMed 20624982
+miR-10a and BTRC (human) co-expression conclusion	luciferase assay 53	PubMed 20624982
+miR-124 and Ptbp1 (mouse) co-expression conclusion	luciferase assays 70	PubMed 17679093
+miR-124 and Ptbp2 (mouse) co-expression conclusion	luciferase assays 71	PubMed 17679093
+miR-124 and SPTLC1 (human) co-expression conclusion	qRT-PCR 66	PubMed 21994399
+miR-124 and SPTLC1 (human) co-expression conclusion	Western blot 66	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	qRT-PCR 68	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	qRT-PCR 68	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	Western blot 68	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	Western blot 68	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	qRT-PCR 67	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	qRT-PCR 67	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	Western blot 67	PubMed 21994399
+miR-124 and Sptlc1 (mouse) co-expression conclusion	Western blot 67	PubMed 21994399
+miR-1248 and CDK2 (human) co-expression conclusion	real-time RT-PCR 80	PubMed 24088671
+miR-1248 and IL8 (human) co-expression conclusion	real-time RT-PCR 82	PubMed 24088671
+miR-125a and Edn1 (mouse) co-expression conclusion	Western blot 85	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	Western blot 85	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	Western blot 85	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	luciferase assay 84	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	luciferase assay 84	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	luciferase assay 84	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	Western blot 86	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	Western blot 86	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	Western blot 86	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	real-time PCR 85	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	real-time PCR 85	PubMed 20531225
+miR-125a and Edn1 (mouse) co-expression conclusion	real-time PCR 85	PubMed 20531225
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	qRT-PCR 91	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	qRT-PCR 91	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	qRT-PCR 91	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	Western blot assays 92	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	Western blot assays 92	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	Western blot assays 92	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	luciferase assay 90	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	luciferase assay 90	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	luciferase assay 90	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	Western blot assays 91	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	Western blot assays 91	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	Western blot assays 91	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	qRT-PCR 92	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	qRT-PCR 92	PubMed 25059272
+miR-125a-5p and Tead4 (mouse) co-expression conclusion	qRT-PCR 92	PubMed 25059272
+miR-125b and Edn1 (mouse) co-expression conclusion	luciferase assay 96	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	luciferase assay 96	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	luciferase assay 96	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	real-time PCR 97	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	real-time PCR 97	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	real-time PCR 97	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	Western blot 97	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	Western blot 97	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	Western blot 97	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	Western blot 98	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	Western blot 98	PubMed 20531225
+miR-125b and Edn1 (mouse) co-expression conclusion	Western blot 98	PubMed 20531225
+miR-125b and Edn1 (rat) co-expression conclusion	real-time PCR 99	PubMed 20531225
+miR-126 and CXCL12 (human) co-expression conclusion	Western blot 112	PubMed 19996457
+miR-126 and CXCL12 (human) co-expression conclusion	real-time RT-PCR and ELISA 112	PubMed 19996457
+miR-126 and CXCL12 (human) co-expression conclusion	luciferase assay 112	PubMed 19996457
+miR-126 and IRS1 (human) co-expression conclusion	western blot 121	PubMed 24559646
+miR-126 and IRS1 (human) co-expression conclusion	PCR 121	PubMed 24559646
+miR-126 and RGS16 (human) co-expression conclusion	Western blot 113	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	Western blot 113	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	Real-time RT-PCR 113	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	Real-time RT-PCR 113	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	luciferase assay 111	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	luciferase assay 111	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	real-time RT-PCR and ELISA 111	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	real-time RT-PCR and ELISA 111	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	Western blot 111	PubMed 19996457
+miR-126 and RGS16 (human) co-expression conclusion	Western blot 111	PubMed 19996457
+miR-126 and Rgs16 (mouse) co-expression conclusion	real-time RT-PCR 114	PubMed 19996457
+miR-126 and Rgs16 (mouse) co-expression conclusion	Western blot 114	PubMed 19996457
+miR-126 and Rgs16 (mouse) co-expression conclusion	immunohistochemistry 114	PubMed 19996457
+miR-126 and TOM1 (human) co-expression conclusion	western blot 123	PubMed 24559646
+miR-126 and TOM1 (human) co-expression conclusion	PCR 123	PubMed 24559646
+miR-128 and CASC3 (human) co-expression conclusion	luciferase assays 156	PubMed 21596314
+miR-128 and UPF1 (human) co-expression conclusion	luciferase assays 155	PubMed 21596314
+miR-132 and TGFB2 (human) co-expression conclusion	RT-PCR 165	PubMed 23281030
+miR-142-5p and NFE2L2 (human) co-expression conclusion	qRT-PCR 203	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	qRT-PCR 203	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	luciferase assay 202	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	luciferase assay 202	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	luciferase assay based reporter assay 203	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	luciferase assay based reporter assay 203	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	qRT-PCR 202	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	qRT-PCR 202	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	western blot 203	PubMed 23236440
+miR-142-5p and NFE2L2 (human) co-expression conclusion	western blot 203	PubMed 23236440
+miR-144 and SOD1 (human) co-expression conclusion	Western blot 213	PubMed 20709907
+miR-144 and SOD1 (human) co-expression conclusion	ELISA 213	PubMed 20709907
+miR-146a and IRAK1 (human) co-expression conclusion	luciferase assay 234	PubMed 16885212
+miR-146a and TRAF6 (human) co-expression conclusion	luciferase assay 228	PubMed 16885212
+miR-146a and TRAF6 (human) co-expression conclusion	luciferase assay 228	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	luciferase assay 228	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	qRT-PCR 227	PubMed 16885212
+miR-146a and TRAF6 (human) co-expression conclusion	qRT-PCR 227	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	qRT-PCR 227	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	luciferase assay 235	PubMed 16885212
+miR-146a and TRAF6 (human) co-expression conclusion	luciferase assay 235	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	luciferase assay 235	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	Western blot 227	PubMed 16885212
+miR-146a and TRAF6 (human) co-expression conclusion	Western blot 227	PubMed 23733368
+miR-146a and TRAF6 (human) co-expression conclusion	Western blot 227	PubMed 23733368
+miR-146a and Traf6 (mouse) co-expression conclusion	qRT-PCR 231	PubMed 23733368
+miR-146a and Traf6 (mouse) co-expression conclusion	Western blot 231	PubMed 23733368
+miR-146a and Traf6 (mouse) co-expression conclusion	immunofluorescence 231	PubMed 23733368
+miR-148a and Camk2a (mouse) co-expression conclusion	ELISA 248	PubMed 21068402
+miR-148a and Camk2a (mouse) co-expression conclusion	ELISA 248	PubMed 21068402
+miR-148a and Camk2a (mouse) co-expression conclusion	flow cytometry 248	PubMed 21068402
+miR-148a and Camk2a (mouse) co-expression conclusion	flow cytometry 248	PubMed 21068402
+miR-148a and Camk2a (mouse) co-expression conclusion	3'-UTR luciferase assay 247	PubMed 21068402
+miR-148a and Camk2a (mouse) co-expression conclusion	3'-UTR luciferase assay 247	PubMed 21068402
+miR-148a and DNMT1 (human) co-expression conclusion	quantitative Real-time PCR 241	PubMed 20483747
+miR-148a and RASGRP1 (human) co-expression conclusion	luciferase assay reporter assay 242	PubMed 20483747
+miR-148b and Camk2a (mouse) co-expression conclusion	ELISA 254	PubMed 21068402
+miR-148b and Camk2a (mouse) co-expression conclusion	ELISA 254	PubMed 21068402
+miR-148b and Camk2a (mouse) co-expression conclusion	flow cytometry 254	PubMed 21068402
+miR-148b and Camk2a (mouse) co-expression conclusion	flow cytometry 254	PubMed 21068402
+miR-148b and Camk2a (mouse) co-expression conclusion	3'-UTR luciferase assay 253	PubMed 21068402
+miR-148b and Camk2a (mouse) co-expression conclusion	3'-UTR luciferase assay 253	PubMed 21068402
+miR-152 and Camk2a (mouse) co-expression conclusion	ELISA 279	PubMed 21068402
+miR-152 and Camk2a (mouse) co-expression conclusion	ELISA 279	PubMed 21068402
+miR-152 and Camk2a (mouse) co-expression conclusion	flow cytometry 279	PubMed 21068402
+miR-152 and Camk2a (mouse) co-expression conclusion	flow cytometry 279	PubMed 21068402
+miR-152 and Camk2a (mouse) co-expression conclusion	3'-UTR luciferase assay 278	PubMed 21068402
+miR-152 and Camk2a (mouse) co-expression conclusion	3'-UTR luciferase assay 278	PubMed 21068402
+miR-153 and App (rat) co-expression conclusion	qPCR 281	PubMed 24401368
+miR-155 and AGTR1 (human) co-expression conclusion	in vitro scratch assay 294	PubMed 21310411
+miR-155 and AGTR1 (human) co-expression conclusion	in vitro scratch assay 294	PubMed 21310411
+miR-155 and AGTR1 (human) co-expression conclusion	Western blot 292	PubMed 21310411
+miR-155 and AGTR1 (human) co-expression conclusion	Western blot 292	PubMed 21310411
+miR-155 and BACH1 (human) co-expression conclusion	Western blot 287	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	Western blot 287	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	Western blot 287	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	q-PCR 288	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	q-PCR 288	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	q-PCR 288	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	luciferase assay 286	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	luciferase assay 286	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	luciferase assay 286	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	Western blot 286	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	Western blot 286	PubMed 21982894
+miR-155 and BACH1 (human) co-expression conclusion	Western blot 286	PubMed 21982894
+miR-155 and ETS1 (human) co-expression conclusion	luciferase assay 291	PubMed 21310411
+miR-155 and ETS1 (human) co-expression conclusion	Western blot 291	PubMed 21310411
+miR-15a and SPTLC1 (human) co-expression conclusion	qRT-PCR 301	PubMed 21994399
+miR-15a and SPTLC1 (human) co-expression conclusion	Western blot 301	PubMed 21994399
+miR-15a and Sptlc1 (mouse) co-expression conclusion	qRT-PCR 302	PubMed 21994399
+miR-15a and Sptlc1 (mouse) co-expression conclusion	Western blot 302	PubMed 21994399
+miR-15b and Bace1 (rat) co-expression conclusion	qPCR 304	PubMed 24401372
+miR-17-92 and Pten (mouse) co-expression conclusion	EdU incorporation assay 321	PubMed 23575307
+miR-17-92 and Pten (mouse) co-expression conclusion	qPCR 321	PubMed 23575307
+miR-181a and Dusp5 (mouse) co-expression conclusion	Fusion luciferase assay 329	PubMed 17382377
+miR-181a and Dusp5 (mouse) co-expression conclusion	western blot 329	PubMed 17382377
+miR-181a and Ptpn22 (mouse) co-expression conclusion	Fusion luciferase assay 327	PubMed 17382377
+miR-181a and Ptpn22 (mouse) co-expression conclusion	western blot 327	PubMed 17382377
+miR-181a-5p and IL6 (human) co-expression conclusion	qPCR 340	PubMed 24088671
+miR-181a-5p and TGFB1 (human) co-expression conclusion	qPCR 342	PubMed 24088671
+miR-184 and EZR (human) co-expression conclusion	western blot 350	PubMed 25251993
+miR-184 and EZR (human) co-expression conclusion	western blot 350	PubMed 25251993
+miR-184 and EZR (human) co-expression conclusion	qRT-PCR 350	PubMed 25251993
+miR-184 and EZR (human) co-expression conclusion	qRT-PCR 350	PubMed 25251993
+miR-184 and EZR (human) co-expression conclusion	luciferase assay 349	PubMed 25251993
+miR-184 and EZR (human) co-expression conclusion	luciferase assay 349	PubMed 25251993
+miR-195 and Bace1 (rat) co-expression conclusion	qPCR 371	PubMed 24401374
+miR-195 and Sirt1 (mouse) co-expression conclusion	ELISA 375	PubMed 21622680
+miR-196a and HOXB7 (human) co-expression conclusion	qRT-PCR 382	PubMed 25428821
+miR-196a and HOXB7 (human) co-expression conclusion	qRT-PCR 382	PubMed 25428821
+miR-196a and HOXB7 (human) co-expression conclusion	luciferase assay 381	PubMed 25428821
+miR-196a and HOXB7 (human) co-expression conclusion	luciferase assay 381	PubMed 25428821
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT-qPCR 388	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	western blot 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	QuantiMiR kit 394	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 391	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 392	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection 385	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	luciferase assay 384	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	transfection of Ago2 siRNA 386	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	RT- qPCR 393	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-196b and Ins2 (mouse) co-expression conclusion	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+miR-19a and Bace1 (rat) co-expression conclusion	qPCR 414	PubMed 24401376
+miR-19a and Bace1 (rat) co-expression conclusion	qPCR 414	PubMed 24401370
+miR-19a and Bace1 (rat) co-expression conclusion	qPCR 413	PubMed 24401376
+miR-19a and Bace1 (rat) co-expression conclusion	qPCR 413	PubMed 24401370
+miR-19a and CCND1 (human) co-expression conclusion	luciferase assay reporter assay 412	PubMed 20133739
+miR-200b and ETS1 (human) co-expression conclusion	western blot 427	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	western blot 427	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	western blot 427	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	real time PCR 426	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	real time PCR 426	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	real time PCR 426	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	luciferase assay 425	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	luciferase assay 425	PubMed 21081489
+miR-200b and ETS1 (human) co-expression conclusion	luciferase assay 425	PubMed 21081489
+miR-200c and HMOX1 (human) co-expression conclusion	RT-PCR 428	PubMed 23281030
+miR-200c and ROS1 (human) co-expression conclusion	RT-PCR 430	PubMed 23281030
+miR-200c and TGFB2 (human) co-expression conclusion	RT-PCR 429	PubMed 23281030
+miR-208a and Cbx1 (mouse) co-expression conclusion	western blot 451	PubMed 19922871
+miR-208a and Cbx1 (mouse) co-expression conclusion	western blot 451	PubMed 19922871
+miR-208a and Cbx1 (mouse) co-expression conclusion	luciferase assay 447	PubMed 19922871
+miR-208a and Cbx1 (mouse) co-expression conclusion	luciferase assay 447	PubMed 19922871
+miR-208a and Sp3 (mouse) co-expression conclusion	western blot 450	PubMed 19922871
+miR-208a and Sp3 (mouse) co-expression conclusion	western blot 450	PubMed 19922871
+miR-208a and Sp3 (mouse) co-expression conclusion	luciferase assay 446	PubMed 19922871
+miR-208a and Sp3 (mouse) co-expression conclusion	luciferase assay 446	PubMed 19922871
+miR-208b and Myh7b (mouse) co-expression conclusion	Taqman RT-PCR 455	PubMed 19690046
+miR-20a and ULK1 (human) co-expression conclusion	luciferase assays 460	PubMed 22781751
+miR-21 and IRAK1 (human) co-expression conclusion	luciferase assay 467	PubMed 23633945
+miR-21 and PPARA (human) co-expression conclusion	luciferase assays 495	PubMed 21636785
+miR-21 and Pdcd4 (mouse) co-expression conclusion	real-time RT-PCR 513	PubMed 25277076
+miR-21 and Pdcd4 (mouse) co-expression conclusion	real-time RT-PCR 513	PubMed 19946272
+miR-21 and Pdcd4 (mouse) co-expression conclusion	Immunoblot analysis 478	PubMed 25277076
+miR-21 and Pdcd4 (mouse) co-expression conclusion	Immunoblot analysis 478	PubMed 19946272
+miR-21 and Pten (mouse) co-expression conclusion	real-time RT-PCR 512	PubMed 25277076
+miR-21 and Pten (mouse) co-expression conclusion	real-time RT-PCR 512	PubMed 20404348
+miR-21 and Pten (mouse) co-expression conclusion	Immunoblot analysis 478	PubMed 25277076
+miR-21 and Pten (mouse) co-expression conclusion	Immunoblot analysis 478	PubMed 20404348
+miR-21 and RASGRP1 (human) co-expression conclusion	luciferase assay reporter assay 470	PubMed 20483747
+miR-21 and Reck (mouse) co-expression conclusion	real-time RT-PCR 514	PubMed 25277076
+miR-21 and Spry1 (rat) co-expression conclusion	western blot 503	PubMed 19043405
+miR-21 and Spry1 (rat) co-expression conclusion	western blot 503	PubMed 19043405
+miR-21 and Spry1 (rat) co-expression conclusion	western blot 503	PubMed 19043405
+miR-21 and Spry1 (rat) co-expression conclusion	luciferase assays 502	PubMed 19043405
+miR-21 and Spry1 (rat) co-expression conclusion	luciferase assays 502	PubMed 19043405
+miR-21 and Spry1 (rat) co-expression conclusion	luciferase assays 502	PubMed 19043405
+miR-21 and Timp3 (mouse) co-expression conclusion	real-time RT-PCR 515	PubMed 25277076
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immunostaining 529	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 535	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 532	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	luciferase assay 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 533	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 531	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 534	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	western blot 530	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	transfection 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	Real-time PCR 536	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	qRT-PCR 528	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and Ezh2 (mouse) co-expression conclusion	immnuoprecipitation 527	PubMed 19818710
+miR-214 and QKI (human) co-expression conclusion	luciferase assays 544	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	luciferase assays 544	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	luciferase assays 544	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	luciferase assays 544	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	western blot 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	western blot 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	western blot 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	western blot 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 545	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 545	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 545	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 545	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	qRT-PCR 546	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	Matrigel angiogenesis assay 547	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	Matrigel angiogenesis assay 547	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	Matrigel angiogenesis assay 547	PubMed 22227154
+miR-214 and QKI (human) co-expression conclusion	Matrigel angiogenesis assay 547	PubMed 22227154
+miR-22 and CYR61 (human) co-expression conclusion	real time PCR 578	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	real time PCR 578	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	real time PCR 578	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	real time PCR 578	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	luciferase assay 576	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	luciferase assay 576	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	luciferase assay 576	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	luciferase assay 576	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	flow cytometry 579	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	flow cytometry 579	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	flow cytometry 579	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	flow cytometry 579	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	western blot 580	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	western blot 580	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	western blot 580	PubMed 24449575
+miR-22 and CYR61 (human) co-expression conclusion	western blot 580	PubMed 24449575
+miR-221 and CDKN1C (human) co-expression conclusion	Western blot 606	PubMed 21461636
+miR-221 and CDKN1C (human) co-expression conclusion	Western blot 606	PubMed 21461636
+miR-221 and CDKN1C (human) co-expression conclusion	luciferase assay 604	PubMed 21461636
+miR-221 and CDKN1C (human) co-expression conclusion	luciferase assay 604	PubMed 21461636
+miR-221 and Cdkn1b (mouse) co-expression conclusion	qRT-PCR 607	PubMed 21461636
+miR-221 and Cdkn1b (mouse) co-expression conclusion	Western blot 607	PubMed 21461636
+miR-221 and Cdkn1b (mouse) co-expression conclusion	immunofluorescence 607	PubMed 21461636
+miR-221 and Cdkn1c (mouse) co-expression conclusion	qRT-PCR 608	PubMed 21461636
+miR-221 and Cdkn1c (mouse) co-expression conclusion	Western blot 608	PubMed 21461636
+miR-221 and Cdkn1c (mouse) co-expression conclusion	immunofluorescence 608	PubMed 21461636
+miR-221 and PIK3R1 (human) co-expression conclusion	dual-luciferase assay 594	PubMed 20505758
+miR-221 and PIK3R1 (human) co-expression conclusion	real time RT-PCR 594	PubMed 20505758
+miR-222 and CDKN1B (human) co-expression conclusion	Western blot 618	PubMed 21461636
+miR-222 and CDKN1B (human) co-expression conclusion	Western blot 618	PubMed 21461636
+miR-222 and CDKN1B (human) co-expression conclusion	luciferase assay 616	PubMed 21461636
+miR-222 and CDKN1B (human) co-expression conclusion	luciferase assay 616	PubMed 21461636
+miR-222 and CDKN1C (human) co-expression conclusion	Western blot 619	PubMed 21461636
+miR-222 and CDKN1C (human) co-expression conclusion	Western blot 619	PubMed 21461636
+miR-222 and CDKN1C (human) co-expression conclusion	luciferase assay 617	PubMed 21461636
+miR-222 and CDKN1C (human) co-expression conclusion	luciferase assay 617	PubMed 21461636
+miR-222 and Cdkn1c (mouse) co-expression conclusion	qRT-PCR 621	PubMed 21461636
+miR-222 and Cdkn1c (mouse) co-expression conclusion	Western blot 621	PubMed 21461636
+miR-222 and Cdkn1c (mouse) co-expression conclusion	immunofluorescence 621	PubMed 21461636
+miR-222 and ETS1 (human) co-expression conclusion	luciferase assay 610	PubMed 21310411
+miR-222 and ETS1 (human) co-expression conclusion	Western blot 610	PubMed 21310411
+miR-222 and KIT (human) co-expression conclusion	EGFP reporter assay 614	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	EGFP reporter assay 614	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	RT-PCR 614	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	RT-PCR 614	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	RT-PCR 612	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	RT-PCR 612	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	Western blot 612	PubMed 16849646
+miR-222 and KIT (human) co-expression conclusion	Western blot 612	PubMed 16849646
+miR-23 and SEMA6A (human) co-expression conclusion	real time PCR 643	PubMed 21536891
+miR-23 and SEMA6A (human) co-expression conclusion	real time PCR 643	PubMed 21536891
+miR-23 and SEMA6A (human) co-expression conclusion	Western blot 643	PubMed 21536891
+miR-23 and SEMA6A (human) co-expression conclusion	Western blot 643	PubMed 21536891
+miR-23 and SEMA6A (human) co-expression conclusion	luciferase assay 640	PubMed 21536891
+miR-23 and SEMA6A (human) co-expression conclusion	luciferase assay 640	PubMed 21536891
+miR-23 and Sema6a (mouse) co-expression conclusion	real time PCR 646	PubMed 21536891
+miR-23a and Fbxo32 (mouse) co-expression conclusion	Reporter Assay 649	PubMed 21926429
+miR-23a and Foxo3 (mouse) co-expression conclusion	luciferase assay 655	PubMed 22084234
+miR-23a and Foxo3 (mouse) co-expression conclusion	Western blot 655	PubMed 22084234
+miR-23a and Trim63 (mouse) co-expression conclusion	Reporter Assay 650	PubMed 21926429
+miR-26a and Smad1 (mouse) co-expression conclusion	western blotting 692	PubMed 23028144
+miR-26a and Smad1 (mouse) co-expression conclusion	western blotting 692	PubMed 23028144
+miR-26a and Smad1 (mouse) co-expression conclusion	luciferase assay 690	PubMed 23028144
+miR-26a and Smad1 (mouse) co-expression conclusion	luciferase assay 690	PubMed 23028144
+miR-26a and Smad4 (mouse) co-expression conclusion	western blotting 693	PubMed 23028144
+miR-26a and Smad4 (mouse) co-expression conclusion	western blotting 693	PubMed 23028144
+miR-26a and Smad4 (mouse) co-expression conclusion	luciferase assay 691	PubMed 23028144
+miR-26a and Smad4 (mouse) co-expression conclusion	luciferase assay 691	PubMed 23028144
+miR-27 and SEMA6D (human) co-expression conclusion	real time PCR 705	PubMed 21536891
+miR-27 and SEMA6D (human) co-expression conclusion	real time PCR 705	PubMed 21536891
+miR-27 and SEMA6D (human) co-expression conclusion	Western blot 705	PubMed 21536891
+miR-27 and SEMA6D (human) co-expression conclusion	Western blot 705	PubMed 21536891
+miR-27 and SEMA6D (human) co-expression conclusion	luciferase assay 702	PubMed 21536891
+miR-27 and SEMA6D (human) co-expression conclusion	luciferase assay 702	PubMed 21536891
+miR-27 and SPRY2 (human) co-expression conclusion	real time PCR 703	PubMed 21536891
+miR-27 and SPRY2 (human) co-expression conclusion	real time PCR 703	PubMed 21536891
+miR-27 and SPRY2 (human) co-expression conclusion	Western blot 703	PubMed 21536891
+miR-27 and SPRY2 (human) co-expression conclusion	Western blot 703	PubMed 21536891
+miR-27 and SPRY2 (human) co-expression conclusion	luciferase assay 700	PubMed 21536891
+miR-27 and SPRY2 (human) co-expression conclusion	luciferase assay 700	PubMed 21536891
+miR-27 and Sema6a (mouse) co-expression conclusion	real time PCR 707	PubMed 21536891
+miR-27 and Sema6d (mouse) co-expression conclusion	real time PCR 708	PubMed 21536891
+miR-27 and Spry2 (mouse) co-expression conclusion	real time PCR 706	PubMed 21536891
+miR-27a and NFE2L2 (human) co-expression conclusion	luciferase assay based reporter assay 710	PubMed 23236440
+miR-27a and NFE2L2 (human) co-expression conclusion	qRT-PCR 710	PubMed 23236440
+miR-27a and NFE2L2 (human) co-expression conclusion	western blot 710	PubMed 23236440
+miR-27a and SEMA6A (human) co-expression conclusion	luciferase assays 716	PubMed 22184411
+miR-29 and Col1a1 (mouse) co-expression conclusion	Northern blot 728	PubMed 18723672
+miR-29 and Col1a1 (mouse) co-expression conclusion	real time PCR 728	PubMed 18723672
+miR-29 and Col1a1 (mouse) co-expression conclusion	luciferase assay 728	PubMed 18723672
+miR-29 and Col1a2 (mouse) co-expression conclusion	Northern blot 729	PubMed 18723672
+miR-29 and Col1a2 (mouse) co-expression conclusion	real time PCR 729	PubMed 18723672
+miR-29 and Col1a2 (mouse) co-expression conclusion	luciferase assay 729	PubMed 18723672
+miR-29 and Col3a1 (mouse) co-expression conclusion	Northern blot 730	PubMed 18723672
+miR-29 and Col3a1 (mouse) co-expression conclusion	real time PCR 730	PubMed 18723672
+miR-29 and Col3a1 (mouse) co-expression conclusion	luciferase assay 730	PubMed 18723672
+miR-29 and Eln (mouse) co-expression conclusion	Northern blot 726	PubMed 18723672
+miR-29 and Eln (mouse) co-expression conclusion	real time PCR 726	PubMed 18723672
+miR-29 and Eln (mouse) co-expression conclusion	luciferase assay 726	PubMed 18723672
+miR-29 and Fbn1 (mouse) co-expression conclusion	Northern blot 727	PubMed 18723672
+miR-29 and Fbn1 (mouse) co-expression conclusion	real time PCR 727	PubMed 18723672
+miR-29 and Fbn1 (mouse) co-expression conclusion	luciferase assay 727	PubMed 18723672
+miR-29a and Cx3cl1 (mouse) co-expression conclusion	luciferase assay 743	PubMed 23880139
+miR-29a and Cx3cl1 (mouse) co-expression conclusion	Fluorescence 743	PubMed 23880139
+miR-29a and Cx3cl1 (mouse) co-expression conclusion	RT-PCR 743	PubMed 23880139
+miR-29a and IGF1 (human) co-expression conclusion	luciferase assay 744	PubMed 23880139
+miR-29a and Narf (mouse) co-expression conclusion	qPCR 741	PubMed 21522133
+miR-29a and Narf (mouse) co-expression conclusion	luciferase assay 741	PubMed 21522133
+miR-29a and Ppm1d (mouse) co-expression conclusion	luciferase assay 740	PubMed 21522133
+miR-29a and Sptlc2 (rat) co-expression conclusion	westernblot 745	PubMed 21994399
+miR-29a and Sptlc2 (rat) co-expression conclusion	luciferase assay 745	PubMed 21994399
+miR-29b and IGF1 (human) co-expression conclusion	luciferase assay 754	PubMed 23880139
+miR-29b and Igf1 (mouse) co-expression conclusion	luciferase assay 752	PubMed 23880139
+miR-29b and Igf1 (mouse) co-expression conclusion	Fluorescence 752	PubMed 23880139
+miR-29b and Igf1 (mouse) co-expression conclusion	RT-PCR 752	PubMed 23880139
+miR-29b and Ppm1d (mouse) co-expression conclusion	luciferase assay 750	PubMed 21522133
+miR-33b and ABCA1 (human) co-expression conclusion	western blot 805	PubMed 25445880
+miR-33b and ABCA1 (human) co-expression conclusion	immunohistochemistry 805	PubMed 25445880
+miR-33b and ABCA1 (human) co-expression conclusion	RT-PCR 805	PubMed 25445880
+miR-34a and MGST1 (human) co-expression conclusion	immunocytochemistry 821	PubMed 21216258
+miR-34a and Mgst1 (rat) co-expression conclusion	in situ hybridization 817	PubMed 21216258
+miR-34a and Mgst1 (rat) co-expression conclusion	Western blot 817	PubMed 21216258
+miR-34a and NFE2L2 (human) co-expression conclusion	immunocytochemistry 823	PubMed 21216258
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	luciferase assay reporter 831	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	luciferase assay reporter 831	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	luciferase assay reporter 831	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	luciferase assay reporter 831	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	luciferase assay reporter 831	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 835	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 834	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	(q)RT-PCR 836	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 830	PubMed 23834033
+miR-34a and Nampt (mouse) co-expression conclusion	western 830	PubMed 23834033
+miR-34a and Nef2l2 (rat) co-expression conclusion	in situ hybridization 818	PubMed 21216258
+miR-34a and Nef2l2 (rat) co-expression conclusion	Western blot 818	PubMed 21216258
+miR-34a and SP1 (human) co-expression conclusion	immunocytochemistry 822	PubMed 21216258
+miR-34c and Myc (mouse) co-expression conclusion	western blot 867	PubMed 20212154
+miR-34c and Myc (mouse) co-expression conclusion	qPCR 867	PubMed 20212154
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 862	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 862	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 862	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 862	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 857	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 857	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 857	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 857	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	luciferase assay 856	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	luciferase assay 856	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	luciferase assay 856	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	luciferase assay 856	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 860	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 860	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 860	PubMed 21946562
+miR-34c and Sirt1 (mouse) co-expression conclusion	western blot 860	PubMed 21946562
+miR-375 and TWIST1 (human) co-expression conclusion	luciferase assays 875	PubMed 19343226
+miR-470 and IGF1R (human) co-expression conclusion	luciferase assays 879	PubMed 21967153
+miR-483-5p and Socs3 (mouse) co-expression conclusion	luciferase assay 884	PubMed 21146586
+miR-483-5p and Socs3 (mouse) co-expression conclusion	luciferase assay 884	PubMed 21146586
+miR-483-5p and Socs3 (mouse) co-expression conclusion	RT-PCR 882	PubMed 21146586
+miR-483-5p and Socs3 (mouse) co-expression conclusion	RT-PCR 882	PubMed 21146586
+miR-486 and Foxo1 (rat) co-expression conclusion	si-miRNA transfection 891	PubMed 20142475
+miR-486 and Foxo1 (rat) co-expression conclusion	si-miRNA transfection 891	PubMed 20142475
+miR-486 and Foxo1 (rat) co-expression conclusion	western blot 891	PubMed 20142475
+miR-486 and Foxo1 (rat) co-expression conclusion	western blot 891	PubMed 20142475
+miR-486 and Foxo1 (rat) co-expression conclusion	luciferase assay assy 888	PubMed 20142475
+miR-486 and Foxo1 (rat) co-expression conclusion	luciferase assay assy 888	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	luciferase assay assy 887	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	luciferase assay assy 887	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	luciferase assay assy 887	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	transfection 889	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	transfection 889	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	transfection 889	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	real-time RT-PCR 886	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	real-time RT-PCR 886	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	real-time RT-PCR 886	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	western blot 889	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	western blot 889	PubMed 20142475
+miR-486 and Pten (rat) co-expression conclusion	western blot 889	PubMed 20142475
+miR-486-5p and ID4 (human) co-expression conclusion	luciferase assay 894	PubMed 24905922
+miR-486-5p and ID4 (human) co-expression conclusion	luciferase assay 894	PubMed 24905922
+miR-486-5p and ID4 (human) co-expression conclusion	western blot 893	PubMed 24905922
+miR-486-5p and ID4 (human) co-expression conclusion	western blot 893	PubMed 24905922
+miR-489 and Dek (mouse) co-expression conclusion	luciferase assay 897	PubMed 22358842
+miR-489 and Dek (mouse) co-expression conclusion	luciferase assay 897	PubMed 22358842
+miR-489 and Dek (mouse) co-expression conclusion	western blot 896	PubMed 22358842
+miR-489 and Dek (mouse) co-expression conclusion	western blot 896	PubMed 22358842
+miR-489 and Dek (mouse) co-expression conclusion	luciferase assay 896	PubMed 22358842
+miR-489 and Dek (mouse) co-expression conclusion	luciferase assay 896	PubMed 22358842
+miR-494 and CDCA2 (human) co-expression conclusion	luciferase assay 900	PubMed 24905922
+miR-494 and CDCA2 (human) co-expression conclusion	luciferase assay 900	PubMed 24905922
+miR-494 and CDCA2 (human) co-expression conclusion	western blot 899	PubMed 24905922
+miR-494 and CDCA2 (human) co-expression conclusion	western blot 899	PubMed 24905922
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	western blot 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	transfection and luciferase assay 907	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	transfection and luciferase assay 907	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	transfection and luciferase assay 907	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	transfection and luciferase assay 907	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 911	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 911	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 911	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 911	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 915	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 919	PubMed 24823364
+miR-494 and HNRNPA3 (human) co-expression conclusion	real time RT-PCR 919	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	transfection and luciferase assay 910	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	transfection and luciferase assay 910	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	transfection and luciferase assay 910	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	transfection and luciferase assay 910	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 918	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 914	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 914	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 914	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	real time RT-PCR 914	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 922	PubMed 24823364
+miR-494 and PDIA3 (human) co-expression conclusion	western blot 922	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	transfection and luciferase assay 908	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	transfection and luciferase assay 908	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	transfection and luciferase assay 908	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	transfection and luciferase assay 908	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	western blot 916	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 912	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 912	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 912	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 912	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 920	PubMed 24823364
+miR-494 and RAD23B (human) co-expression conclusion	real time RT-PCR 920	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	western blot 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 913	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 913	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 913	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 913	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	transfection and luciferase assay 909	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	transfection and luciferase assay 909	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	transfection and luciferase assay 909	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	transfection and luciferase assay 909	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 921	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 917	PubMed 24823364
+miR-494 and SYNCRIP (human) co-expression conclusion	real time RT-PCR 917	PubMed 24823364
+miR-499 and Purb (mouse) co-expression conclusion	luciferase assay 942	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 945	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 945	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 945	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 945	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 945	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	RT-PCR 932	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	RT-PCR 932	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	RT-PCR 932	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	RT-PCR 932	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	RT-PCR 932	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 941	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 941	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 941	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 941	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 941	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 946	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 946	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 946	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 946	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	real time PCR 946	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	Taqman RT-PCR 931	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	Taqman RT-PCR 931	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	Taqman RT-PCR 931	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	Taqman RT-PCR 931	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	Taqman RT-PCR 931	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 932	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 932	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 932	PubMed 19690046
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 932	PubMed 19922871
+miR-499 and Sox6 (mouse) co-expression conclusion	luciferase assay 932	PubMed 19690046
+miR-599 and Tlr7 (mouse) co-expression conclusion	ELISA 952	PubMed 22610069
+miR-669b and IGF1R (human) co-expression conclusion	luciferase assays 959	PubMed 21967153
+miR-9 and Foxp2 (mouse) co-expression conclusion	luciferase assays 979	PubMed 22874921
+miR-9 and Sptlc2 (mouse) co-expression conclusion	qRT-PCR 977	PubMed 21994399
+miR-9 and Sptlc2 (mouse) co-expression conclusion	Western blot 977	PubMed 21994399
+miR-92a and SIRT1 (human) co-expression conclusion	luciferase assays 987	PubMed 25550450
+miR-93 and MGST1 (human) co-expression conclusion	immunocytochemistry 998	PubMed 21216258
+miR-93 and Mgst1 (rat) co-expression conclusion	in situ hybridization 994	PubMed 21216258
+miR-93 and Mgst1 (rat) co-expression conclusion	Western blot 994	PubMed 21216258
+miR-93 and Sp1 (rat) co-expression conclusion	in situ hybridization 996	PubMed 21216258
+miR-93 and Sp1 (rat) co-expression conclusion	Western blot 996	PubMed 21216258

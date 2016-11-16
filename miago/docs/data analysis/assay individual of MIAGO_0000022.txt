@@ -1,0 +1,169 @@
+[label]	assay_label	pubmedID
+BACE1 protein expression was reduced by miR-29b	Western blot 758	PubMed 24352696
+CDCA2 significantly downregulated after miR-494 pre-miR transfection	western blot 899	PubMed 24905922
+CDCA2 the reporter gene expression was significantly reduced by SAmiR-494 pre-miR transfection	luciferase assay 900	PubMed 24905922
+CaMKIIa knockdown inhibits LPS-induced MHC II expression and cytokine production in DCs by miR-148a	ELISA 248	PubMed 21068402
+CaMKIIa knockdown inhibits LPS-induced MHC II expression and cytokine production in DCs by miR-148a	flow cytometry 248	PubMed 21068402
+CaMKIIa knockdown inhibits LPS-induced MHC II expression and cytokine production in DCs by miR-148b	ELISA 254	PubMed 21068402
+CaMKIIa knockdown inhibits LPS-induced MHC II expression and cytokine production in DCs by miR-148b	flow cytometry 254	PubMed 21068402
+CaMKIIa knockdown inhibits LPS-induced MHC II expression and cytokine production in DCs by miR-152	ELISA 279	PubMed 21068402
+CaMKIIa knockdown inhibits LPS-induced MHC II expression and cytokine production in DCs by miR-152	flow cytometry 279	PubMed 21068402
+DUSP5 protein levels are quantitatively reduced by miR-181a	Fusion luciferase assay 329	PubMed 17382377
+DUSP5 protein levels are quantitatively reduced by miR-181a	western blot 329	PubMed 17382377
+DUSP6 protein levels are quantitatively reduced by miR-181a	Fusion luciferase assay 330	PubMed 17382377
+DUSP6 protein levels are quantitatively reduced by miR-181a	western blot 330	PubMed 17382377
+Ectopic expression of miR-34a reduced the gene expression of CDK4 	qRT-PCR 850	PubMed 25132913
+ID4 the reporter gene expression was significantly reduced by miR-486-5p pre-miR transfection	luciferase assay 894	PubMed 24905922
+IGF1R is repressed by the transfected miR-470	luciferase assays 879	PubMed 21967153
+IGF1R is repressed by the transfected miR-669b	luciferase assays 959	PubMed 21967153
+IGF1R is repressed by the transfected miR-681	luciferase assays 962	PubMed 21967153
+Let-7e downregulates CDC25A	Real-time PCR 16	PubMed 20876843
+Let-7e downregulates CDC34	Real-time PCR 17	PubMed 20876843
+Let-7e downregulates CDK6	Real-time PCR 15	PubMed 20876843
+Mgst1 expression is reduced inversely to the up-regulation of miR-34a	in situ hybridization 817	PubMed 21216258
+Mgst1 expression is reduced inversely to the up-regulation of miR-34a	Western blot 817	PubMed 21216258
+Mgst1 expression is reduced inversely to the up-regulation of miR-93	in situ hybridization 994	PubMed 21216258
+Mgst1 expression is reduced inversely to the up-regulation of miR-93	Western blot 994	PubMed 21216258
+NAMPT is important for miR-34a effects on reduced hepatic NAD+ levels	western 834	PubMed 23834033
+NAMPT is important for miR-34a effects on reduced hepatic NAD+ levels	(q)RT-PCR 834	PubMed 23834033
+Nrf2 expression is reduced inversely to the up-regulation of miR-34a	in situ hybridization 818	PubMed 21216258
+Nrf2 expression is reduced inversely to the up-regulation of miR-34a	Western blot 818	PubMed 21216258
+Nrf2 expression is reduced inversely to the up-regulation of miR-93	in situ hybridization 995	PubMed 21216258
+Nrf2 expression is reduced inversely to the up-regulation of miR-93	Western blot 995	PubMed 21216258
+Overexpression of miR-7 in young fibroblasts downregulates EGFR mRNA and the protein	Flow cytometry analysis 965	PubMed 24134702
+Overexpression of miR-7 in young fibroblasts downregulates EGFR mRNA and the protein	western blot 965	PubMed 24134702
+Overexpression of miR-7 in young fibroblasts downregulates EGFR mRNA and the protein	RT-PCR 965	PubMed 24134702
+PIK3R2 mRNA levels were reduced by miR-126 abundance 	qRT-PCR 147	PubMed 18694566
+PIK3R2 protein were increased when miR-126 levels were decreased 	western blot 150	PubMed 18694566
+PTPN22 protein levels are quantitatively reduced by miR-181a	Fusion luciferase assay 327	PubMed 17382377
+PTPN22 protein levels are quantitatively reduced by miR-181a	western blot 327	PubMed 17382377
+SPRED1 mRNA levels were reduced by miR-126 abundance 	qRT-PCR 145	PubMed 18694566
+SPRED1 protein were increased when miR-126 levels were decreased 	western blot 148	PubMed 18694566
+Sp1 expression is reduced inversely to the up-regulation of miR-34a	in situ hybridization 819	PubMed 21216258
+Sp1 expression is reduced inversely to the up-regulation of miR-34a	Western blot 819	PubMed 21216258
+Sp1 expression is reduced inversely to the up-regulation of miR-93	in situ hybridization 996	PubMed 21216258
+Sp1 expression is reduced inversely to the up-regulation of miR-93	Western blot 996	PubMed 21216258
+TNF-induced SELE cell surface expression increased when miR-31 was inhibited	western blot 773	PubMed 19949084
+TNF-induced SELE cell surface expression increased when miR-31 was inhibited	qRT-PCR 773	PubMed 19949084
+VCAM1 mRNA levels were elevated upon miR-126 inhibition, but were not decreased in the presence of miR-126 mimic 	qRT-PCR 146	PubMed 18694566
+anti-miR-132 elevated OTA-inhibited HO-1	RT-PCR 164	PubMed 23281030
+anti-miR-132 restored OTA-decreased Nrf2 expression	RT-PCR 163	PubMed 23281030
+anti-miR-200c elevated OTA-inhibited HO-1	RT-PCR 428	PubMed 23281030
+endogenous BACE1 levels are inhibited by miR-339-5p 	Western blot 797	PubMed 24352696
+endogenous BACE1 levels are inhibited by miR-339-5p 	RT-qPCR 797	PubMed 24352696
+endogenous miR-339-5p inhibits BACE1 expression via predicted 3'UTR target sites	Western blot 801	PubMed 24352696
+expression of miRNA-22 inhibited Cyr61 expression in RA synovial tissue. 	real time PCR 578	PubMed 24449575
+increased miR-29b expression  negatively correlates with reduced CX3CL1 mRNA expression	luciferase assay 755	PubMed 23880139
+increased miR-29b expression negatively correlates with reduced IGF-1 mRNA expression	luciferase assay 754	PubMed 23880139
+induction of senescence by miR-23a-3p, siHAS2, and HAS inhibitor 4-MU	qRT-PCR 662	PubMed 25264594
+miR-101 represses mTOR expression by targeting its binding site	luciferase assay 37	PubMed 22989749
+miR-10a decreases HOXA1 expression at the transcript and protein levels	western blot 50	PubMed 20624982
+miR-10a decreases HOXA1 expression at the transcript and protein levels	Real-time PCR 50	PubMed 20624982
+miR-125a decrease endothelin-1 expression	Western blot 86	PubMed 20531225
+miR-125b decrease endothelin-1 expression	Western blot 98	PubMed 20531225
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of PIK3R2	luciferase assay 141	PubMed 18694566
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of SPRED1	luciferase assay 139	PubMed 18694566
+miR-126 repressed the activity of luciferase derived from RNAs containing the 3' UTR of VCAM1	luciferase assay 140	PubMed 18694566
+miR-128 inhibitor increased luciferase activity from MLN51-3' UTR reporter vectors	luciferase assays 156	PubMed 21596314
+miR-128 inhibitor increased luciferase activity from UPF1-3' UTR reporter vectors	luciferase assays 155	PubMed 21596314
+miR-137 downregulated the endogenous expression levels of SPTLC1	qRT-PCR 195	PubMed 21994399
+miR-137 downregulated the endogenous expression levels of SPTLC1	Western blot 195	PubMed 21994399
+miR-137 suppressed the endogenous SPTLC1 expression	westernblot 190	PubMed 21994399
+miR-137 suppressed the endogenous SPTLC1 expression	luciferase assay 190	PubMed 21994399
+miR-144 inhibit ARE-driven gene expression by its inhibitory effect on NRF2 expression	ELISA 211	PubMed 20709907
+miR-144 inhibit ARE-driven gene expression by its inhibitory effect on NRF2 expression	Western blot 211	PubMed 20709907
+miR-144 reduced NRF2 expession	luciferase assay reporter constructs 209	PubMed 20709907
+miR-144 reduced NRF2 expession	ELISA 215	PubMed 20709907
+miR-144 reduced NRF2 expession	ELISA 214	PubMed 20709907
+miR-146a decreased expression of TRAF6	qRT-PCR 227	PubMed 23733368
+miR-146a decreased expression of TRAF6	Western blot 227	PubMed 23733368
+miR-148a directly downregulates DNMT1 expression	luciferase assay reporter assay 242	PubMed 20483747
+miR-148a downregulates DNMT1 expression	quantitative Real-time PCR 241	PubMed 20483747
+miR-148a selectively target CaMKIIa and downregulate CaMKIIa expression	3'-UTR luciferase assay 247	PubMed 21068402
+miR-148b selectively target CaMKIIa and downregulate CaMKIIa expression	3'-UTR luciferase assay 253	PubMed 21068402
+miR-152 selectively target CaMKIIa and downregulate CaMKIIa expression	3'-UTR luciferase assay 278	PubMed 21068402
+miR-181c downregulated the endogenous expression levels of SPTLC1	qRT-PCR 348	PubMed 21994399
+miR-181c downregulated the endogenous expression levels of SPTLC1	Western blot 348	PubMed 21994399
+miR-181c suppressed the endogenous SPTLC1 expression	westernblot 343	PubMed 21994399
+miR-181c suppressed the endogenous SPTLC1 expression	luciferase assay 343	PubMed 21994399
+miR-184 was downregulated in AMD and low levels of miR-184 still had a correlation with LAMP-1 expression	western blot 352	PubMed 25251993
+miR-184 was downregulated in AMD and low levels of miR-184 still had a correlation with LAMP-1 expression	qRT-PCR 352	PubMed 25251993
+miR-195 inhibited Sirt1 expression	luciferase assay 374	PubMed 21622680
+miR-196a decrease the expression of HOXB7 	qRT-PCR 382	PubMed 25428821
+miR-21 directly targets and inhibits FasL.	luciferase assay 485	PubMed 20404348
+miR-21 targets RASGRP1 to downregulate DNMT1 expression	luciferase assay reporter assay 470	PubMed 20483747
+miR-214 expression reduces Ezh2 Protein expression	qRT-PCR 533	PubMed 19818710
+miR-214 expression reduces Ezh2 Protein expression	western blot 533	PubMed 19818710
+miR-214 expression reduces Ezh2 Protein expression	transfection 533	PubMed 19818710
+miR-214 expression reduces Ezh2 Protein expression with cell differentiation	qRT-PCR 528	PubMed 19818710
+miR-214 expression reduces Ezh2 Protein expression with cell differentiation	western blot 528	PubMed 19818710
+miR-214 expression reduces Ezh2 Protein expression with cell differentiation	transfection 528	PubMed 19818710
+miR-217 downregulates endogenous SirT1 expression	 RT-PCR 567	PubMed 19786632
+miR-217 downregulates endogenous SirT1 expression	Western blot 567	PubMed 19786632
+miR-217 inhibits SirT1 expression through a miR-217-binding site within the 3'-UTR of SirT1	luciferase assay 566	PubMed 19786632
+miR-217 inhibits SirT1 expression through a miR-217-binding site within the 3'-UTR of SirT1	Western blot 566	PubMed 19786632
+miR-217 inhibits SirT1 expression through a miR-217-binding site within the 3'-UTR of SirT1	qRT-PCR 566	PubMed 19786632
+miR-217 inhibits SirT1 expression through a miR-217-binding site within the 3'-UTR of SirT1	Northern blot 566	PubMed 19786632
+miR-23 could repress the expression of endogenous Sema6A proteins	real time PCR 643	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6A proteins	Western blot 643	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6D proteins	real time PCR 644	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6D proteins	Western blot 644	PubMed 21536891
+miR-23a-3p expression was increased and HAS2 mRNA expression decreased in senescent	qRT-PCR 660	PubMed 25264594
+miR-24 inhibited the expression of the proapoptotic gene, BCL2L11	luciferase assay 679	PubMed 23098654
+miR-29a expression negatively correlates with reduced expression of IGF-1	luciferase assay 744	PubMed 23880139
+miR-29a suppressed the endogenous SPTLC2 expression	westernblot 745	PubMed 21994399
+miR-29a suppressed the endogenous SPTLC2 expression	luciferase assay 745	PubMed 21994399
+miR-29b-1 suppressed the endogenous SPTLC2 expression	westernblot 760	PubMed 21994399
+miR-29b-1 suppressed the endogenous SPTLC2 expression	luciferase assay 760	PubMed 21994399
+miR-329 can suppress the expression of effector genes that promote angiogenesis, predominantly through targeting of CD146	real-time PCR 783	PubMed 23878390
+miR-329 downregulated CD146 expression at both the protein and mRNA levels in a dose-dependent manner	RT-PCR 781	PubMed 23878390
+miR-329 downregulates CD146 expression in endothelial cells	RT-PCR 780	PubMed 23878390
+miR-339-5p inhibited BACE1 3 -UTR reporter expression	luciferase assay 796	PubMed 24352696
+miR-33a/b inhibit expression of human ABCA1	luciferase assays 791	PubMed 20466882
+miR-34a reduced Mgst1 expression	immunocytochemistry 821	PubMed 21216258
+miR-34a reduced Nrf2 expression	immunocytochemistry 823	PubMed 21216258
+miR-34a reduced Sirt1 expression	immunocytochemistry 820	PubMed 21216258
+miR-34a reduced Sp1 expression	immunocytochemistry 822	PubMed 21216258
+miR-34c represses translation of c-Myc	northern blot 866	PubMed 20212154
+miR-34c represses translation of c-Myc	western blot 866	PubMed 20212154
+miR-34c represses translation of c-Myc	luciferase assay 866	PubMed 20212154
+miR-375 inhibit expression of human bHLH family	luciferase assays 875	PubMed 19343226
+miR-483-5p decrease expression of Socs3 gene	RT-PCR 882	PubMed 21146586
+miR-494 overexpression reduces CDK6 expression	2-dimensional differential gel electrophoresis 901	PubMed 24823364
+miR-494 overexpression reduces cyclin D1 expression	2-dimensional differential gel electrophoresis 902	PubMed 24823364
+miR-499 downregulates Sox6	RT-PCR 932	PubMed 19690046
+miR-499 downregulates Sox6	luciferase assay 932	PubMed 19690046
+miR-7b downregulates CDC25A	Real-time PCR 8	PubMed 20876843
+miR-7b downregulates CDC34	Real-time PCR 9	PubMed 20876843
+miR-7b downregulates CDK6	Real-time PCR 7	PubMed 20876843
+miR-9 suppressed the endogenous SPTLC2 expression	westernblot 975	PubMed 21994399
+miR-9 suppressed the endogenous SPTLC2 expression	luciferase assay 975	PubMed 21994399
+miR-93 reduced Mgst1 expression	immunocytochemistry 998	PubMed 21216258
+miR-93 reduced Sirt1 expression	immunocytochemistry 997	PubMed 21216258
+miR-93 reduced Sp1 expression	immunocytochemistry 999	PubMed 21216258
+miR132 reduced endogenous p250GAP levels	Reporter Assays 162	PubMed 16260724
+miRNA-132 repressed the expression of Sirt1	real time PCR 171	PubMed 24963165
+miRNA-208a represses Sox6 mRNA expression	real time PCR 452	PubMed 19922871
+miRNA-486 decreases the Foxo1a protein expression	si-miRNA transfection 891	PubMed 20142475
+miRNA-486 decreases the Foxo1a protein expression	western blot 891	PubMed 20142475
+miRNA-486 decreases the PTEN protein expression	transfection 889	PubMed 20142475
+miRNA-486 decreases the PTEN protein expression	western blot 889	PubMed 20142475
+miRNA-499 over-expression decreases Sox6 mRNA expression	real time PCR 946	PubMed 19922871
+overexpressed miR-22 efficiently downregulated OGN wt 3'-UTR luciferase reporter activity 	luciferase assay 583	PubMed 22538858
+overexpression of miR-34a results in obesity-mimetic gene expression patterns, decreased NAD+ levels by direct targeting of NAMPT	western 835	PubMed 23834033
+overexpression of miR-34a results in obesity-mimetic gene expression patterns, decreased NAD+ levels by direct targeting of NAMPT	(q)RT-PCR 835	PubMed 23834033
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of PDIA3	western blot 918	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of PDIA3	real time RT-PCR 918	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of RAD23B	western blot 916	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of RAD23B	real time RT-PCR 916	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of SYNCRIP	western blot 917	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of SYNCRIP	real time RT-PCR 917	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of hnRNPA3	western blot 915	PubMed 24823364
+overexpression of miR-494 in IMR90 cells reduced mRNA and protein levels of hnRNPA3	real time RT-PCR 915	PubMed 24823364
+overexpression of miR-494 significantly inhibited the activity of the reporter constructs bearing 3'UTR of PDIA3	transfection and luciferase assay 910	PubMed 24823364
+overexpression of miR-494 significantly inhibited the activity of the reporter constructs bearing 3'UTR of RAD23B	transfection and luciferase assay 908	PubMed 24823364
+overexpression of miR-494 significantly inhibited the activity of the reporter constructs bearing 3'UTR of SYNCRIP	transfection and luciferase assay 909	PubMed 24823364
+overexpression of miR-494 significantly inhibited the activity of the reporter constructs bearing 3'UTR of hnRNPA3	transfection and luciferase assay 907	PubMed 24823364
+pre-miR-92a-decreased levels of SIRT1 mRNA, protein, and activity	luciferase assays 987	PubMed 25550450
+the decrease of miR-181a is responsible for increased DUSP6 expression	qPCR 323	PubMed 23023500
+while phosphorylation of Akt was inhibited in the FLS transfected with miR-22 but could be restored by Cyr61 protein 	western blot 580	PubMed 24449575

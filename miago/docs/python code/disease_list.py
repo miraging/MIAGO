@@ -18,3 +18,5 @@ for i in range(2,1021):
             disease_list.append(str(disease))
             updateFile.write(disease+'\n')
     print disease+' '+str(i)
+
+updateFile.close()

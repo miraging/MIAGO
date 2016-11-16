@@ -1,0 +1,371 @@
+[label]	assay_label	pubmedID
+AT1R is a target of miR-155	Western blot 292	PubMed 21310411
+Addition of miR-126 specifically repressed the activity of luciferase reporters containing zebrafish spred1 3' UTR 	luciferase assay 151	PubMed 18694566
+Argonaute 2 is required for miR-196b-mediated translation upregulation 	luciferase assay 386	PubMed 25003985
+Argonaute 2 is required for miR-196b-mediated translation upregulation 	transfection of Ago2 siRNA 386	PubMed 25003985
+BACH1 is repressed by miR-155	Western blot 286	PubMed 21982894
+BACH1 is repressed by miR-155	luciferase assay 286	PubMed 21982894
+CDK2 were enriched in our biotin miR-1248 pulldowns	real-time RT-PCR 80	PubMed 24088671
+Cotransfection decreased the expression of the PTBP1 3'UTR-containing reporter	luciferase assays 70	PubMed 17679093
+Downregulation of miR-125a-5p in OECs increases angiogenic growth factor expression	Western blot assays 92	PubMed 25059272
+Downregulation of miR-125a-5p in OECs increases angiogenic growth factor expression	qRT-PCR 92	PubMed 25059272
+ES cells transduced with miR-214-wt and exposed to RA displayed increased Dkk1 and nestin expression	Real-time PCR 535	PubMed 19818710
+Ectopic miR-181a expression in primary LECs reduced Prox1 mRNA and protein levels	Western blot 335	PubMed 20558617
+Ectopic miR-181a expression in primary LECs reduced Prox1 mRNA and protein levels	Immunostaining 335	PubMed 20558617
+Efficient overexpression or inhibition of miR-214 in Ecs led to a respective four-fold reduction and 1.6-fold induction in VEGFA mRNA expression 	western blot 546	PubMed 22227154
+Efficient overexpression or inhibition of miR-214 in Ecs led to a respective four-fold reduction and 1.6-fold induction in VEGFA mRNA expression 	qRT-PCR 546	PubMed 22227154
+Enforced expression of miR-142-5p affects Nrf2 localization and its transactivation	luciferase assay based reporter assay 203	PubMed 23236440
+Enforced expression of miR-142-5p affects Nrf2 localization and its transactivation	qRT-PCR 203	PubMed 23236440
+Enforced expression of miR-142-5p affects Nrf2 localization and its transactivation	western blot 203	PubMed 23236440
+Enforced expression of miR-144 affects Nrf2 localization and its transactivation	luciferase assay 216	PubMed 23236440
+Enforced expression of miR-144 affects Nrf2 localization and its transactivation	qRT-PCR 216	PubMed 23236440
+Enforced expression of miR-144 affects Nrf2 localization and its transactivation	western blot 216	PubMed 23236440
+Enforced expression of miR-153 affects Nrf2 localization and its transactivation	luciferase assay based reporter assay 280	PubMed 23236440
+Enforced expression of miR-153 affects Nrf2 localization and its transactivation	qRT-PCR 280	PubMed 23236440
+Enforced expression of miR-153 affects Nrf2 localization and its transactivation	western blot 280	PubMed 23236440
+Enforced expression of miR-27a affects Nrf2 localization and its transactivation	luciferase assay based reporter assay 710	PubMed 23236440
+Enforced expression of miR-27a affects Nrf2 localization and its transactivation	qRT-PCR 710	PubMed 23236440
+Enforced expression of miR-27a affects Nrf2 localization and its transactivation	western blot 710	PubMed 23236440
+Ets-1 Is negatively regulated by MiR-200b in HMECs	real time PCR 426	PubMed 21081489
+Ets-1 is a target of miR-155	luciferase assay 291	PubMed 21310411
+Ets-1 is a target of miR-155	Western blot 291	PubMed 21310411
+Ets-1 is a target of miR-221	luciferase assay 597	PubMed 21310411
+Ets-1 is a target of miR-221	Western blot 597	PubMed 21310411
+Ets-1 is a target of miR-222	luciferase assay 610	PubMed 21310411
+Ets-1 is a target of miR-222	Western blot 610	PubMed 21310411
+Expression of Sirt1 was decreased in the RPE/choroid  at 24 months when compared to 18 months 	RT- PCR 848	PubMed 25489229
+Expression of Sirt1 was decreased in the retina at 24 months when compared to 18 months 	RT- PCR 847	PubMed 25489229
+Foxp2 3'UTR yields post-transcriptional repression of Luciferase	luciferase assays 168	PubMed 22874921
+Foxp2 3'UTR yields post-transcriptional repression of Luciferase	luciferase assays 979	PubMed 22874921
+HMOX1 expression was induced by miR-155 in a concentration-dependent manner. 	Western blot 287	PubMed 21982894
+HOXB7 is a direct target of miR-196a	luciferase assay 381	PubMed 25428821
+ID4 showed a significant reduction upon miR-486-5p pre-miR transfection.	western blot 893	PubMed 24905922
+IL-6 were enriched in our biotin miR-1248 pulldowns	real-time RT-PCR 81	PubMed 24088671
+IL-8 were enriched in our biotin miR-1248 pulldowns	real-time RT-PCR 82	PubMed 24088671
+Knock down of endothelial miR-10a in HAEC significantly up-regulated MAP3K7	RT-PCR 54	PubMed 20624982
+Knock down of endothelial miR-10a in HAEC significantly up-regulated MAP3K7	Western blot 54	PubMed 20624982
+Knock down of endothelial miR-10a in HAEC significantly up-regulated beta-TRC expression 	RT-PCR 55	PubMed 20624982
+Knock down of endothelial miR-10a in HAEC significantly up-regulated beta-TRC expression 	Western blot 55	PubMed 20624982
+LPS regulates the translation of Pdcd4 mRNA through the induction of miR-21	Immunoblot analysis 478	PubMed 19946272
+MiR-21 Negatively Regulates PPARalpha Expression	luciferase assays 495	PubMed 21636785
+MiR-214 expression in ES cells kept in their pluripotent state repressed expression of the pluripotent marker Oct-4 	western blot 534	PubMed 19818710
+MiR-214 expression in ES cells kept in their pluripotent state repressed expression of the pluripotent marker Oct-4 	Real-time PCR 534	PubMed 19818710
+MiR-22 negatively regulates FLS proliferation and IL-6 production through targeting Cyr61. 	flow cytometry 579	PubMed 24449575
+MiR-22 overexpression in neonatal cardiac fibroblasts resulted in a significant increase in senescent cells 	SA-beta- Gal staining 585	PubMed 22538858
+Overexpression of miR-122 decreased luciferase activity compared with the HDFs co-transfected with the negative control oligonucleotides 	transfection 57	PubMed 24168656
+Overexpression of miR-122 decreased luciferase activity compared with the HDFs co-transfected with the negative control oligonucleotides 	luciferase assay 57	PubMed 24168656
+Overexpression of miR-22 in cardiac fibroblasts resulted in significant decrease in mimecan expression 	western blot 584	PubMed 22538858
+Overexpression of miR-27a significantly reduced luciferase activity	luciferase assays 716	PubMed 22184411
+Overexpression of miR-27b significantly reduced luciferase activity	luciferase assays 724	PubMed 22184411
+QKI mRNA is down- or up-regulated upon miR-214 overexpression or hibition, respectively.	qRT-PCR 545	PubMed 22227154
+RARS correlates with the levels of expression of miR16	Northern blot 307	PubMed 12434020
+Rescued memory function correlated with restored levels of SIRT1 protein confirming functionality of miR-34 seed inhibitor 	western blot 862	PubMed 21946562
+SirT1 3'UTR reporter activity was significantly downregulated	luciferase assays 844	PubMed 25526086
+Socs3 is a direct target of miR-483-5p	luciferase assay 884	PubMed 21146586
+THBS1 3'UTR reporter was suppressed on PGE2 treatment	luciferase assays 187	PubMed 25554493
+The CM of anti-miR-214-transfected ECs enhanced HMEC tubular formation on Matrigel by increasing tubular length	Matrigel angiogenesis assay 547	PubMed 22227154
+The activity of luciferase from constructs that included portions of the PIK3R2 3' UTR was increased upon knockdown of miR-126 	luciferase assay 144	PubMed 18694566
+The activity of luciferase from constructs that included portions of the SPRED1 3' UTR was increased upon knockdown of miR-126 	luciferase assay 142	PubMed 18694566
+The activity of luciferase from constructs that included portions of the VCAM1 3' UTR was increased upon knockdown of miR-126 	luciferase assay 143	PubMed 18694566
+The inhibition of miR-124 expression and up-regulation of BACE1 expression decreased the cell viability	MTT 63	PubMed 22178568
+The over expression of HuD in HEK293T cells along with the insulin2 reporter and miR-196b abolished the miR-196b mediated translation up regulation 	luciferase assay 391	PubMed 25003985
+The over expression of HuD in HEK293T cells along with the insulin2 reporter and miR-196b abolished the miR-196b mediated translation up regulation 	transfection 391	PubMed 25003985
+The reporter containing the PTBP2 3'UTRs was downregulated	luciferase assays 71	PubMed 17679093
+The sense strand miR-196b inhibits the complex formation	RNA electrophoretic mobility shift assay 387	PubMed 25003985
+The transfection of miR-124 inhibitor remarkably increased BACE1 expression	immunohistochemical 64	PubMed 22178568
+a mutated 3'-UTR TGF-beta1 abolished the inhibitory effect of miR-122 on luciferase activity 	transfection 58	PubMed 24168656
+a mutated 3'-UTR TGF-beta1 abolished the inhibitory effect of miR-122 on luciferase activity 	luciferase assay 58	PubMed 24168656
+an increased association of the insulin 2 reporter with the polysome upon miR-196b treatment, 	RT-qPCR 388	PubMed 25003985
+an inverse correlation between hepatic miR-34a and NAMPT/NAD+ levels,	western 830	PubMed 23834033
+an inverse correlation between hepatic miR-34a and NAMPT/NAD+ levels,	(q)RT-PCR 830	PubMed 23834033
+an inverse correlation between miR-365 and Bcl-2 in HUVECs exposed to ox-LDL	weternblot 872	PubMed 21640710
+an inverse correlation between miR-365 and Bcl-2 in HUVECs exposed to ox-LDL	qRT-PCR 872	PubMed 21640710
+antagomiR-21 treatment completely reversed changes in SPRY1 expression, MAPkinase activation (Fig. 4c) and FGF2 protein expression	western blot 503	PubMed 19043405
+anti-miR-132 diminished ROS production	RT-PCR 166	PubMed 23281030
+anti-miR-132 diminished TGF-beta2 expression	RT-PCR 165	PubMed 23281030
+anti-miR-200c diminished ROS production	RT-PCR 430	PubMed 23281030
+anti-miR-200c diminished TGF-beta2 expression	RT-PCR 429	PubMed 23281030
+anti-miR33 can directly alter target gene expression in plaque macrophages by ABCA1	laser-capture microdissection 795	PubMed 21646721
+anti-miR33 can directly alter target gene expression in plaque macrophages by ABCA1	immunohistochemical staining 795	PubMed 21646721
+anti-miR33 treatment increases HDL and enhances RCT by ABCA1	RCT assay 793	PubMed 21646721
+anti-miR33 treatment increases HDL and enhances RCT by ABCA1	western blot 793	PubMed 21646721
+anti-miR33 treatment increases HDL and enhances RCT by ABCA1	RT-qPCR 793	PubMed 21646721
+anti-miR33 treatment induces atherosclerosis regression and lesion remodeling by ABCA1	oil red O staining 794	PubMed 21646721
+anti-miR33 treatment induces atherosclerosis regression and lesion remodeling by ABCA1	hematoxylin- and eosin-stained 794	PubMed 21646721
+both 5-fluorouracil and miR-34a overexpression significantly enhanced luciferase activity	luciferase assays 840	PubMed 25638533
+c-Kit is a target of miR-221	RT-PCR 599	PubMed 16849646
+c-Kit is a target of miR-221	Western blot 599	PubMed 16849646
+c-Kit is a target of miR-222	RT-PCR 612	PubMed 16849646
+c-Kit is a target of miR-222	Western blot 612	PubMed 16849646
+downregulation of CD146 expression by miR-329	luciferase assay 779	PubMed 23878390
+elevated hippocampal miR-34c levels in 24-month-old mice and in APPPS1-21 mice, correlated with decreased SIRT1 protein levels 	western blot 857	PubMed 21946562
+expression of miR-196b modestly decreased the association of the insulin 5'UTR reporter mRNA with HuD 	ribonucleoprotein immunoprecipitation (RIP) analysis 390	PubMed 25003985
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-221 	qRT-PCR 608	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-221 	Western blot 608	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-221 	immunofluorescence 608	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-221 	qRT-PCR 607	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-221 	Western blot 607	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-221 	immunofluorescence 607	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222	qRT-PCR 620	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222	Western blot 620	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222	immunofluorescence 620	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222	qRT-PCR 621	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222	Western blot 621	PubMed 21461636
+high-glucose and AGE-mediated inhibition of vessel formation controlled by miR-222	immunofluorescence 621	PubMed 21461636
+increased association of HuD with the insulin 5'UTR reporter after antagonizing miR-196b function 	ribonucleoprotein immunoprecipitation (RIP) analysis 389	PubMed 25003985
+increased expression of DUSP6 is the consequence of miR-181a loss in elderly human CD4+ T cells	western blot 324	PubMed 23023500
+induced a TLR7-dependent cytokine response	ELISA 952	PubMed 22610069
+inhibits miR-33 activity increases expression of genes repressed by miR-33	western blot 792	PubMed 21646721
+inhibits miR-33 activity increases expression of genes repressed by miR-33	RT-qPCR 792	PubMed 21646721
+knockdown of miR-126 led to an increase in luciferase activity of the spred1 3' UTR luciferase construct when transfected into HUVECs 	luciferase assay 152	PubMed 18694566
+let-7b interacts with TLR7	immunostained 12	PubMed 22610069
+let-7b interacts with TLR7	Immunohistochemical 13	PubMed 22610069
+let-7b interacts with TLR7	PCR 11	PubMed 22610069
+let-7b interacts with TLR7	In situ hybridization 11	PubMed 22610069
+let-7b stimulates the TLR7 pathway directly 	ELISA 10	PubMed 22610069
+luciferase activity was significantly attenuated in cells transfected with miR-106b mimic	luciferase assays 41	PubMed 22781751
+luciferase activity was significantly attenuated in cells transfected with miR-20a mimic	luciferase assays 460	PubMed 22781751
+mR-181a expression was positively correlated with the antiinflammatory cytokine TGFbeta	qPCR 342	PubMed 24088671
+mRNA of PDIA3 was enriched in the pulldown material from cells transfected with Biot miR-494, 	real time RT-PCR 914	PubMed 24823364
+mRNA of RAD23B was enriched in the pulldown material from cells transfected with Biot miR-494, 	real time RT-PCR 912	PubMed 24823364
+mRNA of SYNCRIP was enriched in the pulldown material from cells transfected with Biot miR-494, 	real time RT-PCR 913	PubMed 24823364
+mRNA of hnRNPA3 was enriched in the pulldown material from cells transfected with Biot miR-494, 	real time RT-PCR 911	PubMed 24823364
+miR-125a-5p downregulates the expression of RTEF-1 by post-transcriptional mechanisms 	Western blot assays 91	PubMed 25059272
+miR-125a-5p downregulates the expression of RTEF-1 by post-transcriptional mechanisms 	qRT-PCR 91	PubMed 25059272
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	Western blot 107	PubMed 18227515
+miR-126 inhibits leukocyte adherence through the regulation of VCAM-1	HL-60 Cell Binding assay 107	PubMed 18227515
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	western blot 120	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	PCR 120	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	western blot 122	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	PCR 122	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	western blot 121	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	PCR 121	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	western blot 123	PubMed 24559646
+miR-126 is associated with dysregulated IGF-1/PI3K signaling in PD DA neurons	PCR 123	PubMed 24559646
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	luciferase assay 105	PubMed 18227515
+miR-126 is partially complementary to a region in the VCAM-1 3'UTR	Bioinformatics analysis 105	PubMed 18227515
+miR-126 suppresses VCAM-1 expression	Western blot 106	PubMed 18227515
+miR-126 targets RGS16 and mediate atheroprotective effects of apoptotic bodies	real-time RT-PCR 114	PubMed 19996457
+miR-126 targets RGS16 and mediate atheroprotective effects of apoptotic bodies	Western blot 114	PubMed 19996457
+miR-126 targets RGS16 and mediate atheroprotective effects of apoptotic bodies	immunohistochemistry 114	PubMed 19996457
+miR-126 targets RGS16 to enable induction of CXCL12 expression through CXCR4	Real-time RT-PCR 113	PubMed 19996457
+miR-126 targets RGS16 to enable induction of CXCL12 expression through CXCR4	Western blot 113	PubMed 19996457
+miR-126 targets of CXCL12	Western blot 112	PubMed 19996457
+miR-126 targets of CXCL12	real-time RT-PCR and ELISA 112	PubMed 19996457
+miR-126 targets of CXCL12	luciferase assay 112	PubMed 19996457
+miR-126 targets of RGS16	Western blot 111	PubMed 19996457
+miR-126 targets of RGS16	real-time RT-PCR and ELISA 111	PubMed 19996457
+miR-126 targets of RGS16	luciferase assay 111	PubMed 19996457
+miR-126 targets of SPRED1 	Western blot 109	PubMed 19996457
+miR-126 targets of SPRED1 	real-time RT-PCR and ELISA 109	PubMed 19996457
+miR-126 targets of SPRED1 	luciferase assay 109	PubMed 19996457
+miR-126 targets of VCAM-1	Western blot 110	PubMed 19996457
+miR-126 targets of VCAM-1	real-time RT-PCR and ELISA 110	PubMed 19996457
+miR-126 targets of VCAM-1	luciferase assay 110	PubMed 19996457
+miR-144 could directly influence the cellular tolerance to oxidative stress through modulation of NRF2 expression	ELISA 210	PubMed 20709907
+miR-144 could directly influence the cellular tolerance to oxidative stress through modulation of NRF2 expression	Western blot 210	PubMed 20709907
+miR-144 expression was  inversely correlated with SOD activity through NRF2 modulated	Western blot 213	PubMed 20709907
+miR-144 expression was  inversely correlated with SOD activity through NRF2 modulated	ELISA 213	PubMed 20709907
+miR-146 binding site in the 3'UTR of TRAF6	luciferase assay 228	PubMed 23733368
+miR-146a knock-out exaggerate acute vascular inflammatory response via increase expression of TRAF6 and HuR 	qRT-PCR 231	PubMed 23733368
+miR-146a knock-out exaggerate acute vascular inflammatory response via increase expression of TRAF6 and HuR 	Western blot 231	PubMed 23733368
+miR-146a knock-out exaggerate acute vascular inflammatory response via increase expression of TRAF6 and HuR 	immunofluorescence 231	PubMed 23733368
+miR-146a negative regulates NOX4 expression in a post-transcriptional manner	Western blot 225	PubMed 21511256
+miR-146a negative regulates NOX4 expression in a post-transcriptional manner	real-time PCR 225	PubMed 21511256
+miR-155 reduces HUVECs migration	in vitro scratch assay 294	PubMed 21310411
+miR-17-3p efficiently repressed luciferase activity	luciferase assays 314	PubMed 19949084
+miR-17-3p regulates TNF-induced ICAM-1 expression by targeting the ICAM-1 3'UTR	western blot 310	PubMed 19949084
+miR-17-3p regulates TNF-induced ICAM-1 expression by targeting the ICAM-1 3'UTR	qRT-PCR 310	PubMed 19949084
+miR-17-92 represses phosphatase and tensin homolog to induce cardiomyocyte proliferation	EdU incorporation assay 321	PubMed 23575307
+miR-17-92 represses phosphatase and tensin homolog to induce cardiomyocyte proliferation	qPCR 321	PubMed 23575307
+miR-181a contributes to the silencing of Prox1 in blood vascular endothelial cell	western blot 334	PubMed 20558617
+miR-181a contributes to the silencing of Prox1 in blood vascular endothelial cell	qPCR 334	PubMed 20558617
+miR-181a expression was negatively correlated with the pro-inflammatory cytokines IL-6	qPCR 340	PubMed 24088671
+miR-181a expression was negatively correlated with the pro-inflammatory cytokines TNFalpha	qPCR 341	PubMed 24088671
+miR-181a negatively regulates Prox1 expression and resulting in transcript repression	luciferase assay 332	PubMed 20558617
+miR-184 downregulated ezrin	luciferase assay 349	PubMed 25251993
+miR-184 increased LAMP-1 expression	western blot 351	PubMed 25251993
+miR-184 increased LAMP-1 expression	qRT-PCR 351	PubMed 25251993
+miR-184 repressed EZR expression	western blot 350	PubMed 25251993
+miR-184 repressed EZR expression	qRT-PCR 350	PubMed 25251993
+miR-195 mediated apoptosis through downregulation of Bcl-2	ELISA 376	PubMed 21622680
+miR-195 mediated apoptosis through downregulation of Sirt1	ELISA 375	PubMed 21622680
+miR-196b inhibitor blocks the miR-196 mediated activation of insulin2-5'UTR-Luciferase translation 	luciferase assay 385	PubMed 25003985
+miR-196b inhibitor blocks the miR-196 mediated activation of insulin2-5'UTR-Luciferase translation 	transfection 385	PubMed 25003985
+miR-196b plasmid increases luciferase activity from constructs containing insulin2 5'UTR 	luciferase assay 384	PubMed 25003985
+miR-196b plasmid increases luciferase activity from constructs containing insulin2 5'UTR 	transfection 384	PubMed 25003985
+miR-200b is associated with Ets-1 down-regulation under hypoxic conditions	western blot 427	PubMed 21081489
+miR-21 derepresses ERK signalling and enhances fibroblast survival by inhibiting SPRY1 expression 	western blot 503	PubMed 19043405
+miR-21 hampers the antiviral activity of IFN-a	luciferase assay 466	PubMed 23633945
+miR-21 hampers the antiviral activity of IFN-a	luciferase assay 467	PubMed 23633945
+miR-21 response was blunted in the aged brain following TBI, which resulted in up-regulation of mRNA targets PDCD4	real-time RT-PCR 513	PubMed 25277076
+miR-21 response was blunted in the aged brain following TBI, which resulted in up-regulation of mRNA targets PTEN	real-time RT-PCR 512	PubMed 25277076
+miR-21 response was blunted in the aged brain following TBI, which resulted in up-regulation of mRNA targets RECK	real-time RT-PCR 514	PubMed 25277076
+miR-21 response was blunted in the aged brain following TBI, which resulted in up-regulation of mRNA targets TIMP3	real-time RT-PCR 515	PubMed 25277076
+miR-214 expression increases MHC expression 	immunostaining 529	PubMed 19818710
+miR-214 expression increases myogenin expression 	western blot 530	PubMed 19818710
+miR-214 target PTEN and negatively regulate the PTEN expression	western blot 550	PubMed 24914689
+miR-214 target PTEN and negatively regulate the PTEN expression	qRT-PCR 550	PubMed 24914689
+miR-216a mimic decreased Pten levels in MMC 	western blot 553	PubMed 19543271
+miR-217 mimic decreased Pten levels in MMC 	western blot 560	PubMed 19543271
+miR-217 modulates senescence and angiogenesis	in vitro Matrigel assay 568	PubMed 19786632
+miR-217 modulates senescence and angiogenesis	beta-galactosidase staining 568	PubMed 19786632
+miR-221 directly target P27KIP1 3'UTR 	luciferase assay 603	PubMed 21461636
+miR-221 directly target P57KIP2 3'UTR 	luciferase assay 604	PubMed 21461636
+miR-221 directly target c-Kit 3'UTR	EGFP reporter assay 601	PubMed 16849646
+miR-221 directly target c-Kit 3'UTR	RT-PCR 601	PubMed 16849646
+miR-221 downregulate P27KIP1 expression 	Western blot 605	PubMed 21461636
+miR-221 downregulate P57KIP2 expression 	Western blot 606	PubMed 21461636
+miR-221 regulates the expression of p85a during the aging process	dual-luciferase assay 594	PubMed 20505758
+miR-221 regulates the expression of p85a during the aging process	real time RT-PCR 594	PubMed 20505758
+miR-222 directly target P27KIP1 3'UTR 	luciferase assay 616	PubMed 21461636
+miR-222 directly target P57KIP2 3'UTR 	luciferase assay 617	PubMed 21461636
+miR-222 directly target c-Kit 3'UTR	EGFP reporter assay 614	PubMed 16849646
+miR-222 directly target c-Kit 3'UTR	RT-PCR 614	PubMed 16849646
+miR-222 downregulate P27KIP1 expression 	Western blot 618	PubMed 21461636
+miR-222 downregulate P57KIP2 expression 	Western blot 619	PubMed 21461636
+miR-223 induces negative feedback control of PMN CCL3	flow cytometry 633	PubMed 24084739
+miR-223 induces negative feedback control of PMN CCL3	qRT-PCR 633	PubMed 24084739
+miR-223 induces negative feedback control of PMN CXCL2	flow cytometry 632	PubMed 24084739
+miR-223 induces negative feedback control of PMN CXCL2	qRT-PCR 632	PubMed 24084739
+miR-23 could repress the expression of endogenous SPROUTY2 proteins	real time PCR 703	PubMed 21536891
+miR-23 could repress the expression of endogenous SPROUTY2 proteins	Western blot 703	PubMed 21536891
+miR-23 could repress the expression of endogenous SPROUTY2 proteins	real time PCR 642	PubMed 21536891
+miR-23 could repress the expression of endogenous SPROUTY2 proteins	Western blot 642	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6A proteins	real time PCR 704	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6A proteins	Western blot 704	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6D proteins	real time PCR 705	PubMed 21536891
+miR-23 could repress the expression of endogenous Sema6D proteins	Western blot 705	PubMed 21536891
+miR-23 target proteins Sema6D was significantly up-regulated upon miR-23 knockdown in the retinas;miR-23 modulate retinal vascular development in vivo.	real time PCR 647	PubMed 21536891
+miR-23 target proteins Sema6a was significantly up-regulated upon miR-23 knockdown in the retinas;miR-23 modulate retinal vascular development in vivo.	real time PCR 646	PubMed 21536891
+miR-23 target proteins Sprouty2 was significantly up-regulated upon miR-23 knockdown in the retinas;miR-23 modulate retinal vascular development in vivo.	real time PCR 645	PubMed 21536891
+miR-23a regulates Foxo3a	luciferase assay 655	PubMed 22084234
+miR-23a regulates Foxo3a	Western blot 655	PubMed 22084234
+miR-23a-3p targets HAS2 mRNA in aging and cellular senescence	qPCR 659	PubMed 25264594
+miR-26a negatively regulates Smad1	western blotting 692	PubMed 23028144
+miR-26a negatively regulates Smad4	western blotting 693	PubMed 23028144
+miR-27 target proteins Sema6D was significantly up-regulated upon miR-23 knockdown in the retinas;miR-27 modulate retinal vascular development in vivo.	real time PCR 708	PubMed 21536891
+miR-27 target proteins Sema6a was significantly up-regulated upon miR-23 knockdown in the retinas;miR-27 modulate retinal vascular development in vivo.	real time PCR 707	PubMed 21536891
+miR-27 target proteins Sprouty2 was significantly up-regulated upon miR-23 knockdown in the retinas;miR-27 modulate retinal vascular development in vivo.	real time PCR 706	PubMed 21536891
+miR-27b downregulates EC expression of E2F1	Western blot 666	PubMed 20133741
+miR-29-a reduces the CX3CL1 protein expression	luciferase assay 743	PubMed 23880139
+miR-29-a reduces the CX3CL1 protein expression	Fluorescence 743	PubMed 23880139
+miR-29-a reduces the CX3CL1 protein expression	RT-PCR 743	PubMed 23880139
+miR-29-a reduces the IGF-1 protein expression	luciferase assay 742	PubMed 23880139
+miR-29-a reduces the IGF-1 protein expression	Fluorescence 742	PubMed 23880139
+miR-29-a reduces the IGF-1 protein expression	RT-PCR 742	PubMed 23880139
+miR-29-b reduces the CX3CL1 protein expression	luciferase assay 753	PubMed 23880139
+miR-29-b reduces the CX3CL1 protein expression	Fluorescence 753	PubMed 23880139
+miR-29-b reduces the CX3CL1 protein expression	RT-PCR 753	PubMed 23880139
+miR-29-b reduces the IGF-1 protein expression	luciferase assay 752	PubMed 23880139
+miR-29-b reduces the IGF-1 protein expression	Fluorescence 752	PubMed 23880139
+miR-29-b reduces the IGF-1 protein expression	RT-PCR 752	PubMed 23880139
+miR-31 regulates TNF-induced SELE expression by targeting the SELE 3'UTR	luciferase assay 772	PubMed 19949084
+miR-31 regulates TNF-induced SELE expression by targeting the SELE 3'UTR	western blot 772	PubMed 19949084
+miR-31 significantly reduced the relative luciferase activity	luciferase assays 777	PubMed 19949084
+miR-339-5p negatively regulates Abeta secretion	ELISA 800	PubMed 24352696
+miR-339-5p negatively regulates Abeta secretion via BACE1	ELISA 798	PubMed 24352696
+miR-339-5p negatively regulates BACE1 expression	Western blot 799	PubMed 24352696
+miR-33b target and upregulate ABCA1	western blot 805	PubMed 25445880
+miR-33b target and upregulate ABCA1	immunohistochemistry 805	PubMed 25445880
+miR-33b target and upregulate ABCA1	RT-PCR 805	PubMed 25445880
+miR-34a controls SIRT1 expression in primary EC	luciferase assays 825	PubMed 20627091
+miR-34a/NAMPT axis to treat SIRT1-related diseases of obesity and aging like liver steatosis and type 2 diabetes	western 836	PubMed 23834033
+miR-34a/NAMPT axis to treat SIRT1-related diseases of obesity and aging like liver steatosis and type 2 diabetes	(q)RT-PCR 836	PubMed 23834033
+miR-34c induced impairment of associative learning corresponded with reduced SIRT1 levels 	western blot 860	PubMed 21946562
+miR-34c-mediated repression of Myc promotes S-phase arrest 	cell cycle analysis 869	PubMed 20212154
+miR-34c-mediated repression of Myc promotes S-phase arrest 	western blot 869	PubMed 20212154
+miR-71 targets pha-4 in DR	qRT-PCR 971	PubMed 25242029
+miR-758 target and upregulate ABCA1 	western blot 974	PubMed 25445880
+miR-758 target and upregulate ABCA1 	immunohistochemistry 974	PubMed 25445880
+miR-758 target and upregulate ABCA1 	RT-PCR 974	PubMed 25445880
+miR-hsa-let-7g regulates apoptosis	Western blot 1004	PubMed 22956623
+miR-hsa-let-7g regulates apoptosis	flow cytometry 1004	PubMed 22956623
+miR-hsa-let-7g regulates ox-LDL uptake and proliferation 	Immunohistochemistry 1003	PubMed 22956623
+miR-hsa-let-7g regulates ox-LDL uptake and proliferation 	MTT analysis 1003	PubMed 22956623
+miR142-5p could down-modulate Nrf2 mRNA	luciferase assay 202	PubMed 23236440
+miR142-5p could down-modulate Nrf2 mRNA	qRT-PCR 202	PubMed 23236440
+miRNA de-repress transcription of the developmental regulators Gata-4, Sox17, and Pax7 	Real-time PCR 536	PubMed 19818710
+miRNA decreases the Ezh2 protein expression	Western blot 698	PubMed 18281287
+miRNA decreases the Ezh2 protein expression	real-time RT-PCR 698	PubMed 18281287
+miRNA-208A decreases HP1b protein expression	western blot 451	PubMed 19922871
+miRNA-208A decreases Purb protein expression	western blot 449	PubMed 19922871
+miRNA-208A decreases Sp3 protein expression	western blot 450	PubMed 19922871
+modulation of miR-199a-5p levels affects ATF6	western blot 404	PubMed 24299514
+modulation of miR-199a-5p levels affects ATF6	qPCR 404	PubMed 24299514
+modulation of miR-199a-5p levels affects NF-kB1	western blot 405	PubMed 24299514
+modulation of miR-199a-5p levels affects NF-kB1	qPCR 405	PubMed 24299514
+modulation of miR-199a-5p levels affects RELA	western blot 406	PubMed 24299514
+modulation of miR-199a-5p levels affects RELA	qPCR 406	PubMed 24299514
+myocardial miR-122 expression was inversely correlated with TGF-beta1 in all AS patients 	transfection 60	PubMed 24168656
+negative correlations were observed between SPTLC1 and miR-124	qRT-PCR 68	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-124	Western blot 68	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-124	qRT-PCR 67	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-124	Western blot 67	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-124	qRT-PCR 66	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-124	Western blot 66	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	qRT-PCR 194	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	Western blot 194	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	qRT-PCR 192	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	Western blot 192	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	qRT-PCR 191	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	Western blot 191	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	qRT-PCR 193	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-137	Western blot 193	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-15a	qRT-PCR 301	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-15a	Western blot 301	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-15a	qRT-PCR 302	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-15a	Western blot 302	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	qRT-PCR 347	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	Western blot 347	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	qRT-PCR 344	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	Western blot 344	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	qRT-PCR 345	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	Western blot 345	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	qRT-PCR 346	PubMed 21994399
+negative correlations were observed between SPTLC1 and miR-181c	Western blot 346	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29a	qRT-PCR 748	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29a	Western blot 748	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29a	qRT-PCR 746	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29a	Western blot 746	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29a	qRT-PCR 747	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29a	Western blot 747	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29b-1	qRT-PCR 762	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29b-1	Western blot 762	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29b-1	qRT-PCR 761	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29b-1	Western blot 761	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29b-1	qRT-PCR 763	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-29b-1	Western blot 763	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-9	qRT-PCR 976	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-9	Western blot 976	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-9	qRT-PCR 977	PubMed 21994399
+negative correlations were observed between SPTLC2 and miR-9	Western blot 977	PubMed 21994399
+repression of Myc by miR-34c following DNA damage	western blot 867	PubMed 20212154
+repression of Myc by miR-34c following DNA damage	qPCR 867	PubMed 20212154
+silenced HuD in bTC6 cells resulted in insulin2 translation upregulation by miR-196b 	luciferase assay 392	PubMed 25003985
+silenced HuD in bTC6 cells resulted in insulin2 translation upregulation by miR-196b 	western blot 392	PubMed 25003985
+silenced HuD in bTC6 cells resulted in insulin2 translation upregulation by miR-196b 	transfection 392	PubMed 25003985
+stimuli decreased the luciferase activity in ECs transfected with KLF2	luciferase assays 988	PubMed 25550450
+stimuli decreased the luciferase activity in ECs transfected with KLF4	luciferase assays 989	PubMed 25550450
+suppression of endogenous miR-22 using miR-22 specific antagonist significantly reduced SA-beta- Gal positive cell number 	SA-beta- Gal staining 586	PubMed 22538858
+the downregulation of miR-29 correlated with the upregulation of COL1A1 in the infarcted region	Northern blot 728	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL1A1 in the infarcted region	real time PCR 728	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL1A1 in the infarcted region	luciferase assay 728	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL1A2 in the infarcted region	Northern blot 729	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL1A2 in the infarcted region	real time PCR 729	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL1A2 in the infarcted region	luciferase assay 729	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL3A1 in the infarcted region	Northern blot 730	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL3A1 in the infarcted region	real time PCR 730	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of COL3A1 in the infarcted region	luciferase assay 730	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of FBN in the infarcted region	Northern blot 727	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of FBN in the infarcted region	real time PCR 727	PubMed 18723672
+the downregulation of miR-29 correlated with the upregulation of FBN in the infarcted region	luciferase assay 727	PubMed 18723672
+the downregulation of miR-29 increased in the remote myocardium	Northern blot 726	PubMed 18723672
+the downregulation of miR-29 increased in the remote myocardium	real time PCR 726	PubMed 18723672
+the downregulation of miR-29 increased in the remote myocardium	luciferase assay 726	PubMed 18723672
+the expression of TGF-beta1 protein decreased in HDFs transfected with miR-122 	transfection 59	PubMed 24168656
+the expression of TGF-beta1 protein decreased in HDFs transfected with miR-122 	western blot 59	PubMed 24168656
+the expression of TGF-beta1 protein increased in HDFs transfected with anti-miR-122 	transfection 60	PubMed 24168656
+the expression of TGF-beta1 protein increased in HDFs transfected with anti-miR-122 	western blot 60	PubMed 24168656
+the expression of phospho-NF-kB p65 induced by ox-LDL was inhibited by the hsa-let-7g 	Western blot 1005	PubMed 22956623
+there is a let-7g binding site on the 3'-untranslated region of LOX-1 mRNA	Western blot 1002	PubMed 22956623
